@@ -1,0 +1,133 @@
+/* Design tokens — parchment/ink theme with a dark counterpart.
+   Themes switch by setting data-theme="dark" on <html>; unset = light. */
+
+:root {
+  /* -- color: light (default) -- */
+  --color-bg: #f6ead2;
+  --color-bg-grad: linear-gradient(160deg, #f8efd9 0%, #ecdab3 100%);
+  --color-surface: #fffcf3;
+  --color-surface-alt: #fbf1d9;
+  --color-border: #d7b579;
+  --color-border-strong: #a8793c;
+  --color-ink: #362a1c;
+  --color-ink-soft: #6e5a41;
+  --color-ink-faint: #816749;
+  --color-accent: #a8362a;
+  --color-accent-strong: #7f2820;
+  --color-accent-ink: #fff6ea;
+  --color-gold: #c19a53;
+  --color-gold-strong: #96702f;
+  /* Fixed (not theme-flipped): the gold accent stays a similar mid-light tone
+     in both themes, so text on it must stay dark in both themes too — unlike
+     --color-ink, which intentionally flips light/dark with the theme. */
+  --color-gold-ink: #150d06;
+  --color-focus: #2f6f6b;
+  --shadow-color: 30 20% 20%;
+  --overlay: rgba(54, 42, 28, 0.45);
+
+  /* -- type -- */
+  --font-zh: "Noto Serif TC", "PMingLiU", serif;
+  --font-display: "Cinzel", var(--font-zh), serif;
+  --font-scale: 1;
+
+  --step--1: clamp(0.78rem, 0.75rem + 0.15vw, 0.85rem);
+  --step-0: clamp(0.95rem, 0.9rem + 0.2vw, 1rem);
+  --step-1: clamp(1.1rem, 1.05rem + 0.3vw, 1.2rem);
+  --step-2: clamp(1.3rem, 1.2rem + 0.5vw, 1.5rem);
+  --step-3: clamp(1.7rem, 1.5rem + 0.9vw, 2.1rem);
+  --step-4: clamp(2.4rem, 2rem + 1.8vw, 3.4rem);
+
+  /* -- space -- */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+
+  /* -- shape -- */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+
+  /* -- elevation -- */
+  --shadow-sm: 0 1px 3px hsl(var(--shadow-color) / 0.18);
+  --shadow-md: 0 4px 14px hsl(var(--shadow-color) / 0.16);
+  --shadow-lg: 0 12px 32px hsl(var(--shadow-color) / 0.22);
+  --shadow-inset: inset 0 1px 4px hsl(var(--shadow-color) / 0.12);
+
+  /* -- motion -- */
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-fast: 120ms;
+  --duration-med: 220ms;
+}
+
+:root[data-theme="dark"] {
+  --color-bg: #17130f;
+  --color-bg-grad: linear-gradient(160deg, #1c1712 0%, #120f0b 100%);
+  --color-surface: #221c15;
+  --color-surface-alt: #2a2219;
+  --color-border: #4c3c26;
+  --color-border-strong: #6f5834;
+  --color-ink: #ecdfc4;
+  --color-ink-soft: #c3b191;
+  --color-ink-faint: #9c8a6c;
+  --color-accent: #dd7a6c;
+  --color-accent-strong: #e79a8f;
+  --color-accent-ink: #241210;
+  --color-gold: #d8b877;
+  --color-gold-strong: #e9cd94;
+  --color-focus: #6fc7c1;
+  --shadow-color: 0 0% 0%;
+  --overlay: rgba(0, 0, 0, 0.6);
+}
+
+:root[data-theme="sepia"] {
+  /* Duller and more uniform than the light theme on purpose — surfaces stay
+     a muted tan instead of near-white, closer to aged paper than a polished UI. */
+  --color-bg: #e8d9b5;
+  --color-bg-grad: linear-gradient(160deg, #ebddb9 0%, #ddc99a 100%);
+  --color-surface: #f0e2c0;
+  --color-surface-alt: #e4d3a8;
+  --color-border: #c2a668;
+  --color-border-strong: #96793c;
+  --color-ink: #4a3820;
+  --color-ink-soft: #5a4829;
+  --color-ink-faint: #6b5836;
+  --color-accent: #a8362a;
+  --color-accent-strong: #7f2820;
+  --color-accent-ink: #fff6ea;
+  --color-gold: #ad8a48;
+  --color-gold-strong: #86672a;
+  --color-focus: #2f6f6b;
+  --shadow-color: 35 30% 18%;
+  --overlay: rgba(58, 44, 20, 0.45);
+}
+
+@media (prefers-color-scheme: dark) {
+  /* Only a pre-hydration fallback for the brief moment before JS sets an
+     explicit data-theme — must not match once data-theme="sepia" (or
+     anything else) is set, so this checks for the attribute's absence,
+     not merely inequality with "light". */
+  :root:not([data-theme]) {
+    --color-bg: #17130f;
+    --color-bg-grad: linear-gradient(160deg, #1c1712 0%, #120f0b 100%);
+    --color-surface: #221c15;
+    --color-surface-alt: #2a2219;
+    --color-border: #4c3c26;
+    --color-border-strong: #6f5834;
+    --color-ink: #ecdfc4;
+    --color-ink-soft: #c3b191;
+    --color-ink-faint: #9c8a6c;
+    --color-accent: #dd7a6c;
+    --color-accent-strong: #e79a8f;
+    --color-accent-ink: #241210;
+    --color-gold: #d8b877;
+    --color-gold-strong: #e9cd94;
+    --color-focus: #6fc7c1;
+    --shadow-color: 0 0% 0%;
+    --overlay: rgba(0, 0, 0, 0.6);
+  }
+}

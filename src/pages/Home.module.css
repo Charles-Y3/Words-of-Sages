@@ -1,0 +1,202 @@
+.topBar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: var(--space-1);
+  margin: calc(-1 * var(--space-2)) 0 var(--space-4);
+}
+
+.topLink {
+  background: none;
+  border: none;
+  padding: 0.4em 0.65em;
+  font-size: var(--step--1);
+  font-family: var(--font-zh);
+  font-weight: 600;
+  color: var(--color-ink-soft);
+  border-radius: var(--radius-sm);
+}
+
+.topLink:hover {
+  color: var(--color-ink);
+  background: var(--color-surface-alt);
+}
+
+.settingsWrap {
+  position: relative;
+}
+
+.settingsPopover {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  z-index: 20;
+  min-width: 220px;
+  padding: var(--space-3);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.settingsLabel {
+  font-size: var(--step--1);
+  color: var(--color-ink-faint);
+  margin-top: var(--space-1);
+}
+
+.settingsLabel:first-child {
+  margin-top: 0;
+}
+
+.settingsRow {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.settingsRow > * {
+  flex: 1;
+}
+
+.hero {
+  text-align: center;
+}
+
+/* Logo sits beside the title but must not push it off-center: two equal
+   1fr tracks flank the auto-sized title column, so it stays truly centered
+   regardless of the logo's width (same trick as the Reader header). */
+.titleRow {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.titleRow > :first-child,
+.heroLogo {
+  justify-self: end;
+}
+
+/* .title/.subtitle/.intro stack both language variants in the same grid
+   cell (one hidden via visibility) so the container's height is always the
+   taller of the two — switching language can't shift anything below it. */
+.title {
+  display: grid;
+  font-family: var(--font-display);
+  font-size: var(--step-4);
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.title span {
+  grid-area: 1 / 1;
+  background: linear-gradient(to bottom, var(--color-gold), var(--color-gold-strong));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+}
+
+.subtitle {
+  display: grid;
+  margin-top: var(--space-2);
+  font-size: var(--step-1);
+  color: var(--color-ink-soft);
+  font-family: var(--font-display);
+  letter-spacing: 0.05em;
+}
+
+.subtitle span {
+  grid-area: 1 / 1;
+}
+
+.stackVisible {
+  visibility: visible;
+}
+
+.stackHidden {
+  visibility: hidden;
+}
+
+.rule {
+  width: 5rem;
+  height: 2px;
+  margin: var(--space-4) auto;
+  background: linear-gradient(to right, transparent, var(--color-gold-strong), transparent);
+}
+
+.intro {
+  display: grid;
+  font-size: var(--step-0);
+  line-height: 1.9;
+  color: var(--color-ink);
+  text-align: center;
+  max-width: 34rem;
+  margin: 0 auto var(--space-5);
+}
+
+.intro span {
+  grid-area: 1 / 1;
+}
+
+.continueCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  background: var(--color-surface-alt);
+  border: 1px solid var(--color-gold-strong);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  margin-bottom: var(--space-5);
+}
+
+.continueBtn {
+  flex-shrink: 0;
+  color: #fff6ea !important;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.continueText {
+  flex: 1;
+  min-width: 0;
+}
+
+.continueLabel {
+  display: grid;
+  font-size: var(--step--1);
+  color: var(--color-ink-soft);
+}
+
+.continueTitle {
+  display: grid;
+  font-size: var(--step-1);
+  margin-top: var(--space-1);
+}
+
+/* Clamped to one line (with ellipsis) rather than height-matched via grid
+   stacking — inside this flex-constrained card, wrap-dependent heights
+   don't resolve consistently between languages, but a single-line clamp
+   guarantees identical height regardless of which language is showing. */
+.continueLabel span,
+.continueTitle span {
+  grid-area: 1 / 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  align-items: stretch;
+  max-width: 20rem;
+  margin: 0 auto;
+}

@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Words of Sages 聖賢之言
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A bilingual (Traditional Chinese / English) reader for Chinese classical texts — original text, plain-language explanation, and practical application for every chapter.
 
-## Available Scripts
+## Stack
 
-In the project directory, you can run:
+React 18 + React Router 6, built with Vite.
 
-### `npm start`
+## Scripts
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+npm install       # install dependencies
+npm run dev        # start the dev server
+npm run build       # production build to dist/
+npm run preview     # preview the production build locally
+npm run validate-data  # check chapter data integrity
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Content
 
-### `npm test`
+### Taoist
+- **Tao Te Ching** (道德經) — 81 chapters
+- **Qingjing Jing** (太上老君說常清靜經) — 8 sections
+- **Yinfu Jing** (黃帝陰符經) — 8 sections
+- **Taishang Ganying Pian** (太上感應篇) — 10 sections
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Confucian
+- **The Great Learning** (大學) — 37 sections
+- **Analects** (論語) — 20 chapters
+- **Doctrine of the Mean** (中庸) — 12 sections
+- **Mencius** (孟子) — 15 chapters
+- **The Great Harmony** (禮運大同篇) — 5 sections
 
-### `npm run build`
+### Buddhist
+- **Heart Sutra** (心經) — 6 sections
+- **Diamond Sutra** (金剛經) — 32 divisions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Each chapter has bilingual fields: `text` (original), `plain` (explanation), `application` (practical takeaway). Run `npm run validate-data` after editing any chapter file.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Deployment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Deployed on Vercel; `vercel.json` sets the build output and SPA rewrite for client-side routing.
