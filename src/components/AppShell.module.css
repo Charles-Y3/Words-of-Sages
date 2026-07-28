@@ -38,6 +38,10 @@
   position: relative;
 }
 
+.headerCompact {
+  padding: var(--space-2) var(--space-3);
+}
+
 .body {
   flex: 1;
   min-height: 0;

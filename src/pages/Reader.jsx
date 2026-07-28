@@ -152,7 +152,9 @@ export default function Reader() {
 
   const [activePanel, setActivePanel] = React.useState("text");
   const [speechMenuOpen, setSpeechMenuOpen] = React.useState(false);
+  const [fontMenuOpen, setFontMenuOpen] = React.useState(false);
   const speechControlsRef = React.useRef(null);
+  const fontControlsRef = React.useRef(null);
 
   useEffect(() => {
     if (!speechMenuOpen) return undefined;
@@ -171,6 +173,24 @@ export default function Reader() {
       document.removeEventListener("keydown", onKey);
     };
   }, [speechMenuOpen]);
+
+  useEffect(() => {
+    if (!fontMenuOpen) return undefined;
+    const onDocClick = (e) => {
+      if (fontControlsRef.current && !fontControlsRef.current.contains(e.target)) {
+        setFontMenuOpen(false);
+      }
+    };
+    const onKey = (e) => {
+      if (e.key === "Escape") setFontMenuOpen(false);
+    };
+    document.addEventListener("mousedown", onDocClick);
+    document.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("mousedown", onDocClick);
+      document.removeEventListener("keydown", onKey);
+    };
+  }, [fontMenuOpen]);
 
   const readIds = useMemo(() => new Set(getEntry(workId).read), [getEntry, workId]);
   const notedIds = useMemo(() => {
@@ -232,10 +252,11 @@ export default function Reader() {
 
   return (
     <AppShell
+      compactHeader
       header={
         <div className={styles.headerTop}>
           <div className={styles.headerRowMain}>
-            <HeaderHomeLink language={language} size={36} />
+            <HeaderHomeLink language={language} size={32} />
             <h2 className={styles.workTitle} title={work.title[language]}>
               {work.title[language]}
             </h2>
@@ -255,7 +276,7 @@ export default function Reader() {
                   className={`${styles.modeBtn} ${viewMode === "study" ? styles.modeBtnActive : ""}`}
                   onClick={() => setViewMode("study")}
                 >
-                  {language === "zh" ? `分${unit}` : unitWord(work, "en")}
+                  {language === "zh" ? "研讀" : "Study"}
                 </button>
                 <button
                   type="button"
@@ -299,24 +320,39 @@ export default function Reader() {
               >
                 {starred ? "★" : "☆"}
               </Button>
-              <Button
-                variant="ghost"
-                size="sm"
-                aria-label={language === "zh" ? "縮小字體" : "Decrease font size"}
-                disabled={fontStep === 0}
-                onClick={decrementFontStep}
-              >
-                A-
-              </Button>
-              <Button
-                variant="ghost"
-                size="sm"
-                aria-label={language === "zh" ? "放大字體" : "Increase font size"}
-                disabled={fontStep === FONT_SCALES.length - 1}
-                onClick={incrementFontStep}
-              >
-                A+
-              </Button>
+              <div className={styles.fontSettings} ref={fontControlsRef}>
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  aria-label={language === "zh" ? "字體大小" : "Font size"}
+                  aria-expanded={fontMenuOpen}
+                  onClick={() => setFontMenuOpen((v) => !v)}
+                >
+                  Aa
+                </Button>
+                {fontMenuOpen && (
+                  <div className={styles.popoverDown} role="menu">
+                    <Button
+                      variant="ghost"
+                      size="sm"
+                      block
+                      disabled={fontStep === 0}
+                      onClick={decrementFontStep}
+                    >
+                      A−
+                    </Button>
+                    <Button
+                      variant="ghost"
+                      size="sm"
+                      block
+                      disabled={fontStep === FONT_SCALES.length - 1}
+                      onClick={incrementFontStep}
+                    >
+                      A+
+                    </Button>
+                  </div>
+                )}
+              </div>
               <Button
                 variant="ghost"
                 icon
