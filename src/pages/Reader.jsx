@@ -252,7 +252,9 @@ export default function Reader() {
     <AppShell
       compactHeader
       header={
-        <div className={styles.headerTop}>
+        <div
+          className={`${styles.headerTop} ${viewMode === "study" ? styles.headerWithPanels : ""}`}
+        >
           <h2 className={styles.workTitle} title={work.title[language]}>
             {work.title[language]}
           </h2>
@@ -330,6 +332,38 @@ export default function Reader() {
               </Button>
             </div>
           </div>
+
+          {viewMode === "study" && (
+            <div className={styles.contentTabs} role="tablist">
+              <button
+                type="button"
+                role="tab"
+                aria-selected={activePanel === "text"}
+                className={`${styles.tab} ${activePanel === "text" ? styles.tabActive : ""}`}
+                onClick={() => setActivePanel("text")}
+              >
+                {language === "zh" ? "原文" : "Original"}
+              </button>
+              <button
+                type="button"
+                role="tab"
+                aria-selected={activePanel === "plain"}
+                className={`${styles.tab} ${activePanel === "plain" ? styles.tabActive : ""}`}
+                onClick={() => setActivePanel("plain")}
+              >
+                {language === "zh" ? "淺白解釋" : "Explanation"}
+              </button>
+              <button
+                type="button"
+                role="tab"
+                aria-selected={activePanel === "application"}
+                className={`${styles.tab} ${activePanel === "application" ? styles.tabActive : ""}`}
+                onClick={() => setActivePanel("application")}
+              >
+                {language === "zh" ? "應用" : "Application"}
+              </button>
+            </div>
+          )}
         </div>
       }
       footer={
@@ -475,36 +509,6 @@ export default function Reader() {
 
         {viewMode === "study" && (
           <>
-            <div className={styles.contentTabs} role="tablist">
-              <button
-                type="button"
-                role="tab"
-                aria-selected={activePanel === "text"}
-                className={`${styles.tab} ${activePanel === "text" ? styles.tabActive : ""}`}
-                onClick={() => setActivePanel("text")}
-              >
-                {language === "zh" ? "原文" : "Original"}
-              </button>
-              <button
-                type="button"
-                role="tab"
-                aria-selected={activePanel === "plain"}
-                className={`${styles.tab} ${activePanel === "plain" ? styles.tabActive : ""}`}
-                onClick={() => setActivePanel("plain")}
-              >
-                {language === "zh" ? "淺白解釋" : "Explanation"}
-              </button>
-              <button
-                type="button"
-                role="tab"
-                aria-selected={activePanel === "application"}
-                className={`${styles.tab} ${activePanel === "application" ? styles.tabActive : ""}`}
-                onClick={() => setActivePanel("application")}
-              >
-                {language === "zh" ? "應用" : "Application"}
-              </button>
-            </div>
-
             {activePanel === "text" && (
               <div
                 className={`${styles.contentBox} ${styles.contentText}`}
