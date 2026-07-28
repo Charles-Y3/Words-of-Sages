@@ -10,6 +10,8 @@ import qingjingJing from "./qingjingJing/index.js";
 import yinfuJing from "./yinfuJing/index.js";
 import taishangGanying from "./taishangGanying/index.js";
 import diamondSutra from "./diamondSutra/index.js";
+import amitabhaSutra from "./amitabhaSutra/index.js";
+import filialPiety from "./filialPiety/index.js";
 
 const works = [
   {
@@ -175,6 +177,42 @@ const works = [
     chapters: mencius
   },
   {
+    id: "filial-piety",
+    tradition: "confucian",
+    title: { zh: "孝經", en: "Classic of Filial Piety" },
+    author: { zh: "孔子（傳）", en: "Attrib. Confucius" },
+    era: { zh: "戰國至西漢", en: "Warring States to Western Han" },
+    description: {
+      zh: "儒家論孝專經，闡述孝為德本，並推及天子以至庶人的踐行與家國治理。",
+      en: "The Confucian classic on filial piety as the root of virtue — from the household to the ordering of the realm."
+    },
+    unitLabel: { zh: "章", en: "Chapter" },
+    attribution: {
+      zh: "原文據《孝經》今文十八章本",
+      en: "Chinese text after the Classic of Filial Piety in the received eighteen-chapter New Text tradition"
+    },
+    status: "available",
+    chapters: filialPiety
+  },
+  {
+    id: "spring-and-autumn",
+    tradition: "confucian",
+    title: { zh: "春秋", en: "Spring and Autumn Annals" },
+    author: { zh: "孔子（傳）", en: "Attrib. Confucius" },
+    era: { zh: "春秋時期", en: "Spring and Autumn Period" },
+    description: {
+      zh: "魯國編年史，記隱公元年至哀公十四年事，為儒家重要經典，後世經傳闡釋極豐。",
+      en: "The chronicle of the state of Lu — a foundational Confucian classic later read through rich commentarial traditions."
+    },
+    unitLabel: { zh: "卷", en: "Book" },
+    attribution: {
+      zh: "原文擬據《春秋》經文傳世本（內容即將推出）",
+      en: "Chinese text to follow the received Spring and Autumn Annals (content coming soon)"
+    },
+    status: "coming-soon",
+    chapters: []
+  },
+  {
     id: "heart-sutra",
     tradition: "buddhist",
     title: { zh: "心經", en: "Heart Sutra" },
@@ -209,6 +247,42 @@ const works = [
     },
     status: "available",
     chapters: diamondSutra
+  },
+  {
+    id: "amitabha-sutra",
+    tradition: "buddhist",
+    title: { zh: "阿彌陀經", en: "Amitabha Sutra" },
+    author: { zh: "鳩摩羅什譯", en: "Trans. Kumārajīva" },
+    era: { zh: "姚秦", en: "Later Qin" },
+    description: {
+      zh: "淨土三經之一，讚歎極樂世界莊嚴，勸持名念佛、發願往生。",
+      en: "One of the three Pure Land sutras — praising the Land of Ultimate Bliss and urging mindfulness of the Name and the vow for rebirth."
+    },
+    unitLabel: { zh: "段", en: "Section" },
+    attribution: {
+      zh: "原文據鳩摩羅什譯《佛說阿彌陀經》",
+      en: "Chinese text after Kumārajīva’s translation of the Amitabha Sutra"
+    },
+    status: "available",
+    chapters: amitabhaSutra
+  },
+  {
+    id: "platform-sutra",
+    tradition: "buddhist",
+    title: { zh: "六祖壇經", en: "Platform Sutra" },
+    author: { zh: "惠能述·門人錄", en: "Huineng; recorded by disciples" },
+    era: { zh: "唐代", en: "Tang Dynasty" },
+    description: {
+      zh: "禪宗根本經典，記錄六祖惠能開法，闡明自性般若與頓悟法門。",
+      en: "The foundational Chan classic recording the Sixth Patriarch Huineng’s teaching on inherent prajñā and sudden awakening."
+    },
+    unitLabel: { zh: "品", en: "Chapter" },
+    attribution: {
+      zh: "原文擬據《六祖大師法寶壇經》通行本（內容即將推出）",
+      en: "Chinese text to follow a standard received edition of the Platform Sutra (content coming soon)"
+    },
+    status: "coming-soon",
+    chapters: []
   }
 ];
 

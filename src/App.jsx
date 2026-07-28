@@ -5,6 +5,7 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import AppShell from "./components/AppShell";
 import Button from "./components/Button";
 import LanguageGate from "./components/LanguageGate";
+import UpdateBanner from "./components/UpdateBanner";
 import Home from "./pages/Home";
 import Traditions from "./pages/Traditions";
 import Library from "./pages/Library";
@@ -60,6 +61,7 @@ export default function App() {
   return (
     <SettingsProvider>
       <ErrorBoundary fallback={CrashFallback}>
+        <UpdateBanner />
         <AppRoutes />
       </ErrorBoundary>
     </SettingsProvider>
