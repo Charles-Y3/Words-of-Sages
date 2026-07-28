@@ -125,9 +125,9 @@ export default function Reader() {
     if (!speech.isSpeaking || !chapter) return;
     const advance = viewMode === "continuous" || speech.mode === "continuous";
     if (advance) {
-      speech.speak(chapter.text[language], { onEnd: advanceForSpeech });
+      speech.speak(chapter.text[language], { onEnd: advanceForSpeech, advance: true });
     } else if (speech.mode === "loop") {
-      speech.speak(chapter.text[language]);
+      speech.speak(chapter.text[language], { advance: false });
     } else {
       speech.stop();
     }
@@ -137,10 +137,24 @@ export default function Reader() {
   useEffect(() => {
     if (speech.isSpeaking && chapter) {
       const advance = viewMode === "continuous" || speech.mode === "continuous";
-      speech.speak(chapter.text[language], advance ? { onEnd: advanceForSpeech } : undefined);
+      speech.speak(chapter.text[language], {
+        onEnd: advance ? advanceForSpeech : undefined,
+        advance
+      });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [language]);
+
+  // Apply voice settings immediately while reading aloud.
+  useEffect(() => {
+    if (!speech.isSpeaking || !chapter) return;
+    const advance = viewMode === "continuous" || speech.mode === "continuous";
+    speech.speak(chapter.text[language], {
+      onEnd: advance ? advanceForSpeech : undefined,
+      advance
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [speech.mode, speech.rate]);
 
   useEffect(() => {
     if (viewMode !== "continuous" || !chapter) return;
@@ -226,7 +240,10 @@ export default function Reader() {
       speech.stop();
     } else {
       const advance = viewMode === "continuous" || speech.mode === "continuous";
-      speech.speak(chapter.text[language], advance ? { onEnd: advanceForSpeech } : undefined);
+      speech.speak(chapter.text[language], {
+        onEnd: advance ? advanceForSpeech : undefined,
+        advance
+      });
     }
   };
 

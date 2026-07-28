@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 
 export const SPEECH_MODES = ["once", "loop", "continuous"];
-export const SPEECH_RATES = [0.75, 1, 1.25, 1.5];
+export const SPEECH_RATES = [0.5, 0.75, 1, 1.25, 1.5];
 
 function pickVoice(voices, language) {
   const preferred = language === "zh" ? ["zh-TW", "zh-HK", "zh-CN"] : ["en-US", "en-GB"];
@@ -25,15 +25,10 @@ export default function useSpeech(language) {
 
   const modeRef = useRef(mode);
   const rateRef = useRef(rate);
+  const isSpeakingRef = useRef(false);
   const voicesRef = useRef([]);
-
-  useEffect(() => {
-    modeRef.current = mode;
-  }, [mode]);
-
-  useEffect(() => {
-    rateRef.current = rate;
-  }, [rate]);
+  const lastArgsRef = useRef({ text: "", onEnd: undefined, advance: false });
+  const speakRef = useRef(null);
 
   useEffect(() => {
     if (!supported) return;
@@ -53,15 +48,19 @@ export default function useSpeech(language) {
   const stop = useCallback(() => {
     if (!supported) return;
     window.speechSynthesis.cancel();
+    isSpeakingRef.current = false;
     setIsSpeaking(false);
     setBoundaryIndex(null);
+    lastArgsRef.current = { text: "", onEnd: undefined, advance: false };
   }, [supported]);
 
   const speak = useCallback(
-    (text, { onEnd } = {}) => {
+    (text, { onEnd, advance = Boolean(onEnd) } = {}) => {
       if (!supported || !text) return;
       window.speechSynthesis.cancel();
       setBoundaryIndex(null);
+
+      lastArgsRef.current = { text, onEnd, advance };
 
       const utter = new SpeechSynthesisUtterance(text);
       utter.lang = language === "zh" ? "zh-TW" : "en-US";
@@ -75,40 +74,63 @@ export default function useSpeech(language) {
 
       utter.onend = () => {
         const currentMode = modeRef.current;
+        const args = lastArgsRef.current;
         if (currentMode === "loop") {
-          speak(text, { onEnd });
+          speakRef.current?.(args.text, { onEnd: args.onEnd, advance: args.advance });
           return;
         }
-        // Caller-supplied onEnd (e.g. advance to next unit) wins for both
-        // speech "continuous" mode and continuous reading view.
-        if (onEnd) {
-          const hasNext = onEnd();
+        if (args.advance && args.onEnd) {
+          const hasNext = args.onEnd();
           if (hasNext) return;
         }
+        isSpeakingRef.current = false;
         setIsSpeaking(false);
         setBoundaryIndex(null);
       };
-      utter.onerror = () => {
+      utter.onerror = (event) => {
+        // cancel() when restarting for a new rate/mode fires "interrupted"/"canceled"
+        if (event.error === "interrupted" || event.error === "canceled") return;
+        isSpeakingRef.current = false;
         setIsSpeaking(false);
         setBoundaryIndex(null);
       };
 
+      isSpeakingRef.current = true;
       setIsSpeaking(true);
       window.speechSynthesis.speak(utter);
     },
     [supported, language]
   );
 
+  speakRef.current = speak;
+
   const cycleMode = useCallback(() => {
-    setMode((m) => SPEECH_MODES[(SPEECH_MODES.indexOf(m) + 1) % SPEECH_MODES.length]);
+    setMode((m) => {
+      const next = SPEECH_MODES[(SPEECH_MODES.indexOf(m) + 1) % SPEECH_MODES.length];
+      modeRef.current = next;
+      return next;
+    });
   }, []);
 
   const cycleRate = useCallback(() => {
     setRate((r) => {
       const idx = SPEECH_RATES.indexOf(r);
-      return SPEECH_RATES[(idx + 1) % SPEECH_RATES.length];
+      const next = SPEECH_RATES[(idx < 0 ? 0 : idx + 1) % SPEECH_RATES.length];
+      rateRef.current = next;
+      return next;
     });
   }, []);
 
-  return { supported, isSpeaking, mode, setMode, cycleMode, rate, cycleRate, speak, stop, boundaryIndex };
+  return {
+    supported,
+    isSpeaking,
+    mode,
+    setMode,
+    cycleMode,
+    rate,
+    cycleRate,
+    speak,
+    stop,
+    boundaryIndex
+  };
 }
