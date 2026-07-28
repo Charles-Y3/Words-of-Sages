@@ -78,7 +78,12 @@ export default function Library() {
               </div>
               <p className={styles.cardDesc}>{work.description[language]}</p>
               {work.attribution && (
-                <p className={styles.cardAttribution}>{work.attribution[language]}</p>
+                <p className={styles.cardAttribution}>
+                  <span className={styles.cardAttributionLabel}>
+                    {language === "zh" ? "出處" : "Source"}
+                  </span>
+                  {work.attribution[language]}
+                </p>
               )}
 
               {available ? (

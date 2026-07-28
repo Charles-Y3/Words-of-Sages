@@ -12,7 +12,7 @@ import { unitWord, unitProgress, unitName } from "../utils/unitLabel";
 import AppShell from "../components/AppShell";
 import Button from "../components/Button";
 import ChapterDrawer from "../components/ChapterDrawer";
-import HeaderHomeLink from "../components/HeaderHomeLink";
+import AppLogo from "../components/AppLogo";
 import styles from "../components/Reader.module.css";
 
 export default function Reader() {
@@ -253,43 +253,14 @@ export default function Reader() {
       compactHeader
       header={
         <div className={styles.headerTop}>
-          <div className={styles.headerRowMain}>
-            <HeaderHomeLink language={language} size={32} />
-            <h2 className={styles.workTitle} title={work.title[language]}>
-              {work.title[language]}
-            </h2>
-          </div>
+          <h2 className={styles.workTitle} title={work.title[language]}>
+            {work.title[language]}
+          </h2>
 
           <div className={styles.headerRowMeta}>
-            <div className={styles.headerMetaLeft}>
-              <div
-                className={styles.modeToggle}
-                role="tablist"
-                aria-label={language === "zh" ? "閱讀模式" : "Reading mode"}
-              >
-                <button
-                  type="button"
-                  role="tab"
-                  aria-selected={viewMode === "study"}
-                  className={`${styles.modeBtn} ${viewMode === "study" ? styles.modeBtnActive : ""}`}
-                  onClick={() => setViewMode("study")}
-                >
-                  {language === "zh" ? "研讀" : "Study"}
-                </button>
-                <button
-                  type="button"
-                  role="tab"
-                  aria-selected={viewMode === "continuous"}
-                  className={`${styles.modeBtn} ${viewMode === "continuous" ? styles.modeBtnActive : ""}`}
-                  onClick={() => setViewMode("continuous")}
-                >
-                  {language === "zh" ? "通讀" : "Full"}
-                </button>
-              </div>
-            </div>
-            <div className={styles.chapterLabel}>
+            <p className={styles.chapterLabel}>
               {unitProgress(work, language, chapter.id, total)}
-            </div>
+            </p>
             <div className={styles.headerActions}>
               <Button
                 variant="ghost"
@@ -362,86 +333,121 @@ export default function Reader() {
         </div>
       }
       footer={
-        <div className={styles.footerRow}>
-          <Button
-            variant="ghost"
-            size="sm"
-            className={styles.navEdge}
-            onClick={goPrev}
-            aria-label={language === "zh" ? `上一${unit}` : `Previous ${unitWord(work, "en").toLowerCase()}`}
+        <nav className={styles.tabBar} aria-label={language === "zh" ? "閱讀工具列" : "Reader toolbar"}>
+          <button
+            type="button"
+            className={styles.tabItem}
+            onClick={() => navigate("/")}
+            aria-label={language === "zh" ? "返回首頁" : "Back to home"}
           >
-            ◀
-          </Button>
+            <AppLogo size={22} />
+            <span className={styles.tabLabel}>{language === "zh" ? "首頁" : "Home"}</span>
+          </button>
 
-          <div className={styles.footerMiddle}>
-            {speech.supported ? (
-              <Button
-                variant="primary"
-                size="sm"
-                className={styles.equalButton}
-                onClick={togglePlay}
-              >
-                {speech.isSpeaking
-                  ? language === "zh"
-                    ? "停止"
-                    : "Stop"
-                  : language === "zh"
+          <button
+            type="button"
+            className={styles.tabItem}
+            onClick={() => setViewMode(viewMode === "study" ? "continuous" : "study")}
+            aria-label={language === "zh" ? "閱讀模式" : "Reading mode"}
+          >
+            <span className={styles.tabGlyph}>
+              {viewMode === "study"
+                ? language === "zh"
+                  ? "研"
+                  : "S"
+                : language === "zh"
+                  ? "通"
+                  : "F"}
+            </span>
+            <span className={styles.tabLabel}>
+              {viewMode === "study"
+                ? language === "zh"
+                  ? "研讀"
+                  : "Study"
+                : language === "zh"
+                  ? "通讀"
+                  : "Full"}
+            </span>
+          </button>
+
+          <button
+            type="button"
+            className={`${styles.tabItem} ${styles.tabItemPrimary}`}
+            onClick={togglePlay}
+            disabled={!speech.supported}
+            aria-label={
+              speech.isSpeaking
+                ? language === "zh"
+                  ? "停止朗讀"
+                  : "Stop reading"
+                : language === "zh"
                   ? "朗讀"
-                  : "Read aloud"}
-              </Button>
-            ) : (
-              <span className={`${styles.notice} ${styles.equalButton}`}>
-                {language === "zh" ? "不支援朗讀" : "Speech unsupported"}
-              </span>
-            )}
+                  : "Read aloud"
+            }
+          >
+            <span className={styles.tabGlyph}>{speech.isSpeaking ? "■" : "▶"}</span>
+            <span className={styles.tabLabel}>
+              {speech.isSpeaking
+                ? language === "zh"
+                  ? "停止"
+                  : "Stop"
+                : language === "zh"
+                  ? "朗讀"
+                  : "Read"}
+            </span>
+          </button>
 
-            {speech.supported && (
-              <div className={styles.speechSettings} ref={speechControlsRef}>
-                <Button
-                  variant="ghost"
-                  size="sm"
-                  icon
-                  aria-label={language === "zh" ? "朗讀設定" : "Speech settings"}
-                  aria-expanded={speechMenuOpen}
-                  onClick={() => setSpeechMenuOpen((v) => !v)}
-                >
-                  ⋯
+          <div className={styles.speechSettings} ref={speechControlsRef}>
+            <button
+              type="button"
+              className={styles.tabItem}
+              disabled={!speech.supported}
+              aria-label={language === "zh" ? "語音設定" : "Voice settings"}
+              aria-expanded={speechMenuOpen}
+              onClick={() => setSpeechMenuOpen((v) => !v)}
+            >
+              <span className={styles.tabGlyph}>♪</span>
+              <span className={styles.tabLabel}>{language === "zh" ? "語音" : "Voice"}</span>
+            </button>
+            {speechMenuOpen && speech.supported && (
+              <div className={styles.popover}>
+                <span className={styles.popoverLabel}>
+                  {language === "zh" ? "朗讀模式" : "Playback mode"}
+                </span>
+                <Button variant="ghost" size="sm" block onClick={speech.cycleMode}>
+                  {speechModeLabel[speech.mode][language]}
                 </Button>
-                {speechMenuOpen && (
-                  <div className={styles.popover}>
-                    <span className={styles.popoverLabel}>
-                      {language === "zh" ? "朗讀模式" : "Playback mode"}
-                    </span>
-                    <Button variant="ghost" size="sm" block onClick={speech.cycleMode}>
-                      {speechModeLabel[speech.mode][language]}
-                    </Button>
-                    <span className={styles.popoverLabel}>{language === "zh" ? "語速" : "Speed"}</span>
-                    <Button variant="ghost" size="sm" block onClick={speech.cycleRate}>
-                      {speech.rate}x
-                    </Button>
-                  </div>
-                )}
+                <span className={styles.popoverLabel}>{language === "zh" ? "語速" : "Speed"}</span>
+                <Button variant="ghost" size="sm" block onClick={speech.cycleRate}>
+                  {speech.rate}x
+                </Button>
               </div>
             )}
           </div>
 
-          <Button
-            variant="ghost"
-            size="sm"
-            className={styles.navEdge}
+          <button
+            type="button"
+            className={styles.tabItem}
+            onClick={goPrev}
+            aria-label={language === "zh" ? `上一${unit}` : `Previous ${unitWord(work, "en").toLowerCase()}`}
+          >
+            <span className={styles.tabGlyph}>‹</span>
+            <span className={styles.tabLabel}>{language === "zh" ? "上一" : "Prev"}</span>
+          </button>
+
+          <button
+            type="button"
+            className={styles.tabItem}
             onClick={goNext}
             aria-label={language === "zh" ? `下一${unit}` : `Next ${unitWord(work, "en").toLowerCase()}`}
           >
-            ▶
-          </Button>
-        </div>
+            <span className={styles.tabGlyph}>›</span>
+            <span className={styles.tabLabel}>{language === "zh" ? "下一" : "Next"}</span>
+          </button>
+        </nav>
       }
     >
       <div {...swipeHandlers}>
-        {work.attribution && (
-          <p className={styles.attribution}>{work.attribution[language]}</p>
-        )}
-
         {noteOpen && (
           <div className={styles.notePanel}>
             <div className={styles.noteHead}>

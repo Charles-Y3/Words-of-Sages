@@ -72,6 +72,20 @@
   line-height: 1.45;
 }
 
+.cardAttributionLabel {
+  display: inline;
+  font-weight: 600;
+  color: var(--color-ink-soft);
+  margin-right: 0.4em;
+}
+
+.cardAttributionLabel::after {
+  content: "·";
+  margin-left: 0.35em;
+  font-weight: 400;
+  color: var(--color-ink-faint);
+}
+
 .progressTrack {
   margin-top: var(--space-3);
   height: 6px;
