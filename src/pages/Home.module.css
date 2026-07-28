@@ -31,7 +31,8 @@
   top: calc(100% + 6px);
   right: 0;
   z-index: 20;
-  min-width: 220px;
+  min-width: 240px;
+  max-width: min(320px, calc(100vw - 2rem));
   padding: var(--space-3);
   background: var(--color-surface);
   border: 1px solid var(--color-border);
@@ -61,23 +62,62 @@
   flex: 1;
 }
 
+.settingsHint {
+  margin: 0;
+  font-size: var(--step--1);
+  color: var(--color-ink-faint);
+  line-height: 1.5;
+}
+
+.settingsDone {
+  margin: 0;
+  font-size: var(--step--1);
+  font-weight: 600;
+  color: var(--color-gold-strong);
+  padding: 0.45em 0.7em;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  text-align: center;
+}
+
 .hero {
   text-align: center;
 }
 
-/* Logo sits beside the title but must not push it off-center: two equal
-   1fr tracks flank the auto-sized title column, so it stays truly centered
-   regardless of the logo's width (same trick as the Reader header). */
+/* Logo left + matching spacer right so the title stays centered and the
+   seal never loses its column (avoids clip by overflow:hidden on the frame). */
 .titleRow {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  grid-template-columns: minmax(4.5rem, 1fr) auto minmax(4.5rem, 1fr);
   align-items: center;
   gap: var(--space-3);
 }
 
-.titleRow > :first-child,
 .heroLogo {
   justify-self: end;
+}
+
+.titleSpacer {
+  width: 72px;
+  height: 72px;
+  justify-self: start;
+}
+
+@media (max-width: 480px) {
+  .titleRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-3);
+  }
+
+  .heroLogo {
+    justify-self: center;
+  }
+
+  .titleSpacer {
+    display: none;
+  }
 }
 
 /* .title/.subtitle/.intro stack both language variants in the same grid

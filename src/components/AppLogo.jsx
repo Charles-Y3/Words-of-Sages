@@ -14,7 +14,7 @@ export default function AppLogo({ size = 88, className }) {
         height: size,
         borderRadius: Math.round(size * 0.14),
         display: "block",
-        objectFit: "cover"
+        objectFit: "contain"
       }}
       draggable={false}
     />
