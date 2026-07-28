@@ -7,30 +7,17 @@ export default function AppShell({
   children,
   bodyRef,
   className = "",
-  compactHeader = false,
-  headerHidden = false,
-  compactBody = false
+  compactHeader = false
 }) {
   return (
     <div className={styles.shell}>
       <div className={`${styles.frame} ${className}`}>
         {header && (
-          <header
-            className={[
-              styles.header,
-              compactHeader ? styles.headerCompact : "",
-              headerHidden ? styles.headerHidden : ""
-            ]
-              .filter(Boolean)
-              .join(" ")}
-          >
+          <header className={`${styles.header} ${compactHeader ? styles.headerCompact : ""}`.trim()}>
             {header}
           </header>
         )}
-        <main
-          className={[styles.body, compactBody ? styles.bodyCompact : ""].filter(Boolean).join(" ")}
-          ref={bodyRef}
-        >
+        <main className={styles.body} ref={bodyRef}>
           {children}
         </main>
         {footer && <footer className={styles.footer}>{footer}</footer>}

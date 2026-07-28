@@ -36,27 +36,10 @@
   border-bottom: 1px solid var(--color-border);
   background: var(--color-surface-alt);
   position: relative;
-  overflow: hidden;
-  max-height: 14rem;
-  opacity: 1;
-  transition:
-    max-height var(--duration-med) var(--ease),
-    padding var(--duration-med) var(--ease),
-    opacity var(--duration-fast) var(--ease),
-    border-width var(--duration-fast) var(--ease);
 }
 
 .headerCompact {
   padding: var(--space-2) var(--space-3);
-}
-
-.headerHidden {
-  max-height: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  border-bottom-width: 0;
-  opacity: 0;
-  pointer-events: none;
 }
 
 .body {
@@ -65,20 +48,6 @@
   overflow-y: auto;
   padding: var(--space-5);
   -webkit-overflow-scrolling: touch;
-}
-
-.bodyCompact {
-  padding: var(--space-4);
-}
-
-@media (max-width: 480px) {
-  .headerCompact {
-    padding: var(--space-2) var(--space-3);
-  }
-
-  .bodyCompact {
-    padding: var(--space-3);
-  }
 }
 
 .footer {
@@ -103,16 +72,5 @@
   }
   .frame::before {
     display: none;
-  }
-  .footer {
-    padding: var(--space-2) var(--space-3);
-    padding-bottom: max(var(--space-2), env(safe-area-inset-bottom));
-  }
-}
-
-/* Portrait phones: reclaim vertical space for reading */
-@media (max-width: 480px) and (orientation: portrait) {
-  .headerCompact {
-    padding: 0.35rem var(--space-3);
   }
 }
