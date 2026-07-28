@@ -465,7 +465,7 @@ export default function Reader() {
             onClick={goPrev}
             aria-label={language === "zh" ? `上一${unit}` : `Previous ${unitWord(work, "en").toLowerCase()}`}
           >
-            <span className={styles.tabGlyph}>‹</span>
+            <span className={styles.tabGlyphNav}>‹</span>
             <span className={styles.tabLabel}>{language === "zh" ? "上一" : "Prev"}</span>
           </button>
 
@@ -475,7 +475,7 @@ export default function Reader() {
             onClick={goNext}
             aria-label={language === "zh" ? `下一${unit}` : `Next ${unitWord(work, "en").toLowerCase()}`}
           >
-            <span className={styles.tabGlyph}>›</span>
+            <span className={styles.tabGlyphNav}>›</span>
             <span className={styles.tabLabel}>{language === "zh" ? "下一" : "Next"}</span>
           </button>
         </nav>
