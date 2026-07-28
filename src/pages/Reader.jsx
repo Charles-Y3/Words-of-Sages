@@ -13,7 +13,6 @@ import AppShell from "../components/AppShell";
 import Button from "../components/Button";
 import ChapterDrawer from "../components/ChapterDrawer";
 import HeaderHomeLink from "../components/HeaderHomeLink";
-import ConfirmDialog from "../components/ConfirmDialog";
 import styles from "../components/Reader.module.css";
 
 export default function Reader() {
@@ -27,7 +26,6 @@ export default function Reader() {
   const speech = useSpeech(language);
   const [drawerOpen, setDrawerOpen] = React.useState(false);
   const [noteOpen, setNoteOpen] = React.useState(false);
-  const [confirmUnstar, setConfirmUnstar] = React.useState(false);
   const continuousRefs = useRef(new Map());
 
   const viewMode = searchParams.get("view") === "continuous" ? "continuous" : "study";
@@ -153,8 +151,11 @@ export default function Reader() {
   const [activePanel, setActivePanel] = React.useState("text");
   const [speechMenuOpen, setSpeechMenuOpen] = React.useState(false);
   const [fontMenuOpen, setFontMenuOpen] = React.useState(false);
+  const [headerHidden, setHeaderHidden] = React.useState(false);
   const speechControlsRef = React.useRef(null);
   const fontControlsRef = React.useRef(null);
+  const bodyRef = React.useRef(null);
+  const lastScrollTop = React.useRef(0);
 
   useEffect(() => {
     if (!speechMenuOpen) return undefined;
@@ -191,6 +192,28 @@ export default function Reader() {
       document.removeEventListener("keydown", onKey);
     };
   }, [fontMenuOpen]);
+
+  useEffect(() => {
+    const el = bodyRef.current;
+    if (!el) return undefined;
+    lastScrollTop.current = el.scrollTop;
+    const onScroll = () => {
+      const top = el.scrollTop;
+      const delta = top - lastScrollTop.current;
+      if (top < 24) {
+        setHeaderHidden(false);
+      } else if (delta > 8) {
+        setHeaderHidden(true);
+        setFontMenuOpen(false);
+        setSpeechMenuOpen(false);
+      } else if (delta < -8) {
+        setHeaderHidden(false);
+      }
+      lastScrollTop.current = top;
+    };
+    el.addEventListener("scroll", onScroll, { passive: true });
+    return () => el.removeEventListener("scroll", onScroll);
+  }, [workId, chapter?.id, viewMode]);
 
   const readIds = useMemo(() => new Set(getEntry(workId).read), [getEntry, workId]);
   const notedIds = useMemo(() => {
@@ -253,6 +276,9 @@ export default function Reader() {
   return (
     <AppShell
       compactHeader
+      compactBody
+      headerHidden={headerHidden}
+      bodyRef={bodyRef}
       header={
         <div className={styles.headerTop}>
           <div className={styles.headerRowMain}>
@@ -313,10 +339,7 @@ export default function Reader() {
                 aria-label={
                   language === "zh" ? `收藏此${unit}` : `Bookmark this ${unitWord(work, "en").toLowerCase()}`
                 }
-                onClick={() => {
-                  if (starred) setConfirmUnstar(true);
-                  else toggleBookmark(workId, chapter.id, viewMode);
-                }}
+                onClick={() => toggleBookmark(workId, chapter.id, viewMode)}
               >
                 {starred ? "★" : "☆"}
               </Button>
@@ -444,7 +467,10 @@ export default function Reader() {
     >
       <div {...swipeHandlers}>
         {work.attribution && (
-          <p className={styles.attribution}>{work.attribution[language]}</p>
+          <details className={styles.attribution}>
+            <summary>{language === "zh" ? "出處" : "Source"}</summary>
+            <p>{work.attribution[language]}</p>
+          </details>
         )}
 
         {noteOpen && (
@@ -596,23 +622,6 @@ export default function Reader() {
           }}
         />
       )}
-
-      <ConfirmDialog
-        open={confirmUnstar}
-        title={language === "zh" ? "移除收藏？" : "Remove bookmark?"}
-        message={
-          language === "zh"
-            ? "確定要移除此收藏嗎？"
-            : "Are you sure you want to remove this bookmark?"
-        }
-        confirmLabel={language === "zh" ? "移除" : "Remove"}
-        cancelLabel={language === "zh" ? "取消" : "Cancel"}
-        onConfirm={() => {
-          toggleBookmark(workId, chapter.id, viewMode);
-          setConfirmUnstar(false);
-        }}
-        onCancel={() => setConfirmUnstar(false)}
-      />
     </AppShell>
   );
 }

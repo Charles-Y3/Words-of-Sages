@@ -151,6 +151,32 @@
   line-height: 1.5;
 }
 
+.attribution summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--color-ink-soft);
+  list-style: none;
+  width: fit-content;
+}
+
+.attribution summary::-webkit-details-marker {
+  display: none;
+}
+
+.attribution summary::before {
+  content: "› ";
+  display: inline-block;
+  transition: transform var(--duration-fast) var(--ease);
+}
+
+.attribution[open] summary::before {
+  transform: rotate(90deg);
+}
+
+.attribution p {
+  margin: var(--space-1) 0 0;
+}
+
 .notePanel {
   margin-bottom: var(--space-4);
   border: 1px solid var(--color-border);
@@ -386,4 +412,45 @@
   gap: var(--space-4);
   padding: var(--space-6) var(--space-4);
   text-align: center;
+}
+
+@media (max-width: 480px) and (orientation: portrait) {
+  .headerRowMain {
+    min-height: 1.75rem;
+    gap: var(--space-1);
+  }
+
+  .headerRowMeta {
+    min-height: 1.55rem;
+    grid-template-columns: auto 1fr;
+  }
+
+  .chapterLabel {
+    display: none;
+  }
+
+  .modeToggle {
+    width: 5.75rem;
+  }
+
+  .modeBtn {
+    height: 1.65rem;
+    padding: 0 0.3em;
+  }
+
+  .contentTabs {
+    margin-bottom: var(--space-3);
+  }
+
+  .tab {
+    padding: 0.4em 0.3em;
+  }
+
+  .attribution {
+    margin-bottom: var(--space-2);
+  }
+
+  .continuousList {
+    gap: var(--space-4);
+  }
 }
