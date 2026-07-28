@@ -12,6 +12,8 @@ import taishangGanying from "./taishangGanying/index.js";
 import diamondSutra from "./diamondSutra/index.js";
 import amitabhaSutra from "./amitabhaSutra/index.js";
 import filialPiety from "./filialPiety/index.js";
+import springAndAutumn from "./springAndAutumn/index.js";
+import platformSutra from "./platformSutra/index.js";
 
 const works = [
   {
@@ -204,13 +206,13 @@ const works = [
       zh: "魯國編年史，記隱公元年至哀公十四年事，為儒家重要經典，後世經傳闡釋極豐。",
       en: "The chronicle of the state of Lu — a foundational Confucian classic later read through rich commentarial traditions."
     },
-    unitLabel: { zh: "卷", en: "Book" },
+    unitLabel: { zh: "段", en: "Section" },
     attribution: {
-      zh: "原文擬據《春秋》經文傳世本（內容即將推出）",
-      en: "Chinese text to follow the received Spring and Autumn Annals (content coming soon)"
+      zh: "原文據《春秋》經文（自公羊傳經文系統整理；繁體）",
+      en: "Chinese text after the Spring and Autumn classic (jing), arranged from the Gongyang jing tradition; Traditional Chinese"
     },
-    status: "coming-soon",
-    chapters: []
+    status: "available",
+    chapters: springAndAutumn
   },
   {
     id: "heart-sutra",
@@ -278,11 +280,11 @@ const works = [
     },
     unitLabel: { zh: "品", en: "Chapter" },
     attribution: {
-      zh: "原文擬據《六祖大師法寶壇經》通行本（內容即將推出）",
-      en: "Chinese text to follow a standard received edition of the Platform Sutra (content coming soon)"
+      zh: "原文據《六祖大師法寶壇經》宗寶本（CBETA T2008）",
+      en: "Chinese text after the Platform Sutra, Zongbao edition (CBETA T2008)"
     },
-    status: "coming-soon",
-    chapters: []
+    status: "available",
+    chapters: platformSutra
   }
 ];
 
