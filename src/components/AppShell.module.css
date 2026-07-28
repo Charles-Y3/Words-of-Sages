@@ -39,7 +39,7 @@
 }
 
 .headerCompact {
-  padding: 0.35rem var(--space-3);
+  padding: 0.55rem var(--space-3) 0.2rem;
 }
 
 .body {
