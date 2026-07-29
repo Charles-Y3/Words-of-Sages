@@ -4,10 +4,8 @@
 export const phrases = [
   { from: "般若", to: "波惹" },
 
-  // 長 zhǎng
+  // 長 zhǎng (elder / grow) — not 所長·所短 (cháng “strengths”)
   { from: "長老", to: "掌老" },
-  { from: "有何所長", to: "有何所掌" },
-  { from: "所長", to: "所掌" },
   { from: "長養", to: "掌養" },
 
   // 著 zhuó
@@ -18,6 +16,8 @@ export const phrases = [
   { from: "不著", to: "不卓" },
   { from: "著不得", to: "卓不得" },
   { from: "貪著", to: "貪卓" },
+  { from: "著地", to: "卓地" },
+  { from: "著我", to: "卓我" },
 
   // 樂 — music vs delight
   { from: "鼓樂", to: "鼓月" },
@@ -42,6 +42,13 @@ export const phrases = [
   { from: "為人說", to: "位人說" },
   { from: "為汝", to: "位汝" },
   { from: "為何", to: "位何" },
+  { from: "為說", to: "位說" },
+  { from: "為法", to: "位法" },
+  { from: "為他人說", to: "位他人說" },
+  { from: "為人解說", to: "位人解說" },
+
+  // 阿耨多羅三藐三菩提 — aid rare 藐
+  { from: "阿耨多羅三藐三菩提", to: "阿耨多羅三秒三菩提" },
 
   // 傳
   { from: "經傳", to: "經賺" },
@@ -71,13 +78,13 @@ export const phrases = [
 ];
 
 export const contexts = [
-  { re: /所長/g, to: "所掌" },
-  { re: /(?<=[執無貪不])著/g, to: "卓" },
-  { re: /著(?=衣|相|不)/g, to: "卓" },
   { re: /長老/g, to: "掌老" },
   { re: /般若/g, to: "波惹" },
+  { re: /(?<=[執無貪不])著/g, to: "卓" },
+  { re: /著(?=衣|相|不|地|我)/g, to: "卓" },
   { re: /樂(?=欲|阿耨)/g, to: "勒" },
   { re: /不思惡/g, to: "不思務" },
+  { re: /為(?=說|法|汝|人說|他人)/g, to: "位" },
 ];
 
 export default { phrases, contexts };

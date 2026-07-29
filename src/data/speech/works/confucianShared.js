@@ -122,22 +122,21 @@ export const phrases = [
   { from: "傳曰", to: "賺曰" },
   { from: "左傳", to: "左賺" },
 
+  // 怨惡 / 好惡 already partly covered; add 怨惡
+  { from: "怨惡", to: "怨務" },
+
   // 中 zhòng
   { from: "中的", to: "仲的" },
   { from: "中傷", to: "仲傷" },
   { from: "中選", to: "仲選" },
+  { from: "中節", to: "仲節" },
 
-  // 省 xǐng
-  { from: "三省", to: "三醒" },
-  { from: "自省", to: "自醒" },
-  { from: "內省", to: "內醒" },
-  { from: "反省", to: "反醒" },
-  { from: "省察", to: "醒察" },
-
-  // 朝 zhāo
-  { from: "朝夕", to: "招夕" },
-  { from: "朝聞", to: "招聞" },
-  { from: "朝暮", to: "招暮" },
+  // 好 hào (fond of)
+  { from: "好學", to: "耗學" },
+  { from: "好問", to: "耗問" },
+  { from: "好仁", to: "耗仁" },
+  { from: "好義", to: "耗義" },
+  { from: "好善", to: "耗善" },
 
   // 夫 fú particle
   { from: "夫孝", to: "扶孝" },
@@ -146,6 +145,19 @@ export const phrases = [
   { from: "夫子曰", to: "扶子曰" },
   { from: "夫微", to: "扶微" },
   { from: "夫焉", to: "扶焉" },
+  { from: "夫政", to: "扶政" },
+
+  // 省 xǐng
+  { from: "三省", to: "三醒" },
+  { from: "自省", to: "自醒" },
+  { from: "內省", to: "內醒" },
+  { from: "反省", to: "反醒" },
+  { from: "省察", to: "醒察" },
+
+  // 朝 zhāo (morning) — not 朝 court (cháo)
+  { from: "朝夕", to: "招夕" },
+  { from: "朝聞", to: "招聞" },
+  { from: "朝暮", to: "招暮" },
 
   // 騎 / 從 zòng
   { from: "從者", to: "縱者" },

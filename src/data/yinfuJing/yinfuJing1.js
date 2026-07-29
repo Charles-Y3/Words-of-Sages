@@ -20,8 +20,8 @@ const yinfuJing1 = [
   {
     id: 2,
     text: {
-      zh: `天性，人也；人心，機也。立天之道，以定人也。天發殺機，移星易宿；地發殺機，龍蛇起陸；人發殺機，天地反覆；天人合發，萬化定基。`,
-      en: `The nature of Heaven is present in man; the mind of man is a mechanism. Establishing the Way of Heaven determines the course of man. When Heaven sets its killing mechanism in motion, stars and constellations shift; when Earth sets its killing mechanism in motion, dragons and serpents rise onto dry land; when man sets his killing mechanism in motion, Heaven and Earth are overturned. When Heaven and man set theirs in motion together, the foundation of all transformation is fixed.`
+      zh: `天性，人也；人心，機也。立天之道，以定人也。天發殺機，移星易宿；地發殺機，龍蛇起陸；人發殺機，天地反覆；天人合發，萬變定基。`,
+      en: `The nature of Heaven is present in man; the mind of man is a mechanism. Establishing the Way of Heaven determines the course of man. When Heaven sets its killing mechanism in motion, stars and constellations shift; when Earth sets its killing mechanism in motion, dragons and serpents rise onto dry land; when man sets his killing mechanism in motion, Heaven and Earth are overturned. When Heaven and man set theirs in motion together, the foundation of the ten thousand changes is fixed.`
     },
     plain: {
       zh: "天地的本性，其實也內在於人；而人心，正是一個能發動、能運作的機關。修道者確立天道的規律，用來安定、規範人事的作為。當天發動它肅殺收斂的力量時，星辰的位置隨之推移；當大地發動它肅殺的力量時，蟄伏的龍蛇也會離開巢穴出現在地面；當人發動內心深處那股決斷、變革的力量時，甚至可以扭轉天地間原有的局面。而當天、地、人三方的這種力量能夠協調一致地發動，萬物變化的根基便由此穩固確立——這說明人心的作用極其巨大，足以與天地相參。",

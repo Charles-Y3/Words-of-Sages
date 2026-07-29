@@ -157,7 +157,7 @@ Used, it cannot be exhausted.`
     plain: {
       zh: `把握住「大道的根本真象」，天下的人自然會歸向你。人們歸向大道，而大道不會傷害任何人，所以天下能夠安定和平。音樂和美食只能暫時吸引過路的人停下，但這不是長久的依靠。
 道所表達出來的話語，看似平淡無味，沒有華麗的修飾。看不見它的形象，聽不到它的聲音。但它的作用卻是無窮無盡，用之不竭。`,
-      en: "BBy holding onto the Great Tao, people naturally follow, and harmony and peace prevail. Temporary pleasures like music and food can only briefly attract attention. The Tao itself seems plain and invisible, yet its power is limitless and never runs out."
+      en: "By holding onto the Great Tao, people naturally follow, and harmony and peace prevail. Temporary pleasures like music and food can only briefly attract attention. The Tao itself seems plain and invisible, yet its power is limitless and never runs out."
     },
     application: {
       zh: `生活中，保持正直與樸素的態度，會自然影響他人而無需強制。

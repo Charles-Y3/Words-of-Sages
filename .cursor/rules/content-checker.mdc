@@ -1,0 +1,50 @@
+---
+description: QA review of scripture units against CONTENT_QA checklist; update ledger; no repeat of passed checks
+globs: src/data/**/*.js
+alwaysApply: false
+---
+
+# Content checker (Words of Sages)
+
+Read-only semantic review against [`docs/CONTENT_QA.md`](docs/CONTENT_QA.md). Mechanical C0/S0 are npm scripts — confirm they pass; do not replace them.
+
+## Before reviewing a work
+
+1. Open [`docs/CONTENT_QA_LEDGER.md`](docs/CONTENT_QA_LEDGER.md).
+2. Skip checks already `pass` for that work unless its data files changed since `lastChecked` or the user requests a re-check.
+3. Review only `pending` / `fail` columns (and any unit FAIL log rows).
+
+## Output format (strict)
+
+For each issue:
+
+```text
+FAIL | <workId> | unit <id> | <checkId> | <one-line reason> | <suggested fix>
+```
+
+For a clean work:
+
+```text
+PASS | <workId> | C1 C2 C3 C4 C5 S1 S2
+```
+
+Then update the ledger row: set those columns to `pass` or `fail`, set `lastChecked` (YYYY-MM-DD), add brief `notes`.
+
+## Checks to apply
+
+- **C1** original ZH accuracy vs attributed tradition
+- **C2** EN matches this unit’s ZH
+- **C3** plain tied to this unit (not boilerplate)
+- **C4** application tied to this unit; has 建議/Suggestion
+- **C5** text → plain → application coherent
+- **S1** speech notes/lexicon/`speech.zh` cover known 破音字 for this work
+- **S2** `text.zh` not altered solely for TTS
+
+## Sweep order
+
+Confucian short→long, then Taoist, then Buddhist (see CONTENT_QA.md). One work (or small batch) per pass when possible.
+
+## Do not
+
+- Rewrite content in checker mode unless asked to fix FAILs (then switch to writer behavior)
+- Re-litigate the full checklist for a work marked all-pass with unchanged content

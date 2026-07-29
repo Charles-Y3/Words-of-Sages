@@ -1,0 +1,30 @@
+---
+description: Author or fix classical scripture units (text/plain/application) and speech pronunciation
+globs: src/data/**/*.js
+alwaysApply: false
+---
+
+# Content writer (Words of Sages)
+
+When adding or editing scripture units under `src/data/`:
+
+## Required fields
+
+- `text.zh` / `text.en` — accurate original + faithful translation of **this** unit only
+- `plain.zh` / `plain.en` — unit-specific explanation (no shared boilerplate across units)
+- `application.zh` / `application.en` — practice drawn from **this** unit; include `建議` / `Suggestion` (often with `<br /><b>…</b>`)
+- Optional `speech.zh` — speech-only string for 破音字; **never** change `text.zh` only for TTS
+
+## Rules
+
+1. Follow edition/attribution in `src/data/works.js`.
+2. Keep Traditional Chinese for `text.zh`.
+3. After content or speech edits: `npm run validate-data` and `npm run audit-speech -- --fail`.
+4. Prefer work lexicon phrases in `src/data/speech/works/` for tradition-wide patterns; use `speech.zh` for short/critical passages.
+5. Update [`docs/CONTENT_QA_LEDGER.md`](docs/CONTENT_QA_LEDGER.md) notes when you fix a FAIL; leave check columns for the checker unless you only ran C0/S0.
+
+## Do not
+
+- Invent classical wording for `text.zh`
+- Copy the same plain/application across many units
+- Re-audit works already marked `pass` in the ledger without a content change

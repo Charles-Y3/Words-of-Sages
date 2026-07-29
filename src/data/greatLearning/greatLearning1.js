@@ -3,12 +3,12 @@ const greatLearning1 = [
   {
     id: 1,
     text: {
-      zh: "大學之道，在明明德，在親民，在止於至善。",
+      zh: "大學之道，在明明德，在新民，在止於至善。",
       en: "The way of the Great Learning lies in manifesting bright virtue, renewing the people, and resting in the highest good."
     },
     plain: {
-      zh: "大學的核心在於不斷發現並彰顯自身內在光明的德性，讓內在的道德力量充分顯露出來，從而以德感化他人，使社會整體向善。‘親民’不僅是關心民眾，更意味著通過自身行為啟發他人、改善社會風氣；‘止於至善’則指出終極目標是達到完全的道德完善和人格圓滿。",
-      en: "The core of Great Learning is to recognize and manifest your inherent moral virtues, allowing your inner ethical strength to fully express itself, thereby inspiring others and promoting goodness in society. 'Renewing the people' means influencing and improving others through your own example. 'Resting in the highest good' highlights that the ultimate goal is achieving complete moral perfection and a fully cultivated character."
+      zh: "大學的核心在於不斷發現並彰顯自身內在光明的德性，讓內在的道德力量充分顯露出來，從而以德感化他人，使社會整體向善。依朱子章句，『新民』指通過自身修養啟發、更新民眾，改善社會風氣；『止於至善』則指出終極目標是達到完全的道德完善和人格圓滿。",
+      en: "The core of Great Learning is to recognize and manifest your inherent moral virtues, allowing your inner ethical strength to fully express itself, thereby inspiring others and promoting goodness in society. Following Zhu Xi’s chapter system, 'renewing the people' means influencing and improving others through your own example. 'Resting in the highest good' highlights that the ultimate goal is achieving complete moral perfection and a fully cultivated character."
     },
     application: {
       zh: "在日常生活中，首先關注自身品德修養，主動修正行為和態度，使自己的言行能夠正面影響周圍的人。同時，設定目標追求卓越道德，而非只滿足於表面的行為規範。關注內在德行，而不僅僅是外在形式，逐步形成積極的人格魅力。<br /><b>建議：今天觀察自己的行為和思想，主動發揚德性並影響身邊人。</b>",

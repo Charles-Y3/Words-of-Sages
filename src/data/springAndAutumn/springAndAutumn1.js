@@ -14,7 +14,7 @@ const springAndAutumn1 = [
 公子益師卒。
 
 隱公二年
-春，公會戎於潛。夏，五月，莒人入向。
+春，公會戎於潛。
 夏，五月，莒人入向。
 無駭帥師入極。
 秋，八月庚辰，公及戎盟於唐。
@@ -49,7 +49,6 @@ Gongsun Yishi died.
 
 Duke Yin, Year 2
 In spring, the duke met the Rong at Qian.
-In summer, in the fifth month, the people of Ju entered Xiang.
 In summer, in the fifth month, the people of Ju entered Xiang.
 Wuhui led an army and entered Ji.
 In autumn, in the eighth month, on geng-chen, the duke and the Rong made a covenant at Tang.

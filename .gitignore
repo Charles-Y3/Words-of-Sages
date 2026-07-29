@@ -24,3 +24,8 @@ yarn-debug.log*
 yarn-error.log*
 
 .vercel
+
+# local scratch / tooling (do not commit)
+scripts/tmp/
+progress.docx
+.claude/

@@ -265,11 +265,12 @@ Rather than keeping score of who owes whom, treat others with the sage's generos
     id: 80,
     text: {
       zh: `小國寡民，使有什伯之器而不用，使民重死而不遠徙。
-雖有舟輿，無所乘之；雖有甲兵，無所陳之。使民復結繩而用之。甘其食，美其服，安其居，樂其俗鄰國相望，雞犬之聲相聞，民至老死不相往來。`,
+雖有舟輿，無所乘之；雖有甲兵，無所陳之。使民復結繩而用之。甘其食，美其服，安其居，樂其俗。鄰國相望，雞犬之聲相聞，民至老死不相往來。`,
       en: `A small state with few people: give them tenfold supplies yet they do not use them; make people value life and not migrate.
 Though there are boats and carriages, none ride them; though there are armor and weapons, none display them.
 Let people return to using knotted cords for counting.
-They enjoy their food, like their clothing, are secure in their homes, and delight in their customs.`
+They enjoy their food, like their clothing, are secure in their homes, and delight in their customs.
+Neighboring states may look at one another; the sounds of chickens and dogs may be heard across; yet the people grow old and die without visiting one another.`
     },
     plain: {
       zh: "小國寡民，就是國家小、人口少，使人們擁有十進制的計量器具卻不使用，讓人民重視生命而不輕易遷徙。即使有船車，也不需要乘坐；即使有甲兵，也不陳列或使用。讓人民回到結繩而用的方法（簡單的記錄和生活方式）。人民吃得甘美、穿得舒適、住得安穩，享受自己的生活習俗，鄰國之間可以互相望見，雞犬的叫聲互相傳入耳中。人民從出生到老死，也不必頻繁往來其他地方，生活簡單安定。",

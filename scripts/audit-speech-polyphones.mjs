@@ -70,7 +70,9 @@ for (const work of scoped) {
             const risky =
               (h.char === "惡" && /惡其|所惡|好惡|羞惡/.test(h.ctx)) ||
               (h.char === "與" && /與能|選賢與/.test(h.ctx)) ||
-              (h.char === "長" && /所長|長幼|長者|長子|長民/.test(h.ctx)) ||
+              (h.char === "長" &&
+                (/長幼|長者|長子|長民|長養/.test(h.ctx) ||
+                  (/所長/.test(h.ctx) && !/人所長|何所長|挫人所長/.test(h.ctx)))) ||
               (h.char === "分" && /有分|名分|職分|本分/.test(h.ctx)) ||
               (h.char === "為" && /為己|為人[子君臣父]/.test(h.ctx)) ||
               (h.char === "樂" && /禮樂|於樂|音樂|雅樂/.test(h.ctx)) ||
@@ -85,7 +87,9 @@ for (const work of scoped) {
         const risky =
           (h.char === "惡" && /惡其|所惡|好惡|羞惡|貨惡|力惡|人之所惡|天之所惡/.test(h.ctx)) ||
           (h.char === "與" && /與能|選賢與/.test(h.ctx)) ||
-          (h.char === "長" && /所長|長幼|長者|長子|長民|長養|人所長/.test(h.ctx)) ||
+          (h.char === "長" &&
+            (/長幼|長者|長子|長民|長養/.test(h.ctx) ||
+              (/所長/.test(h.ctx) && !/人所長|何所長|挫人所長/.test(h.ctx)))) ||
           (h.char === "分" && /有分|名分|職分|本分|安分/.test(h.ctx)) ||
           (h.char === "為" && /為己|為人[子君臣父]|為汝|為人說/.test(h.ctx)) ||
           (h.char === "樂" && /禮樂|於樂|音樂|雅樂|樂正|善於樂|樂殺人|樂欲|天樂|鼓樂/.test(h.ctx)) ||

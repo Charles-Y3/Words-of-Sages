@@ -54,8 +54,8 @@ const qingjingJing1 = [
   {
     id: 4,
     text: {
-      zh: `能遣之者，內觀於心，心無其心；外觀於形，形無其形；遠觀於物，物無其物。三者既悟，唯見於空。`,
-      en: `Those who can dispel it: looking inward at the mind, they find the mind has no mind; looking outward at the form, they find the form has no form; looking far off at things, they find things have no thingness. Once these three are realized, one sees only emptiness.`
+      zh: `能遣之者，內觀其心，心無其心；外觀其形，形無其形；遠觀其物，物無其物。三者既悟，唯見於空。`,
+      en: `Those who can dispel it: looking inward at their mind, they find the mind has no mind; looking outward at their form, they find the form has no form; looking far off at things, they find things have no thingness. Once these three are realized, one sees only emptiness.`
     },
     plain: {
       zh: "能夠真正排遣欲望、心念的人，會做三層觀照：向內觀察自己的心，發現這顆心並沒有一個固定不變、可以抓住的「心」；向外觀察自己的身體形貌，發現形體也不是恆常不變的實體；再往遠處觀察外在事物，發現萬物也沒有獨立不變的自性。這三層——心、身、物——都看透之後，剩下的只是空。這裡的空不是空無一物的死寂，而是不被任何固定相狀綁住的自由。",
