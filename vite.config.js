@@ -28,7 +28,7 @@ export default defineConfig({
         ]
       },
       workbox: {
-        globPatterns: ["**/*.{js,css,html,png,ico,svg}"],
+        globPatterns: ["**/*.{js,css,html,png,ico,svg,woff,woff2}"],
         runtimeCaching: [
           {
             urlPattern: ({ request }) => request.destination === "font",

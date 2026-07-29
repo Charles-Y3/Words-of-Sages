@@ -165,8 +165,51 @@ export default function Reader() {
   const [activePanel, setActivePanel] = React.useState("text");
   const [speechMenuOpen, setSpeechMenuOpen] = React.useState(false);
   const [fontMenuOpen, setFontMenuOpen] = React.useState(false);
+  const [speechIssueDismissed, setSpeechIssueDismissed] = React.useState(false);
   const speechControlsRef = React.useRef(null);
   const fontControlsRef = React.useRef(null);
+
+  useEffect(() => {
+    setSpeechIssueDismissed(false);
+  }, [speech.speechIssue]);
+
+  const speechIssueMessage = useMemo(() => {
+    const issue = speech.speechIssue;
+    if (!issue) {
+      if (speechMenuOpen && speech.supported && language === "zh" && !speech.zhVoiceAvailable) {
+        return language === "zh"
+          ? "此裝置沒有可用的中文語音，離線朗讀無法使用。請在系統設定安裝中文語音。"
+          : "No Chinese voice is available on this device, so offline read-aloud cannot run. Install a Chinese voice in system settings.";
+      }
+      return null;
+    }
+    if (issue === "unsupported") {
+      return language === "zh"
+        ? "此瀏覽器不支援語音朗讀。"
+        : "This browser does not support speech synthesis.";
+    }
+    if (issue === "no-zh-voice") {
+      return language === "zh"
+        ? "此裝置沒有可用的中文語音，離線朗讀無法使用。請在系統設定安裝中文語音。"
+        : "No Chinese voice is available on this device, so offline read-aloud cannot run. Install a Chinese voice in system settings.";
+    }
+    if (issue === "no-en-voice") {
+      return language === "zh"
+        ? "此裝置沒有可用的英文語音，朗讀無法使用。請在系統設定安裝英文語音。"
+        : "No English voice is available on this device. Install an English voice in system settings.";
+    }
+    return language === "zh"
+      ? "朗讀時發生錯誤，請稍後再試。"
+      : "Something went wrong while reading aloud. Please try again.";
+  }, [
+    speech.speechIssue,
+    speechMenuOpen,
+    speech.supported,
+    speech.zhVoiceAvailable,
+    language
+  ]);
+
+  const showSpeechIssue = Boolean(speechIssueMessage) && !speechIssueDismissed;
 
   useEffect(() => {
     if (!speechMenuOpen) return undefined;
@@ -384,7 +427,24 @@ export default function Reader() {
         </div>
       }
       footer={
-        <nav className={styles.tabBar} aria-label={language === "zh" ? "閱讀工具列" : "Reader toolbar"}>
+        <>
+          {showSpeechIssue && (
+            <div className={styles.speechIssue} role="status">
+              <p className={styles.speechIssueBody}>{speechIssueMessage}</p>
+              <Button
+                variant="ghost"
+                size="sm"
+                className={styles.speechIssueDismiss}
+                onClick={() => {
+                  setSpeechIssueDismissed(true);
+                  speech.clearSpeechIssue();
+                }}
+              >
+                {language === "zh" ? "知道了" : "Dismiss"}
+              </Button>
+            </div>
+          )}
+          <nav className={styles.tabBar} aria-label={language === "zh" ? "閱讀工具列" : "Reader toolbar"}>
           <button
             type="button"
             className={styles.tabItem}
@@ -425,7 +485,6 @@ export default function Reader() {
             type="button"
             className={`${styles.tabItem} ${styles.tabItemPrimary}`}
             onClick={togglePlay}
-            disabled={!speech.supported}
             aria-label={
               speech.isSpeaking
                 ? language === "zh"
@@ -452,24 +511,57 @@ export default function Reader() {
             <button
               type="button"
               className={styles.tabItem}
-              disabled={!speech.supported}
               aria-label={language === "zh" ? "語音設定" : "Voice settings"}
               aria-expanded={speechMenuOpen}
-              onClick={() => setSpeechMenuOpen((v) => !v)}
+              onClick={() => {
+                setSpeechMenuOpen((v) => !v);
+                setSpeechIssueDismissed(false);
+              }}
             >
               <span className={styles.tabGlyph}>♪</span>
               <span className={styles.tabLabel}>{language === "zh" ? "語音" : "Voice"}</span>
             </button>
-            {speechMenuOpen && speech.supported && (
+            {speechMenuOpen && (
               <div className={styles.popover}>
+                {!speech.supported ? (
+                  <p className={styles.speechHint}>
+                    {language === "zh"
+                      ? "此瀏覽器不支援語音朗讀。"
+                      : "This browser does not support speech synthesis."}
+                  </p>
+                ) : language === "zh" && !speech.zhVoiceAvailable ? (
+                  <p className={styles.speechHint}>
+                    {language === "zh"
+                      ? "未偵測到中文語音。請在系統設定安裝中文語音後再試。"
+                      : "No Chinese voice detected. Install a Chinese voice in system settings."}
+                  </p>
+                ) : language === "en" && !speech.enVoiceAvailable ? (
+                  <p className={styles.speechHint}>
+                    {language === "zh"
+                      ? "未偵測到英文語音。請在系統設定安裝英文語音後再試。"
+                      : "No English voice detected. Install an English voice in system settings."}
+                  </p>
+                ) : null}
                 <span className={styles.popoverLabel}>
                   {language === "zh" ? "朗讀模式" : "Playback mode"}
                 </span>
-                <Button variant="ghost" size="sm" block onClick={speech.cycleMode}>
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  block
+                  disabled={!speech.supported}
+                  onClick={speech.cycleMode}
+                >
                   {speechModeLabel[speech.mode][language]}
                 </Button>
                 <span className={styles.popoverLabel}>{language === "zh" ? "語速" : "Speed"}</span>
-                <Button variant="ghost" size="sm" block onClick={speech.cycleRate}>
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  block
+                  disabled={!speech.supported}
+                  onClick={speech.cycleRate}
+                >
                   {speech.rate}x
                 </Button>
               </div>
@@ -496,6 +588,7 @@ export default function Reader() {
             <span className={styles.tabLabel}>{language === "zh" ? "下一" : "Next"}</span>
           </button>
         </nav>
+        </>
       }
     >
       <div {...swipeHandlers}>

@@ -37,6 +37,12 @@ npm run validate-data  # check chapter data integrity
 
 Each chapter has bilingual fields: `text` (original), `plain` (explanation), `application` (practical takeaway). Run `npm run validate-data` after editing any chapter file.
 
+### Speech pronunciation (破音字)
+
+Chinese read-aloud uses the device’s Web Speech voices. Display text is never altered for TTS. Before speaking, `prepareSpeechText` applies classical phrase/context rules from [`src/data/speechPronunciation.js`](src/data/speechPronunciation.js).
+
+When adding a new scripture: listen for misread 破音字 (e.g. 興、長、樂、行、傳) and append **phrase-first** rules there. Do not edit `chapter.text.zh` to fix pronunciation.
+
 ## Deployment
 
 Deployed on Vercel; `vercel.json` sets the build output and SPA rewrite for client-side routing.

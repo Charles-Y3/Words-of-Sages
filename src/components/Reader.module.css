@@ -372,6 +372,36 @@
   color: var(--color-ink-soft);
 }
 
+.speechHint {
+  margin: 0;
+  font-size: var(--step--1);
+  color: var(--color-ink-soft);
+  line-height: 1.45;
+}
+
+.speechIssue {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  box-shadow: var(--shadow-md);
+}
+
+.speechIssueBody {
+  margin: 0;
+  flex: 1;
+  font-size: var(--step--1);
+  line-height: 1.45;
+  color: var(--color-ink);
+  font-family: var(--font-zh);
+}
+
+.speechIssueDismiss {
+  flex-shrink: 0;
+}
+
 .notice {
   font-size: var(--step--1);
   color: var(--color-ink-faint);

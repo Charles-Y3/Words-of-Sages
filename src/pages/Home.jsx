@@ -12,6 +12,7 @@ import {
   promptPwaInstall,
   subscribePwaInstall
 } from "../utils/pwaInstall";
+import { getOfflineReady, subscribeOfflineReady } from "../utils/offlineReady";
 import AppShell from "../components/AppShell";
 import Button from "../components/Button";
 import AppLogo from "../components/AppLogo";
@@ -34,6 +35,7 @@ export default function Home() {
   const [appInstalled, setAppInstalled] = useState(() =>
     typeof window !== "undefined" ? isStandaloneDisplay() : false
   );
+  const [offlineReady, setOfflineReady] = useState(() => getOfflineReady());
 
   useEffect(() => {
     if (!settingsOpen) return undefined;
@@ -59,6 +61,8 @@ export default function Home() {
       setAppInstalled(isStandaloneDisplay());
     });
   }, []);
+
+  useEffect(() => subscribeOfflineReady(setOfflineReady), []);
 
   const installGuide = (() => {
     const kind = installGuideKind();
@@ -193,6 +197,20 @@ export default function Home() {
                 </>
               ) : (
                 <p className={styles.settingsHint}>{installGuide}</p>
+              )}
+              <div className={styles.settingsLabel}>
+                {language === "zh" ? "離線狀態" : "Offline status"}
+              </div>
+              {offlineReady ? (
+                <p className={styles.settingsDone}>
+                  {language === "zh" ? "離線可用" : "Ready for offline use"}
+                </p>
+              ) : (
+                <p className={styles.settingsHint}>
+                  {language === "zh"
+                    ? "請連網開啟一次以完成下載"
+                    : "Open once online to finish downloading"}
+                </p>
               )}
             </div>
           )}

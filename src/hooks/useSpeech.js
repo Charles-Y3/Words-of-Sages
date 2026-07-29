@@ -1,7 +1,14 @@
 import { useCallback, useEffect, useRef, useState } from "react";
+import { prepareSpeechText } from "../utils/prepareSpeechText";
 
 export const SPEECH_MODES = ["once", "loop", "continuous"];
 export const SPEECH_RATES = [0.5, 0.75, 1, 1.25, 1.5];
+
+/** @typedef {"unsupported" | "no-zh-voice" | "no-en-voice" | "error"} SpeechIssue */
+
+function hasLangVoice(voices, prefix) {
+  return voices.some((v) => v.lang && v.lang.toLowerCase().startsWith(prefix));
+}
 
 function pickVoice(voices, language) {
   const preferred = language === "zh" ? ["zh-TW", "zh-HK", "zh-CN"] : ["en-US", "en-GB"];
@@ -22,18 +29,37 @@ export default function useSpeech(language) {
   const [mode, setMode] = useState("once");
   const [rate, setRate] = useState(1);
   const [boundaryIndex, setBoundaryIndex] = useState(null);
+  const [zhVoiceAvailable, setZhVoiceAvailable] = useState(false);
+  const [enVoiceAvailable, setEnVoiceAvailable] = useState(false);
+  const [speechIssue, setSpeechIssue] = useState(/** @type {SpeechIssue | null} */ (null));
 
   const modeRef = useRef(mode);
   const rateRef = useRef(rate);
+  const languageRef = useRef(language);
   const isSpeakingRef = useRef(false);
   const voicesRef = useRef([]);
-  const lastArgsRef = useRef({ text: "", onEnd: undefined, advance: false });
+  const lastArgsRef = useRef({
+    displayText: "",
+    speechText: "",
+    trackHighlight: true,
+    onEnd: undefined,
+    advance: false
+  });
   const speakRef = useRef(null);
 
+  languageRef.current = language;
+
   useEffect(() => {
-    if (!supported) return;
+    if (!supported) {
+      setZhVoiceAvailable(false);
+      setEnVoiceAvailable(false);
+      return undefined;
+    }
     const loadVoices = () => {
-      voicesRef.current = window.speechSynthesis.getVoices();
+      const voices = window.speechSynthesis.getVoices();
+      voicesRef.current = voices;
+      setZhVoiceAvailable(hasLangVoice(voices, "zh"));
+      setEnVoiceAvailable(hasLangVoice(voices, "en"));
     };
     loadVoices();
     window.speechSynthesis.addEventListener("voiceschanged", loadVoices);
@@ -45,30 +71,70 @@ export default function useSpeech(language) {
     return () => window.speechSynthesis.cancel();
   }, [supported]);
 
+  const clearSpeechIssue = useCallback(() => setSpeechIssue(null), []);
+
   const stop = useCallback(() => {
     if (!supported) return;
     window.speechSynthesis.cancel();
     isSpeakingRef.current = false;
     setIsSpeaking(false);
     setBoundaryIndex(null);
-    lastArgsRef.current = { text: "", onEnd: undefined, advance: false };
+    lastArgsRef.current = {
+      displayText: "",
+      speechText: "",
+      trackHighlight: true,
+      onEnd: undefined,
+      advance: false
+    };
   }, [supported]);
 
   const speak = useCallback(
     (text, { onEnd, advance = Boolean(onEnd) } = {}) => {
-      if (!supported || !text) return;
+      if (!supported) {
+        setSpeechIssue("unsupported");
+        return;
+      }
+      if (!text) return;
+
+      const lang = languageRef.current;
+      const voices = voicesRef.current.length
+        ? voicesRef.current
+        : window.speechSynthesis.getVoices();
+      voicesRef.current = voices;
+
+      const hasVoice =
+        lang === "zh" ? hasLangVoice(voices, "zh") : hasLangVoice(voices, "en");
+      if (!hasVoice) {
+        setSpeechIssue(lang === "zh" ? "no-zh-voice" : "no-en-voice");
+        isSpeakingRef.current = false;
+        setIsSpeaking(false);
+        setBoundaryIndex(null);
+        return;
+      }
+
+      const { speechText, changed } = prepareSpeechText(text, lang);
+      const trackHighlight = !changed;
+
       window.speechSynthesis.cancel();
       setBoundaryIndex(null);
+      setSpeechIssue(null);
 
-      lastArgsRef.current = { text, onEnd, advance };
+      lastArgsRef.current = {
+        displayText: text,
+        speechText,
+        trackHighlight,
+        onEnd,
+        advance
+      };
 
-      const utter = new SpeechSynthesisUtterance(text);
-      utter.lang = language === "zh" ? "zh-TW" : "en-US";
+      const utter = new SpeechSynthesisUtterance(speechText);
+      utter.lang = lang === "zh" ? "zh-TW" : "en-US";
       utter.rate = rateRef.current;
-      const voice = pickVoice(voicesRef.current, language);
+      const voice = pickVoice(voices, lang);
       if (voice) utter.voice = voice;
 
       utter.onboundary = (event) => {
+        if (!trackHighlight) return;
         setBoundaryIndex(event.charIndex);
       };
 
@@ -76,7 +142,10 @@ export default function useSpeech(language) {
         const currentMode = modeRef.current;
         const args = lastArgsRef.current;
         if (currentMode === "loop") {
-          speakRef.current?.(args.text, { onEnd: args.onEnd, advance: args.advance });
+          speakRef.current?.(args.displayText, {
+            onEnd: args.onEnd,
+            advance: args.advance
+          });
           return;
         }
         if (args.advance && args.onEnd) {
@@ -93,13 +162,14 @@ export default function useSpeech(language) {
         isSpeakingRef.current = false;
         setIsSpeaking(false);
         setBoundaryIndex(null);
+        setSpeechIssue("error");
       };
 
       isSpeakingRef.current = true;
       setIsSpeaking(true);
       window.speechSynthesis.speak(utter);
     },
-    [supported, language]
+    [supported]
   );
 
   speakRef.current = speak;
@@ -131,6 +201,10 @@ export default function useSpeech(language) {
     cycleRate,
     speak,
     stop,
-    boundaryIndex
+    boundaryIndex,
+    zhVoiceAvailable,
+    enVoiceAvailable,
+    speechIssue,
+    clearSpeechIssue
   };
 }
