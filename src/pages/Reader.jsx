@@ -106,6 +106,21 @@ export default function Reader() {
     setNoteOpen(false);
   }, [workId, chapterId]);
 
+  const openNoteFlag = searchParams.get("note");
+  useEffect(() => {
+    if (openNoteFlag !== "1") return;
+    setNoteOpen(true);
+    setSearchParams(
+      (prev) => {
+        const next = new URLSearchParams(prev);
+        next.delete("note");
+        return next;
+      },
+      { replace: true }
+    );
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [openNoteFlag]);
+
   useEffect(() => {
     const onKey = (e) => {
       if (drawerOpen || noteOpen || viewMode === "continuous") return;

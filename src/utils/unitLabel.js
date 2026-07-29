@@ -41,10 +41,14 @@ export function passageRef(work, language, id, viewMode) {
   return unitName(work, language, id);
 }
 
-/** Reader path including optional continuous view query. */
-export function readerHref(workId, chapterId, viewMode) {
+/** Reader path including optional continuous view query and note-open flag. */
+export function readerHref(workId, chapterId, viewMode, { openNote = false } = {}) {
   const base = `/reader/${workId}/${chapterId}`;
-  return viewMode === "continuous" ? `${base}?view=continuous` : base;
+  const params = new URLSearchParams();
+  if (viewMode === "continuous") params.set("view", "continuous");
+  if (openNote) params.set("note", "1");
+  const qs = params.toString();
+  return qs ? `${base}?${qs}` : base;
 }
 
 /** "第 3 章 · 共 81 章" / "Chapter 3 of 81" */

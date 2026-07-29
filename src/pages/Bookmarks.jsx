@@ -164,7 +164,9 @@ export default function Bookmarks() {
                     <div key={chapter.id} className={styles.resultRow}>
                       <button
                         className={styles.resultLink}
-                        onClick={() => navigate(readerHref(work.id, chapter.id, viewMode))}
+                        onClick={() =>
+                          navigate(readerHref(work.id, chapter.id, viewMode, { openNote: true }))
+                        }
                       >
                         <div className={styles.resultHead}>
                           {passageRef(work, language, chapter.id, viewMode)}
