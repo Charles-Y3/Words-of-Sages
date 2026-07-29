@@ -77,14 +77,14 @@ In the ninth month, the people of Wei killed Zhou Xu at Pu.
 In winter, in the twelfth month, the people of Wei raised Jin (to the marquisate).`
     },
     plain: {
-      zh: `本段為魯隱公時期（元至四年）的《春秋》經文。經文以魯國紀年，兼記周王室與列國朝聘、會盟、征伐、災異與喪葬。文辭極簡，往往一事數字，寓褒貶於書法之中。讀者宜先掌握時序與人物名分，再思其義理。`,
-      en: `This section is the Spring and Autumn classic (jing) for Lu under Duke Yin, Years 1–4. Entries follow Lu’s calendar while noting the Zhou court and interstate diplomacy, war, omens, and mourning. The wording is extremely spare — often a few characters per event — with judgment encoded in how facts are written. Read first for sequence and titles, then for moral implication.`
+      zh: `鄭莊公明知其弟共叔段圖謀不軌，卻放任他坐大築城、招兵買馬，直到局勢無法收拾，才在鄢地興兵擊敗他（鄭伯克段於鄢）；同段又記衛國公子州籲弒殺兄長衛桓公完，自立為君，不久亦被國人所殺。經文言簡而寓意深，讀之可見權位之爭往往由縱容小患開始。`,
+      en: `Duke Zhuang of Zheng knowingly let his brother Duan grow dangerously powerful before finally crushing him at Yan (“the earl of Zheng defeated Duan”); in the same span, Zhou Xu of Wei murdered his own brother, Duke Huan, to seize the throne, only to be killed by his own people soon after. Spare as the wording is, it shows how struggles for power often begin with a small danger left unchecked.`
     },
     application: {
-      zh: `讀編年簡筆，練習「先弄清事實，再下判斷」；勿在未辨名分前急於褒貶。
-<br /><b>建議：把本段中一件會盟或征伐，用一句話寫出「何人、何處、何故」。</b>`,
-      en: `Reading spare chronicle lines, practice establishing facts before judgment — do not praise or blame before names and roles are clear.
-<br /><b>Suggestion: For one alliance or campaign in this section, write one sentence: who, where, and why.</b>`
+      zh: `鄭莊公放任弟弟坐大釀禍才動手清除，經文用「克」字暗示這其實是縱容而非防患未然；州籲以弒逆奪位，也很快步上敗亡之路，說明以不正手段奪權終難長久。
+<br /><b>建議：本週檢視一件你已察覺卻遲遲未處理的小隱患，趁它坐大之前先行處理。</b>`,
+      en: `Duke Zhuang of Zheng let his brother's ambitions fester before finally striking — the chronicle's word "defeated" hints at blame for letting the crisis grow rather than heading it off early; Zhou Xu's throne seized by murder likewise collapsed almost at once, a reminder that power taken wrongfully rarely lasts.
+<br /><b>Suggestion: This week, address one small problem you've noticed but kept postponing, before it grows too large to easily fix.</b>`
     }
   },
   {
@@ -158,14 +158,14 @@ Caterpillars appeared.
 In winter, in the twelfth month, Wuhui died.`
     },
     plain: {
-      zh: `本段為魯隱公時期（五至八年）的《春秋》經文。經文以魯國紀年，兼記周王室與列國朝聘、會盟、征伐、災異與喪葬。文辭極簡，往往一事數字，寓褒貶於書法之中。讀者宜先掌握時序與人物名分，再思其義理。`,
-      en: `This section is the Spring and Autumn classic (jing) for Lu under Duke Yin, Years 5–8. Entries follow Lu’s calendar while noting the Zhou court and interstate diplomacy, war, omens, and mourning. The wording is extremely spare — often a few characters per event — with judgment encoded in how facts are written. Read first for sequence and titles, then for moral implication.`
+      zh: `隱公貪玩，跑到棠地觀魚取樂，經文照實記下，暗含譏刺國君不務正業；同段又記魯國首次僅獻六佾之舞（初獻六羽），顯示禮制正在悄悄變動。最引人注意的是戎人在楚丘伏擊並擄走周天子的使臣凡伯，公然侵犯代表王室的使節，可見當時列國對周室權威已漸失敬畏。`,
+      en: `Duke Yin's outing to watch fishing at Tang, recorded plainly, quietly criticizes a ruler indulging in trivial pleasures instead of his duties; the same section notes Lu's first reduced ritual dance troupe (six rows instead of eight), hinting at shifting norms. Most striking is the Rong's ambush and seizure of the Zhou king's own envoy, Fan Bo, at Chuqiu — open disregard for a royal representative that shows how thin respect for the Zhou court had already worn.`
     },
     application: {
-      zh: `讀編年簡筆，練習「先弄清事實，再下判斷」；勿在未辨名分前急於褒貶。
-<br /><b>建議：把本段中一件會盟或征伐，用一句話寫出「何人、何處、何故」。</b>`,
-      en: `Reading spare chronicle lines, practice establishing facts before judgment — do not praise or blame before names and roles are clear.
-<br /><b>Suggestion: For one alliance or campaign in this section, write one sentence: who, where, and why.</b>`
+      zh: `隱公不理國政跑去看魚，看似小事仍逃不過史筆與後世的評斷，可見身居其位者的一言一行都受眾人檢視；戎人劫殺周室使臣，則顯示規矩一旦被公然踐踏，信任便難以恢復。
+<br /><b>建議：檢視自己目前的身分責任，今天避免一件與本分不符的「貪玩」小事。</b>`,
+      en: `Duke Yin's trip to watch fishing, though seemingly trivial, was still recorded and judged — a reminder that even small lapses by someone in a position of responsibility do not escape notice; the Rong's ambush of the king's envoy shows how quickly trust collapses once basic norms are openly violated.
+<br /><b>Suggestion: Consider your current role's responsibilities, and skip one small "fishing trip" distraction that doesn't fit it today.</b>`
     }
   },
   {
@@ -219,14 +219,14 @@ In autumn, in the seventh month, on ren-wu, the duke, with the marquis of Qi and
 In winter, in the eleventh month, on ren-chen, the duke died.`
     },
     plain: {
-      zh: `本段為魯隱公時期（九至十有一年）的《春秋》經文。經文以魯國紀年，兼記周王室與列國朝聘、會盟、征伐、災異與喪葬。文辭極簡，往往一事數字，寓褒貶於書法之中。讀者宜先掌握時序與人物名分，再思其義理。`,
-      en: `This section is the Spring and Autumn classic (jing) for Lu under Duke Yin, Years 9–11. Entries follow Lu’s calendar while noting the Zhou court and interstate diplomacy, war, omens, and mourning. The wording is extremely spare — often a few characters per event — with judgment encoded in how facts are written. Read first for sequence and titles, then for moral implication.`
+      zh: `宋、蔡、衛三國聯合攻打戴國，鄭莊公卻乘機出兵，將戴國據為己有，可見列國會盟征伐往往夾帶私利；本段末尾隱公十有一年冬僅書「公薨」二字，未言死因，然隱公實為公子翬所弒——經文刻意隱晦，正是《春秋》為賢者諱的筆法，讀者須留意字面之外的真相。`,
+      en: `Song, Cai, and Wei jointly attacked the state of Dai, but Duke Zhuang of Zheng seized the moment to invade and simply take it for himself — a reminder that interstate alliances often carry private motives. The section closes with the bare notice "the duke died," giving no cause, though Duke Yin was in fact assassinated; the chronicle's deliberate vagueness here is a classic case of shielding a worthy ruler's memory, and asks the reader to look past the literal words.`
     },
     application: {
-      zh: `讀編年簡筆，練習「先弄清事實，再下判斷」；勿在未辨名分前急於褒貶。
-<br /><b>建議：把本段中一件會盟或征伐，用一句話寫出「何人、何處、何故」。</b>`,
-      en: `Reading spare chronicle lines, practice establishing facts before judgment — do not praise or blame before names and roles are clear.
-<br /><b>Suggestion: For one alliance or campaign in this section, write one sentence: who, where, and why.</b>`
+      zh: `鄭莊公坐收漁翁之利、奪取戴國，提醒人不可趁人之危、假公濟私；隱公之死經文只寫「公薨」二字不言其詳，也提醒讀史不能只看表面字句，還要追問字面背後未說出的真相。
+<br /><b>建議：今天檢視一次合作或聯盟關係，確認自己沒有利用夥伴的困境圖利。</b>`,
+      en: `Duke Zhuang of Zheng, joining an alliance against Dai only to seize the fallen state for himself, is a caution against exploiting an ally's crisis for private gain; the bare notice of Duke Yin's death, with no cause given, reminds us that a record's plain wording can conceal as much as it states.
+<br /><b>Suggestion: Review one partnership or alliance today and confirm you haven't taken advantage of a partner's difficulty for your own benefit.</b>`
     }
   },
   {
@@ -292,14 +292,14 @@ In spring, in the first month, the duke hunted at Lang.
 In summer, the king sent the steward Qu Bojiu on a friendly visit.`
     },
     plain: {
-      zh: `本段為魯桓公時期（元至四年）的《春秋》經文。經文以魯國紀年，兼記周王室與列國朝聘、會盟、征伐、災異與喪葬。文辭極簡，往往一事數字，寓褒貶於書法之中。讀者宜先掌握時序與人物名分，再思其義理。`,
-      en: `This section is the Spring and Autumn classic (jing) for Lu under Duke Huan, Years 1–4. Entries follow Lu’s calendar while noting the Zhou court and interstate diplomacy, war, omens, and mourning. The wording is extremely spare — often a few characters per event — with judgment encoded in how facts are written. Read first for sequence and titles, then for moral implication.`
+      zh: `桓公即位之初便與鄭伯以玉璧交換許田，是以物易地的非禮之舉；同段又記宋國大夫督弒殺宋殤公與夫及大夫孔父，桓公竟接受督所贈的郜國大鼎，並將其安放於太廟——公然接納弒君者的賄賂，此事最為經文所深責。`,
+      en: `At the very start of his reign, Duke Huan traded a jade disc for the fields of Xu with the earl of Zheng, an improper exchange of goods for land; more strikingly, after Du of Song murdered his ruler and a great officer, Duke Huan accepted Du's gift of Song's great tripod as a bribe and installed it in his own ancestral temple — openly taking the spoils of a regicide, the act the chronicle condemns most severely here.`
     },
     application: {
-      zh: `讀編年簡筆，練習「先弄清事實，再下判斷」；勿在未辨名分前急於褒貶。
-<br /><b>建議：把本段中一件會盟或征伐，用一句話寫出「何人、何處、何故」。</b>`,
-      en: `Reading spare chronicle lines, practice establishing facts before judgment — do not praise or blame before names and roles are clear.
-<br /><b>Suggestion: For one alliance or campaign in this section, write one sentence: who, where, and why.</b>`
+      zh: `桓公明知郜鼎是弒君者宋督用以收買列國、掩飾罪行的贓物，卻仍收下並供入太廟，等於間接為弒逆背書——收受來路不明的利益，往往就是與惡同流的開始。
+<br /><b>建議：檢視最近收到的一項好處或饋贈，確認其來源乾淨、無愧於心。</b>`,
+      en: `Duke Huan knew full well the great tripod he accepted was a regicide's bribe meant to launder his crime before the other states, yet he took it and enshrined it in his own temple — implicitly endorsing the murder. Accepting gains from a tainted source is often the first step toward complicity in the wrong itself.
+<br /><b>Suggestion: Examine one recent gift or benefit you've received and confirm its source is clean and its acceptance sits right with your conscience.</b>`
     }
   },
   {
@@ -369,14 +369,14 @@ In winter, in the tenth month, it rained snow.
 Duke Zhai came, and thereupon went on to meet the king's bride at Ji.`
     },
     plain: {
-      zh: `本段為魯桓公時期（五至八年）的《春秋》經文。經文以魯國紀年，兼記周王室與列國朝聘、會盟、征伐、災異與喪葬。文辭極簡，往往一事數字，寓褒貶於書法之中。讀者宜先掌握時序與人物名分，再思其義理。`,
-      en: `This section is the Spring and Autumn classic (jing) for Lu under Duke Huan, Years 5–8. Entries follow Lu’s calendar while noting the Zhou court and interstate diplomacy, war, omens, and mourning. The wording is extremely spare — often a few characters per event — with judgment encoded in how facts are written. Read first for sequence and titles, then for moral implication.`
+      zh: `蔡人殺害陳國公子佗，列國內亂頻傳；魯國於桓公八年一年之內兩次舉行烝祭（正月、五月各一次），違反祭祀當年一次的常制，經文如實記錄，暗寓譏刺失禮；末尾又記祭公奉命至紀國迎接周王后，顯示周王室仍須仰賴列國協助婚聘大事。`,
+      en: `The people of Cai killed Chen's Prince Tuo, one sign among several of unrest across the states; Lu, meanwhile, performed the winter sacrifice twice in a single year, violating the rule that it should be held only once — the chronicle records it plainly, quietly signaling disapproval of the lapse in propriety. The section closes with Duke Zhai traveling to Ji to fetch a royal bride, showing the Zhou court still leaning on the feudal states even for its own marriage arrangements.`
     },
     application: {
-      zh: `讀編年簡筆，練習「先弄清事實，再下判斷」；勿在未辨名分前急於褒貶。
-<br /><b>建議：把本段中一件會盟或征伐，用一句話寫出「何人、何處、何故」。</b>`,
-      en: `Reading spare chronicle lines, practice establishing facts before judgment — do not praise or blame before names and roles are clear.
-<br /><b>Suggestion: For one alliance or campaign in this section, write one sentence: who, where, and why.</b>`
+      zh: `一年兩次烝祭，看似虔誠實則失禮失序——好事做過了頭，也會變成違禮；祭祀貴在應時如儀，不在次數多寡。
+<br /><b>建議：檢視一項你重複做的「好習慣」，確認頻率和方式仍然合宜，而非為做而做。</b>`,
+      en: `Holding the winter sacrifice twice in one year looks pious but actually breaks ritual order — even a good act, repeated beyond its proper measure, becomes a violation of propriety; sacrifice matters for being timely and correct, not for being frequent.
+<br /><b>Suggestion: Review one "good habit" you repeat often and check that its frequency and manner are still fitting, not done merely for its own sake.</b>`
     }
   },
   {
@@ -446,14 +446,14 @@ On bing-xu, the marquis of Wei, Jin, died.
 In the twelfth month, (the duke) joined the army of Zheng in invading Song. On ding-wei, they fought at Song.`
     },
     plain: {
-      zh: `本段為魯桓公時期（九至十有二年）的《春秋》經文。經文以魯國紀年，兼記周王室與列國朝聘、會盟、征伐、災異與喪葬。文辭極簡，往往一事數字，寓褒貶於書法之中。讀者宜先掌握時序與人物名分，再思其義理。`,
-      en: `This section is the Spring and Autumn classic (jing) for Lu under Duke Huan, Years 9–12. Entries follow Lu’s calendar while noting the Zhou court and interstate diplomacy, war, omens, and mourning. The wording is extremely spare — often a few characters per event — with judgment encoded in how facts are written. Read first for sequence and titles, then for moral implication.`
+      zh: `鄭莊公寤生去世後，宋人擄走鄭國權臣祭仲，脅迫他背棄原立的鄭忽、改立公子突為君，鄭忽因而出奔衛國——鄭國內政竟因他國脅迫大臣而變動，可見小國權臣受制於強鄰的困境；此後列國仍頻繁會盟征伐，如齊、衛、鄭伯來戰於郎等。`,
+      en: `After Duke Zhuang of Zheng died, the people of Song seized Zheng's powerful minister Zhai Zhong and forced him to abandon the ruler he'd installed, Hu, in favor of Tu instead — Hu fled to Wei, and Zheng's own succession was reshaped by a foreign power's coercion of one official. Alliances and campaigns among the states continued apace, as when the marquis of Qi, the marquis of Wei, and the earl of Zheng came to fight at Lang.`
     },
     application: {
-      zh: `讀編年簡筆，練習「先弄清事實，再下判斷」；勿在未辨名分前急於褒貶。
-<br /><b>建議：把本段中一件會盟或征伐，用一句話寫出「何人、何處、何故」。</b>`,
-      en: `Reading spare chronicle lines, practice establishing facts before judgment — do not praise or blame before names and roles are clear.
-<br /><b>Suggestion: For one alliance or campaign in this section, write one sentence: who, where, and why.</b>`
+      zh: `祭仲在被劫持的處境下改立新君，雖情有可原，卻也開啟了外力操控一國內政的先例——身居要職者若在脅迫下輕易妥協，禍患往往不止一次。
+<br /><b>建議：想一件你曾被迫做出的違心決定，思考日後如何預先為自己留一道防線。</b>`,
+      en: `Under seizure and threat, Zhai Zhong switched his allegiance to install a new ruler of Zheng — an understandable choice under duress, but one that also opened the door for foreign powers to manipulate a state's succession. When officials in key positions bend too easily under coercion, the damage rarely ends with a single incident.
+<br /><b>Suggestion: Recall one decision you were forced to make against your true wishes, and think about how to build a safeguard against such pressure in the future.</b>`
     }
   },
   {
@@ -523,14 +523,14 @@ In autumn, in the seventh month, the duke arrived back from invading Zheng.
 In winter, the wall of Xiang was built. In the eleventh month, the marquis of Wei, Shuo, fled to Qi.`
     },
     plain: {
-      zh: `本段為魯桓公時期（十有三至十有六年）的《春秋》經文。經文以魯國紀年，兼記周王室與列國朝聘、會盟、征伐、災異與喪葬。文辭極簡，往往一事數字，寓褒貶於書法之中。讀者宜先掌握時序與人物名分，再思其義理。`,
-      en: `This section is the Spring and Autumn classic (jing) for Lu under Duke Huan, Years 13–16. Entries follow Lu’s calendar while noting the Zhou court and interstate diplomacy, war, omens, and mourning. The wording is extremely spare — often a few characters per event — with judgment encoded in how facts are written. Read first for sequence and titles, then for moral implication.`
+      zh: `魯國聯合紀、鄭兩國，擊敗齊、宋、衛、燕四國聯軍，是隱、桓以來魯國少見的勝仗；同時周天子竟派家父向魯國「求車」，天子向諸侯伸手要東西，被視為失禮失體；鄭國又爆發鄭忽、鄭突兄弟間的君位拉鋸，反覆出奔復歸。`,
+      en: `Lu, joined by Ji and Zheng, defeated a coalition of Qi, Song, Wei, and Yan — a rare victory for Lu in this period. At the same time, the Zhou king sent an officer to Lu to "ask for chariots," a striking role reversal seen as beneath royal dignity; and Zheng's throne see-sawed between brothers Hu and Tu, each fleeing and returning in turn.`
     },
     application: {
-      zh: `讀編年簡筆，練習「先弄清事實，再下判斷」；勿在未辨名分前急於褒貶。
-<br /><b>建議：把本段中一件會盟或征伐，用一句話寫出「何人、何處、何故」。</b>`,
-      en: `Reading spare chronicle lines, practice establishing facts before judgment — do not praise or blame before names and roles are clear.
-<br /><b>Suggestion: For one alliance or campaign in this section, write one sentence: who, where, and why.</b>`
+      zh: `周天子向諸侯「求車」，堂堂天下共主竟開口向下求取財物，身分越高，越不該倒過來向下屬索求——地位帶來的是責任而非討要的特權。
+<br /><b>建議：檢視一次你以「上位者」身分向下屬或晚輩要求好處的情況，改以給予取代索取。</b>`,
+      en: `The Zhou king sending an officer to "ask for chariots" from Lu is a striking role reversal — the nominal ruler of all under heaven reduced to soliciting goods from a vassal. The higher one's position, the less fitting it is to demand from those below; rank confers responsibility, not entitlement to take.
+<br /><b>Suggestion: Recall a time you used a position of authority to ask subordinates or juniors for a favor, and replace that instinct with giving instead.</b>`
     }
   },
   {
@@ -566,14 +566,14 @@ In autumn, in the seventh month.
 In winter, in the twelfth month, on ji-chou, our ruler Duke Huan was buried.`
     },
     plain: {
-      zh: `本段為魯桓公時期（十有七至十有八年）的《春秋》經文。經文以魯國紀年，兼記周王室與列國朝聘、會盟、征伐、災異與喪葬。文辭極簡，往往一事數字，寓褒貶於書法之中。讀者宜先掌握時序與人物名分，再思其義理。`,
-      en: `This section is the Spring and Autumn classic (jing) for Lu under Duke Huan, Years 17–18. Entries follow Lu’s calendar while noting the Zhou court and interstate diplomacy, war, omens, and mourning. The wording is extremely spare — often a few characters per event — with judgment encoded in how facts are written. Read first for sequence and titles, then for moral implication.`
+      zh: `本段以桓公十有八年最為關鍵：桓公偕夫人姜氏前往齊國，竟死於齊地，四月薨、丁酉喪返，冬十二月方才安葬。經文不明言死因，然桓公實因夫人姜氏與其兄齊襄公私通、事發被齊人所害，此為春秋著名醜聞，也埋下日後莊公繼位、姜氏名聲敗壞的伏筆。`,
+      en: `The pivotal event here is Duke Huan's death in Year 18: he traveled to Qi with his wife, Lady Jiang, and died there, his coffin returning only months later. The chronicle names no cause, but tradition holds he was killed after his wife's affair with her own brother, the ruler of Qi, came to light — a notorious scandal that also set the stage for the troubled reign of his successor, Duke Zhuang.`
     },
     application: {
-      zh: `讀編年簡筆，練習「先弄清事實，再下判斷」；勿在未辨名分前急於褒貶。
-<br /><b>建議：把本段中一件會盟或征伐，用一句話寫出「何人、何處、何故」。</b>`,
-      en: `Reading spare chronicle lines, practice establishing facts before judgment — do not praise or blame before names and roles are clear.
-<br /><b>Suggestion: For one alliance or campaign in this section, write one sentence: who, where, and why.</b>`
+      zh: `桓公之死表面上只是「薨於齊」三字，實則因家醜（夫人與齊侯私通）而起殺身之禍——家庭倫理的敗壞，往往不只是私事，最終會釀成公開的災難。
+<br /><b>建議：檢視一件被你當作「家務事」而長期忽視的關係問題，及早正視處理。</b>`,
+      en: `Duke Huan's death is recorded plainly as "the duke died in Qi," but behind those bare words lies a scandal — his wife's affair with her own brother, the ruler of Qi, which led to Huan's murder. The breakdown of family propriety is rarely only a private matter; left unaddressed, it can erupt into public disaster.
+<br /><b>Suggestion: Identify one relationship problem you've been dismissing as "just a family matter," and address it before it grows worse.</b>`
     }
   },
   {
@@ -641,14 +641,14 @@ In autumn, in the seventh month.
 In winter, the duke and the people of Qi hunted at Gao.`
     },
     plain: {
-      zh: `本段為魯莊公時期（元至四年）的《春秋》經文。經文以魯國紀年，兼記周王室與列國朝聘、會盟、征伐、災異與喪葬。文辭極簡，往往一事數字，寓褒貶於書法之中。讀者宜先掌握時序與人物名分，再思其義理。`,
-      en: `This section is the Spring and Autumn classic (jing) for Lu under Duke Zhuang, Years 1–4. Entries follow Lu’s calendar while noting the Zhou court and interstate diplomacy, war, omens, and mourning. The wording is extremely spare — often a few characters per event — with judgment encoded in how facts are written. Read first for sequence and titles, then for moral implication.`
+      zh: `緊接桓公之死：莊公之母文姜因與齊襄公的醜聞牽連桓公之死，事後不敢返魯而長居齊國，經文以「孫」（遜）字委婉記其出奔，避諱直書其醜；同時齊國步步進逼紀國，遷走紀屬三邑，紀侯最終「大去其國」，永遠離開故國，紀國名存實亡。`,
+      en: `Following directly from Duke Huan's death, his widow, Lady Wen Jiang — implicated in the scandal that led to it — dared not return to Lu and settled instead in Qi; the chronicle softens her flight with the word "withdrew" rather than a blunter term, sparing her some disgrace. Meanwhile Qi steadily annexed Ji's dependent towns until its ruler "forever left his state," leaving Ji a state in name only.`
     },
     application: {
-      zh: `讀編年簡筆，練習「先弄清事實，再下判斷」；勿在未辨名分前急於褒貶。
-<br /><b>建議：把本段中一件會盟或征伐，用一句話寫出「何人、何處、何故」。</b>`,
-      en: `Reading spare chronicle lines, practice establishing facts before judgment — do not praise or blame before names and roles are clear.
-<br /><b>Suggestion: For one alliance or campaign in this section, write one sentence: who, where, and why.</b>`
+      zh: `經文用「孫」而不直說「奔」，替莊公之母留了顏面，說明史筆有時會用委婉字眼包裹難堪的事實；紀國則是被齊國一點一點蠶食、遷走屬邑，直到國君「大去其國」——衰亡往往不是一夕之間，而是由小損耗累積而成。
+<br /><b>建議：檢視自己是否也在用委婉說法迴避該正視的問題，今天用一句直白的話面對它。</b>`,
+      en: `The chronicle softens the wording — using "withdrew" rather than "fled in disgrace" — to spare the dowager duchess some face, showing how historical writing sometimes wraps hard truths in gentler language; meanwhile the state of Ji is eroded piece by piece as Qi annexes its towns, until its ruler permanently abandons it — a reminder that a state's collapse is rarely sudden, but the accumulation of small losses.
+<br /><b>Suggestion: Notice if you've been using softened language to avoid facing a real problem, and state it plainly to yourself today.</b>`
     }
   },
   {
@@ -708,14 +708,14 @@ In autumn, the army returned home.
 In winter, in the eleventh month, on gui-wei, Wuzhi of Qi murdered his ruler Zhu'er.`
     },
     plain: {
-      zh: `本段為魯莊公時期（五至八年）的《春秋》經文。經文以魯國紀年，兼記周王室與列國朝聘、會盟、征伐、災異與喪葬。文辭極簡，往往一事數字，寓褒貶於書法之中。讀者宜先掌握時序與人物名分，再思其義理。`,
-      en: `This section is the Spring and Autumn classic (jing) for Lu under Duke Zhuang, Years 5–8. Entries follow Lu’s calendar while noting the Zhou court and interstate diplomacy, war, omens, and mourning. The wording is extremely spare — often a few characters per event — with judgment encoded in how facts are written. Read first for sequence and titles, then for moral implication.`
+      zh: `異象頻仍，如恆星隱沒、半夜星如雨墜，經文詳記天象以示警；衛侯朔以外力強行復入衛國君位；末尾記齊國公孫無知弒殺其君齊諸兒（齊襄公），為齊國一段動盪的開端，其後才有小白（齊桓公）繼位稱霸的契機。`,
+      en: `Strange celestial signs appear one after another — fixed stars vanishing, a midnight meteor shower — carefully noted as warnings; the marquis of Wei, Shuo, forces his way back onto the throne with outside help. The section closes with Wuzhi of Qi murdering his ruler, Duke Xiang — the start of a period of turmoil in Qi that would eventually open the way for Xiaobai, the future Duke Huan, to rise.`
     },
     application: {
-      zh: `讀編年簡筆，練習「先弄清事實，再下判斷」；勿在未辨名分前急於褒貶。
-<br /><b>建議：把本段中一件會盟或征伐，用一句話寫出「何人、何處、何故」。</b>`,
-      en: `Reading spare chronicle lines, practice establishing facts before judgment — do not praise or blame before names and roles are clear.
-<br /><b>Suggestion: For one alliance or campaign in this section, write one sentence: who, where, and why.</b>`
+      zh: `星象異變被視為上天示警，提醒為政者留意徵兆、及早修省；而齊襄公被弒後留下的權力真空，日後卻由公子小白（齊桓公）把握機會崛起——危機當中往往也藏著轉機，端看誰能及時應對。
+<br /><b>建議：留意近日生活中的一個「異常訊號」，別急著忽視，花時間了解它想告訴你什麼。</b>`,
+      en: `Unusual celestial events — fixed stars vanishing, a meteor shower at midnight — were read as heaven's warnings, urging rulers to heed the signs and reform early; the power vacuum left by Duke Xiang of Qi's assassination was later seized by Xiaobai (the future Duke Huan of Qi) — even amid crisis, opportunity waits for whoever responds in time.
+<br /><b>Suggestion: Notice one "unusual signal" in your recent life, and instead of brushing it aside, take time to understand what it's telling you.</b>`
     }
   },
   {
@@ -781,14 +781,14 @@ In autumn, in the eighth month, on jia-wu, Song Wan murdered his ruler Jie and h
 In winter, in the tenth month, Song Wan fled to Chen.`
     },
     plain: {
-      zh: `本段為魯莊公時期（九至十有二年）的《春秋》經文。經文以魯國紀年，兼記周王室與列國朝聘、會盟、征伐、災異與喪葬。文辭極簡，往往一事數字，寓褒貶於書法之中。讀者宜先掌握時序與人物名分，再思其義理。`,
-      en: `This section is the Spring and Autumn classic (jing) for Lu under Duke Zhuang, Years 9–12. Entries follow Lu’s calendar while noting the Zhou court and interstate diplomacy, war, omens, and mourning. The wording is extremely spare — often a few characters per event — with judgment encoded in how facts are written. Read first for sequence and titles, then for moral implication.`
+      zh: `齊國因無知弒君而陷入君位爭奪，公子糾與小白分別由魯、莒護送返國即位，最終小白搶先入齊即位為齊桓公，魯國護送的公子糾反被齊人所殺；同年魯國卻在長勺以弱勝強，大敗齊師；南方的楚（荊）勢力漸強，敗蔡師於莘並俘蔡侯；宋國又發生宋萬弒其君接與大夫仇牧的慘劇。`,
+      en: `With Qi thrown into a succession race after its ruler's murder, Lu escorted Prince Jiu home to claim the throne, but Xiaobai (backed by Ju) got there first and became Duke Huan — and Jiu, Lu's candidate, was killed by Qi. That same year Lu won a striking underdog victory over Qi at Changshao; in the south, Chu's power grew as it defeated Cai and captured its ruler; and Song suffered the shock of a minister murdering his own ruler and a great officer.`
     },
     application: {
-      zh: `讀編年簡筆，練習「先弄清事實，再下判斷」；勿在未辨名分前急於褒貶。
-<br /><b>建議：把本段中一件會盟或征伐，用一句話寫出「何人、何處、何故」。</b>`,
-      en: `Reading spare chronicle lines, practice establishing facts before judgment — do not praise or blame before names and roles are clear.
-<br /><b>Suggestion: For one alliance or campaign in this section, write one sentence: who, where, and why.</b>`
+      zh: `魯國護送公子糾爭位失敗、糾反被殺，說明介入他國權位之爭風險極高，稍慢一步便滿盤皆輸；同年長勺之戰卻以弱勝強，可見成敗常繫於一時之機，不在兵力多寡。
+<br /><b>建議：檢視你目前介入的一項「別人的競爭」，衡量自己承擔的風險是否合理。</b>`,
+      en: `Lu backed Prince Jiu in the race for the throne of Qi, only to see him lose and be killed once Xiaobai arrived first — a reminder that intervening in another party's succession struggle carries real risk, and being a step slow can mean losing everything. Yet that same year, Lu's underdog victory at Changshao shows that outcomes often hinge on timing and morale, not sheer numbers.
+<br /><b>Suggestion: Reassess one "someone else's competition" you're currently involved in, and weigh whether the risk you're carrying is really justified.</b>`
     }
   },
   {
@@ -846,14 +846,14 @@ In winter, in the twelfth month, the duke met the marquis of Qi, the duke of Son
 The viscount of Zhu Lou, Ke, died.`
     },
     plain: {
-      zh: `本段為魯莊公時期（十有三至十有六年）的《春秋》經文。經文以魯國紀年，兼記周王室與列國朝聘、會盟、征伐、災異與喪葬。文辭極簡，往往一事數字，寓褒貶於書法之中。讀者宜先掌握時序與人物名分，再思其義理。`,
-      en: `This section is the Spring and Autumn classic (jing) for Lu under Duke Zhuang, Years 13–16. Entries follow Lu’s calendar while noting the Zhou court and interstate diplomacy, war, omens, and mourning. The wording is extremely spare — often a few characters per event — with judgment encoded in how facts are written. Read first for sequence and titles, then for moral implication.`
+      zh: `齊桓公於北杏召集齊、宋、陳、蔡、邾婁等國會盟，是齊國稱霸諸侯的起點；其後齊滅遂國，又與魯會盟於柯（即傳為曹沫劫齊桓公、桓公仍守約還地之處）；至莊公十六年，齊桓公已能號召齊、宋、陳、衛、鄭、許、曹、滑、滕九國同盟於幽，霸業初步告成。`,
+      en: `Duke Huan of Qi convened Qi, Song, Chen, Cai, and Zhu Lou at Beixing — the opening move of Qi's rise to hegemony. Qi went on to extinguish Sui, then covenanted with Lu at Ke (traditionally the site where Cao Mo held Duke Huan at knifepoint, yet the duke still honored his word); by Year 16 Duke Huan could rally nine states together in covenant at You, hegemony now firmly underway.`
     },
     application: {
-      zh: `讀編年簡筆，練習「先弄清事實，再下判斷」；勿在未辨名分前急於褒貶。
-<br /><b>建議：把本段中一件會盟或征伐，用一句話寫出「何人、何處、何故」。</b>`,
-      en: `Reading spare chronicle lines, practice establishing facts before judgment — do not praise or blame before names and roles are clear.
-<br /><b>Suggestion: For one alliance or campaign in this section, write one sentence: who, where, and why.</b>`
+      zh: `齊桓公之所以能一步步召集越來越多國家會盟，靠的不是一次的武力，而是長期反覆守信、履約——柯地之盟相傳桓公即便在脅迫下仍守諾言，正是這份信譽讓他日後號令九國。
+<br /><b>建議：今天兌現一個你曾做過、容易被遺忘的小承諾，累積別人對你的信任。</b>`,
+      en: `Duke Huan of Qi built his hegemony not through a single show of force but through repeatedly honoring covenants — tradition holds that even when coerced at the covenant of Ke, he still kept his word, and that reputation for reliability is what let him later command an alliance of nine states.
+<br /><b>Suggestion: Fulfill one small, easily-forgotten promise you've made, and build the trust others place in you.</b>`
     }
   },
   {
@@ -911,14 +911,14 @@ In autumn, in the seventh month.
 In winter, the people of Qi invaded the Rong.`
     },
     plain: {
-      zh: `本段為魯莊公時期（十有七至二十年）的《春秋》經文。經文以魯國紀年，兼記周王室與列國朝聘、會盟、征伐、災異與喪葬。文辭極簡，往往一事數字，寓褒貶於書法之中。讀者宜先掌握時序與人物名分，再思其義理。`,
-      en: `This section is the Spring and Autumn classic (jing) for Lu under Duke Zhuang, Years 17–20. Entries follow Lu’s calendar while noting the Zhou court and interstate diplomacy, war, omens, and mourning. The wording is extremely spare — often a few characters per event — with judgment encoded in how facts are written. Read first for sequence and titles, then for moral implication.`
+      zh: `公子結奉命護送陳國新婦，卻在半途自作主張，與齊侯、宋公訂立盟約，未經魯君授權即代表國家立約，此為經文所譏之「專命」；同時期又有天象與蟲害異象（有蜮），以及齊、宋、陳三國聯合入侵魯國西境，可見魯國國勢在此時頗受鄰國侵擾。`,
+      en: `Gongzi Jie, sent merely to escort a bride from Chen, took it upon himself along the way to make a covenant with the rulers of Qi and Song — representing the state without his own duke's authorization, an overreach the chronicle quietly rebukes. The same years bring strange omens (an infestation of yu insects) and a joint invasion of Lu's western border by Qi, Song, and Chen, showing Lu under real pressure from its neighbors.`
     },
     application: {
-      zh: `讀編年簡筆，練習「先弄清事實，再下判斷」；勿在未辨名分前急於褒貶。
-<br /><b>建議：把本段中一件會盟或征伐，用一句話寫出「何人、何處、何故」。</b>`,
-      en: `Reading spare chronicle lines, practice establishing facts before judgment — do not praise or blame before names and roles are clear.
-<br /><b>Suggestion: For one alliance or campaign in this section, write one sentence: who, where, and why.</b>`
+      zh: `公子結只是奉命送嫁，卻擅自代表國家與他國訂盟，逾越了自己的職權——事情辦得再漂亮，若超出被授權的範圍，也是失職而非功勞。
+<br /><b>建議：檢視你正在經手的一件事，確認自己是在授權範圍內行事，而非擅自加碼。</b>`,
+      en: `Gongzi Jie was sent merely to escort a bride, yet on his own initiative he went on to make a state covenant with two other rulers — overstepping the authority he'd actually been given. However smoothly a task turns out, exceeding one's mandate is a failure of duty, not an achievement.
+<br /><b>Suggestion: Review something you're currently handling and confirm you're acting within your actual authorization, not quietly expanding your own mandate.</b>`
     }
   },
   {
@@ -996,14 +996,14 @@ In winter, the Rong made an incursion into Cao; Cao Ji fled to Chen.
 Chi returned to Cao as duke Guo.`
     },
     plain: {
-      zh: `本段為魯莊公時期（二十有一至二十有四年）的《春秋》經文。經文以魯國紀年，兼記周王室與列國朝聘、會盟、征伐、災異與喪葬。文辭極簡，往往一事數字，寓褒貶於書法之中。讀者宜先掌握時序與人物名分，再思其義理。`,
-      en: `This section is the Spring and Autumn classic (jing) for Lu under Duke Zhuang, Years 21–24. Entries follow Lu’s calendar while noting the Zhou court and interstate diplomacy, war, omens, and mourning. The wording is extremely spare — often a few characters per event — with judgment encoded in how facts are written. Read first for sequence and titles, then for moral implication.`
+      zh: `莊公竟以觀看齊國社祭為由出國遊覽，被經文視為國君不務正業、貪圖遊觀；又接連將已故桓公廟的柱子漆紅、椽木雕刻，鋪張裝飾祖廟，耗費奢靡，亦遭譏諷；同時列國仍有弒逆之事，如陳人殺其公子禦寇。`,
+      en: `Duke Zhuang traveled to Qi merely to watch a local festival — a ruler indulging in sightseeing rather than his duties, as the chronicle quietly notes. He then had the pillars of his late father's temple painted red and its rafters carved, a lavish, criticized extravagance; meanwhile violence continued elsewhere, as when Chen killed one of its own princes.`
     },
     application: {
-      zh: `讀編年簡筆，練習「先弄清事實，再下判斷」；勿在未辨名分前急於褒貶。
-<br /><b>建議：把本段中一件會盟或征伐，用一句話寫出「何人、何處、何故」。</b>`,
-      en: `Reading spare chronicle lines, practice establishing facts before judgment — do not praise or blame before names and roles are clear.
-<br /><b>Suggestion: For one alliance or campaign in this section, write one sentence: who, where, and why.</b>`
+      zh: `莊公一面出國看熱鬧，一面又把已故父親的廟宇裝飾得富麗堂皇，看似盡孝，實則本末倒置——真正的孝敬不在祭祀場面豪奢，而在生前用心奉養、身後謹守分寸。
+<br /><b>建議：檢視一件你想用「排場」彌補的關係，改用一個實際、用心的行動取代。</b>`,
+      en: `Duke Zhuang went abroad just to watch a festival, while at home lavishly painting and carving his late father's ancestral temple — an appearance of filial devotion that actually gets the priorities backward. Genuine reverence for parents isn't measured by how extravagant the ceremony is, but by attentive care while they lived and restraint afterward.
+<br /><b>Suggestion: Identify one relationship you've been trying to compensate for with "show," and replace it with one real, attentive action instead.</b>`
     }
   },
   {
@@ -1073,14 +1073,14 @@ In winter, the wall of Wei was built. There was a great failure of wheat and gra
 Zangsun Chen went to ask to buy grain from Qi.`
     },
     plain: {
-      zh: `本段為魯莊公時期（二十有五至二十有八年）的《春秋》經文。經文以魯國紀年，兼記周王室與列國朝聘、會盟、征伐、災異與喪葬。文辭極簡，往往一事數字，寓褒貶於書法之中。讀者宜先掌握時序與人物名分，再思其義理。`,
-      en: `This section is the Spring and Autumn classic (jing) for Lu under Duke Zhuang, Years 25–28. Entries follow Lu’s calendar while noting the Zhou court and interstate diplomacy, war, omens, and mourning. The wording is extremely spare — often a few characters per event — with judgment encoded in how facts are written. Read first for sequence and titles, then for moral implication.`
+      zh: `兩次日食、一次大水，魯國皆依禮擊鼓、於社廟用牲以示禳災之意；莊公二十八年因年歲欠收、五穀不登，魯大夫臧孫辰竟須向齊國「告糴」（請求購糧），坦承國內缺糧之窘境；同時南方楚國（荊）持續北侵鄭國，列國須合力救援。`,
+      en: `Two solar eclipses and a great flood each prompted Lu to perform the proper ritual response — drumming and offering a victim at the altar of the soil. In Year 28, after a poor harvest, Lu's minister Zangsun Chen had to openly ask Qi to sell it grain, admitting the state's shortage; meanwhile Chu kept pressing north against Zheng, and other states had to join forces to relieve it.`
     },
     application: {
-      zh: `讀編年簡筆，練習「先弄清事實，再下判斷」；勿在未辨名分前急於褒貶。
-<br /><b>建議：把本段中一件會盟或征伐，用一句話寫出「何人、何處、何故」。</b>`,
-      en: `Reading spare chronicle lines, practice establishing facts before judgment — do not praise or blame before names and roles are clear.
-<br /><b>Suggestion: For one alliance or campaign in this section, write one sentence: who, where, and why.</b>`
+      zh: `魯國遇上飢荒，不諱言向齊國告糴求糧，坦然承認自己的困境並主動求助，反而是務實而非丟臉之舉——真正的問題不是承認缺乏，而是死撐到局面失控才求援。
+<br /><b>建議：想一件你目前因「怕丟臉」而不敢開口求助的事，今天主動向合適的人提出。</b>`,
+      en: `Facing a poor harvest, Lu openly asked Qi to sell it grain — a frank admission of need and a proactive request for help, which is practical rather than shameful. The real failure isn't admitting a shortfall; it's stubbornly holding out until the situation spirals out of control.
+<br /><b>Suggestion: Think of one thing you've been afraid to ask for help with out of embarrassment, and raise it with the right person today.</b>`
     }
   },
   {
@@ -1152,14 +1152,14 @@ In winter, in the tenth month, on yi-wei, Zi Ban died.
 Gongzi Qingfu went to Qi. The Di invaded Xing.`
     },
     plain: {
-      zh: `本段為魯莊公時期（二十有九至三十有二年）的《春秋》經文。經文以魯國紀年，兼記周王室與列國朝聘、會盟、征伐、災異與喪葬。文辭極簡，往往一事數字，寓褒貶於書法之中。讀者宜先掌握時序與人物名分，再思其義理。`,
-      en: `This section is the Spring and Autumn classic (jing) for Lu under Duke Zhuang, Years 29–10. Entries follow Lu’s calendar while noting the Zhou court and interstate diplomacy, war, omens, and mourning. The wording is extremely spare — often a few characters per event — with judgment encoded in how facts are written. Read first for sequence and titles, then for moral implication.`
+      zh: `莊公一年之內接連在郎、薛、秦三地築臺，大興土木，耗費民力，經文一一記錄以示微詞；莊公去世後，公子般繼位不久即遇害（子般卒），其弟慶父隨後奔齊，種下日後「慶父不死，魯難未已」的禍根，魯國自此陷入長期內亂的開端。`,
+      en: `In a single year Duke Zhuang built three separate towers — at Lang, Xue, and Qin — draining labor and resources, each dutifully recorded by the chronicle. After his death, his successor Zi Ban was murdered almost immediately, and Prince Qingfu's flight to Qi that followed set the pattern behind the later saying "while Qingfu lives, Lu's troubles will not end" — the start of prolonged internal chaos.`
     },
     application: {
-      zh: `讀編年簡筆，練習「先弄清事實，再下判斷」；勿在未辨名分前急於褒貶。
-<br /><b>建議：把本段中一件會盟或征伐，用一句話寫出「何人、何處、何故」。</b>`,
-      en: `Reading spare chronicle lines, practice establishing facts before judgment — do not praise or blame before names and roles are clear.
-<br /><b>Suggestion: For one alliance or campaign in this section, write one sentence: who, where, and why.</b>`
+      zh: `一年之內連築三座高臺，勞民傷財卻只為滿足個人享樂，這類工程經文照實記錄，供後人評斷；子般繼位即遭殺害，也顯示接班安排若處理不當，禍患會延續多年而非一時。
+<br /><b>建議：檢視自己是否有一項「為了排場」而持續投入資源的計畫，考慮縮減或停止。</b>`,
+      en: `Building three towers in a single year — at Lang, Xue, and Qin — drained the people's labor and resources merely for personal enjoyment, and the chronicle records each one plainly for posterity to judge; the murder of Zi Ban almost immediately after he took the throne shows that a poorly handled succession can seed disorder lasting for years, not just a moment.
+<br /><b>Suggestion: Check whether you're pouring resources into a project mainly "for show," and consider scaling it back or stopping.</b>`
     }
   },
   {
@@ -1197,14 +1197,14 @@ In winter, Gaozi of Qi came to make a covenant.
 In the twelfth month, the Di entered Wei. Zheng abandoned its army.`
     },
     plain: {
-      zh: `本段為魯閔公時期（元至二年）的《春秋》經文。經文以魯國紀年，兼記周王室與列國朝聘、會盟、征伐、災異與喪葬。文辭極簡，往往一事數字，寓褒貶於書法之中。讀者宜先掌握時序與人物名分，再思其義理。`,
-      en: `This section is the Spring and Autumn classic (jing) for Lu under Duke Min, Years 1–2. Entries follow Lu’s calendar while noting the Zhou court and interstate diplomacy, war, omens, and mourning. The wording is extremely spare — often a few characters per event — with judgment encoded in how facts are written. Read first for sequence and titles, then for moral implication.`
+      zh: `魯國局勢動盪不安，閔公在位不到兩年即遇害（公薨），此後慶父出奔莒國，其禍與莊公末年子般被弒一脈相承，顯示魯國陷入長期內亂；同時鄭國竟「棄其師」，放棄自己出征在外的軍隊，軍紀渙散，令人側目；齊國則出兵援助邢國抵禦狄人入侵，展現大國扶助弱國之責。`,
+      en: `Lu's turmoil continued: Duke Min himself was murdered after barely two years on the throne, and Prince Qingfu's flight to Ju that followed was a direct continuation of the crisis begun with Zi Ban's murder at the end of the previous reign. Zheng, meanwhile, startlingly "abandoned its own army" in the field — a jarring collapse of military discipline — while Qi sent troops to help Xing resist a Di invasion, showing a stronger state shouldering its duty to protect the weak.`
     },
     application: {
-      zh: `讀編年簡筆，練習「先弄清事實，再下判斷」；勿在未辨名分前急於褒貶。
-<br /><b>建議：把本段中一件會盟或征伐，用一句話寫出「何人、何處、何故」。</b>`,
-      en: `Reading spare chronicle lines, practice establishing facts before judgment — do not praise or blame before names and roles are clear.
-<br /><b>Suggestion: For one alliance or campaign in this section, write one sentence: who, where, and why.</b>`
+      zh: `魯國連續兩位國君（子般、閔公）在短期內相繼被害，說明制度或人心一旦失序，禍患不會止於一次；相對地，齊國出兵救援邢國，則顯示大國若肯承擔保護弱小的責任，反而能贏得威望。
+<br /><b>建議：檢視一個你長期擱置未解決的內部問題，避免它像魯國內亂一樣一再重演。</b>`,
+      en: `Two rulers of Lu in quick succession — Zi Ban and Duke Min — were murdered within a short span, showing that once order breaks down, trouble rarely stops at a single incident. By contrast, Qi's decision to send troops to protect Xing from the Di invasion shows how a stronger state can earn real standing by taking responsibility for protecting the weak.
+<br /><b>Suggestion: Identify one internal problem you've left unresolved for a long time, so it doesn't keep recurring the way Lu's succession crisis did.</b>`
     }
   },
   {
@@ -1282,14 +1282,14 @@ In autumn, (the duke) joined the people of Jiang and the people of Huang in inva
 Duke Mu of Xu was buried. In winter, in the twelfth month, Gongsun Zi led an army and joined the people of Qi, the people of Song, the people of Wei, the people of Zheng, the people of Xu, and the people of Cao in making an incursion into Chen.`
     },
     plain: {
-      zh: `本段為魯僖公時期（元至四年）的《春秋》經文。經文以魯國紀年，兼記周王室與列國朝聘、會盟、征伐、災異與喪葬。文辭極簡，往往一事數字，寓褒貶於書法之中。讀者宜先掌握時序與人物名分，再思其義理。`,
-      en: `This section is the Spring and Autumn classic (jing) for Lu under Duke Xi, Years 1–4. Entries follow Lu’s calendar while noting the Zhou court and interstate diplomacy, war, omens, and mourning. The wording is extremely spare — often a few characters per event — with judgment encoded in how facts are written. Read first for sequence and titles, then for moral implication.`
+      zh: `齊、宋、曹三國聯合出兵救援遭狄人所滅的邢國，甚至代為遷都、築城，重建其國，展現大國扶助盟友的責任感；僖公四年，齊桓公又率諸侯聯軍南侵，兵臨楚境，楚國派屈完前來談判，雙方最終在召陵訂立盟約而未真正開戰，是以實力為後盾、以談判化解衝突的著名先例。`,
+      en: `Qi, Song, and Cao jointly rescued Xing after the Di destroyed it, even relocating its capital and rebuilding its walls — a real show of responsibility toward an ally in ruin. In Year 4, Duke Huan of Qi led a coalition south to the borders of Chu itself; Chu sent Qu Wan to negotiate, and the two sides settled the standoff with a covenant at Zhaoling rather than battle — a famous case of strength backing negotiation instead of war.`
     },
     application: {
-      zh: `讀編年簡筆，練習「先弄清事實，再下判斷」；勿在未辨名分前急於褒貶。
-<br /><b>建議：把本段中一件會盟或征伐，用一句話寫出「何人、何處、何故」。</b>`,
-      en: `Reading spare chronicle lines, practice establishing facts before judgment — do not praise or blame before names and roles are clear.
-<br /><b>Suggestion: For one alliance or campaign in this section, write one sentence: who, where, and why.</b>`
+      zh: `齊國救邢不只是出兵擊退敵人，還幫忙遷都、築城，把「救援」做到底，這才是真正的扶助；召陵之盟更顯示實力雄厚時，未必要訴諸武力，談判同樣能化解爭端。
+<br /><b>建議：想一件你曾出手幫忙卻半途而廢的事，今天補上未完成的部分，把幫助做到底。</b>`,
+      en: `Qi's rescue of Xing didn't stop at repelling the invaders — the allies went on to help relocate the capital and rebuild its walls, seeing the support through to completion, which is what real help looks like. The covenant at Zhaoling likewise shows that even a dominant coalition can choose negotiation over battle once its strength has made the point.
+<br /><b>Suggestion: Recall something you helped with but left unfinished, and complete that missing part today — see the help through to the end.</b>`
     }
   },
   {
@@ -1359,14 +1359,14 @@ In autumn, in the seventh month, the di-sacrifice was performed at the Grand Tem
 In winter, in the twelfth month, on ding-wei, the king died.`
     },
     plain: {
-      zh: `本段為魯僖公時期（五至八年）的《春秋》經文。經文以魯國紀年，兼記周王室與列國朝聘、會盟、征伐、災異與喪葬。文辭極簡，往往一事數字，寓褒貶於書法之中。讀者宜先掌握時序與人物名分，再思其義理。`,
-      en: `This section is the Spring and Autumn classic (jing) for Lu under Duke Xi, Years 5–8. Entries follow Lu’s calendar while noting the Zhou court and interstate diplomacy, war, omens, and mourning. The wording is extremely spare — often a few characters per event — with judgment encoded in how facts are written. Read first for sequence and titles, then for moral implication.`
+      zh: `晉獻公聽信驪姬讒言，逼死世子申生，父子倫常因讒言而破裂，為春秋著名悲劇；晉國又向虞國借道攻打虢國，滅虢之後隨即回師併吞虞國，正是「假道滅虢」的故事，虞公因貪圖賄賂借道而終致亡國；同時列國會盟於首戴，鄭伯卻中途逃歸不與盟約，顯示諸侯間信任脆弱。`,
+      en: `Duke Xian of Jin, misled by his consort's slander, drove his own heir Shensheng to his death — a famous tragedy of family bonds broken by unverified accusation. Jin then borrowed passage through Yu to attack Guo, only to turn around and swallow Yu itself once Guo had fallen — the classic story of Yu's ruler undone by the very bribe that tempted him to grant passage. Meanwhile the earl of Zheng slipped away from a covenant at Shoudai rather than joining it, showing how fragile trust among the states could be.`
     },
     application: {
-      zh: `讀編年簡筆，練習「先弄清事實，再下判斷」；勿在未辨名分前急於褒貶。
-<br /><b>建議：把本段中一件會盟或征伐，用一句話寫出「何人、何處、何故」。</b>`,
-      en: `Reading spare chronicle lines, practice establishing facts before judgment — do not praise or blame before names and roles are clear.
-<br /><b>Suggestion: For one alliance or campaign in this section, write one sentence: who, where, and why.</b>`
+      zh: `晉獻公只因驪姬幾句讒言，便逼死親生太子申生，說明聽信片面之詞、不加查證，足以毀掉最親近的關係；虞公貪圖晉國賄賂而借道，最終被晉國順手滅國，也提醒人：貪小便宜往往要付出遠大於所得的代價。
+<br /><b>建議：今天聽到一則對某人的負面傳言時，先求證再判斷，不急著相信。</b>`,
+      en: `Duke Xian of Jin, swayed by nothing more than his consort's slander, drove his own heir Shensheng to his death — a stark reminder that unverified accusations can destroy even the closest bonds. The ruler of Yu, tempted by Jin's bribes into lending passage for an attack on Guo, was then swallowed up by Jin himself — a warning that small greed often costs far more than it gains.
+<br /><b>Suggestion: The next time you hear a negative rumor about someone, verify it before you believe it, rather than accepting it at once.</b>`
     }
   },
   {
@@ -1426,14 +1426,14 @@ In autumn, in the seventh month.
 In winter, in the twelfth month, on ding-chou, the marquis of Chen, Chujiu, died.`
     },
     plain: {
-      zh: `本段為魯僖公時期（九至十有二年）的《春秋》經文。經文以魯國紀年，兼記周王室與列國朝聘、會盟、征伐、災異與喪葬。文辭極簡，往往一事數字，寓褒貶於書法之中。讀者宜先掌握時序與人物名分，再思其義理。`,
-      en: `This section is the Spring and Autumn classic (jing) for Lu under Duke Xi, Years 9–12. Entries follow Lu’s calendar while noting the Zhou court and interstate diplomacy, war, omens, and mourning. The wording is extremely spare — often a few characters per event — with judgment encoded in how facts are written. Read first for sequence and titles, then for moral implication.`
+      zh: `齊桓公在葵丘大會諸侯，霸業達到頂峰；同時晉國因驪姬之亂持續動盪，大夫里克接連弒殺兩位新立的國君（奚齊、卓子）及大夫荀息，最後夷吾（晉惠公）即位後，卻反過來將擁立自己有功的里克處死，恩將仇報，過河拆橋。`,
+      en: `Duke Huan of Qi gathered the states at Kuiqiu, hegemony now at its height; meanwhile Jin remained wracked by the succession crisis begun by Li Ji's intrigues, as the minister Li Ke murdered two newly installed rulers in turn along with a great officer who tried to protect them. Once Yiwu (Duke Hui) finally took the throne with Li Ke's help, he had Li Ke put to death anyway — repaying the man who made him ruler with betrayal.`
     },
     application: {
-      zh: `讀編年簡筆，練習「先弄清事實，再下判斷」；勿在未辨名分前急於褒貶。
-<br /><b>建議：把本段中一件會盟或征伐，用一句話寫出「何人、何處、何故」。</b>`,
-      en: `Reading spare chronicle lines, practice establishing facts before judgment — do not praise or blame before names and roles are clear.
-<br /><b>Suggestion: For one alliance or campaign in this section, write one sentence: who, where, and why.</b>`
+      zh: `里克連弒二君助夷吾登位，看似立下大功，最終卻被夷吾以「莫須有」之罪處死——依附強權、以不正手段換取功勞，即便得逞一時，也難保日後不被清算。
+<br /><b>建議：檢視你目前依賴的一種「捷徑」式做法，思考它是否經得起日後的檢視與問責。</b>`,
+      en: `Li Ke murdered two successive rulers of Jin to clear the way for Yiwu's accession, seemingly earning great merit — yet once installed, Yiwu had him put to death on a trumped-up charge. Relying on illegitimate means to gain favor with those in power may pay off briefly, but it rarely survives a later reckoning.
+<br /><b>Suggestion: Examine one "shortcut" approach you currently rely on, and consider whether it would hold up to scrutiny and accountability later.</b>`
     }
   }
 ];

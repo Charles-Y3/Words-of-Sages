@@ -19,14 +19,14 @@ One day the Master told the assembly: "I have one thing—without head or tail, 
 The Master, seeing that questioners from various schools all gave rise to malicious intent and gathered under his seat, pitied them and said: "Students of the Way—all good thoughts and evil thoughts should be entirely removed. What cannot be named is named as self-nature; the nature without two is called true nature. Upon true nature all teaching gates are established—upon the words one must self-see." When all heard this, they bowed together and asked to serve him as master.`
     },
     plain: {
-      zh: `本段出自《六祖壇經·頓漸品》（宗寶本）。經文發明自性本來清淨、定慧不二、無念無相無住，並以行由與機緣顯示頓悟法門。讀時宜抓住「自性」「般若」「無念」等關鍵，勿僅作傳記故事略過。`,
-      en: `From the Platform Sutra, “Sudden and Gradual” (Zongbao edition). The teaching points to inherent purity of self-nature, the non-duality of samādhi and prajñā, and no-thought / no-form / non-abiding, shown through biography and encounters. Hold to key terms — self-nature, prajñā, no-thought — not only the story.`
+      zh: `十三歲的神會以「亦見亦不見」「亦痛亦不痛」機巧應對惠能的提問，看似聰明，卻被惠能指出這只是落入「二邊」的分別心，並非真正見性，還斥責他「汝自性且不見，敢爾弄人」。後來惠能問眾人「吾有一物，無頭無尾，無名無字」，神會搶答稱是「諸佛之本源，神會之佛性」，惠能提醒他：既然說了「無名無字」，卻硬要命名它，將來也只會成為「知解宗徒」，即停留在概念理解而非真實體證的人。`,
+      en: `The thirteen-year-old Shenhui cleverly answered Huineng's questions with "both seeing and not seeing," "both hurting and not hurting" — seemingly sharp, but Huineng points out this merely falls into dualistic discrimination, not true seeing of the nature, and rebukes him: "you have not even seen your own nature — how dare you toy with people!" Later, when Huineng asks the assembly, "I have one thing, without head or tail, without name or word," Shenhui rushes to answer, "it is the source of all Buddhas, Shenhui's buddha-nature." Huineng reminds him: having just said it has "no name or word," Shenhui insists on naming it anyway, and will end up only a "member of the intellectual school" — stuck in conceptual understanding rather than real realization.`
     },
     application: {
-      zh: `把「自性清淨」落到今日一事：境來時，看心是否隨之轉動。
-<br /><b>建議：情緒升起時，停一息，問自己能否回到當下這一念心。</b>`,
-      en: `Bring “pure self-nature” into one moment today: when a situation arrives, notice whether the mind turns with it.
-<br /><b>Suggestion: When emotion rises, pause one breath and ask whether you can return to this present mind.</b>`
+      zh: `反應快、講得出漂亮的話，不代表真的懂了。
+<br /><b>建議：今天當你很快就能回答一個問題時，先停一下，問自己是真懂還是只是聰明地應對。</b>`,
+      en: `A quick, polished answer doesn't mean you truly understand.
+<br /><b>Suggestion: When you can answer something quickly today, pause first and ask whether you really understand it, or are just being clever.</b>`
     }
   },
   {
@@ -60,14 +60,14 @@ The Master said: "What external paths speak as neither born nor extinct uses ext
 Jian received instruction and greatly awakened. Bowing, he took leave and returned to the palace, memorializing the Master's words. That year, on the third day of the ninth month, an edict commended the Master: "The Master declines due to old age and illness, cultivating the Way for Us—the nation's field of merit. The Master is like Vimalakīrti feigning illness in Vaiśālī, expounding the Great Vehicle, transmitting all Buddhas' mind, discussing the Dharma of non-duality. Xue Jian transmitted the Master's instruction of the Tathāgata's knowledge-and-views. We accumulated good remaining fortune, planted good roots in former lives, encountering the Master's appearance in the world, suddenly awakening to the supreme vehicle. Grateful for the Master's grace, we bow our heads without end—and also present a patched kāṣāya of fine silk and a crystal bowl, ordering the Prefect of Shaozhou to repair the temple buildings and granting the Master's former residence as Guoen Temple."`
     },
     plain: {
-      zh: `本段出自《六祖壇經·護法品》（宗寶本）。經文發明自性本來清淨、定慧不二、無念無相無住，並以行由與機緣顯示頓悟法門。讀時宜抓住「自性」「般若」「無念」等關鍵，勿僅作傳記故事略過。`,
-      en: `From the Platform Sutra, “Imperial Summons” (Zongbao edition). The teaching points to inherent purity of self-nature, the non-duality of samādhi and prajñā, and no-thought / no-form / non-abiding, shown through biography and encounters. Hold to key terms — self-nature, prajñā, no-thought — not only the story.`
+      zh: `武則天與唐中宗下詔請惠能入宮供養，惠能以年老多病辭謝，改派內侍薛簡前來請教。薛簡問「不因禪定而得解脫者，未之有也」，惠能回答：道由心悟，不在於坐禪的姿勢，「無生無滅，是如來清淨禪」。薛簡再問煩惱如何斷除，惠能答「煩惱即是菩提，無二無別」，並解釋自己所說的「不生不滅」與外道不同：外道用滅止生、用生顯滅，仍落在生滅的框架裡，而他所說是本自無生，也就無所謂滅。`,
+      en: `Empress Wu Zetian and Emperor Zhongzong sent an imperial edict inviting Huineng to the palace; he declined, citing old age and illness, and sent the palace attendant Xue Jian in his place to be taught. Xue Jian asked whether liberation without sitting meditation had ever been achieved; Huineng answered that the Way is awakened through the mind, not through the posture of sitting — "without birth, without extinction, that is the Tathāgata's pure meditation." When Xue Jian asked how to cut off affliction, Huineng replied, "affliction is itself bodhi — without duality, without difference," and explained that his teaching of "neither born nor extinguished" differs from external paths: they use extinction to stop birth and birth to display extinction, still trapped within birth and death, whereas what he teaches is originally without birth at all, so there is nothing to extinguish either.`
     },
     application: {
-      zh: `把「自性清淨」落到今日一事：境來時，看心是否隨之轉動。
-<br /><b>建議：情緒升起時，停一息，問自己能否回到當下這一念心。</b>`,
-      en: `Bring “pure self-nature” into one moment today: when a situation arrives, notice whether the mind turns with it.
-<br /><b>Suggestion: When emotion rises, pause one breath and ask whether you can return to this present mind.</b>`
+      zh: `有些煩惱不需要「打敗」，只需要看清它本身就不是敵人。
+<br /><b>建議：今天面對一個困擾你的情緒，試著不把它當敵人對抗，只是看著它。</b>`,
+      en: `Some afflictions don't need to be "defeated" — you just need to see they were never really the enemy.
+<br /><b>Suggestion: When a troubling emotion arises today, try not fighting it as an enemy — just watch it instead.</b>`
     }
   },
   {
@@ -107,14 +107,14 @@ In the first year of Taiji, year renzi, seventh month of Yanhe (that year in the
 On the first day of the seventh month he gathered the assembly and said: "I will leave the world in the eighth month. If you have doubts, ask early—I will break doubts for you and make your delusion exhausted. After I go, there will be no one to teach you." Fahai and the others, hearing this, all wept. Only Shenhui was unmoved, neither weeping. The Master said: "Little Master Shenhui has obtained equal good and not good—praise and blame unmoved, sorrow and joy unborn; the rest have not attained it. Several years in the mountain—ultimately what Way did you cultivate? Your weeping now—for whom do you grieve? If you grieve that I do not know where I am going, I myself know where I go. If I did not know where I go, I would not beforehand tell you. Your weeping is because you do not know where I go; if you knew where I go, you should not weep. Dharma-nature originally has no birth, extinction, coming, or going. All of you sit—I will speak a gātha for you, named the Gātha of True and False, Movement and Stillness. You recite this gātha—in accord with my meaning, cultivate according to it—you will not lose the essential aim." The assembly of monks bowed and asked the Master to speak the gātha. The gātha says:`
     },
     plain: {
-      zh: `本段出自《六祖壇經·付囑品》（宗寶本）。經文發明自性本來清淨、定慧不二、無念無相無住，並以行由與機緣顯示頓悟法門。讀時宜抓住「自性」「般若」「無念」等關鍵，勿僅作傳記故事略過。`,
-      en: `From the Platform Sutra, “Final Instructions” (Zongbao edition). The teaching points to inherent purity of self-nature, the non-duality of samādhi and prajñā, and no-thought / no-form / non-abiding, shown through biography and encounters. Hold to key terms — self-nature, prajñā, no-thought — not only the story.`
+      zh: `惠能囑咐法海、志誠等入室弟子，日後說法要善用「三十六對」（如明與暗、有與無、煩惱與菩提）這類相對概念，靈活運用而不偏執一邊，才能引導聽者離開兩種極端、契入中道。他特別提醒：若有人執著「不立文字」，其實這句話本身也是文字，過度排斥語言文字反而是另一種執著；教學時應該「問有將無對，問無將有對」，用對治的方式破除聽者對任一極端的黏著。`,
+      en: `Huineng instructs his inner-circle disciples — Fahai, Zhicheng, and others — that in future teaching they should skillfully use the "thirty-six pairs" (such as light and dark, being and non-being, affliction and bodhi), applying them flexibly without leaning to either side, so as to lead listeners away from both extremes into the middle way. He specifically warns that insisting on "not establishing words" is itself still a statement made of words — over-rejecting language is just another form of clinging. In teaching, one should "answer having with not-having, answer not-having with having," using this dialectical method to dissolve a listener's attachment to whichever extreme they hold.`
     },
     application: {
-      zh: `把「自性清淨」落到今日一事：境來時，看心是否隨之轉動。
-<br /><b>建議：情緒升起時，停一息，問自己能否回到當下這一念心。</b>`,
-      en: `Bring “pure self-nature” into one moment today: when a situation arrives, notice whether the mind turns with it.
-<br /><b>Suggestion: When emotion rises, pause one breath and ask whether you can return to this present mind.</b>`
+      zh: `反對某個極端本身，也可能變成另一種極端。
+<br /><b>建議：今天在一次討論中，練習先看出雙方各自的偏執，而不是急著選邊站。</b>`,
+      en: `Opposing one extreme can itself become just another extreme.
+<br /><b>Suggestion: In one conversation today, practice noticing each side's own bias before rushing to take sides.</b>`
     }
   },
   {
@@ -200,14 +200,14 @@ The Master said: "Buddhas appearing in the world from antiquity are beyond numbe
 "The seven Buddhas above—now beginning with Śākyamuni Buddha as first transmission:`
     },
     plain: {
-      zh: `本段出自《六祖壇經·付囑品》（宗寶本）。經文發明自性本來清淨、定慧不二、無念無相無住，並以行由與機緣顯示頓悟法門。讀時宜抓住「自性」「般若」「無念」等關鍵，勿僅作傳記故事略過。`,
-      en: `From the Platform Sutra, “Final Instructions” (Zongbao edition). The teaching points to inherent purity of self-nature, the non-duality of samādhi and prajñā, and no-thought / no-form / non-abiding, shown through biography and encounters. Hold to key terms — self-nature, prajñā, no-thought — not only the story.`
+      zh: `惠能誦出〈真假動靜偈〉，指出刻意追求「不動」其實仍是一種造作，若把「不動」本身當作修行目標，反而如同草木無情，並非真正的自在。他宣布此後傳法只傳《壇經》文字與心法，不再傳衣缽，以免後人為爭奪信物而生紛爭，並引達磨「一花開五葉，結果自然成」的預言，說明佛法將如花開般自然分支傳承。他又解釋「一相三昧」是對一切境界不生憎愛取捨，「一行三昧」是行住坐臥都保持同一顆真心。`,
+      en: `Huineng recites the "Gātha of True and False, Movement and Stillness," pointing out that deliberately pursuing "non-movement" is itself still a kind of contrivance — if non-movement itself becomes the goal of practice, one becomes like insentient plants and stones, not truly free. He announces that from now on the Dharma will be transmitted only through the text of the Platform Sutra and its mind-teaching, no longer through the robe, so future generations will not fight over a physical token — citing Bodhidharma's prophecy, "one flower opens five petals, the fruit ripens naturally," to describe how the Dharma will branch out naturally like a blossoming flower. He also explains "the samādhi of one mark" as facing all situations without love, hate, grasping, or rejecting, and "the samādhi of one practice" as holding the same sincere mind through walking, standing, sitting, and lying down.`
     },
     application: {
-      zh: `把「自性清淨」落到今日一事：境來時，看心是否隨之轉動。
-<br /><b>建議：情緒升起時，停一息，問自己能否回到當下這一念心。</b>`,
-      en: `Bring “pure self-nature” into one moment today: when a situation arrives, notice whether the mind turns with it.
-<br /><b>Suggestion: When emotion rises, pause one breath and ask whether you can return to this present mind.</b>`
+      zh: `刻意裝出一副「不為所動」的樣子，本身就是一種用力和造作。
+<br /><b>建議：今天面對讓你不安的事，不必假裝鎮定，允許自己誠實地有感覺。</b>`,
+      en: `Deliberately putting on an "unmoved" appearance is itself a kind of strain and pretense.
+<br /><b>Suggestion: When something unsettles you today, don't fake composure — allow yourself to honestly feel it.</b>`
     }
   },
   {
@@ -272,14 +272,14 @@ Without this view, you drift in vain."
 When the Master had spoken the gātha he said: "All of you take care. After my nirvāṇa, do not make worldly feelings, weeping rain-tears, receiving people's condolences, wearing mourning clothes—those are not my disciples, nor the true Dharma. Simply know your own original mind, see your own self-nature—without movement, without stillness, without birth, without extinction, without going, without coming, without right, without wrong, without abiding, without departing. Fearing you would be deluded in mind and not understand my meaning, I again entrust you—enable you to see the nature. After my nirvāṇa, cultivate according to this—as though I were in the world. If you go against my teaching, even if I were in the world, it would also be without benefit." He again spoke a gātha:`
     },
     plain: {
-      zh: `本段出自《六祖壇經·付囑品》（宗寶本）。經文發明自性本來清淨、定慧不二、無念無相無住，並以行由與機緣顯示頓悟法門。讀時宜抓住「自性」「般若」「無念」等關鍵，勿僅作傳記故事略過。`,
-      en: `From the Platform Sutra, “Final Instructions” (Zongbao edition). The teaching points to inherent purity of self-nature, the non-duality of samādhi and prajñā, and no-thought / no-form / non-abiding, shown through biography and encounters. Hold to key terms — self-nature, prajñā, no-thought — not only the story.`
+      zh: `惠能列出從摩訶迦葉到自己共三十三代祖師的傳承，確立法脈的連續性，並囑咐弟子代代相傳、不可有誤。他留下〈自性真佛偈〉，強調「真如自性是真佛，邪見三毒是魔王」——心中起邪見貪瞋癡，魔王就住進了你的心房；一念轉為正見，魔王當下就變成了佛，佛與魔的差別只在一念之間。他也叮囑弟子，他過世後不必依世俗之情披麻戴孝、痛哭流涕，那樣反而違背了「無生無滅」的教法本意。`,
+      en: `Huineng lists the lineage of thirty-three patriarchs from Mahākāśyapa down to himself, establishing the continuity of the Dharma-transmission, and instructs his disciples to pass it on faithfully, generation after generation, without error. He leaves the "Gātha of Self-Nature's True Buddha," stressing that "true-suchness self-nature is the true Buddha; wrong views and the three poisons are the demon king" — when greed, hatred, and delusion arise in the mind, the demon has moved into your house; the instant right view returns, the demon becomes Buddha — the difference between Buddha and demon is a single thought. He also tells his disciples that after his death they need not follow worldly custom by wearing mourning clothes and weeping, since that would contradict the very teaching of "no birth, no extinction."`
     },
     application: {
-      zh: `把「自性清淨」落到今日一事：境來時，看心是否隨之轉動。
-<br /><b>建議：情緒升起時，停一息，問自己能否回到當下這一念心。</b>`,
-      en: `Bring “pure self-nature” into one moment today: when a situation arrives, notice whether the mind turns with it.
-<br /><b>Suggestion: When emotion rises, pause one breath and ask whether you can return to this present mind.</b>`
+      zh: `心裡起了負面念頭時，不代表你變壞了，只是「魔」暫時住進來，一念可以請它出去。
+<br /><b>建議：今天注意到一個負面念頭時，練習用一個正向的念頭把它換掉，而不是責怪自己。</b>`,
+      en: `A negative thought arising doesn't mean you've turned bad — the "demon" has merely moved in for a moment, and one right thought can ask it to leave.
+<br /><b>Suggestion: When you notice a negative thought today, practice replacing it with a positive one rather than blaming yourself.</b>`
     }
   },
   {
@@ -306,14 +306,14 @@ The faith robe transmitted by Bodhidharma (Western Region kṣauma cloth), the p
 The Dharma Treasure Platform Sutra of the Great Master, the Sixth Patriarch (End)`
     },
     plain: {
-      zh: `本段出自《六祖壇經·付囑品》（宗寶本）。經文發明自性本來清淨、定慧不二、無念無相無住，並以行由與機緣顯示頓悟法門。讀時宜抓住「自性」「般若」「無念」等關鍵，勿僅作傳記故事略過。`,
-      en: `From the Platform Sutra, “Final Instructions” (Zongbao edition). The teaching points to inherent purity of self-nature, the non-duality of samādhi and prajñā, and no-thought / no-form / non-abiding, shown through biography and encounters. Hold to key terms — self-nature, prajñā, no-thought — not only the story.`
+      zh: `惠能說完最後一偈「兀兀不修善，騰騰不造惡，寂寂斷見聞，蕩蕩心無著」後端坐圓寂，當時異香滿室、白虹貫地，展現他一生修行的圓滿。他生前曾預言死後會有人來偷取他的頭顱，弟子們因此以鐵葉漆布加固遺體頸部後才入塔，防護得宜使企圖未能得逞。全經最後交代六祖世壽七十六、傳法三十七年，並說明《壇經》的流傳是為了「顯宗旨，興隆三寶，普利群生」。`,
+      en: `After speaking his final verse — "steady and steady, not cultivating good; carefree and carefree, not creating evil; silent and silent, cutting off seeing and hearing; vast and vast, the mind without attachment" — Huineng sat upright and passed peacefully away, while strange fragrance filled the room and a white rainbow touched the earth, signs of a life of practice brought to completion. He had earlier foretold that someone would come to steal his head after death; his disciples reinforced his neck with iron and lacquered cloth before placing him in the stūpa, and the later attempt was thwarted by this very precaution. The sutra closes noting Huineng lived seventy-six years and taught for thirty-seven, and that the Platform Sutra was preserved "to manifest the essential aim, flourish the Three Treasures, and universally benefit all beings."`
     },
     application: {
-      zh: `把「自性清淨」落到今日一事：境來時，看心是否隨之轉動。
-<br /><b>建議：情緒升起時，停一息，問自己能否回到當下這一念心。</b>`,
-      en: `Bring “pure self-nature” into one moment today: when a situation arrives, notice whether the mind turns with it.
-<br /><b>Suggestion: When emotion rises, pause one breath and ask whether you can return to this present mind.</b>`
+      zh: `一生修行的成果，不在於最後有多轟烈，而在於平時心念是否清明踏實。
+<br /><b>建議：今天不追求做出一件轟轟烈烈的大事，只是把一件小事做得踏實圓滿。</b>`,
+      en: `The fruit of a lifetime's practice isn't shown in a dramatic finale, but in whether the mind stayed clear and steady day to day.
+<br /><b>Suggestion: Don't aim for anything dramatic today — just do one small thing thoroughly and well.</b>`
     }
   }
 ];

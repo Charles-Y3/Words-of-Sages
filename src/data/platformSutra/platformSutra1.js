@@ -30,14 +30,14 @@ The Patriarch told the assembly: "Good friends! The bodhi-self-nature is origina
 "Shenxiu then thought, 'Better to write it on the corridor wall and let the Master see it. If he says it is good, I will come out, bow, and say Shenxiu composed it. If he says it is not acceptable, then I have spent years in the mountains receiving people's homage in vain—what further cultivation would there be?' At the third watch of that night, without letting anyone know, he took a lamp and wrote his verse on the south corridor wall, presenting what his mind had seen. The verse says:`
     },
     plain: {
-      zh: `本段出自《六祖壇經·行由品》（宗寶本）。經文發明自性本來清淨、定慧不二、無念無相無住，並以行由與機緣顯示頓悟法門。讀時宜抓住「自性」「般若」「無念」等關鍵，勿僅作傳記故事略過。`,
-      en: `From the Platform Sutra, “Action and Origin” (Zongbao edition). The teaching points to inherent purity of self-nature, the non-duality of samādhi and prajñā, and no-thought / no-form / non-abiding, shown through biography and encounters. Hold to key terms — self-nature, prajñā, no-thought — not only the story.`
+      zh: `六祖惠能俗家貧苦，父親早逝，靠賣柴奉養老母；在市集偶然聽見有人誦《金剛經》，心中忽然開悟，便辭母遠赴黃梅參拜五祖弘忍。弘忍以「汝是嶺南獦獠，若為堪作佛」相激，惠能答「人雖有南北，佛性本無南北」，展現過人的般若根性。後來五祖為選傳法之人，命門人各作一偈呈心見，神秀卻因患得患失、屢次不敢呈偈。`,
+      en: `Huineng, born poor and losing his father early, supported his mother by selling firewood; overhearing someone recite the Diamond Sutra in the marketplace, his mind suddenly opened, and he left home for Huangmei to seek the Fifth Patriarch. When Hongren provoked him — "you are a southern barbarian, how can you become a buddha?" — Huineng answered that buddha-nature has no north or south, showing sharp prajñā-roots. When Hongren later asked disciples to present verses of insight to choose a successor, Shenxiu's fear of gain and loss kept him from presenting his verse for days.`
     },
     application: {
-      zh: `把「自性清淨」落到今日一事：境來時，看心是否隨之轉動。
-<br /><b>建議：情緒升起時，停一息，問自己能否回到當下這一念心。</b>`,
-      en: `Bring “pure self-nature” into one moment today: when a situation arrives, notice whether the mind turns with it.
-<br /><b>Suggestion: When emotion rises, pause one breath and ask whether you can return to this present mind.</b>`
+      zh: `惠能的悟不是靠讀了多少書，而是靠一念真心的敏銳。
+<br /><b>建議：今天聽到一句話觸動你時，別急著滑過，停下來想一想它為何觸動你。</b>`,
+      en: `Huineng's awakening did not come from erudition, but from a sharp, sincere moment of hearing.
+<br /><b>Suggestion: When a phrase strikes you today, don't scroll past it — pause and ask why it moved you.</b>`
     }
   },
   {
@@ -83,14 +83,14 @@ Where can dust alight?"
 "The next day the Patriarch secretly went to the threshing floor and saw Huineng with a stone at his waist pounding rice. He said, 'One who seeks the Way forgets the body for the Dharma—is it not so?' Then he asked, 'Is the rice ripe yet?' Huineng said, 'The rice has been ripe for a long time,`
     },
     plain: {
-      zh: `本段出自《六祖壇經·行由品》（宗寶本）。經文發明自性本來清淨、定慧不二、無念無相無住，並以行由與機緣顯示頓悟法門。讀時宜抓住「自性」「般若」「無念」等關鍵，勿僅作傳記故事略過。`,
-      en: `From the Platform Sutra, “Action and Origin” (Zongbao edition). The teaching points to inherent purity of self-nature, the non-duality of samādhi and prajñā, and no-thought / no-form / non-abiding, shown through biography and encounters. Hold to key terms — self-nature, prajñā, no-thought — not only the story.`
+      zh: `神秀寫下「身是菩提樹，心如明鏡臺，時時勤拂拭，勿使惹塵埃」，強調要時時修持防止心染塵埃；五祖肯定其修行價值，卻指出他「未見本性」。惠能不識字，請人代寫「菩提本無樹，明鏡亦非臺，本來無一物，何處惹塵埃」，直指自性本空、無可染污，眾人驚訝這位樵夫的見地竟超越了教授師神秀。`,
+      en: `Shenxiu wrote, "The body is the bodhi tree, the mind a bright mirror stand; diligently wipe it at all times, let no dust settle," stressing constant effort to keep the mind free of defilement. The Fifth Patriarch praised its usefulness but said Shenxiu had not yet seen the nature. Unable to write, Huineng dictated his own verse: "Bodhi originally has no tree, the mirror is not a stand; originally not a single thing exists — where could dust settle?" — pointing directly to a self-nature already empty and beyond staining, astonishing the assembly that a woodcutter could surpass the head teacher.`
     },
     application: {
-      zh: `把「自性清淨」落到今日一事：境來時，看心是否隨之轉動。
-<br /><b>建議：情緒升起時，停一息，問自己能否回到當下這一念心。</b>`,
-      en: `Bring “pure self-nature” into one moment today: when a situation arrives, notice whether the mind turns with it.
-<br /><b>Suggestion: When emotion rises, pause one breath and ask whether you can return to this present mind.</b>`
+      zh: `神秀教人天天擦拭心鏡，惠能提醒我們：心鏡本來就不髒，何必天天緊張地擦？
+<br /><b>建議：今天放下一件你一直用力「維持形象」的事，讓自己單純一點。</b>`,
+      en: `Shenxiu teaches daily polishing of the mind's mirror; Huineng reminds us the mirror was never truly stained, so why polish so anxiously?
+<br /><b>Suggestion: Let go of one thing today that you've been straining to "keep up appearances" about, and simply be plain.</b>`
     }
   },
   {
@@ -126,14 +126,14 @@ Without nature, nothing is born.'
 "After Huineng took leave of the Patriarch, he set out south. Within two months he reached Dayu Ridge. (When the Fifth Patriarch returned, for several days he did not ascend the hall. The assembly wondered and went to ask, 'Master, are you slightly ill or troubled?' He said, 'Illness there is none. The robe and Dharma have gone south.' They asked:`
     },
     plain: {
-      zh: `本段出自《六祖壇經·行由品》（宗寶本）。經文發明自性本來清淨、定慧不二、無念無相無住，並以行由與機緣顯示頓悟法門。讀時宜抓住「自性」「般若」「無念」等關鍵，勿僅作傳記故事略過。`,
-      en: `From the Platform Sutra, “Action and Origin” (Zongbao edition). The teaching points to inherent purity of self-nature, the non-duality of samādhi and prajñā, and no-thought / no-form / non-abiding, shown through biography and encounters. Hold to key terms — self-nature, prajñā, no-thought — not only the story.`
+      zh: `五祖夜召惠能，以袈裟遮圍密授《金剛經》，惠能聽到「應無所住而生其心」當下大悟，連說五句「何期自性」，體悟自性本自清淨、具足、不生不滅。五祖遂傳衣缽，立他為六代祖，並連夜親自送他渡江南下；途中惠能說「迷時師度，悟了自度」，顯示弟子已能獨立承擔佛法。`,
+      en: `At night the Fifth Patriarch secretly taught Huineng the Diamond Sutra behind a screening robe; on hearing "let the mind arise without dwelling anywhere," Huineng was suddenly enlightened and exclaimed five times, "who knew self-nature is..." — realizing it is pure, complete, and beyond birth and death. Hongren then transmitted the robe and bowl, making him the Sixth Patriarch, and personally rowed him across the river that same night. On the way Huineng said, "when deluded, the master ferries; once awakened, one ferries oneself" — showing he could now stand on his own in the Dharma.`
     },
     application: {
-      zh: `把「自性清淨」落到今日一事：境來時，看心是否隨之轉動。
-<br /><b>建議：情緒升起時，停一息，問自己能否回到當下這一念心。</b>`,
-      en: `Bring “pure self-nature” into one moment today: when a situation arrives, notice whether the mind turns with it.
-<br /><b>Suggestion: When emotion rises, pause one breath and ask whether you can return to this present mind.</b>`
+      zh: `真正的老師會在關鍵時刻放手，讓你自己過河。
+<br /><b>建議：今天挑一件你一直依賴別人決定的小事，自己拿定主意去做。</b>`,
+      en: `A true teacher lets go at the crucial moment and lets you cross the river yourself.
+<br /><b>Suggestion: Pick one small decision you usually leave to others today, and decide it yourself.</b>`
     }
   },
   {
@@ -154,14 +154,14 @@ Without nature, nothing is born.'
 "Huineng obtained the Dharma at the East Mountain, suffered every hardship, and his life hung by a thread. Today I am able to meet with the Prefect, officials,`
     },
     plain: {
-      zh: `本段出自《六祖壇經·行由品》（宗寶本）。經文發明自性本來清淨、定慧不二、無念無相無住，並以行由與機緣顯示頓悟法門。讀時宜抓住「自性」「般若」「無念」等關鍵，勿僅作傳記故事略過。`,
-      en: `From the Platform Sutra, “Action and Origin” (Zongbao edition). The teaching points to inherent purity of self-nature, the non-duality of samādhi and prajñā, and no-thought / no-form / non-abiding, shown through biography and encounters. Hold to key terms — self-nature, prajñā, no-thought — not only the story.`
+      zh: `惠明為奪衣缽追上惠能，惠能放下衣缽說「此衣表信，可力爭耶」，並以「不思善，不思惡，正與麼時，那個是明上座本來面目」點醒惠明，令他當下大悟。惠能其後隱居獵人隊中十五年，「但喫肉邊菜」低調度日；出山後在法性寺遇兩僧為「風動」「幡動」爭論，惠能一語「不是風動，不是幡動，仁者心動」驚動全場，印宗法師因此為他剃度，公開六祖身分。`,
+      en: `Huiming pursued Huineng to seize the robe. Huineng set it down, saying "this robe is a token of faith — can it be seized by force?" and awakened him instantly with, "without thinking good or evil, right at this moment, what is your original face?" Huineng then hid among hunters for fifteen years, quietly "eating the vegetables beside the meat." When he finally emerged, he settled a dispute between two monks arguing whether the wind or the flag was moving, saying "it is your minds that move" — a remark that stunned the assembly and led Master Yinzong to shave his head and publicly reveal him as the Sixth Patriarch.`
     },
     application: {
-      zh: `把「自性清淨」落到今日一事：境來時，看心是否隨之轉動。
-<br /><b>建議：情緒升起時，停一息，問自己能否回到當下這一念心。</b>`,
-      en: `Bring “pure self-nature” into one moment today: when a situation arrives, notice whether the mind turns with it.
-<br /><b>Suggestion: When emotion rises, pause one breath and ask whether you can return to this present mind.</b>`
+      zh: `爭論外在現象時，常常忽略了真正在動的是自己的心。
+<br /><b>建議：今天與人意見不合時，先問自己：現在真正在騷動的是我的心，還是事情本身？</b>`,
+      en: `In arguing over outward appearances, we often overlook that what is truly moving is our own mind.
+<br /><b>Suggestion: Next time you disagree with someone today, first ask: is it the situation that's stirring, or my own mind?</b>`
     }
   },
   {
@@ -176,14 +176,14 @@ Without nature, nothing is born.'
 When the whole assembly heard the Dharma, they rejoiced, bowed, and withdrew.`
     },
     plain: {
-      zh: `本段出自《六祖壇經·行由品》（宗寶本）。經文發明自性本來清淨、定慧不二、無念無相無住，並以行由與機緣顯示頓悟法門。讀時宜抓住「自性」「般若」「無念」等關鍵，勿僅作傳記故事略過。`,
-      en: `From the Platform Sutra, “Action and Origin” (Zongbao edition). The teaching points to inherent purity of self-nature, the non-duality of samādhi and prajñā, and no-thought / no-form / non-abiding, shown through biography and encounters. Hold to key terms — self-nature, prajñā, no-thought — not only the story.`
+      zh: `本段是〈行由品〉的結語：惠能提醒在場的官員、僧俗，能同聚一堂聽聞頓教，是累世因緣與供養諸佛所種善根的結果，這教法是歷代先聖所傳，不是他個人的智慧。他勸大家各自淨心，聽聞後各自去除心中疑惑，便能與古代聖人無異。`,
+      en: `This closes the "Action and Origin" chapter: Huineng tells the officials and laypeople present that their gathering to hear this sudden teaching is the fruit of accumulated karmic affinity and past offerings to Buddhas, and that the teaching itself comes from former sages, not his own wisdom. He urges everyone to purify their minds, and after hearing the teaching to remove their own doubts — becoming no different from the sages of old.`
     },
     application: {
-      zh: `把「自性清淨」落到今日一事：境來時，看心是否隨之轉動。
-<br /><b>建議：情緒升起時，停一息，問自己能否回到當下這一念心。</b>`,
-      en: `Bring “pure self-nature” into one moment today: when a situation arrives, notice whether the mind turns with it.
-<br /><b>Suggestion: When emotion rises, pause one breath and ask whether you can return to this present mind.</b>`
+      zh: `能聽到一句真正觸動你的話，本身就是值得珍惜的緣分。
+<br /><b>建議：今天把一句曾經觸動你的話寫下來，重新讀一次，讓它真正落實。</b>`,
+      en: `Hearing even one truly striking teaching is itself a rare affinity worth cherishing.
+<br /><b>Suggestion: Write down one saying that once moved you, reread it today, and let it actually take root.</b>`
     }
   },
   {
@@ -216,14 +216,14 @@ When the whole assembly heard the Dharma, they rejoiced, bowed, and withdrew.`
 "Good friends! Mahāprajñāpāramitā is the most honored, supreme, and foremost—without abiding, without going, and without coming,`
     },
     plain: {
-      zh: `本段出自《六祖壇經·般若品》（宗寶本）。經文發明自性本來清淨、定慧不二、無念無相無住，並以行由與機緣顯示頓悟法門。讀時宜抓住「自性」「般若」「無念」等關鍵，勿僅作傳記故事略過。`,
-      en: `From the Platform Sutra, “Prajñā” (Zongbao edition). The teaching points to inherent purity of self-nature, the non-duality of samādhi and prajñā, and no-thought / no-form / non-abiding, shown through biography and encounters. Hold to key terms — self-nature, prajñā, no-thought — not only the story.`
+      zh: `惠能指出，般若智慧人人本有，只因心迷而不能自見，所以需要善知識指引見性。他解釋「摩訶般若波羅蜜多」是心行的智慧到彼岸，不是嘴上空談；又說「摩訶」即是「大」，形容心量廣大如虛空，能容萬物卻不執取善惡美醜。他特別提醒：聽到說「空」，不可誤以為打坐時把心放空、什麼都不想就是修行，那只是「無記空」。`,
+      en: `Huineng teaches that everyone already possesses prajñā-wisdom; only delusion keeps us from seeing it, so we need a good friend's guidance to see our nature. He explains that "Mahāprajñāpāramitā" means wisdom practiced in the mind, reaching the far shore — not mere talk. "Mahā" means great: a mind as vast as space, holding all things without grasping at good, evil, beauty, or ugliness. He warns that hearing of "emptiness" should not be mistaken for sitting with a blank, thoughtless mind — that is merely indeterminate, dead emptiness.`
     },
     application: {
-      zh: `把「自性清淨」落到今日一事：境來時，看心是否隨之轉動。
-<br /><b>建議：情緒升起時，停一息，問自己能否回到當下這一念心。</b>`,
-      en: `Bring “pure self-nature” into one moment today: when a situation arrives, notice whether the mind turns with it.
-<br /><b>Suggestion: When emotion rises, pause one breath and ask whether you can return to this present mind.</b>`
+      zh: `「放空」不等於什麼都不想，而是心不被境界綁住。
+<br /><b>建議：今天靜坐或休息時，練習讓念頭自然來去，而不是強迫自己不准想任何事。</b>`,
+      en: `"Emptiness" does not mean thinking nothing; it means the mind is not bound by circumstance.
+<br /><b>Suggestion: When you rest or sit quietly today, let thoughts come and go naturally rather than forcing yourself to think of nothing.</b>`
     }
   },
   {
@@ -257,14 +257,14 @@ When the whole assembly heard the Dharma, they rejoiced, bowed, and withdrew.`
 "Good friends! Wisdom contemplation, inner and outer bright and penetrating, knows one's own original mind. If one knows the original mind, that itself is fundamental liberation."`
     },
     plain: {
-      zh: `本段出自《六祖壇經·般若品》（宗寶本）。經文發明自性本來清淨、定慧不二、無念無相無住，並以行由與機緣顯示頓悟法門。讀時宜抓住「自性」「般若」「無念」等關鍵，勿僅作傳記故事略過。`,
-      en: `From the Platform Sutra, “Prajñā” (Zongbao edition). The teaching points to inherent purity of self-nature, the non-duality of samādhi and prajñā, and no-thought / no-form / non-abiding, shown through biography and encounters. Hold to key terms — self-nature, prajñā, no-thought — not only the story.`
+      zh: `惠能說一切諸佛皆從般若智慧出生，眾生因八萬四千塵勞而衍生八萬四千種智慧以對治，若無塵勞煩惱，智慧自然常現。他以「大龍降雨」為喻：雨落城鎮會沖毀一切，落入大海卻不增不減——大乘根器的人聞《金剛經》便能開悟，小根之人聽聞頓教反而心生不信，就像小樹經不起暴雨。他強調般若智慧本自具足，不假外求，不靠文字。`,
+      en: `Huineng says all Buddhas arise from prajñā-wisdom, and beings develop eighty-four thousand kinds of wisdom to counter eighty-four thousand kinds of worldly toil; when there is no such toil, wisdom naturally shines. He offers the parable of a great dragon's rain: falling on a town it sweeps everything away, but falling on the ocean it neither adds nor subtracts — those of great capacity awaken on hearing the Diamond Sutra, while those of small capacity distrust the sudden teaching, like a small tree unable to withstand a downpour. He stresses that prajñā-wisdom is inherently complete, not sought from outside or through words.`
     },
     application: {
-      zh: `把「自性清淨」落到今日一事：境來時，看心是否隨之轉動。
-<br /><b>建議：情緒升起時，停一息，問自己能否回到當下這一念心。</b>`,
-      en: `Bring “pure self-nature” into one moment today: when a situation arrives, notice whether the mind turns with it.
-<br /><b>Suggestion: When emotion rises, pause one breath and ask whether you can return to this present mind.</b>`
+      zh: `智慧的差別不在聽了多少道理，而在心能不能承接得住。
+<br /><b>建議：今天讀到一個較深的道理時，別急著否定，先問自己願不願意多留一點空間給它。</b>`,
+      en: `The difference in wisdom is not how much teaching you've heard, but whether your mind can hold it.
+<br /><b>Suggestion: When you meet a deep idea today, don't dismiss it right away — ask if you're willing to make a little more room for it.</b>`
     }
   },
   {
@@ -357,14 +357,14 @@ At that time Prefect Wei, together with officials and laypeople, upon hearing wh
 "Excellent! Who would have expected a Buddha to appear in Lingnan!"`
     },
     plain: {
-      zh: `本段出自《六祖壇經·般若品》（宗寶本）。經文發明自性本來清淨、定慧不二、無念無相無住，並以行由與機緣顯示頓悟法門。讀時宜抓住「自性」「般若」「無念」等關鍵，勿僅作傳記故事略過。`,
-      en: `From the Platform Sutra, “Prajñā” (Zongbao edition). The teaching points to inherent purity of self-nature, the non-duality of samādhi and prajñā, and no-thought / no-form / non-abiding, shown through biography and encounters. Hold to key terms — self-nature, prajñā, no-thought — not only the story.`
+      zh: `惠能定義「無念」：不是什麼都不想，而是接觸境界時心不被染著、來去自由。他叮囑往後傳法者要謹守此教，只傳給見解相同、真心修行的人，避免正法被誤解或詆毀；接著誦出一首長偈（無相頌），把「說通及心通」「煩惱闇宅中，常須生慧日」等要點濃縮成便於記誦的口訣。全品最後眾人聽法而悟，讚嘆「何期嶺南有佛出世」。`,
+      en: `Huineng defines "no-thought": not thinking nothing, but that the mind is not stained by what it meets and moves freely. He instructs future teachers of this Dharma to transmit it only to those of matching insight and sincere practice, so the true teaching is not misunderstood or slandered — then recites a long verse (the Formless Gātha) condensing points like "understanding both words and mind" and "in affliction's dark house, constantly kindle wisdom's sun" into memorable form. The chapter closes with the assembly awakening and exclaiming, "Who would expect a Buddha to appear in Lingnan!"`
     },
     application: {
-      zh: `把「自性清淨」落到今日一事：境來時，看心是否隨之轉動。
-<br /><b>建議：情緒升起時，停一息，問自己能否回到當下這一念心。</b>`,
-      en: `Bring “pure self-nature” into one moment today: when a situation arrives, notice whether the mind turns with it.
-<br /><b>Suggestion: When emotion rises, pause one breath and ask whether you can return to this present mind.</b>`
+      zh: `「無念」不是壓抑情緒，而是讓念頭來去而不糾纏。
+<br /><b>建議：今天情緒生起時，練習讓它自然經過，不去追逐也不去壓下。</b>`,
+      en: `"No-thought" is not suppressing emotion, but letting thoughts pass without clinging.
+<br /><b>Suggestion: When emotion arises today, practice letting it pass naturally — neither chasing it nor pushing it down.</b>`
     }
   },
   {
@@ -413,14 +413,14 @@ The assembly all bowed with palms together and said: "If we can see it here, why
 The Master said: "Great assembly! People in the world take the form-body as the city; eyes, ears, nose, and tongue are the gates—outside are five gates, inside is the mind-gate. The mind is the ground; the nature is the king. The king dwells upon the mind-ground; where the nature is, the king is; where the nature goes, the king is not. Where the nature is, body and mind remain; where the nature goes, the body decays. Make Buddha within the nature—do not seek outside the body. When self-nature is deluded, that is sentient being;`
     },
     plain: {
-      zh: `本段出自《六祖壇經·疑問品》（宗寶本）。經文發明自性本來清淨、定慧不二、無念無相無住，並以行由與機緣顯示頓悟法門。讀時宜抓住「自性」「般若」「無念」等關鍵，勿僅作傳記故事略過。`,
-      en: `From the Platform Sutra, “Questions” (Zongbao edition). The teaching points to inherent purity of self-nature, the non-duality of samādhi and prajñā, and no-thought / no-form / non-abiding, shown through biography and encounters. Hold to key terms — self-nature, prajñā, no-thought — not only the story.`
+      zh: `韋刺史問梁武帝造寺布施，為何被達磨大師說「實無功德」，惠能解釋：造寺布施只是修福，功德要在自性中見，指見性平等、念念無滯的內在修為，兩者性質不同。接著他回答淨土提問：所謂西方十萬八千里，其實是指身中的十惡八邪；心若清淨，東方人也無罪，心若不淨，生在西方也有過，「隨其心淨即佛土淨」才是重點。`,
+      en: `When Prefect Wei asked why Bodhidharma told Emperor Wu there was "no merit" in building temples and giving alms, Huineng explains: such acts only cultivate fortune, while merit must be seen within self-nature — seeing the nature, treating all equally, thought unobstructed — a different thing entirely. He then answers the question about the Pure Land: the "hundred and eight thousand li" to the West actually refers to the ten evils and eight perversions within the body. If the mind is pure, an easterner is without fault; if impure, even a westerner errs — so "as the mind is purified, the Buddha-land is purified" is the real point.`
     },
     application: {
-      zh: `把「自性清淨」落到今日一事：境來時，看心是否隨之轉動。
-<br /><b>建議：情緒升起時，停一息，問自己能否回到當下這一念心。</b>`,
-      en: `Bring “pure self-nature” into one moment today: when a situation arrives, notice whether the mind turns with it.
-<br /><b>Suggestion: When emotion rises, pause one breath and ask whether you can return to this present mind.</b>`
+      zh: `做善事若只求福報，跟真正的功德是兩回事。
+<br /><b>建議：今天做一件好事時，練習不去想它會帶來什麼回報。</b>`,
+      en: `Doing good only for reward is a different thing from true merit.
+<br /><b>Suggestion: When you do one good deed today, practice not thinking about what it will bring you in return.</b>`
     }
   },
   {
@@ -471,14 +471,14 @@ The Master again said: "Good friends! You must all cultivate according to the g�
 At that time the Prefect, officials, and the good men and faithful women present all gained awakening, received the teaching in faith, and put it into practice.`
     },
     plain: {
-      zh: `本段出自《六祖壇經·疑問品》（宗寶本）。經文發明自性本來清淨、定慧不二、無念無相無住，並以行由與機緣顯示頓悟法門。讀時宜抓住「自性」「般若」「無念」等關鍵，勿僅作傳記故事略過。`,
-      en: `From the Platform Sutra, “Questions” (Zongbao edition). The teaching points to inherent purity of self-nature, the non-duality of samādhi and prajñā, and no-thought / no-form / non-abiding, shown through biography and encounters. Hold to key terms — self-nature, prajñā, no-thought — not only the story.`
+      zh: `惠能繼續用身心比喻解說：慈悲是觀音、平直是彌陀、貪欲是海水、煩惱是波浪，只要去除人我、貪欲、煩惱，內心自然如見西方淨土。他進一步說，在家修行同樣可行，甚至比出家卻不修行更好，並教一首偈頌：「心平何勞持戒，行直何用修禪，恩則孝養父母，義則上下相憐」，把修行落實到孝順、忍讓、日常善行。`,
+      en: `Huineng continues the body-and-mind metaphor: compassion is Guanyin, uprightness is Amitābha, greed is the sea, affliction is the waves — remove self-and-other, greed, and affliction, and the mind naturally reveals the Western Pure Land within. He adds that practicing at home is equally valid, even better than leaving home without real practice, and teaches a verse: "if the mind is level, why labor at precepts? If conduct is straight, why practice meditation? With kindness, care filially for parents; with righteousness, let high and low show mutual compassion" — grounding practice in filial devotion, patience, and everyday goodness.`
     },
     application: {
-      zh: `把「自性清淨」落到今日一事：境來時，看心是否隨之轉動。
-<br /><b>建議：情緒升起時，停一息，問自己能否回到當下這一念心。</b>`,
-      en: `Bring “pure self-nature” into one moment today: when a situation arrives, notice whether the mind turns with it.
-<br /><b>Suggestion: When emotion rises, pause one breath and ask whether you can return to this present mind.</b>`
+      zh: `修行不必等出家或閉關，孝順父母、與人和睦就是修行本身。
+<br /><b>建議：今天用一句體貼的話，或一個實際的舉動，孝敬家中的長輩。</b>`,
+      en: `Practice need not wait for renunciation or retreat; being filial and living in harmony with others is practice itself.
+<br /><b>Suggestion: Show an elder in your family real care today, with one thoughtful word or one practical act.</b>`
     }
   },
   {
@@ -522,14 +522,14 @@ Non-abiding: people's original nature.
 "Good friends! True-suchness self-nature gives rise to thought. Though the six roots have seeing, hearing, perception, and knowing, they are not stained by the ten thousand situations, and the true nature is constantly self-so. Therefore the sutra says: 'Able to skillfully distinguish all dharmas' marks, yet in the first meaning unmoved.'"`
     },
     plain: {
-      zh: `本段出自《六祖壇經·定慧品》（宗寶本）。經文發明自性本來清淨、定慧不二、無念無相無住，並以行由與機緣顯示頓悟法門。讀時宜抓住「自性」「般若」「無念」等關鍵，勿僅作傳記故事略過。`,
-      en: `From the Platform Sutra, “Samādhi and Prajñā” (Zongbao edition). The teaching points to inherent purity of self-nature, the non-duality of samādhi and prajñā, and no-thought / no-form / non-abiding, shown through biography and encounters. Hold to key terms — self-nature, prajñā, no-thought — not only the story.`
+      zh: `惠能以「燈與光」為喻，說明定（samādhi）與慧（prajñā）不是先後兩件事，而是同一體的兩面：有燈即有光，兩者本自不二。他定義「一行三昧」是在行住坐臥中保持一顆平直的心，而非死板地整日枯坐不動；並批評「常坐不動」的修法只是「障道」，因為道要能通流，心若執著在某個法上，反而是自我束縛。他最後提出三個核心：無念為宗、無相為體、無住為本。`,
+      en: `Huineng uses the image of a lamp and its light: samādhi and prajñā are not two sequential things but one substance's two aspects — where there is a lamp, there is light. He defines the "samādhi of one practice" as keeping a level, straight mind through walking, standing, sitting, and lying down — not sitting rigidly still all day. He criticizes fixed, motionless sitting as an obstruction to the Way, since the Way must flow freely; clinging the mind to any fixed method is really self-binding. He closes by naming three pillars: no-thought as the principle, no-form as the substance, non-abiding as the root.`
     },
     application: {
-      zh: `把「自性清淨」落到今日一事：境來時，看心是否隨之轉動。
-<br /><b>建議：情緒升起時，停一息，問自己能否回到當下這一念心。</b>`,
-      en: `Bring “pure self-nature” into one moment today: when a situation arrives, notice whether the mind turns with it.
-<br /><b>Suggestion: When emotion rises, pause one breath and ask whether you can return to this present mind.</b>`
+      zh: `修養心性不必靠死坐不動，日常行走做事時心也能保持平直。
+<br /><b>建議：今天做一件平常的事（走路、洗碗）時，練習保持心平氣和，不特別找時間打坐。</b>`,
+      en: `Cultivating the mind doesn't require rigid stillness; the mind can stay level and straight even while walking and working.
+<br /><b>Suggestion: While doing an ordinary task today (walking, washing dishes), practice keeping a calm, level mind instead of setting aside special meditation time.</b>`
     }
   },
   {
@@ -551,14 +551,14 @@ The Master addressed the assembly: "Good friends! What is called sitting meditat
 "Good friends! Outwardly departing from marks is dhyāna; inwardly without confusion is samādhi. Outward dhyāna, inward samādhi—that is dhyāna-samādhi. The Bodhisattva Precept Sutra says: 'My original self-nature is originally pure.' Good friends! In thought after thought, self-see the purity of self-nature; self-cultivate, self-practice, self-attain the Buddha-path."`
     },
     plain: {
-      zh: `本段出自《六祖壇經·坐禪品》（宗寶本）。經文發明自性本來清淨、定慧不二、無念無相無住，並以行由與機緣顯示頓悟法門。讀時宜抓住「自性」「般若」「無念」等關鍵，勿僅作傳記故事略過。`,
-      en: `From the Platform Sutra, “Sitting Meditation” (Zongbao edition). The teaching points to inherent purity of self-nature, the non-duality of samādhi and prajñā, and no-thought / no-form / non-abiding, shown through biography and encounters. Hold to key terms — self-nature, prajñā, no-thought — not only the story.`
+      zh: `惠能澄清「坐禪」的真義：不是執著於守住一個「清淨」的心念，因為刻意追求清淨反而會生出「淨相」這個新的妄念，束縛自己。他重新定義：對外境不生分別是「坐」，內心見自性不動是「禪」；對外離一切相是「禪」，內心不亂是「定」。真正的禪定不是靠壓抑念頭達成，而是見境而心不隨之混亂。`,
+      en: `Huineng clarifies the true meaning of "sitting meditation": it is not clinging to maintaining a "pure" mental state, since deliberately chasing purity only creates a new false notion of purity that binds you. He redefines it: not giving rise to judgments about outward situations is "sitting," while inwardly seeing self-nature unmoved is "meditation"; outwardly departing from all marks is "dhyāna," while inwardly undisturbed is "samādhi." True meditative stability comes not from suppressing thought, but from seeing circumstances without being thrown into confusion by them.`
     },
     application: {
-      zh: `把「自性清淨」落到今日一事：境來時，看心是否隨之轉動。
-<br /><b>建議：情緒升起時，停一息，問自己能否回到當下這一念心。</b>`,
-      en: `Bring “pure self-nature” into one moment today: when a situation arrives, notice whether the mind turns with it.
-<br /><b>Suggestion: When emotion rises, pause one breath and ask whether you can return to this present mind.</b>`
+      zh: `真正的定不是逃避境界，而是遇到事情時心不被攪亂。
+<br /><b>建議：今天遇到一件煩心事時，練習先觀察它，不立刻被它牽著情緒走。</b>`,
+      en: `True stability is not avoiding circumstances but meeting them without being thrown into confusion.
+<br /><b>Suggestion: When something annoying happens today, practice observing it first instead of letting it immediately drag your emotions along.</b>`
     }
   }
 ];

@@ -88,14 +88,14 @@ On ding-si, our ruler Duke Ding was to be buried, but rain prevented the burial;
 In winter, the wall of Qi was built.`
     },
     plain: {
-      zh: `本段為魯定公時期（十有三至十有五年）的《春秋》經文。經文以魯國紀年，兼記周王室與列國朝聘、會盟、征伐、災異與喪葬。文辭極簡，往往一事數字，寓褒貶於書法之中。讀者宜先掌握時序與人物名分，再思其義理。`,
-      en: `This section is the Spring and Autumn classic (jing) for Lu under Duke Ding, Years 13–15. Entries follow Lu’s calendar while noting the Zhou court and interstate diplomacy, war, omens, and mourning. The wording is extremely spare — often a few characters per event — with judgment encoded in how facts are written. Read first for sequence and titles, then for moral implication.`
+      zh: `本段記載晉國內部連環叛亂：趙鞅先入晉陽以叛，荀寅、士吉射隨後又入朝歌以叛，一國之內接連出現多起大夫據城反叛；段末魯定公薨於高寢，因雨延遲一日下葬，禮制在現實面前也只能讓步。`,
+      en: `This section records a chain of rebellions within Jin: Zhao Yang first enters Jinyang in revolt, then Xun Yin and Shi Jishe likewise enter Chaoge in revolt — one great officer's uprising following another within the same state. It closes with the death of Duke Ding of Lu, whose burial is delayed a day by rain, ritual form yielding here to plain reality.`
     },
     application: {
-      zh: `讀編年簡筆，練習「先弄清事實，再下判斷」；勿在未辨名分前急於褒貶。
-<br /><b>建議：把本段中一件會盟或征伐，用一句話寫出「何人、何處、何故」。</b>`,
-      en: `Reading spare chronicle lines, practice establishing facts before judgment — do not praise or blame before names and roles are clear.
-<br /><b>Suggestion: For one alliance or campaign in this section, write one sentence: who, where, and why.</b>`
+      zh: `接連好幾位大夫先後叛亂，說明問題出在整個制度，而非單一個人的品性；只處理眼前那一個叛臣，改變不了根本局面。
+<br /><b>建議：面對一再重複出現的類似狀況，練習問「這是誰的個人問題」還是「這是制度性的問題」。</b>`,
+      en: `Several great officers rebelling one after another shows the problem lay in the whole system, not any one person's character — punishing the one rebel in front of you does not change the underlying pattern.
+<br /><b>Suggestion: Facing a problem that keeps recurring in similar form, practice asking whether it's really one person's fault or a structural issue.</b>`
     }
   },
   {
@@ -187,14 +187,14 @@ In winter, in the twelfth month, Duke Zhao of Cai was buried.
 Duke Qing of Teng was buried.`
     },
     plain: {
-      zh: `本段為魯哀公時期（元至四年）的《春秋》經文。經文以魯國紀年，兼記周王室與列國朝聘、會盟、征伐、災異與喪葬。文辭極簡，往往一事數字，寓褒貶於書法之中。讀者宜先掌握時序與人物名分，再思其義理。`,
-      en: `This section is the Spring and Autumn classic (jing) for Lu under Duke Ai, Years 1–4. Entries follow Lu’s calendar while noting the Zhou court and interstate diplomacy, war, omens, and mourning. The wording is extremely spare — often a few characters per event — with judgment encoded in how facts are written. Read first for sequence and titles, then for moral implication.`
+      zh: `本段記載魯哀公即位後，鼷鼠再度啃食郊祭用牛，桓宮、僖宮先後遭火焚毀，宗廟祭祀屢遭波折；晉國大夫趙鞅又護送出逃的衛世子蒯瞶進入齊國，為日後衛國父子爭位埋下伏筆。`,
+      en: `This section records that, after Duke Ai's accession, field mice once again eat the ox intended for the border sacrifice, and the ancestral temples of Huan and Xi are in turn destroyed by fire — the ancestral rites repeatedly disrupted; meanwhile Zhao Yang of Jin escorts the exiled Wei heir Kuaikui into Qi, quietly setting up Wei's later father-son succession struggle.`
     },
     application: {
-      zh: `讀編年簡筆，練習「先弄清事實，再下判斷」；勿在未辨名分前急於褒貶。
-<br /><b>建議：把本段中一件會盟或征伐，用一句話寫出「何人、何處、何故」。</b>`,
-      en: `Reading spare chronicle lines, practice establishing facts before judgment — do not praise or blame before names and roles are clear.
-<br /><b>Suggestion: For one alliance or campaign in this section, write one sentence: who, where, and why.</b>`
+      zh: `同一種倒楣事（鼷鼠食牛）一再發生，經文照樣如實記下，不因重複而省略——真正該注意的問題，往往就藏在一再出現卻被視為理所當然的小狀況裡。
+<br /><b>建議：留意一件在你生活中一再發生、卻已被你當成「常態」而不再多想的小麻煩。</b>`,
+      en: `The same mishap — mice eating the sacrificial ox — happens again, and the record faithfully notes it a second time rather than skipping it as old news; the real problem to watch for often hides in a small recurring thing we've stopped questioning simply because it keeps happening.
+<br /><b>Suggestion: Notice one small annoyance that keeps recurring in your life, one you've already written off as "just how things are."</b>`
     }
   },
   {
@@ -278,14 +278,14 @@ In winter, in the twelfth month, on gui-hai, the earl of Qi, Guo, died.
 The people of Qi returned Huan and Shan.`
     },
     plain: {
-      zh: `本段為魯哀公時期（五至八年）的《春秋》經文。經文以魯國紀年，兼記周王室與列國朝聘、會盟、征伐、災異與喪葬。文辭極簡，往往一事數字，寓褒貶於書法之中。讀者宜先掌握時序與人物名分，再思其義理。`,
-      en: `This section is the Spring and Autumn classic (jing) for Lu under Duke Ai, Years 5–8. Entries follow Lu’s calendar while noting the Zhou court and interstate diplomacy, war, omens, and mourning. The wording is extremely spare — often a few characters per event — with judgment encoded in how facts are written. Read first for sequence and titles, then for moral implication.`
+      zh: `本段記載齊國大夫陳乞弒殺其君舍（「齊陳乞弒其君舍」），扶立陽生——這正是後來「田氏代齊」的先聲，一次弒君看似只是一行紀錄，卻開啟了長達數代的權力轉移。`,
+      en: `This section records Chen Qi, a great officer of Qi, murdering his ruler She and installing Yangsheng in his place — the opening move of what tradition remembers as the Chen (Tian) clan's eventual replacement of Qi's ruling house. A single line recording one killing quietly starts a shift in power that would take generations to complete.`
     },
     application: {
-      zh: `讀編年簡筆，練習「先弄清事實，再下判斷」；勿在未辨名分前急於褒貶。
-<br /><b>建議：把本段中一件會盟或征伐，用一句話寫出「何人、何處、何故」。</b>`,
-      en: `Reading spare chronicle lines, practice establishing facts before judgment — do not praise or blame before names and roles are clear.
-<br /><b>Suggestion: For one alliance or campaign in this section, write one sentence: who, where, and why.</b>`
+      zh: `一個家族取代整個王朝的過程，起點往往只是一次看似單一的政變，經文用一行字帶過，後人卻要花數代才看懂它的分量。
+<br /><b>建議：留意你周遭一件看似「就這一次」的權力或資源移轉，想想長期下來會累積成什麼局面。</b>`,
+      en: `A clan's rise to replace an entire ruling house often begins with what looks like a single, isolated coup — the chronicle covers it in one line, though it would take generations to reveal its full weight.
+<br /><b>Suggestion: Notice one transfer of power or resources around you that looks like a one-off, and consider what it could accumulate into over time.</b>`
     }
   },
   {
@@ -367,14 +367,14 @@ Xiang Chao of Song led a force and invaded Zheng.
 In winter, in the twelfth month, there were locusts.`
     },
     plain: {
-      zh: `本段為魯哀公時期（九至十有二年）的《春秋》經文。經文以魯國紀年，兼記周王室與列國朝聘、會盟、征伐、災異與喪葬。文辭極簡，往往一事數字，寓褒貶於書法之中。讀者宜先掌握時序與人物名分，再思其義理。`,
-      en: `This section is the Spring and Autumn classic (jing) for Lu under Duke Ai, Years 9–12. Entries follow Lu’s calendar while noting the Zhou court and interstate diplomacy, war, omens, and mourning. The wording is extremely spare — often a few characters per event — with judgment encoded in how facts are written. Read first for sequence and titles, then for moral implication.`
+      zh: `本段記載艾陵之戰：吳協同魯伐齊，大敗齊師，擄獲齊將國書，吳國聲勢達到高峰；同段又記魯國改行「用田賦」的新稅制，後世多批評此舉加重民負。`,
+      en: `This section records the Battle of Ailing, where Wu, allied with Lu, crushingly defeats the army of Qi and captures its general Guo Shu — Wu near the peak of its power; the same section also records Lu's adoption of a new field-based tax, "levying by the field," later criticized in tradition as an added burden on the people.`
     },
     application: {
-      zh: `讀編年簡筆，練習「先弄清事實，再下判斷」；勿在未辨名分前急於褒貶。
-<br /><b>建議：把本段中一件會盟或征伐，用一句話寫出「何人、何處、何故」。</b>`,
-      en: `Reading spare chronicle lines, practice establishing facts before judgment — do not praise or blame before names and roles are clear.
-<br /><b>Suggestion: For one alliance or campaign in this section, write one sentence: who, where, and why.</b>`
+      zh: `一項新稅制或新規定，即使名義上合理（按田計賦），若加重了普通人的負擔，仍值得檢討——制度的公平，不能只看規則本身合不合理，還要看誰真正承擔了代價。
+<br /><b>建議：檢視你正在推動或遵循的一項規則，問問看它的實際負擔最後落在誰身上。</b>`,
+      en: `A new tax or rule, even one that sounds reasonable in principle (levied by the size of one's fields), is still worth questioning if it adds to ordinary people's burden — fairness isn't just about whether a rule sounds sensible, but about who actually bears its cost.
+<br /><b>Suggestion: Look at one rule you are enforcing or following, and ask who actually ends up carrying its real burden.</b>`
     }
   },
   {
@@ -416,14 +416,14 @@ Duke Ai, Year 14
 In spring, on a hunt in the west, a lin was captured.`
     },
     plain: {
-      zh: `本段為魯哀公時期（十有三至十有四年）的《春秋》經文。經文以魯國紀年，兼記周王室與列國朝聘、會盟、征伐、災異與喪葬。文辭極簡，往往一事數字，寓褒貶於書法之中。讀者宜先掌握時序與人物名分，再思其義理。`,
-      en: `This section is the Spring and Autumn classic (jing) for Lu under Duke Ai, Years 13–14. Entries follow Lu’s calendar while noting the Zhou court and interstate diplomacy, war, omens, and mourning. The wording is extremely spare — often a few characters per event — with judgment encoded in how facts are written. Read first for sequence and titles, then for moral implication.`
+      zh: `本段記載黃池之會（魯君與晉侯、吳子會盟）後，哀公十四年春，西狩獲麟——相傳孔子見麟出非時而感嘆，《春秋》經文亦至此絕筆，成為全書終章。`,
+      en: `This section records the meeting at Huangchi, where the duke of Lu met with the marquis of Jin and viscount of Wu, followed by, in Duke Ai's fourteenth year, the capture of a lin on a western hunt — traditionally the sign at which Confucius broke off his brush, ending the Spring and Autumn's text at this line.`
     },
     application: {
-      zh: `讀編年簡筆，練習「先弄清事實，再下判斷」；勿在未辨名分前急於褒貶。
-<br /><b>建議：把本段中一件會盟或征伐，用一句話寫出「何人、何處、何故」。</b>`,
-      en: `Reading spare chronicle lines, practice establishing facts before judgment — do not praise or blame before names and roles are clear.
-<br /><b>Suggestion: For one alliance or campaign in this section, write one sentence: who, where, and why.</b>`
+      zh: `獲麟被視為異時而現的祥獸，孔子因此擱筆，不是因為害怕徵兆，而是體認到記事之事已到盡頭、不必勉強續寫。真正的智慧，是能分辨「完成」與「半途而廢」的不同。
+<br /><b>建議：檢視手邊一件已經功成的事，練習誠實承認它已完成，不必再勉強添加。</b>`,
+      en: `Capturing the lin — an auspicious beast appearing out of its proper time — is said to have made Confucius lay down his brush, not from superstition but from recognizing that the record had reached its natural end and needn't be forced further. True discernment tells completion apart from mere abandonment.
+<br /><b>Suggestion: Look at one project of yours that has actually reached completion, and practice honestly naming it done rather than padding it further.</b>`
     }
   }
 ];
