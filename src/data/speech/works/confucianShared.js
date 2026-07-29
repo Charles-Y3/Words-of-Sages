@@ -7,6 +7,11 @@ export const phrases = [
   { from: "選賢與能", to: "選賢舉能" },
   { from: "與能", to: "舉能" },
 
+  // 矜 = 鰥 guān in 矜寡孤獨
+  { from: "矜、寡、孤、獨", to: "鰥、寡、孤、獨" },
+  { from: "矜寡孤獨", to: "鰥寡孤獨" },
+  { from: "矜寡", to: "鰥寡" },
+
   // 惡 wù (hate / dislike)
   { from: "貨惡其", to: "貨務其" },
   { from: "力惡其", to: "力務其" },

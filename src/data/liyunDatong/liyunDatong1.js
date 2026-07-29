@@ -49,8 +49,8 @@ const liyunDatong1 = [
       en: `The elderly completed their years; the able-bodied had work; the young were raised. Widowers, widows, orphans, the solitary, and the disabled were all cared for. Men had their roles; women had their homes.`
     },
     speech: {
-      // 長 zhǎng；分 fèn
-      zh: `使老有所終，壯有所用，幼有所掌，矜、寡、孤、獨、廢疾者皆有所養，男有份，女有歸。`
+      // 長 zhǎng；分 fèn；矜＝鰥 guān
+      zh: `使老有所終，壯有所用，幼有所掌，鰥、寡、孤、獨、廢疾者皆有所養，男有份，女有歸。`
     },
     plain: {
       zh: "社會要讓老年人善終、壯年人發揮才用、幼年人得到養育；鰥夫、寡婦、孤兒、無依者與殘疾者都有妥善的照顧；男子各有職分，女子各有歸宿。這是大同篇最具體的社會願景：每一種人生階段與弱勢處境，都不被遺棄。",
