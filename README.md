@@ -39,9 +39,19 @@ Each chapter has bilingual fields: `text` (original), `plain` (explanation), `ap
 
 ### Speech pronunciation (破音字)
 
-Chinese read-aloud uses the device’s Web Speech voices. Display text is never altered for TTS. Before speaking, `prepareSpeechText` applies classical phrase/context rules from [`src/data/speechPronunciation.js`](src/data/speechPronunciation.js).
+Chinese read-aloud uses the device’s Web Speech voices. Display text (`text.zh`) is never altered for TTS.
 
-When adding a new scripture: listen for misread 破音字 (e.g. 興、長、樂、行、傳) and append **phrase-first** rules there. Do not edit `chapter.text.zh` to fix pronunciation.
+When read-aloud starts, `prepareSpeechText` builds the spoken string in this order:
+1. Optional per-unit `speech.zh` override (authoritative for that passage)
+2. Work-scoped lexicon in [`src/data/speech/works/`](src/data/speech/works/)
+3. Global fallback in [`src/data/speechPronunciation.js`](src/data/speechPronunciation.js)
+
+Confucian, Taoist, and Buddhist available works each have a work lexicon under [`src/data/speech/works/`](src/data/speech/works/). 禮運大同篇 also uses per-unit `speech.zh`.
+
+When adding or fixing a scripture:
+- Prefer a unit `speech: { zh: "…" }` for short/critical passages
+- Or append phrase rules under `src/data/speech/works/<workId>.js` (and shared `*Shared.js` when tradition-wide)
+- Run `npm run audit-speech` (optionally `--tradition=taoist|buddhist|confucian` and `--fail`)
 
 ## Deployment
 

@@ -1,14 +1,12 @@
 /**
- * Classical Chinese speech-only pronunciation lexicon (破音字).
+ * Global Classical Chinese speech-only pronunciation lexicon (破音字).
+ * Work-specific rules live in src/data/speech/works/ and are applied first.
  *
  * IMPORTANT:
- * - These rules are applied ONLY to the string passed to speechSynthesis.
+ * - Applied ONLY to the string passed to speechSynthesis.
  * - Never mutate chapter.text.zh / displayed scripture text for TTS.
- * - When adding a new work: listen for misreads, then append phrase rules here
- *   (prefer longer phrases). See README “Speech pronunciation”.
- *
- * Substitute characters are chosen so common TTS engines hit the intended
- * reading (homophone / unambiguous reading), not for display semantics.
+ * - Prefer unit `speech.zh` or work lexicons; use this file as fallback.
+ * - Run `npm run audit-speech` after changes. See README “Speech pronunciation”.
  */
 
 /** Phrase substitutions applied longest-first. `{ from, to }` */

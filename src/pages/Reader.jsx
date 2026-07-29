@@ -121,13 +121,22 @@ export default function Reader() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [chapterNum, total, drawerOpen, noteOpen, viewMode]);
 
+  const speechOpts = () => ({
+    workId,
+    speechZh: language === "zh" ? chapter?.speech?.zh : undefined
+  });
+
   useEffect(() => {
     if (!speech.isSpeaking || !chapter) return;
     const advance = viewMode === "continuous" || speech.mode === "continuous";
     if (advance) {
-      speech.speak(chapter.text[language], { onEnd: advanceForSpeech, advance: true });
+      speech.speak(chapter.text[language], {
+        onEnd: advanceForSpeech,
+        advance: true,
+        ...speechOpts()
+      });
     } else if (speech.mode === "loop") {
-      speech.speak(chapter.text[language], { advance: false });
+      speech.speak(chapter.text[language], { advance: false, ...speechOpts() });
     } else {
       speech.stop();
     }
@@ -139,7 +148,8 @@ export default function Reader() {
       const advance = viewMode === "continuous" || speech.mode === "continuous";
       speech.speak(chapter.text[language], {
         onEnd: advance ? advanceForSpeech : undefined,
-        advance
+        advance,
+        ...speechOpts()
       });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -151,7 +161,8 @@ export default function Reader() {
     const advance = viewMode === "continuous" || speech.mode === "continuous";
     speech.speak(chapter.text[language], {
       onEnd: advance ? advanceForSpeech : undefined,
-      advance
+      advance,
+      ...speechOpts()
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [speech.mode, speech.rate]);
@@ -285,7 +296,9 @@ export default function Reader() {
       const advance = viewMode === "continuous" || speech.mode === "continuous";
       speech.speak(chapter.text[language], {
         onEnd: advance ? advanceForSpeech : undefined,
-        advance
+        advance,
+        workId,
+        speechZh: language === "zh" ? chapter.speech?.zh : undefined
       });
     }
   };

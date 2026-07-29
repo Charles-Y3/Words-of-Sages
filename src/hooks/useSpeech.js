@@ -41,6 +41,8 @@ export default function useSpeech(language) {
   const lastArgsRef = useRef({
     displayText: "",
     speechText: "",
+    workId: undefined,
+    speechZh: undefined,
     trackHighlight: true,
     onEnd: undefined,
     advance: false
@@ -82,6 +84,8 @@ export default function useSpeech(language) {
     lastArgsRef.current = {
       displayText: "",
       speechText: "",
+      workId: undefined,
+      speechZh: undefined,
       trackHighlight: true,
       onEnd: undefined,
       advance: false
@@ -89,7 +93,7 @@ export default function useSpeech(language) {
   }, [supported]);
 
   const speak = useCallback(
-    (text, { onEnd, advance = Boolean(onEnd) } = {}) => {
+    (text, { onEnd, advance = Boolean(onEnd), workId, speechZh } = {}) => {
       if (!supported) {
         setSpeechIssue("unsupported");
         return;
@@ -112,7 +116,10 @@ export default function useSpeech(language) {
         return;
       }
 
-      const { speechText, changed } = prepareSpeechText(text, lang);
+      const { speechText, changed } = prepareSpeechText(text, lang, {
+        workId,
+        speechZh: lang === "zh" ? speechZh : undefined
+      });
       const trackHighlight = !changed;
 
       window.speechSynthesis.cancel();
@@ -122,6 +129,8 @@ export default function useSpeech(language) {
       lastArgsRef.current = {
         displayText: text,
         speechText,
+        workId,
+        speechZh,
         trackHighlight,
         onEnd,
         advance
@@ -144,7 +153,9 @@ export default function useSpeech(language) {
         if (currentMode === "loop") {
           speakRef.current?.(args.displayText, {
             onEnd: args.onEnd,
-            advance: args.advance
+            advance: args.advance,
+            workId: args.workId,
+            speechZh: args.speechZh
           });
           return;
         }
@@ -157,7 +168,6 @@ export default function useSpeech(language) {
         setBoundaryIndex(null);
       };
       utter.onerror = (event) => {
-        // cancel() when restarting for a new rate/mode fires "interrupted"/"canceled"
         if (event.error === "interrupted" || event.error === "canceled") return;
         isSpeakingRef.current = false;
         setIsSpeaking(false);

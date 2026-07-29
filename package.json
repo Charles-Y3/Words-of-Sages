@@ -10,7 +10,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "validate-data": "node scripts/validate-data.mjs",
-    "audit-length": "node scripts/audit-length.mjs"
+    "audit-length": "node scripts/audit-length.mjs",
+    "audit-speech": "node scripts/audit-speech-polyphones.mjs"
   },
   "dependencies": {
     "@fontsource/cinzel": "^5.3.0",

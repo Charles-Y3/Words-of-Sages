@@ -1,10 +1,15 @@
 // src/data/liyunDatong/liyunDatong1.js
+// 《禮運大同篇》 — speech.zh is speech-only (破音字 corrected); display uses text.zh
 const liyunDatong1 = [
   {
     id: 1,
     text: {
       zh: `大道之行也，天下為公。選賢與能，講信修睦。`,
       en: `When the Great Way was practiced, the world was shared by all. The worthy and capable were chosen; trust was honored and harmony cultivated.`
+    },
+    speech: {
+      // 與＝舉 jǔ；為公 wéi (default OK)
+      zh: `大道之行也，天下為公。選賢舉能，講信修睦。`
     },
     plain: {
       zh: "當最高的道得以實行時，天下不是一家一姓的私產，而是公共的。治理者依賢德與才能選拔，人與人之間講求誠信、培養和睦。這四句是大同理想的總綱：公共、任賢、信任、和諧。",
@@ -23,6 +28,9 @@ const liyunDatong1 = [
       zh: `故人不獨親其親，不獨子其子，`,
       en: `Thus people did not love only their own parents, nor treat only their own children as children.`
     },
+    speech: {
+      zh: `故人不獨親其親，不獨子其子，`
+    },
     plain: {
       zh: "因此，人們的關愛不只限於自己的父母，也不只把關愛留給自己的子女。親情被擴展為一種更廣的人倫關懷——由「自家」推及「人家」。這是仁心的外推：愛有差等，卻不當止於一家之門。",
       en: "Care was not limited to one’s own parents, nor affection reserved only for one’s own children. Family love widened into a broader human concern—from “my household” outward to others’. This is benevolence extended: love may begin graded, but it should not stop at one’s own door."
@@ -39,6 +47,10 @@ const liyunDatong1 = [
     text: {
       zh: `使老有所終，壯有所用，幼有所長，矜、寡、孤、獨、廢疾者皆有所養，男有分，女有歸。`,
       en: `The elderly completed their years; the able-bodied had work; the young were raised. Widowers, widows, orphans, the solitary, and the disabled were all cared for. Men had their roles; women had their homes.`
+    },
+    speech: {
+      // 長 zhǎng；分 fèn
+      zh: `使老有所終，壯有所用，幼有所掌，矜、寡、孤、獨、廢疾者皆有所養，男有份，女有歸。`
     },
     plain: {
       zh: "社會要讓老年人善終、壯年人發揮才用、幼年人得到養育；鰥夫、寡婦、孤兒、無依者與殘疾者都有妥善的照顧；男子各有職分，女子各有歸宿。這是大同篇最具體的社會願景：每一種人生階段與弱勢處境，都不被遺棄。",
@@ -57,6 +69,10 @@ const liyunDatong1 = [
       zh: `貨惡其棄於地也，不必藏於己；力惡其不出於身也，不必為己。`,
       en: `Goods were disliked when left unused on the ground—yet not necessarily hoarded for oneself. Strength was disliked when withheld from use—yet not necessarily spent only for oneself.`
     },
+    speech: {
+      // 惡 wù；為己 wèi
+      zh: `貨務其棄於地也，不必藏於己；力務其不出於身也，不必位己。`
+    },
     plain: {
       zh: "人們厭惡資源被浪費丟棄，卻不因此把財物私藏只顧自己；厭惡力氣閒置不用，卻不因此出力只為私利。重點是：物盡其用、人盡其力，動機不落於自私囤積。這把「公」落實到經濟與勞動的態度上。",
       en: "People disliked seeing goods wasted unused—yet did not therefore hoard them privately. They disliked strength left idle—yet did not therefore labor only for private gain. The point: put resources and effort to use, without the motive of selfish stockpiling. Here “the common” becomes an ethic of economy and work."
@@ -73,6 +89,10 @@ const liyunDatong1 = [
     text: {
       zh: `是故謀閉而不興，盜竊亂賊而不作，故外戶而不閉，是謂大同。`,
       en: `Therefore scheming was shut away and did not arise; theft and disorder did not occur. Outer doors were left unbarred. This was called the Great Harmony.`
+    },
+    speech: {
+      // 興 xīng (arise)
+      zh: `是故謀閉而不星，盜竊亂賊而不作，故外戶而不閉，是謂大同。`
     },
     plain: {
       zh: "因此，陰謀詭計無從興起，盜竊動亂不會發生，甚至大門可以不關——因為社會信任足夠、各得其所。這就是「大同」：不是烏托邦空談，而是由公心、關懷與各安其分所成就的安定秩序。",
