@@ -1,3 +1,9 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
 .topBar {
   display: flex;
   justify-content: flex-end;
@@ -78,6 +84,36 @@
   border: 1px solid var(--color-border);
   border-radius: var(--radius-pill);
   text-align: center;
+}
+
+.settingsError {
+  margin: 0;
+  font-size: var(--step--1);
+  color: var(--color-accent);
+}
+
+.hiddenFileInput {
+  display: none;
+}
+
+.moreToggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: var(--space-1);
+  padding: 0.4em 0.1em;
+  background: none;
+  border: none;
+  border-top: 1px solid var(--color-border);
+  font-size: var(--step--1);
+  font-family: var(--font-zh);
+  font-weight: 600;
+  color: var(--color-ink-soft);
+}
+
+.moreToggle:hover {
+  color: var(--color-ink);
 }
 
 .hero {
@@ -182,6 +218,27 @@
   grid-area: 1 / 1;
 }
 
+.continueSection {
+  margin-bottom: var(--space-5);
+}
+
+.continueSectionLabel {
+  display: grid;
+  font-size: var(--step--1);
+  color: var(--color-ink-soft);
+  margin-bottom: var(--space-2);
+}
+
+.continueSectionLabel span {
+  grid-area: 1 / 1;
+}
+
+.continueList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
 .continueCard {
   display: flex;
   align-items: center;
@@ -191,7 +248,6 @@
   border: 1px solid var(--color-gold-strong);
   border-radius: var(--radius-md);
   padding: var(--space-4);
-  margin-bottom: var(--space-5);
 }
 
 .continueBtn {
@@ -207,23 +263,15 @@
   min-width: 0;
 }
 
-.continueLabel {
-  display: grid;
-  font-size: var(--step--1);
-  color: var(--color-ink-soft);
-}
-
 .continueTitle {
   display: grid;
   font-size: var(--step-1);
-  margin-top: var(--space-1);
 }
 
 /* Clamped to one line (with ellipsis) rather than height-matched via grid
    stacking — inside this flex-constrained card, wrap-dependent heights
    don't resolve consistently between languages, but a single-line clamp
    guarantees identical height regardless of which language is showing. */
-.continueLabel span,
 .continueTitle span {
   grid-area: 1 / 1;
   min-width: 0;
@@ -239,4 +287,29 @@
   align-items: stretch;
   max-width: 20rem;
   margin: 0 auto;
+}
+
+.footerBlock {
+  margin-top: auto;
+  padding-top: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.disclaimer {
+  max-width: 28rem;
+  margin: 0;
+  text-align: center;
+  font-size: var(--step--1);
+  line-height: 1.6;
+  color: var(--color-ink-faint);
+}
+
+.footerNote {
+  margin: 0;
+  text-align: center;
+  font-size: var(--step--1);
+  color: var(--color-ink-faint);
 }

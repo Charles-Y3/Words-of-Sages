@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useSettings } from "../context/SettingsContext";
 import { getWork } from "../data/works";
@@ -13,22 +13,31 @@ import {
   subscribePwaInstall
 } from "../utils/pwaInstall";
 import { getOfflineReady, subscribeOfflineReady } from "../utils/offlineReady";
+import { downloadBackup, isValidBackup, applyBackup, readBackupFile } from "../utils/backup";
 import AppShell from "../components/AppShell";
 import Button from "../components/Button";
 import AppLogo from "../components/AppLogo";
+import ConfirmDialog from "../components/ConfirmDialog";
 import styles from "./Home.module.css";
+import pkg from "../../package.json";
+
+const RECENT_LIMIT = 3;
 
 export default function Home() {
   const navigate = useNavigate();
   const { language, setLanguage, theme, setTheme } = useSettings();
   useDocumentTitle(language === "zh" ? "聖賢之言" : "Words of Sages");
-  const { getContinue } = useProgress();
-  const cont = getContinue();
-  const continueCandidate = cont ? getWork(cont.workId) : null;
-  const continueWork =
-    continueCandidate?.status === "available" ? continueCandidate : null;
+  const { getRecentContinues } = useProgress();
+  const recentContinues = getRecentContinues(RECENT_LIMIT)
+    .map((cont) => ({ cont, work: getWork(cont.workId) }))
+    .filter(({ work }) => work?.status === "available");
   const [settingsOpen, setSettingsOpen] = useState(false);
+  const [moreOpen, setMoreOpen] = useState(false);
   const settingsRef = useRef(null);
+  const fileInputRef = useRef(null);
+  const mainRef = useRef(null);
+  const continueListRef = useRef(null);
+  const [visibleContinueCount, setVisibleContinueCount] = useState(recentContinues.length);
   const [canInstallPrompt, setCanInstallPrompt] = useState(
     () => getDeferredInstallPrompt() !== null
   );
@@ -36,6 +45,8 @@ export default function Home() {
     typeof window !== "undefined" ? isStandaloneDisplay() : false
   );
   const [offlineReady, setOfflineReady] = useState(() => getOfflineReady());
+  const [importError, setImportError] = useState(null);
+  const [pendingImport, setPendingImport] = useState(null);
 
   useEffect(() => {
     if (!settingsOpen) return undefined;
@@ -64,6 +75,51 @@ export default function Home() {
 
   useEffect(() => subscribeOfflineReady(setOfflineReady), []);
 
+  // Try showing the full recent list whenever there's reason to re-check
+  // (data changes, language changes, resize/rotation) — the measurement
+  // effect below then computes, in one pass, how many actually fit.
+  const maxContinueCount = recentContinues.length;
+  useEffect(() => {
+    setVisibleContinueCount(maxContinueCount);
+    const onResize = () => setVisibleContinueCount(maxContinueCount);
+    window.addEventListener("resize", onResize);
+    return () => window.removeEventListener("resize", onResize);
+  }, [maxContinueCount, language]);
+
+  // Runs only right after a reset (visibleContinueCount === maxContinueCount,
+  // i.e. everything is showing). Measures the overflow once, measures one
+  // card's real height plus the list's gap (not an average — averaging
+  // undercounts the gap that's actually recovered per card removed), and
+  // solves directly for how many to drop. A single calculation, not an
+  // iterative shrink loop, so it can't oscillate. Waits for web fonts so the
+  // measurement isn't taken against fallback-font metrics. Always leaves at
+  // least 1 card showing if there's any reading history — a short scroll
+  // beats hiding "continue reading" entirely.
+  useLayoutEffect(() => {
+    if (visibleContinueCount !== maxContinueCount || maxContinueCount === 0) return;
+    const mainEl = mainRef.current;
+    const listEl = continueListRef.current;
+    if (!mainEl || !listEl || !listEl.firstElementChild) return;
+
+    const fit = () => {
+      const overflow = mainEl.scrollHeight - mainEl.clientHeight;
+      if (overflow <= 1) return;
+      const cardHeight = listEl.firstElementChild.getBoundingClientRect().height;
+      const gap = parseFloat(getComputedStyle(listEl).gap) || 0;
+      const perCard = cardHeight + gap;
+      if (!perCard) return;
+      const maxRemovable = maxContinueCount - 1;
+      const toRemove = Math.min(maxRemovable, Math.ceil(overflow / perCard));
+      if (toRemove > 0) setVisibleContinueCount(maxContinueCount - toRemove);
+    };
+
+    if (document.fonts && document.fonts.status !== "loaded") {
+      document.fonts.ready.then(fit);
+    } else {
+      fit();
+    }
+  }, [visibleContinueCount, maxContinueCount]);
+
   const installGuide = (() => {
     const kind = installGuideKind();
     if (kind === "ios") {
@@ -88,13 +144,51 @@ export default function Home() {
     setCanInstallPrompt(getDeferredInstallPrompt() !== null);
   }
 
+  function handleImportClick() {
+    setImportError(null);
+    fileInputRef.current?.click();
+  }
+
+  async function handleFileChange(e) {
+    const file = e.target.files?.[0];
+    e.target.value = "";
+    if (!file) return;
+    try {
+      const parsed = await readBackupFile(file);
+      if (!isValidBackup(parsed)) {
+        setImportError(
+          language === "zh"
+            ? "無法讀取備份檔案，請確認檔案格式正確。"
+            : "Couldn’t read that backup file — please check it’s a valid export."
+        );
+        return;
+      }
+      setImportError(null);
+      setPendingImport(parsed);
+    } catch {
+      setImportError(
+        language === "zh"
+          ? "無法讀取備份檔案，請確認檔案格式正確。"
+          : "Couldn’t read that backup file — please check it’s a valid export."
+      );
+    }
+  }
+
+  function confirmImport() {
+    if (!pendingImport) return;
+    applyBackup(pendingImport);
+    setPendingImport(null);
+    window.location.reload();
+  }
+
   const introText = {
-    zh: "踏入古籍的永恆智慧之旅。以你偏好的語言閱讀、誦讀並思考神聖經典，可分章研讀或通讀全文，每一段皆有清晰的指引與解說。",
-    en: "Journey through the timeless wisdom of ancient texts. Read, recite, and reflect on sacred scriptures in your preferred language — study verse by verse or read continuously, with clarity and guidance."
+    zh: "踏入古籍的永恆智慧之旅。以中文或英文閱讀、誦讀並思考神聖經典，可分章研讀或通讀全文，每一段皆有清晰的指引與解說。",
+    en: "Journey through the timeless wisdom of ancient texts. Read, recite, and reflect on sacred scriptures in Chinese or English — study verse by verse or read continuously, with clarity and guidance."
   };
 
   return (
-    <AppShell>
+    <AppShell bodyRef={mainRef}>
+      <div className={styles.page}>
       <div className={styles.topBar}>
         <button
           type="button"
@@ -172,45 +266,84 @@ export default function Home() {
                   {language === "zh" ? "夜間" : "Dark"}
                 </Button>
               </div>
-              <div className={styles.settingsLabel}>
-                {language === "zh" ? "安裝應用" : "Install app"}
-              </div>
-              <p className={styles.settingsHint}>
-                {language === "zh"
-                  ? "加到主畫面，離線也能閱讀，介面更專注。"
-                  : "Add to your home screen for offline reading and a quieter focus."}
-              </p>
-              {appInstalled ? (
-                <p className={styles.settingsDone}>
-                  {language === "zh" ? "已安裝到此裝置" : "Installed on this device"}
-                </p>
-              ) : canInstallPrompt ? (
+              <button
+                type="button"
+                className={styles.moreToggle}
+                aria-expanded={moreOpen}
+                onClick={() => setMoreOpen((v) => !v)}
+              >
+                {language === "zh" ? "更多設定" : "More settings"}
+                <span aria-hidden="true">{moreOpen ? "▴" : "▾"}</span>
+              </button>
+
+              {moreOpen && (
                 <>
-                  <Button variant="primary" size="sm" block onClick={() => void handleInstallApp()}>
+                  <div className={styles.settingsLabel}>
                     {language === "zh" ? "安裝應用" : "Install app"}
-                  </Button>
+                  </div>
                   <p className={styles.settingsHint}>
                     {language === "zh"
-                      ? "也可在瀏覽器選單中選擇「安裝」或「加入主畫面」。"
-                      : "Or use your browser’s Install / Add to Home Screen option."}
+                      ? "加到主畫面，離線也能閱讀，介面更專注。"
+                      : "Add to your home screen for offline reading and a quieter focus."}
                   </p>
+                  {appInstalled ? (
+                    <p className={styles.settingsDone}>
+                      {language === "zh" ? "已安裝到此裝置" : "Installed on this device"}
+                    </p>
+                  ) : canInstallPrompt ? (
+                    <>
+                      <Button variant="primary" size="sm" block onClick={() => void handleInstallApp()}>
+                        {language === "zh" ? "安裝應用" : "Install app"}
+                      </Button>
+                      <p className={styles.settingsHint}>
+                        {language === "zh"
+                          ? "也可在瀏覽器選單中選擇「安裝」或「加入主畫面」。"
+                          : "Or use your browser’s Install / Add to Home Screen option."}
+                      </p>
+                    </>
+                  ) : (
+                    <p className={styles.settingsHint}>{installGuide}</p>
+                  )}
+                  <div className={styles.settingsLabel}>
+                    {language === "zh" ? "離線狀態" : "Offline status"}
+                  </div>
+                  {offlineReady ? (
+                    <p className={styles.settingsDone}>
+                      {language === "zh" ? "離線可用" : "Ready for offline use"}
+                    </p>
+                  ) : (
+                    <p className={styles.settingsHint}>
+                      {language === "zh"
+                        ? "請連網開啟一次以完成下載"
+                        : "Open once online to finish downloading"}
+                    </p>
+                  )}
+
+                  <div className={styles.settingsLabel}>
+                    {language === "zh" ? "備份與還原" : "Backup & Restore"}
+                  </div>
+                  <p className={styles.settingsHint}>
+                    {language === "zh"
+                      ? "匯出收藏、筆記與進度，或還原之前的備份檔案。"
+                      : "Export your bookmarks, notes, and progress, or restore from a previous backup."}
+                  </p>
+                  <div className={styles.settingsRow}>
+                    <Button variant="ghost" size="sm" onClick={downloadBackup}>
+                      {language === "zh" ? "匯出" : "Export"}
+                    </Button>
+                    <Button variant="ghost" size="sm" onClick={handleImportClick}>
+                      {language === "zh" ? "匯入" : "Import"}
+                    </Button>
+                  </div>
+                  {importError && <p className={styles.settingsError}>{importError}</p>}
+                  <input
+                    ref={fileInputRef}
+                    type="file"
+                    accept="application/json"
+                    className={styles.hiddenFileInput}
+                    onChange={(e) => void handleFileChange(e)}
+                  />
                 </>
-              ) : (
-                <p className={styles.settingsHint}>{installGuide}</p>
-              )}
-              <div className={styles.settingsLabel}>
-                {language === "zh" ? "離線狀態" : "Offline status"}
-              </div>
-              {offlineReady ? (
-                <p className={styles.settingsDone}>
-                  {language === "zh" ? "離線可用" : "Ready for offline use"}
-                </p>
-              ) : (
-                <p className={styles.settingsHint}>
-                  {language === "zh"
-                    ? "請連網開啟一次以完成下載"
-                    : "Open once online to finish downloading"}
-                </p>
               )}
             </div>
           )}
@@ -239,30 +372,36 @@ export default function Home() {
         <span className={language === "en" ? styles.stackVisible : styles.stackHidden}>{introText.en}</span>
       </p>
 
-      {continueWork && (
-        <div className={styles.continueCard}>
-          <div className={styles.continueText}>
-            <div className={styles.continueLabel}>
-              <span className={language === "zh" ? styles.stackVisible : styles.stackHidden}>繼續閱讀</span>
-              <span className={language === "en" ? styles.stackVisible : styles.stackHidden}>Continue reading</span>
-            </div>
-            <div className={styles.continueTitle}>
-              <span className={language === "zh" ? styles.stackVisible : styles.stackHidden}>
-                {continueWork.title.zh} · {passageRef(continueWork, "zh", cont.chapterId, cont.viewMode)}
-              </span>
-              <span className={language === "en" ? styles.stackVisible : styles.stackHidden}>
-                {continueWork.title.en} · {passageRef(continueWork, "en", cont.chapterId, cont.viewMode)}
-              </span>
-            </div>
+      {visibleContinueCount > 0 && (
+        <div className={styles.continueSection}>
+          <div className={styles.continueSectionLabel}>
+            <span className={language === "zh" ? styles.stackVisible : styles.stackHidden}>繼續閱讀</span>
+            <span className={language === "en" ? styles.stackVisible : styles.stackHidden}>Continue reading</span>
           </div>
-          <Button
-            variant="primary"
-            size="sm"
-            className={styles.continueBtn}
-            onClick={() => navigate(readerHref(cont.workId, cont.chapterId, cont.viewMode))}
-          >
-            {language === "zh" ? "繼續" : "Continue"}
-          </Button>
+          <div className={styles.continueList} ref={continueListRef}>
+            {recentContinues.slice(0, visibleContinueCount).map(({ cont, work }) => (
+              <div key={work.id} className={styles.continueCard}>
+                <div className={styles.continueText}>
+                  <div className={styles.continueTitle}>
+                    <span className={language === "zh" ? styles.stackVisible : styles.stackHidden}>
+                      {work.title.zh} · {passageRef(work, "zh", cont.chapterId, cont.viewMode)}
+                    </span>
+                    <span className={language === "en" ? styles.stackVisible : styles.stackHidden}>
+                      {work.title.en} · {passageRef(work, "en", cont.chapterId, cont.viewMode)}
+                    </span>
+                  </div>
+                </div>
+                <Button
+                  variant="primary"
+                  size="sm"
+                  className={styles.continueBtn}
+                  onClick={() => navigate(readerHref(work.id, cont.chapterId, cont.viewMode))}
+                >
+                  {language === "zh" ? "繼續" : "Continue"}
+                </Button>
+              </div>
+            ))}
+          </div>
         </div>
       )}
 
@@ -271,6 +410,32 @@ export default function Home() {
           {language === "zh" ? "選擇經典" : "Browse the Library"}
         </Button>
       </div>
+
+      <div className={styles.footerBlock}>
+        <p className={styles.disclaimer}>
+          {language === "zh"
+            ? "本應用的原文校對、翻譯與解釋部分由工具輔助整理，僅供學習參考，內容可能存在疏漏或錯誤，請以原典及權威版本為準。"
+            : "Original texts, translations, and explanations here are aided by tools and provided for study reference only. Content may contain errors — please consult original texts and authoritative editions for accuracy."}
+        </p>
+        <p className={styles.footerNote}>
+          {language === "zh" ? `版本 v${pkg.version}` : `Version v${pkg.version}`}
+        </p>
+      </div>
+      </div>
+
+      <ConfirmDialog
+        open={Boolean(pendingImport)}
+        title={language === "zh" ? "還原備份？" : "Restore backup?"}
+        message={
+          language === "zh"
+            ? "這將覆蓋目前裝置上的收藏、筆記、進度與設定，且無法復原。"
+            : "This will overwrite your current bookmarks, notes, progress, and settings on this device. This cannot be undone."
+        }
+        confirmLabel={language === "zh" ? "還原" : "Restore"}
+        cancelLabel={language === "zh" ? "取消" : "Cancel"}
+        onConfirm={confirmImport}
+        onCancel={() => setPendingImport(null)}
+      />
     </AppShell>
   );
 }

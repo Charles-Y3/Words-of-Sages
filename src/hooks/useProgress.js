@@ -34,5 +34,15 @@ export default function useProgress() {
     };
   };
 
-  return { progress, markRead, getEntry, getContinue };
+  const getRecentContinues = (limit = 3) => {
+    const entries = Object.entries(progress).filter(([, e]) => e.last != null);
+    entries.sort((a, b) => b[1].updatedAt - a[1].updatedAt);
+    return entries.slice(0, limit).map(([workId, entry]) => ({
+      workId,
+      chapterId: entry.last,
+      viewMode: entry.lastView === "continuous" ? "continuous" : "study"
+    }));
+  };
+
+  return { progress, markRead, getEntry, getContinue, getRecentContinues };
 }

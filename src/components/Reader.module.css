@@ -64,6 +64,12 @@
   flex: 0 0 auto;
 }
 
+/* Fixed width so toggling between 中/EN doesn't shift the header layout —
+   matches the Aa button's footprint. */
+.langToggle {
+  min-width: 3.2em;
+}
+
 .popoverDown {
   position: absolute;
   top: calc(100% + 6px);

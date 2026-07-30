@@ -1,12 +1,16 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import styles from "./ChapterDrawer.module.css";
-import { unitWord } from "../utils/unitLabel";
+import { unitWord, unitDisplayId } from "../utils/unitLabel";
 
 function firstLine(text, max = 28) {
   if (!text) return "";
   const line = text.split("\n")[0].trim();
   return line.length > max ? line.slice(0, max) + "…" : line;
 }
+
+// Filter box only earns its keep on longer works — short scriptures fit on
+// one screen without it.
+const FILTER_THRESHOLD = 20;
 
 export default function ChapterDrawer({
   work,
@@ -21,6 +25,7 @@ export default function ChapterDrawer({
   const closeRef = useRef(null);
   const itemRef = useRef(null);
   const unit = unitWord(work, language);
+  const [filter, setFilter] = useState("");
 
   useEffect(() => {
     closeRef.current?.focus();
@@ -34,6 +39,17 @@ export default function ChapterDrawer({
   useEffect(() => {
     itemRef.current?.scrollIntoView({ block: "center" });
   }, []);
+
+  const showFilter = work.chapters.length > FILTER_THRESHOLD;
+  const filteredChapters = useMemo(() => {
+    const q = filter.trim().toLowerCase();
+    if (!q) return work.chapters;
+    return work.chapters.filter((ch) => {
+      const label = String(ch.label ?? ch.id).toLowerCase();
+      if (label.includes(q)) return true;
+      return (ch.text?.[language] || "").toLowerCase().includes(q);
+    });
+  }, [work.chapters, filter, language]);
 
   return (
     <div className={styles.overlay} onClick={onClose}>
@@ -57,35 +73,50 @@ export default function ChapterDrawer({
           </button>
         </div>
         <button className={styles.randomAction} onClick={onRandom}>
-          <span aria-hidden="true">🎲</span>
           {language === "zh" ? `隨機${unit}` : `Random ${unitWord(work, "en")}`}
         </button>
+        {showFilter && (
+          <input
+            type="search"
+            className={styles.filterInput}
+            value={filter}
+            onChange={(e) => setFilter(e.target.value)}
+            placeholder={language === "zh" ? `篩選${unit}…` : "Filter…"}
+            aria-label={language === "zh" ? `篩選${unit}` : "Filter contents"}
+          />
+        )}
         <div className={styles.list}>
-          {work.chapters.map((ch) => {
-            const active = ch.id === currentId;
-            return (
-              <button
-                key={ch.id}
-                ref={active ? itemRef : null}
-                className={`${styles.item} ${active ? styles.itemActive : ""}`}
-                onClick={() => onSelect(ch.id)}
-                aria-current={active ? "true" : undefined}
-              >
-                <span className={styles.itemNum}>{ch.label ?? ch.id}</span>
-                <span className={styles.itemSnippet}>{firstLine(ch.text[language])}</span>
-                {notedIds.has(ch.id) && (
-                  <span className={styles.itemNote} aria-label={language === "zh" ? "有筆記" : "has note"}>
-                    ✎
-                  </span>
-                )}
-                {readIds.has(ch.id) && (
-                  <span className={styles.itemRead} aria-label={language === "zh" ? "已讀" : "read"}>
-                    ✓
-                  </span>
-                )}
-              </button>
-            );
-          })}
+          {filteredChapters.length === 0 ? (
+            <p className={styles.empty}>
+              {language === "zh" ? "沒有符合的結果" : "No matches"}
+            </p>
+          ) : (
+            filteredChapters.map((ch) => {
+              const active = ch.id === currentId;
+              return (
+                <button
+                  key={ch.id}
+                  ref={active ? itemRef : null}
+                  className={`${styles.item} ${active ? styles.itemActive : ""}`}
+                  onClick={() => onSelect(ch.id)}
+                  aria-current={active ? "true" : undefined}
+                >
+                  <span className={styles.itemNum}>{unitDisplayId(work, ch.id, language)}</span>
+                  <span className={styles.itemSnippet}>{firstLine(ch.text[language])}</span>
+                  {notedIds.has(ch.id) && (
+                    <span className={styles.itemNote} aria-label={language === "zh" ? "有筆記" : "has note"}>
+                      ✎
+                    </span>
+                  )}
+                  {readIds.has(ch.id) && (
+                    <span className={styles.itemRead} aria-label={language === "zh" ? "已讀" : "read"}>
+                      ✓
+                    </span>
+                  )}
+                </button>
+              );
+            })
+          )}
         </div>
       </div>
     </div>

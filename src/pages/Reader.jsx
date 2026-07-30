@@ -7,7 +7,9 @@ import useSwipe from "../hooks/useSwipe";
 import useProgress from "../hooks/useProgress";
 import useBookmarks from "../hooks/useBookmarks";
 import useNotes from "../hooks/useNotes";
+import useLocalStorage from "../hooks/useLocalStorage";
 import { sanitizeHtml } from "../utils/sanitize";
+import { wosKey } from "../utils/storage";
 import { unitWord, unitProgress, unitName } from "../utils/unitLabel";
 import AppShell from "../components/AppShell";
 import Button from "../components/Button";
@@ -23,7 +25,13 @@ export default function Reader() {
   const { markRead, getEntry } = useProgress();
   const { isBookmarked, toggleBookmark } = useBookmarks();
   const { notes, getNote, hasNote, setNote } = useNotes();
-  const speech = useSpeech(language);
+  // Reading-content language: independent of the app's interface language.
+  // Defaults to the interface language until the reader toggles it.
+  const [contentLanguage, setContentLanguage] = useLocalStorage(
+    wosKey("contentLanguage"),
+    language
+  );
+  const speech = useSpeech(contentLanguage);
   const [drawerOpen, setDrawerOpen] = React.useState(false);
   const [noteOpen, setNoteOpen] = React.useState(false);
   const continuousRefs = useRef(new Map());
@@ -138,20 +146,20 @@ export default function Reader() {
 
   const speechOpts = () => ({
     workId,
-    speechZh: language === "zh" ? chapter?.speech?.zh : undefined
+    speechZh: contentLanguage === "zh" ? chapter?.speech?.zh : undefined
   });
 
   useEffect(() => {
     if (!speech.isSpeaking || !chapter) return;
     const advance = viewMode === "continuous" || speech.mode === "continuous";
     if (advance) {
-      speech.speak(chapter.text[language], {
+      speech.speak(chapter.text[contentLanguage], {
         onEnd: advanceForSpeech,
         advance: true,
         ...speechOpts()
       });
     } else if (speech.mode === "loop") {
-      speech.speak(chapter.text[language], { advance: false, ...speechOpts() });
+      speech.speak(chapter.text[contentLanguage], { advance: false, ...speechOpts() });
     } else {
       speech.stop();
     }
@@ -161,20 +169,20 @@ export default function Reader() {
   useEffect(() => {
     if (speech.isSpeaking && chapter) {
       const advance = viewMode === "continuous" || speech.mode === "continuous";
-      speech.speak(chapter.text[language], {
+      speech.speak(chapter.text[contentLanguage], {
         onEnd: advance ? advanceForSpeech : undefined,
         advance,
         ...speechOpts()
       });
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [language]);
+  }, [contentLanguage]);
 
   // Apply voice settings immediately while reading aloud.
   useEffect(() => {
     if (!speech.isSpeaking || !chapter) return;
     const advance = viewMode === "continuous" || speech.mode === "continuous";
-    speech.speak(chapter.text[language], {
+    speech.speak(chapter.text[contentLanguage], {
       onEnd: advance ? advanceForSpeech : undefined,
       advance,
       ...speechOpts()
@@ -202,7 +210,7 @@ export default function Reader() {
   const speechIssueMessage = useMemo(() => {
     const issue = speech.speechIssue;
     if (!issue) {
-      if (speechMenuOpen && speech.supported && language === "zh" && !speech.zhVoiceAvailable) {
+      if (speechMenuOpen && speech.supported && contentLanguage === "zh" && !speech.zhVoiceAvailable) {
         return language === "zh"
           ? "此裝置沒有可用的中文語音，離線朗讀無法使用。請在系統設定安裝中文語音。"
           : "No Chinese voice is available on this device, so offline read-aloud cannot run. Install a Chinese voice in system settings.";
@@ -232,6 +240,7 @@ export default function Reader() {
     speechMenuOpen,
     speech.supported,
     speech.zhVoiceAvailable,
+    contentLanguage,
     language
   ]);
 
@@ -280,14 +289,14 @@ export default function Reader() {
     );
   }, [notes, workId]);
 
-  const applicationHtml = chapter ? sanitizeHtml(chapter.application[language]) : "";
+  const applicationHtml = chapter ? sanitizeHtml(chapter.application[contentLanguage]) : "";
   const starred = chapter ? isBookmarked(workId, chapter.id) : false;
   const noteText = chapter ? getNote(workId, chapter.id) : "";
   const notePresent = chapter ? hasNote(workId, chapter.id) : false;
 
   const textLines = useMemo(() => {
     if (!chapter) return [];
-    const parts = chapter.text[language].split("\n");
+    const parts = chapter.text[contentLanguage].split("\n");
     let pos = 0;
     return parts.map((line) => {
       const start = pos;
@@ -295,7 +304,7 @@ export default function Reader() {
       pos = end + 1;
       return { line, start, end };
     });
-  }, [chapter, language]);
+  }, [chapter, contentLanguage]);
 
   const activeLineIndex = useMemo(() => {
     if (!speech.isSpeaking || activePanel !== "text" || speech.boundaryIndex == null) return -1;
@@ -309,11 +318,11 @@ export default function Reader() {
       speech.stop();
     } else {
       const advance = viewMode === "continuous" || speech.mode === "continuous";
-      speech.speak(chapter.text[language], {
+      speech.speak(chapter.text[contentLanguage], {
         onEnd: advance ? advanceForSpeech : undefined,
         advance,
         workId,
-        speechZh: language === "zh" ? chapter.speech?.zh : undefined
+        speechZh: contentLanguage === "zh" ? chapter.speech?.zh : undefined
       });
     }
   };
@@ -375,6 +384,23 @@ export default function Reader() {
                 onClick={() => toggleBookmark(workId, chapter.id, viewMode)}
               >
                 {starred ? "★" : "☆"}
+              </Button>
+              <Button
+                variant="ghost"
+                size="sm"
+                className={styles.langToggle}
+                aria-label={
+                  contentLanguage === "zh"
+                    ? language === "zh"
+                      ? "切換為英文內容"
+                      : "Switch content to English"
+                    : language === "zh"
+                      ? "切換為中文內容"
+                      : "Switch content to Chinese"
+                }
+                onClick={() => setContentLanguage((l) => (l === "zh" ? "en" : "zh"))}
+              >
+                {contentLanguage === "zh" ? "中" : "EN"}
               </Button>
               <div className={styles.fontSettings} ref={fontControlsRef}>
                 <Button
@@ -557,13 +583,13 @@ export default function Reader() {
                       ? "此瀏覽器不支援語音朗讀。"
                       : "This browser does not support speech synthesis."}
                   </p>
-                ) : language === "zh" && !speech.zhVoiceAvailable ? (
+                ) : contentLanguage === "zh" && !speech.zhVoiceAvailable ? (
                   <p className={styles.speechHint}>
                     {language === "zh"
                       ? "未偵測到中文語音。請在系統設定安裝中文語音後再試。"
                       : "No Chinese voice detected. Install a Chinese voice in system settings."}
                   </p>
-                ) : language === "en" && !speech.enVoiceAvailable ? (
+                ) : contentLanguage === "en" && !speech.enVoiceAvailable ? (
                   <p className={styles.speechHint}>
                     {language === "zh"
                       ? "未偵測到英文語音。請在系統設定安裝英文語音後再試。"
@@ -650,7 +676,7 @@ export default function Reader() {
             {activePanel === "text" && (
               <div
                 className={`${styles.contentBox} ${styles.contentText}`}
-                lang={language === "zh" ? "zh-Hant" : "en"}
+                lang={contentLanguage === "zh" ? "zh-Hant" : "en"}
               >
                 {textLines.map((l, i) => (
                   <div key={i} className={i === activeLineIndex ? styles.verseLineActive : styles.verseLine}>
@@ -663,16 +689,16 @@ export default function Reader() {
             {activePanel === "plain" && (
               <div
                 className={`${styles.contentBox} ${styles.contentText}`}
-                lang={language === "zh" ? "zh-Hant" : "en"}
+                lang={contentLanguage === "zh" ? "zh-Hant" : "en"}
               >
-                {chapter.plain[language]}
+                {chapter.plain[contentLanguage]}
               </div>
             )}
 
             {activePanel === "application" && (
               <div
                 className={`${styles.contentBox} ${styles.contentText}`}
-                lang={language === "zh" ? "zh-Hant" : "en"}
+                lang={contentLanguage === "zh" ? "zh-Hant" : "en"}
                 dangerouslySetInnerHTML={{ __html: applicationHtml }}
               />
             )}
@@ -682,7 +708,7 @@ export default function Reader() {
         {viewMode === "continuous" && (
           <div
             className={`${styles.contentBox} ${styles.continuousList}`}
-            lang={language === "zh" ? "zh-Hant" : "en"}
+            lang={contentLanguage === "zh" ? "zh-Hant" : "en"}
           >
             {work.chapters.map((ch) => {
               const active = ch.id === chapter.id;
@@ -713,7 +739,7 @@ export default function Reader() {
                       {language === "zh" ? "研讀" : "Study"}
                     </button>
                   </div>
-                  <div className={styles.continuousText}>{ch.text[language]}</div>
+                  <div className={styles.continuousText}>{ch.text[contentLanguage]}</div>
                 </section>
               );
             })}

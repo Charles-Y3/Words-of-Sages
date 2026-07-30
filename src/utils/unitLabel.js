@@ -16,16 +16,26 @@ export function unitWord(work, language, { plural = false } = {}) {
   return `${en}s`;
 }
 
-/** Display id for a unit — uses chapter.label when present (e.g. "30-1"). */
-export function unitDisplayId(work, id) {
+/**
+ * Display id for a unit — uses chapter.label when present (e.g. "30-1").
+ * Some works (e.g. Spring and Autumn) use a descriptive Chinese phrase as
+ * the label itself (label === title.zh) rather than a neutral number; for
+ * those, switch to title.en in English so the label doesn't mix languages.
+ */
+export function unitDisplayId(work, id, language) {
   const chapter = work?.chapters?.find((c) => c.id === id);
-  return chapter?.label ?? id;
+  if (!chapter) return id;
+  const isDescriptiveLabel = chapter.title && chapter.label === chapter.title.zh;
+  if (isDescriptiveLabel && language && language !== "zh" && chapter.title[language]) {
+    return chapter.title[language];
+  }
+  return chapter.label ?? id;
 }
 
 /** "第 3 章" / "Chapter 3" — or "第 30-1 章" when labeled */
 export function unitName(work, language, id) {
   const word = unitWord(work, language);
-  const display = unitDisplayId(work, id);
+  const display = unitDisplayId(work, id, language);
   return language === "zh" ? `第 ${display} ${word}` : `${word} ${display}`;
 }
 
@@ -54,7 +64,7 @@ export function readerHref(workId, chapterId, viewMode, { openNote = false } = {
 /** "第 3 章 · 共 81 章" / "Chapter 3 of 81" */
 export function unitProgress(work, language, id, total) {
   const word = unitWord(work, language);
-  const display = unitDisplayId(work, id);
+  const display = unitDisplayId(work, id, language);
   if (language === "zh") return `第 ${display} ${word} · 共 ${total} ${word}`;
   return `${word} ${display} of ${total}`;
 }
