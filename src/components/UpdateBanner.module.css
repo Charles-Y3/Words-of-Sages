@@ -1,3 +1,4 @@
+/* Accent bar in every theme: tokens already flip for light / dark / sepia. */
 .banner {
   position: fixed;
   top: 0;
@@ -39,24 +40,14 @@
   background: color-mix(in srgb, var(--color-accent-ink) 12%, transparent) !important;
 }
 
-:root:not([data-theme="dark"]) .banner :global(button[class*="primary"]) {
-  background: var(--color-surface);
-  color: var(--color-accent-strong);
-  border-color: var(--color-surface);
+/* Inverted CTA on the accent bar: surface fill + accent label (readable in all themes). */
+.banner :global(button[class*="primary"]) {
+  background: var(--color-surface) !important;
+  color: var(--color-accent) !important;
+  border-color: var(--color-surface) !important;
+  box-shadow: none;
 }
 
-:root[data-theme="dark"] .banner {
-  background: var(--color-gold-strong);
-  color: var(--color-gold-ink);
-}
-
-:root[data-theme="dark"] .later {
-  color: var(--color-gold-ink) !important;
-  border-color: color-mix(in srgb, var(--color-gold-ink) 45%, transparent) !important;
-}
-
-:root[data-theme="dark"] .banner :global(button[class*="primary"]) {
-  background: var(--color-surface);
-  color: var(--color-gold-ink);
-  border-color: var(--color-surface);
+.banner :global(button[class*="primary"]):hover:not(:disabled) {
+  filter: brightness(1.06);
 }
