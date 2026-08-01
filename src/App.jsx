@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 import { SettingsProvider, useSettings } from "./context/SettingsContext";
 import ErrorBoundary from "./components/ErrorBoundary";
 import AppShell from "./components/AppShell";
@@ -63,6 +64,7 @@ export default function App() {
       <ErrorBoundary fallback={CrashFallback}>
         <UpdateBanner />
         <AppRoutes />
+        <Analytics />
       </ErrorBoundary>
     </SettingsProvider>
   );
