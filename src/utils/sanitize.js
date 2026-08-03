@@ -13,3 +13,13 @@ export function sanitizeHtml(html) {
     return match.startsWith("</") ? `</${lower}>` : `<${lower}>`;
   });
 }
+
+/** Strip HTML to plain text for TTS (application field). */
+export function htmlToPlainText(html) {
+  if (!html) return "";
+  return String(html)
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<\/?[^>]+>/g, "")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}

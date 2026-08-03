@@ -154,10 +154,10 @@ const works = [
     },
     unitLabel: { zh: "章", en: "Chapter" },
     attribution: {
-      zh: "原文據《論語》傳世本",
-      en: "Chinese text after the received Analects"
+      zh: "原文據《論語》傳世本二十篇（維基文庫傳統章次；個別字從朱熹集注通行讀法）",
+      en: "Chinese text from the received Analects in 20 books (Wikisource chaptering; selected readings follow Zhu Xi)"
     },
-    status: "coming-soon",
+    status: "available",
     chapters: analects
   },
   {

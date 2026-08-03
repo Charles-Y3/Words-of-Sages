@@ -28,6 +28,8 @@ export default defineConfig({
         ]
       },
       workbox: {
+        // Full classical corpus (esp. Analects) pushes the main JS chunk past 2 MiB.
+        maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
         globPatterns: ["**/*.{js,css,html,png,ico,svg,woff,woff2}"],
         runtimeCaching: [
           {

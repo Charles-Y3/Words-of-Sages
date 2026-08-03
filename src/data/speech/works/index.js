@@ -12,6 +12,7 @@ import greatLearning from "./great-learning.js";
 import doctrineOfMean from "./doctrine-of-mean.js";
 import filialPiety from "./filial-piety.js";
 import springAndAutumn from "./spring-and-autumn.js";
+import analects from "./analects.js";
 import taoTeChing from "./tao-te-ching.js";
 import qingjingJing from "./qingjing-jing.js";
 import yinfuJing from "./yinfu-jing.js";
@@ -29,7 +30,7 @@ export const WORK_SPEECH_LEXICONS = {
   "doctrine-of-mean": doctrineOfMean,
   "filial-piety": filialPiety,
   "spring-and-autumn": springAndAutumn,
-  analects: { phrases: confucianShared.phrases, contexts: confucianShared.contexts },
+  analects,
   mencius: { phrases: confucianShared.phrases, contexts: confucianShared.contexts },
   // Taoist
   "tao-te-ching": taoTeChing,

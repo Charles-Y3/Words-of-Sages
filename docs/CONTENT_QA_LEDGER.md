@@ -12,6 +12,7 @@ Mechanical **C0** / **S0** re-verified 2026-07-29 after writer fixes (`npm run v
 | filial-piety | confucian | 18 | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-07-29 | Writer fixed S1: 大夫/事長/移於長/怨惡/簠簋/為之 in filial-piety.js |
 | great-learning | confucian | 37 | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-07-29 | Writer fixed C1/C5 unit1 親民→新民 (朱子章句); S1 好/惡 overrides in great-learning.js |
 | doctrine-of-mean | confucian | 38 | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-07-29 | Writer fixed S1: 知/智 triad, 好, 強=qiǎng, 夫政, 中節/時中 |
+| analects | confucian | 501 | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-07-30 | Full unit-by-unit checker pass (20 books); fixed S1 bug: 女安則為之→女安則位之 wrongly forced 為 to wèi in 17.21, removed (女→汝 still covered by existing 女安 rule) |
 | spring-and-autumn | confucian | 65 | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-07-29 | Writer removed unit1 duplicate 莒人入向; S1 來朝/單/召/費/樂-surname overrides |
 | qingjing-jing | taoist | 8 | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-07-29 | Writer fixed C1 unit4 於→其 (Daozang wording); S1 好清/好靜/好爭 |
 | yinfu-jing | taoist | 8 | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-07-29 | Writer fixed C1 unit2 萬化→萬變定基; S1 移星易宿(xiù), 炁→氣 |
@@ -35,6 +36,7 @@ Only list open failures (clear when fixed):
 ```text
 PASS | liyun-datong | C1 C2 C3 C4 C5 S1 S2
 PASS | heart-sutra | C1 C2 C3 C4 C5 S1 S2
+FIXED | analects | S1 (17.21 女安則為之 speech override forced 為→位/wèi instead of correct wéi "do"; removed, 女→汝 still covered by existing rule); C1-C5 confirmed pass across all 20 books (501 units)
 FIXED | filial-piety | S1 (大夫/事長/移於長/怨惡/簠簋/為之)
 FIXED | great-learning | C1 C5 S1 (unit1 新民; 好/惡)
 FIXED | doctrine-of-mean | S1 (知/智, 好, 強, 夫政, 中節)
@@ -49,4 +51,4 @@ FIXED | platform-sutra | S1 (為說/為法)
 PASS | all 13 available | C0 S0 (validate-data + audit-speech --fail, 2026-07-29 post-fix)
 ```
 
-All 13 available works: open Unit-level FAILs cleared by content-writer; C0/S0 green. Re-check semantically only if a work’s data files change again.
+All 14 available works: open Unit-level FAILs cleared by content-writer; C0/S0 green. Re-check semantically only if a work’s data files change again.

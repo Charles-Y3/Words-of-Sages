@@ -8,7 +8,7 @@ import useProgress from "../hooks/useProgress";
 import useBookmarks from "../hooks/useBookmarks";
 import useNotes from "../hooks/useNotes";
 import useLocalStorage from "../hooks/useLocalStorage";
-import { sanitizeHtml } from "../utils/sanitize";
+import { sanitizeHtml, htmlToPlainText } from "../utils/sanitize";
 import { wosKey } from "../utils/storage";
 import { unitWord, unitProgress, unitName } from "../utils/unitLabel";
 import AppShell from "../components/AppShell";
@@ -144,22 +144,46 @@ export default function Reader() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [chapterNum, total, drawerOpen, noteOpen, viewMode]);
 
+  const [activePanel, setActivePanel] = React.useState("text");
+
+  // Continuous / Full has no tabs — always Original. Study speaks the selected tab.
+  const speakablePanel = viewMode === "continuous" ? "text" : activePanel;
+  const speakableText = (() => {
+    if (!chapter) return "";
+    if (speakablePanel === "plain") return chapter.plain[contentLanguage] || "";
+    if (speakablePanel === "application") {
+      return htmlToPlainText(chapter.application[contentLanguage]);
+    }
+    return chapter.text[contentLanguage] || "";
+  })();
   const speechOpts = () => ({
     workId,
-    speechZh: contentLanguage === "zh" ? chapter?.speech?.zh : undefined
+    speechZh:
+      speakablePanel === "text" && contentLanguage === "zh"
+        ? chapter?.speech?.zh
+        : undefined
   });
+  const restartSpeech = () => {
+    if (!chapter) return;
+    const advance = viewMode === "continuous" || speech.mode === "continuous";
+    speech.speak(speakableText, {
+      onEnd: advance ? advanceForSpeech : undefined,
+      advance,
+      ...speechOpts()
+    });
+  };
 
   useEffect(() => {
     if (!speech.isSpeaking || !chapter) return;
     const advance = viewMode === "continuous" || speech.mode === "continuous";
     if (advance) {
-      speech.speak(chapter.text[contentLanguage], {
+      speech.speak(speakableText, {
         onEnd: advanceForSpeech,
         advance: true,
         ...speechOpts()
       });
     } else if (speech.mode === "loop") {
-      speech.speak(chapter.text[contentLanguage], { advance: false, ...speechOpts() });
+      speech.speak(speakableText, { advance: false, ...speechOpts() });
     } else {
       speech.stop();
     }
@@ -167,26 +191,19 @@ export default function Reader() {
   }, [chapterId]);
 
   useEffect(() => {
-    if (speech.isSpeaking && chapter) {
-      const advance = viewMode === "continuous" || speech.mode === "continuous";
-      speech.speak(chapter.text[contentLanguage], {
-        onEnd: advance ? advanceForSpeech : undefined,
-        advance,
-        ...speechOpts()
-      });
-    }
+    if (speech.isSpeaking && chapter) restartSpeech();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [contentLanguage]);
+
+  useEffect(() => {
+    if (speech.isSpeaking && chapter) restartSpeech();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [activePanel]);
 
   // Apply voice settings immediately while reading aloud.
   useEffect(() => {
     if (!speech.isSpeaking || !chapter) return;
-    const advance = viewMode === "continuous" || speech.mode === "continuous";
-    speech.speak(chapter.text[contentLanguage], {
-      onEnd: advance ? advanceForSpeech : undefined,
-      advance,
-      ...speechOpts()
-    });
+    restartSpeech();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [speech.mode, speech.rate]);
 
@@ -195,8 +212,6 @@ export default function Reader() {
     const el = continuousRefs.current.get(chapter.id);
     el?.scrollIntoView({ block: "nearest", behavior: "smooth" });
   }, [viewMode, chapter?.id]);
-
-  const [activePanel, setActivePanel] = React.useState("text");
   const [speechMenuOpen, setSpeechMenuOpen] = React.useState(false);
   const [fontMenuOpen, setFontMenuOpen] = React.useState(false);
   const [speechIssueDismissed, setSpeechIssueDismissed] = React.useState(false);
@@ -317,13 +332,7 @@ export default function Reader() {
     if (speech.isSpeaking) {
       speech.stop();
     } else {
-      const advance = viewMode === "continuous" || speech.mode === "continuous";
-      speech.speak(chapter.text[contentLanguage], {
-        onEnd: advance ? advanceForSpeech : undefined,
-        advance,
-        workId,
-        speechZh: contentLanguage === "zh" ? chapter.speech?.zh : undefined
-      });
+      restartSpeech();
     }
   };
 

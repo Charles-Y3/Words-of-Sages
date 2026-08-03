@@ -2,11 +2,11 @@
 
 Checks **C0–C5** and **S0–S2** are performed by **AI tools** (content-writer and content-checker agents) plus the npm scripts below. Humans spot-listen speech and spot-read originals when needed. Results live in [`CONTENT_QA_LEDGER.md`](CONTENT_QA_LEDGER.md) so the same check is **not** re-run from scratch unless content changed or a check failed.
 
-## Available works (13)
+## Available works (14)
 
 | Tradition | Works |
 |-----------|--------|
-| Confucian (5) | `liyun-datong`, `great-learning`, `doctrine-of-mean`, `filial-piety`, `spring-and-autumn` |
+| Confucian (6) | `liyun-datong`, `great-learning`, `doctrine-of-mean`, `analects`, `filial-piety`, `spring-and-autumn` |
 | Taoist (4) | `tao-te-ching`, `qingjing-jing`, `yinfu-jing`, `taishang-ganying` |
 | Buddhist (4) | `heart-sutra`, `diamond-sutra`, `amitabha-sutra`, `platform-sutra` |
 
@@ -36,7 +36,7 @@ Writer AI → C0 + S0 (scripts) → Checker AI (C1–C5, S1–S2) → update led
 
 ## Sweep order (first full pass)
 
-1. Confucian: `liyun-datong` → `filial-piety` → `great-learning` → `doctrine-of-mean` → `spring-and-autumn`
+1. Confucian: `liyun-datong` → `filial-piety` → `great-learning` → `doctrine-of-mean` → `analects` → `spring-and-autumn`
 2. Taoist: `qingjing-jing`, `yinfu-jing` → `taishang-ganying` → `tao-te-ching`
 3. Buddhist: `heart-sutra` → `amitabha-sutra` → `diamond-sutra` → `platform-sutra`
 
