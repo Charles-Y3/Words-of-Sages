@@ -28,15 +28,16 @@ npm run audit-speech   # check 破音字 coverage (QA S0)
 ### Confucian (available)
 - **The Great Harmony** (禮運大同篇) — 5 sections
 - **The Great Learning** (大學) — 37 sections
-- **Doctrine of the Mean** (中庸) — 38 sections
+- **Doctrine of the Mean** (中庸) — 33 chapters · 38 sections
+- **Analects** (論語) — 20 books · 501 chapters
 - **Classic of Filial Piety** (孝經) — 18 chapters
-- **Spring and Autumn Annals** (春秋) — 65 sections
+- **Spring and Autumn Annals** (春秋) — 12 dukes · 65 sections
 
 ### Buddhist (available)
 - **Heart Sutra** (心經) — 6 sections
-- **Diamond Sutra** (金剛經) — 40 divisions
+- **Diamond Sutra** (金剛經) — 32 divisions · 40 sections
 - **Amitabha Sutra** (阿彌陀經) — 11 sections
-- **Platform Sutra** (六祖壇經) — 30 sections
+- **Platform Sutra** (六祖壇經) — 10 chapters · 30 sections
 
 Each chapter has bilingual fields: `text` (original), `plain` (explanation), `application` (practical takeaway). Run `npm run validate-data` after editing any chapter file.
 

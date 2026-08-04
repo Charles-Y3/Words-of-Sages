@@ -15,6 +15,97 @@ import filialPiety from "./filialPiety/index.js";
 import springAndAutumn from "./springAndAutumn/index.js";
 import platformSutra from "./platformSutra/index.js";
 
+const PLATFORM_PARTS = [
+  { id: 1, title: { zh: "行由品", en: "Action and Origin" } },
+  { id: 2, title: { zh: "般若品", en: "Prajñā" } },
+  { id: 3, title: { zh: "疑問品", en: "Questions" } },
+  { id: 4, title: { zh: "定慧品", en: "Samādhi and Prajñā" } },
+  { id: 5, title: { zh: "坐禪品", en: "Sitting Meditation" } },
+  { id: 6, title: { zh: "懺悔品", en: "Repentance" } },
+  { id: 7, title: { zh: "機緣品", en: "Encounters" } },
+  { id: 8, title: { zh: "頓漸品", en: "Sudden and Gradual" } },
+  { id: 9, title: { zh: "護法品", en: "Imperial Summons" } },
+  { id: 10, title: { zh: "付囑品", en: "Final Instructions" } }
+];
+
+const DIAMOND_PARTS = [
+  { id: 1, title: { zh: "法會因由分", en: "The Occasion of the Assembly" } },
+  { id: 2, title: { zh: "善現啟請分", en: "Subhūti's Request" } },
+  { id: 3, title: { zh: "大乘正宗分", en: "The True Doctrine of the Great Vehicle" } },
+  { id: 4, title: { zh: "妙行無住分", en: "Wondrous Practice, Dwelling Nowhere" } },
+  { id: 5, title: { zh: "如理實見分", en: "Seeing the Tathāgata as He Truly Is" } },
+  { id: 6, title: { zh: "正信希有分", en: "Rare and True Faith" } },
+  { id: 7, title: { zh: "無得無說分", en: "Neither Attainment nor Teaching" } },
+  { id: 8, title: { zh: "依法出生分", en: "Born From This Teaching" } },
+  { id: 9, title: { zh: "一相無相分", en: "One Mark, No Mark" } },
+  { id: 10, title: { zh: "莊嚴淨土分", en: "Adorning the Pure Land" } },
+  { id: 11, title: { zh: "無為福勝分", en: "The Merit of the Unconditioned Surpasses" } },
+  { id: 12, title: { zh: "尊重正教分", en: "Honoring the True Teaching" } },
+  { id: 13, title: { zh: "如法受持分", en: "Upholding the Teaching as Taught" } },
+  { id: 14, title: { zh: "離相寂滅分", en: "Freedom from Marks, Perfect Stillness" } },
+  { id: 15, title: { zh: "持經功德分", en: "The Merit of Upholding This Sutra" } },
+  { id: 16, title: { zh: "能淨業障分", en: "Able to Purify Karmic Obstructions" } },
+  { id: 17, title: { zh: "究竟無我分", en: "Ultimately Without Self" } },
+  { id: 18, title: { zh: "一體同觀分", en: "One Body, Same Contemplation" } },
+  { id: 19, title: { zh: "法界通化分", en: "Pervading Transformation of the Dharma Realm" } },
+  { id: 20, title: { zh: "離色離相分", en: "Apart from Form, Apart from Marks" } },
+  { id: 21, title: { zh: "非說所說分", en: "Neither Spoken nor That Which Is Spoken" } },
+  { id: 22, title: { zh: "無法可得分", en: "No Dharma That Can Be Attained" } },
+  { id: 23, title: { zh: "淨心行善分", en: "A Pure Mind Practices Good" } },
+  { id: 24, title: { zh: "福智無比分", en: "Merit and Wisdom Beyond Compare" } },
+  { id: 25, title: { zh: "化無所化分", en: "Transforming Without Something Transformed" } },
+  { id: 26, title: { zh: "法身非相分", en: "The Dharma Body Is Not Marks" } },
+  { id: 27, title: { zh: "無斷無滅分", en: "Neither Cut Off nor Extinguished" } },
+  { id: 28, title: { zh: "不受不貪分", en: "Neither Receiving nor Grasping" } },
+  { id: 29, title: { zh: "威儀寂靜分", en: "Awesome Deportment, Perfect Stillness" } },
+  { id: 30, title: { zh: "一合相理分", en: "The Principle of the Mark of Unity" } },
+  { id: 31, title: { zh: "知見不生分", en: "Views Do Not Arise" } },
+  { id: 32, title: { zh: "應化非真分", en: "Transformation Bodies Are Not Real" } }
+];
+
+const ANALECTS_PARTS = [
+  { id: 1, title: { zh: "學而", en: "Learning" } },
+  { id: 2, title: { zh: "為政", en: "Governing" } },
+  { id: 3, title: { zh: "八佾", en: "Eight Rows" } },
+  { id: 4, title: { zh: "里仁", en: "Living in Humaneness" } },
+  { id: 5, title: { zh: "公冶長", en: "Gongye Chang" } },
+  { id: 6, title: { zh: "雍也", en: "Yong Ye" } },
+  { id: 7, title: { zh: "述而", en: "Transmission" } },
+  { id: 8, title: { zh: "泰伯", en: "Tai Bo" } },
+  { id: 9, title: { zh: "子罕", en: "The Master Seldom" } },
+  { id: 10, title: { zh: "鄉黨", en: "Village Community" } },
+  { id: 11, title: { zh: "先進", en: "Those of Former Times" } },
+  { id: 12, title: { zh: "顏淵", en: "Yan Yuan" } },
+  { id: 13, title: { zh: "子路", en: "Zi Lu" } },
+  { id: 14, title: { zh: "憲問", en: "Xian Asked" } },
+  { id: 15, title: { zh: "衛靈公", en: "Duke Ling of Wei" } },
+  { id: 16, title: { zh: "季氏", en: "The Ji Family" } },
+  { id: 17, title: { zh: "陽貨", en: "Yang Huo" } },
+  { id: 18, title: { zh: "微子", en: "Viscount of Wei" } },
+  { id: 19, title: { zh: "子張", en: "Zi Zhang" } },
+  { id: 20, title: { zh: "堯曰", en: "Yao Spoke" } }
+];
+
+const SPRING_AUTUMN_PARTS = [
+  { id: "隱公", title: { zh: "隱公", en: "Duke Yin" } },
+  { id: "桓公", title: { zh: "桓公", en: "Duke Huan" } },
+  { id: "莊公", title: { zh: "莊公", en: "Duke Zhuang" } },
+  { id: "閔公", title: { zh: "閔公", en: "Duke Min" } },
+  { id: "僖公", title: { zh: "僖公", en: "Duke Xi" } },
+  { id: "文公", title: { zh: "文公", en: "Duke Wen" } },
+  { id: "宣公", title: { zh: "宣公", en: "Duke Xuan" } },
+  { id: "成公", title: { zh: "成公", en: "Duke Cheng" } },
+  { id: "襄公", title: { zh: "襄公", en: "Duke Xiang" } },
+  { id: "昭公", title: { zh: "昭公", en: "Duke Zhao" } },
+  { id: "定公", title: { zh: "定公", en: "Duke Ding" } },
+  { id: "哀公", title: { zh: "哀公", en: "Duke Ai" } }
+];
+
+const MEAN_PARTS = Array.from({ length: 33 }, (_, i) => {
+  const n = i + 1;
+  return { id: n, title: { zh: `第${n}章`, en: `Chapter ${n}` } };
+});
+
 const works = [
   {
     id: "tao-te-ching",
@@ -62,7 +153,7 @@ const works = [
       zh: "道家奇書，以天道、機、盜等概念闡述天人相應與因勢制宜之理。",
       en: "A terse Taoist classic on Heaven's hidden mechanisms and the art of acting in accord with them."
     },
-    unitLabel: { zh: "章", en: "Section" },
+    unitLabel: { zh: "段", en: "Section" },
     attribution: {
       zh: "原文據《黃帝陰符經》通行本",
       en: "Chinese text after the received text of the Yinfu Jing"
@@ -134,7 +225,10 @@ const works = [
       zh: "儒家四書之一，論中和之道與誠的修養。",
       en: "One of the Confucian Four Books, on balance, harmony, and sincerity."
     },
-    unitLabel: { zh: "章", en: "Chapter" },
+    unitLabel: { zh: "節", en: "Section" },
+    structureLabel: { zh: "章", en: "Chapter" },
+    structureCount: 33,
+    structureParts: MEAN_PARTS,
     attribution: {
       zh: "原文據朱熹《中庸章句》三十三章本（長章再分節）",
       en: "Chinese text from Zhu Xi’s Doctrine of the Mean in 33 chapters (long chapters subdivided)"
@@ -153,30 +247,15 @@ const works = [
       en: "A record of the sayings and conduct of Confucius and his disciples."
     },
     unitLabel: { zh: "章", en: "Chapter" },
+    structureLabel: { zh: "篇", en: "Book" },
+    structureCount: 20,
+    structureParts: ANALECTS_PARTS,
     attribution: {
       zh: "原文據《論語》傳世本二十篇（維基文庫傳統章次；個別字從朱熹集注通行讀法）",
       en: "Chinese text from the received Analects in 20 books (Wikisource chaptering; selected readings follow Zhu Xi)"
     },
     status: "available",
     chapters: analects
-  },
-  {
-    id: "mencius",
-    tradition: "confucian",
-    title: { zh: "孟子", en: "Mencius" },
-    author: { zh: "孟子及其弟子", en: "Mencius and disciples" },
-    era: { zh: "戰國時期", en: "Warring States Period" },
-    description: {
-      zh: "記錄孟子言行與思想的儒家經典，闡述性善論與仁政。",
-      en: "The teachings of Mencius on innate goodness and benevolent governance."
-    },
-    unitLabel: { zh: "章", en: "Chapter" },
-    attribution: {
-      zh: "原文據《孟子》傳世本",
-      en: "Chinese text after the received Mencius"
-    },
-    status: "coming-soon",
-    chapters: mencius
   },
   {
     id: "filial-piety",
@@ -207,12 +286,35 @@ const works = [
       en: "The chronicle of the state of Lu — a foundational Confucian classic later read through rich commentarial traditions."
     },
     unitLabel: { zh: "段", en: "Section" },
+    structureLabel: { zh: "公", en: "Duke" },
+    structureCount: 12,
+    structureParts: SPRING_AUTUMN_PARTS,
     attribution: {
       zh: "原文據《春秋》經文（自公羊傳經文系統整理；繁體）",
       en: "Chinese text after the Spring and Autumn classic (jing), arranged from the Gongyang jing tradition; Traditional Chinese"
     },
     status: "available",
     chapters: springAndAutumn
+  },
+  {
+    id: "mencius",
+    tradition: "confucian",
+    title: { zh: "孟子", en: "Mencius" },
+    author: { zh: "孟子及其弟子", en: "Mencius and disciples" },
+    era: { zh: "戰國時期", en: "Warring States Period" },
+    description: {
+      zh: "記錄孟子言行與思想的儒家經典，闡述性善論與仁政。",
+      en: "The teachings of Mencius on innate goodness and benevolent governance."
+    },
+    unitLabel: { zh: "章", en: "Chapter" },
+    structureLabel: { zh: "篇", en: "Book" },
+    structureCount: 7,
+    attribution: {
+      zh: "原文據《孟子》傳世本七篇",
+      en: "Chinese text after the received Mencius in seven books"
+    },
+    status: "coming-soon",
+    chapters: mencius
   },
   {
     id: "heart-sutra",
@@ -242,7 +344,10 @@ const works = [
       zh: "般若經典，闡述無相布施與空性智慧。",
       en: "A Prajñāpāramitā sutra on non-attachment, generosity, and the nature of emptiness."
     },
-    unitLabel: { zh: "分", en: "Division" },
+    unitLabel: { zh: "節", en: "Section" },
+    structureLabel: { zh: "分", en: "Division" },
+    structureCount: 32,
+    structureParts: DIAMOND_PARTS,
     attribution: {
       zh: "原文據鳩摩羅什譯《金剛般若波羅蜜經》梁昭明太子三十二分本（長分再分節）",
       en: "Chinese text after Kumārajīva’s full Diamond Sutra translation, in Crown Prince Zhaoming of Liang's 32 divisions (long divisions subdivided)"
@@ -278,10 +383,13 @@ const works = [
       zh: "禪宗根本經典，記錄六祖惠能開法，闡明自性般若與頓悟法門。",
       en: "The foundational Chan classic recording the Sixth Patriarch Huineng’s teaching on inherent prajñā and sudden awakening."
     },
-    unitLabel: { zh: "品", en: "Chapter" },
+    unitLabel: { zh: "節", en: "Section" },
+    structureLabel: { zh: "品", en: "Chapter" },
+    structureCount: 10,
+    structureParts: PLATFORM_PARTS,
     attribution: {
-      zh: "原文據《六祖大師法寶壇經》宗寶本（CBETA T2008）",
-      en: "Chinese text after the Platform Sutra, Zongbao edition (CBETA T2008)"
+      zh: "原文據《六祖大師法寶壇經》宗寶本十品（CBETA T2008；長品再分節）",
+      en: "Chinese text after the Platform Sutra, Zongbao edition in 10 chapters (CBETA T2008; long chapters subdivided)"
     },
     status: "available",
     chapters: platformSutra

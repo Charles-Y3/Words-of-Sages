@@ -2,6 +2,7 @@
 import { useNavigate } from "react-router-dom";
 import { useSettings } from "../context/SettingsContext";
 import { search, groupResults, makeSnippet } from "../utils/search";
+import { getWork } from "../data/works";
 import { unitName } from "../utils/unitLabel";
 import useDocumentTitle from "../hooks/useDocumentTitle";
 import AppShell from "../components/AppShell";
@@ -74,7 +75,7 @@ export default function Search() {
           >
             <div className={styles.resultHead}>
               <span>
-                {r.workTitle[language]} · {unitName({ unitLabel: r.unitLabel }, language, r.chapterId)}
+                {r.workTitle[language]} · {unitName(getWork(r.workId), language, r.chapterId)}
               </span>
             </div>
             <div className={styles.resultSnippet} lang={r.lang === "zh" ? "zh-Hant" : "en"}>
