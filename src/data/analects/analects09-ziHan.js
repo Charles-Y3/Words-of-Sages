@@ -85,8 +85,8 @@ const analects09_ziHan = [
       en: `The Master was surrounded and threatened at Kuang. He said, "Since King Wen died, is not his culture now embodied here in me? If Heaven intended to destroy this culture, it would not have let me, who come after, share in it. Since Heaven has not yet destroyed this culture, what can the people of Kuang do to me?"`
     },
     plain: {
-      zh: `孔子在匡地遇險，性命堪憂。他卻鎮定地說：文王雖已去世，但他所傳的文化命脈如今繫於我身；上天若真要滅絕這文化，就不會讓我承接它。既然天意未絕，匡人又能奈我何？這是孔子在危難中展現對使命的堅定信念。`,
-      en: `Facing mortal danger at Kuang, Confucius remained calm, reasoning that since King Wen's cultural legacy now rested with him, Heaven's failure to destroy it earlier meant it was not yet meant to end — so the men of Kuang could not truly harm him. It is a striking display of confidence in one's mission amid crisis.`
+      zh: `孔子在匡地被圍困，情勢危急，幾乎性命不保。他卻鎮定地說：周文王已經去世，但他所傳的禮樂文明，難道不就在我這裡嗎？上天若真要滅絕這套斯文，就不會讓我這後死之人得以參與承受它；上天既尚未要喪斯文，匡人又能把我怎麼樣呢？危難之中，他把個人安危繫於文化命脈是否該絕，表現出對使命與天命的鎮定信念——斯文未喪，則己身不可絕。子畏於匡而自明：文王既沒，文在茲；天未喪斯文，則匡人其如予何——以斯文之命安己身之危。`,
+      en: `Surrounded and threatened at Kuang, almost past hope, Confucius said calmly: since King Wen died, is not his culture now here in me? If Heaven meant to destroy this culture, it would not have let me, who come after, share in it; since Heaven has not yet destroyed it, what can the people of Kuang do to me? In danger he ties his own safety to whether the cultural mandate is meant to end — a calm faith in mission and Heaven's will: while this culture is not yet lost, his person cannot be cut off. Threatened at Kuang, Confucius steadies himself: since Wen died, the culture is here in me; if Heaven has not yet destroyed this culture, what can Kuang do to me? — he rests his danger on the mandate of that culture.`
     },
     application: {
       zh: `面對危難時，若能把眼光放在自己承擔的使命而非眼前的恐懼，往往能生出異乎尋常的鎮定。相信自己在做的事有其意義，是撐過難關的力量來源。
@@ -104,8 +104,8 @@ const analects09_ziHan = [
       en: `A Grand Steward asked Zigong, "Is your Master a sage? How is it he is so versatile?" Zigong said, "Heaven has indeed let him become a sage, and moreover given him many abilities." Hearing this, the Master said, "Does the Grand Steward really know me? When I was young I was poor and lowly, and so I became skilled in many menial things. Does a gentleman need many skills? He does not."`
     },
     plain: {
-      zh: `有人問子貢，孔子是不是天生的聖人，才會樣樣精通。子貢說是上天讓他既聖且多能。孔子聽到後卻糾正說：那是因為我年輕時貧賤，為了謀生才學會許多雜事，這與「君子」是否需要多能無關——真正的君子，不必以技藝多寡論高下。`,
-      en: `When asked whether Confucius's versatility proved he was a born sage, Zigong answered that Heaven had made him both sagely and skilled. Confucius corrected this: his many practical skills came from a poor, humble youth spent earning a living, not from innate sagehood — and a true gentleman need not be judged by the number of his skills.`
+      zh: `太宰問子貢：你們夫子是聖人嗎？怎麼那樣多才多能？子貢答：本來就是上天縱使他成為大聖，又使他多能。孔子聽見後卻謙抑糾正：太宰真了解我嗎？我年輕時貧賤，為謀生才學會許多鄙事雜技；君子難道一定要多能嗎？不必多啊！整章拆開「聖」與「多能」的混淆：多能來自少賤的際遇，不是聖的本質證明；君子所重也不在技藝的繁多。孔子既否認以多能自居為聖，也提醒不必以雜藝多少衡量君子。「君子多乎哉？不多也」並非否定技能，而是反對以「多能鄙事」誤認作聖與君子的本質證明。`,
+      en: `A Grand Steward asks Zigong whether Confucius is a sage, given his many skills. Zigong says Heaven has let him become a sage and also given him many abilities. Hearing this, Confucius gently corrects: does the Steward really know me? When young I was poor and lowly, so I learned many menial tasks; does a gentleman need many skills? He does not. The chapter separates sagehood from versatility: many skills came from a humble youth, not as proof of being a sage; nor is the junzi measured by the number of crafts. Confucius refuses both to claim sagehood through skill and to let skill-count define the gentleman. "Does a gentleman need many skills? He does not" does not scorn skill; it refuses to mistake menial versatility for sagehood or junzi essence.`
     },
     application: {
       zh: `孔子把自己的多才多藝歸因於早年的困苦，而非天賦異稟，這份坦誠值得學習。與其誇耀自己的能力，不如老實承認每項本事背後的來歷與辛苦。
@@ -199,8 +199,8 @@ const analects09_ziHan = [
       en: `Yan Yuan sighed and said, "The more I look up at it, the higher it seems; the more I bore into it, the harder it becomes. I see it before me, and suddenly it is behind me! The Master skillfully leads people on step by step: he broadens me with culture and restrains me with ritual. I want to stop but cannot; having exhausted my abilities, it is as though something stands there, towering — and though I wish to follow it, I find no way to reach it."`
     },
     plain: {
-      zh: `顏淵讚歎老師的學問道德高深莫測，越鑽研越覺得堅實深厚，時而在前、時而在後，難以捉摸；但孔子善於循序漸進地引導學生，用典籍拓展視野、用禮教約束言行。顏淵即使竭盡全力，仍覺得那個至高的境界近在眼前卻難以企及，道出向學者對真理無止境追求的敬畏與謙卑。`,
-      en: `Yan Yuan marvels at how unfathomable his master's learning and virtue are — the harder he probes, the more solid it seems, appearing now ahead, now behind. Yet Confucius guides students step by step, broadening them with the classics and restraining them with ritual propriety. Even giving his utmost, Yan Yuan feels the highest attainment stands just out of reach — a moving expression of a learner's endless, humble pursuit of truth.`
+      zh: `顏淵深深歎息說：老師的道，越抬頭仰望越覺得高遠，越鑽研越覺得堅實難入；明明看它在前方，忽然又覺得它在身後——簡直難以捉摸、無從把捉！可夫子善於一步一步地誘導人：用典籍文章開闊我的見識（博我以文），又用禮來約束我的言行（約我以禮）。我想停下卻停不下來；已經竭盡自己的才力，那至高的境界仍像卓然立在眼前，想跟上卻找不到路徑。此章寫出顏淵對夫子之道又嚮往又謙卑的學習心境：既感激循循善誘，又自知尚未企及那卓爾自立的高度。顏淵以「仰彌高、鑽彌堅、瞻前忽後」寫道之難即，又以「循循善誘、博文約禮、欲罷不能、末由也已」寫學之敬畏：既被引導，又自覺未及卓爾之境。`,
+      en: `Yan Yuan sighs deeply: the Master's Way — the more I look up, the higher it seems; the more I bore into it, the harder it becomes. I see it before me, and suddenly it is behind — hard even to grasp! Yet the Master leads people on step by step: he broadens me with culture and restrains me with ritual. I want to stop but cannot; having exhausted my abilities, something still stands towering there, and though I wish to follow, I find no way. The unit captures Yan Yuan's yearning and humility: grateful for gradual guidance, yet aware he has not reached that towering height. Yan Yuan paints the Way as ever higher and harder, before then behind; and paints learning as gradual leading, broadening by culture and restraining by ritual, unable to stop, yet with no path to the towering height — guided, yet still short of what stands there.`
     },
     application: {
       zh: `顏淵沒有因為目標「高不可攀」而放棄，反而更用力鑽研。真正的成長常常伴隨這種「越學越覺得不足」的謙卑感，這不是挫折，而是進步的證明。
@@ -218,8 +218,8 @@ const analects09_ziHan = [
       en: `When the Master was gravely ill, Zilu had the disciples act as if they were his household retainers. When the illness eased, the Master said, "Long has You [Zilu] been practicing this deception! Having no retainers, to pretend I have them — whom am I deceiving? Am I deceiving Heaven? Moreover, rather than die in the hands of retainers, would I not rather die in the hands of you, my disciples? And even if I do not get a grand burial, shall I then die by the roadside, uncared for?"`
     },
     plain: {
-      zh: `孔子病重時，子路安排弟子假扮成家臣為他辦理後事，以顯排場。病情好轉後，孔子責備子路弄虛作假：自己並非大夫，本不該有家臣，這樣做等於欺騙上天。他寧願死在弟子手中，也不願靠虛假的排場來裝點門面，展現孔子重視真實勝於形式虛榮。`,
-      en: `While gravely ill, Confucius found that Zilu had arranged for disciples to pose as household retainers to give his impending death proper pomp. Recovering, Confucius rebuked him: since he held no rank entitling him to retainers, the pretense amounted to deceiving Heaven itself; he would rather die honestly in his disciples' hands than be dressed up in false ceremony. It shows Confucius valuing truthfulness over appearances.`
+      zh: `孔子病勢危急時，子路讓門人充當家臣，以便按大夫規格治喪。後來病勢稍緩，孔子嚴厲責備：仲由弄虛作假已經很久了！明明沒有家臣卻裝作有家臣——我欺騙誰？難道欺騙天嗎？再說，我與其死在這些偽充的家臣手裡，寧可死在你們二三位弟子手裡！縱使我得不到大夫級的厚葬，難道就會死在道路上沒人收殮嗎？整章痛斥以虛禮裝點身分：寧可真實地死在弟子之手，也不以無臣而為有臣欺天；喪葬的尊嚴在情義與真實，不在僭越的排場。「欺天乎」把虛假治喪升到對天的欺瞞；寧死於二三子之手，是選擇真實的師徒之情，拒絕僭禮的虛榮。無臣而為有臣是欺天；寧死於二三子之手，也不要虛假家臣的排場——真實重於僭禮的厚葬。`,
+      en: `When Confucius was gravely ill, Zilu had the disciples act as household retainers so the funeral could match a great officer's rank. When the illness eased, Confucius rebuked him sharply: You has long practiced this deception! Having no retainers yet pretending to have them — whom am I deceiving? Heaven? Moreover, rather than die in false retainers' hands, I would rather die in yours, my disciples! Even without a grand burial, would I die uncared for by the roadside? The chapter condemns dressing up status with empty ritual: better an honest death among disciples than deceiving Heaven by claiming retainers one does not have; dignity in death rests on truth and affection, not usurped pomp. "Am I deceiving Heaven?" raises false funeral pomp to cosmic fraud; dying in disciples' hands chooses real affection over usurped ceremony. `
     },
     application: {
       zh: `子路出於好意卻用了造假的手段，孔子毫不留情地指出問題所在：好心不能成為弄虛作假的理由。維護一個人的尊嚴，應該靠真實，而非排場。
@@ -446,8 +446,8 @@ const analects09_ziHan = [
       en: `The Master said, "Words of strict admonition — can one help but assent to them? But what matters is actually changing because of them. Words of gentle, tactful suggestion — can one help but be pleased by them? But what matters is actually working out their meaning. To be pleased but not work out the meaning, to assent but not actually change — with such a person, I can do nothing at all!"`
     },
     plain: {
-      zh: `孔子指出，聽到正言規勸時，人往往表面順從；聽到委婉的建議時，人往往表面高興。但真正可貴的是：聽了規勸就要真正改正，聽了建議就要深入思考體會。若只是口頭應付而不付諸行動，孔子也無可奈何。`,
-      en: `Confucius observes that people readily nod along to blunt admonitions and readily feel pleased by tactful suggestions. What truly matters, though, is whether admonition leads to actual change and whether suggestion leads to real reflection. If someone merely agrees or feels pleased without acting on it, even Confucius admits there is nothing more he can do.`
+      zh: `孔子說：嚴正規勸的話，人哪能不表面聽從呢？可貴的是聽了真去改正。委婉勸導的話，人哪能不表面高興呢？可貴的是聽了真去玩味推求、繹出深意。若只是高興卻不思索，只是表面聽從卻不改正——對這種人，我也實在沒有辦法了！聽勸的關鍵不在當下點頭或喜悅的態度，而在事後是否改、是否繹；從而不改、說而不繹，連夫子也莫可奈何。法語能從，貴在改；巽言能說，貴在繹。說而不繹、從而不改，夫子亦末如之何——聽勸要落到改正與玩味上。`,
+      en: `Confucius says: words of strict admonition — can one help but assent? What matters is actually changing. Words of gentle suggestion — can one help but be pleased? What matters is working out their meaning. To be pleased without reflecting, to assent without changing — with such a person, I can do nothing at all. The test of counsel is not the face you show while hearing it, but whether you later change and think it through; assent without amendment, pleasure without reflection — even the Master can do nothing. Strict words win assent — what matters is changing; tactful words win pleasure — what matters is working out the meaning. Pleased without reflection, assenting without change — even the Master can do nothing: hearing counsel must land in amendment and thought.`
     },
     application: {
       zh: `聽進去和真正改變是兩回事。很多人善於在當下點頭稱是，卻從不真的調整行為，這種表面接受其實等於沒接受。

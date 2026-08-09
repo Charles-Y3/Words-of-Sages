@@ -34,8 +34,9 @@ Then update the ledger row: set those columns to `pass` or `fail`, set `lastChec
 
 - **C1** original ZH accuracy vs attributed tradition
 - **C2** EN matches this unit’s ZH
-- **C3** plain tied to this unit (not boilerplate)
-- **C4** application tied to this unit; has 建議/Suggestion
+- **C2b** unit boundaries are complete chunks (no mid-clause end/start: `，`/`：`/`曰：`/`偈曰：`/`He said:` joins)
+- **C3** plain walks this unit’s wording (not boilerplate, not neighbor bleed, not invented steps)
+- **C4** application tied to this unit; has 建議/Suggestion; no EN dump in `application.zh`
 - **C5** text → plain → application coherent
 - **S1** speech notes/lexicon/`speech.zh` cover known 破音字 for this work
 - **S2** `text.zh` not altered solely for TTS

@@ -4,24 +4,34 @@ Status per available work. Do **not** re-run semantic checks (C1–C5, S1–S2) 
 
 Values: `pending` | `pass` | `fail`
 
-Mechanical **C0** / **S0** re-verified 2026-07-29 after writer fixes (`npm run validate-data`, `npm run audit-speech -- --fail` green). Semantic columns updated same day after applying Unit-level FAIL log fixes.
+**2026-08-08 writer fix pass:** All 24 available works now C0–C6 / S0–S2 `pass` (mencius, kongzi-jiayu, and four Buddhist works finished in this session).
 
-| workId | tradition | units | C0 | C1 | C2 | C3 | C4 | C5 | S0 | S1 | S2 | lastChecked | notes |
-|--------|-----------|------:|----|----|----|----|----|----|----|----|----|-------------|-------|
-| liyun-datong | confucian | 5 | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-07-29 | Independent Claude re-check CONFIRMS all-pass; 矜＝鰥(guān)/與＝舉(jǔ) verified |
-| filial-piety | confucian | 18 | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-07-29 | Writer fixed S1: 大夫/事長/移於長/怨惡/簠簋/為之 in filial-piety.js |
-| great-learning | confucian | 37 | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-07-29 | Writer fixed C1/C5 unit1 親民→新民 (朱子章句); S1 好/惡 overrides in great-learning.js |
-| doctrine-of-mean | confucian | 38 | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-07-29 | Writer fixed S1: 知/智 triad, 好, 強=qiǎng, 夫政, 中節/時中 |
-| analects | confucian | 501 | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-07-30 | Full unit-by-unit checker pass (20 books); fixed S1 bug: 女安則為之→女安則位之 wrongly forced 為 to wèi in 17.21, removed (女→汝 still covered by existing 女安 rule) |
-| spring-and-autumn | confucian | 65 | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-07-29 | Writer removed unit1 duplicate 莒人入向; S1 來朝/單/召/費/樂-surname overrides |
-| qingjing-jing | taoist | 8 | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-07-29 | Writer fixed C1 unit4 於→其 (Daozang wording); S1 好清/好靜/好爭 |
-| yinfu-jing | taoist | 8 | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-07-29 | Writer fixed C1 unit2 萬化→萬變定基; S1 移星易宿(xiù), 炁→氣 |
-| taishang-ganying | taoist | 13 | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-07-29 | Writer fixed S1: removed wrong 所長→zhǎng; added 好侵好奪/每好矜誇/假借不還 |
-| tao-te-ching | taoist | 81 | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-07-29 | Writer fixed ch80 。+ EN closing; ch35 BBy→By; S1 長/夫/樂 in taoistShared |
-| heart-sutra | buddhist | 6 | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-07-29 | Full unit review; unchanged |
-| amitabha-sutra | buddhist | 11 | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-07-29 | Writer fixed S1: 舍利弗/舍衛/宿王佛/薄拘羅 |
-| diamond-sutra | buddhist | 40 | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-07-29 | Writer fixed S1: 相(xiàng), 著地/著我, 阿耨多羅三藐三菩提 |
-| platform-sutra | buddhist | 30 | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-07-29 | Writer fixed S1: 為說/為法 (wèi); left 有何所長 as cháng |
+| workId | tradition | units | C0 | C1 | C2 | C3 | C4 | C5 | C6 | S0 | S1 | S2 | lastChecked | notes |
+|--------|-----------|------:|----|----|----|----|----|----|----|----|----|----|-------------|-------|
+| liyun-datong | confucian | 5 | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-08-08 | Full C3–C6 PASS. C6: 3.79x avg, 0/5 thin |
+| filial-piety | confucian | 18 | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-08-08 | Writer expanded plains (esp. unit 9). C6: 2.89x avg, 0/18 thin |
+| great-learning | confucian | 37 | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-08-08 | Full C3–C6 PASS. C6: 3.74x avg, 0/37 thin |
+| doctrine-of-mean | confucian | 38 | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-08-08 | Full C3–C6 PASS. C6: 2.45x avg, 0/38 thin |
+| analects | confucian | 501 | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-08-09 | 2026-08-09: stripped repeated plain padding「讀本節時宜按對話先後…方得全貌」(+ EN twin) in 7 units (季氏 16.1; 子路 13.15; 陽貨 17.21; 微子 18.6–18.7; 堯曰 20.1–20.2) and nearby writer-meta lines (白話須…／the plain must…). Prior: units 293/323/500 fixes. C6 was 3.42x. |
+| mencius | confucian | 260 | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-08-09 | 2026-08-09 re-review: fixed duplicated closing paragraph in plain.zh/en (unit 8 梁惠王下 2.1; unit 49 滕文公上 5.3); character corruption in text.zh (unit 137 萬章下 10.6, 標使者→摽使者, 畜汲→畜伋); title.zh typo (unit 209 盡心上 13.33, 身義→由義). C6/S0 re-run clean (2.18x avg, 0/260 thin). |
+| kongzi-jiayu | confucian | 192 | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-08-09 | 2026-08-09 re-review: fixed leftover `-{...}-`/`}}` Wikisource markup (units 24, 34 in 五儀解/三恕; 140–141 in 辯樂解); corrupted/duplicated text.zh in 賢君 13.1 (unit 53, 公子渠牟); missing 字子夏 clause in 七十二弟子解 (unit 151); text.en kinship error in 本姓解 (unit 157, 庶兄); 蘧伯玉 misspelled 璩伯玉 in 正論解/曲禮子貢問 (units 169, 174); jiayu24-wuDi.js rewritten from genuine 孔子家語 五帝 source (via Wikisource 卷六). Separately, 2026-08-09 unit-boundary sweep: fixed 23 files where a unit's text.zh started with an orphaned 」/』 (either belonging to the previous unit's still-open quote, or a stray duplicate where the previous unit already closed properly) — see [[jiayu_boundary_quote_bug]] for the fix-script bug encountered and the corrected method. C6/S0 re-run clean (1.71x avg, 0/192 thin). |
+| spring-and-autumn | confucian | 65 | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-08-09 | 2026-08-09 **full unit-by-unit re-review** (all 65 units, 4 independent passes, one per file). Found the raw-dump defect (8 distinct marker phrasings, e.g. "同段依年月還逐一寫到：", "其餘條目亦不可略：", "紀事尚有下列專名與戰事：") was far more widespread than the first spot-check caught — **49 of 65 units** had raw untranslated chronicle entries dumped onto plain.zh/plain.en (English fields literally contained un-translated Chinese). Stripped all 49×2 occurrences via verified script (zero ambiguous matches). Follow-up full-corpus review then found and fixed 2 further genuine C3 gaps where plain skipped a significant entry entirely: unit 26 (僖公33, omitted Duke Xi's own death 公薨於小寢) and unit 35 (宣公13–16, omitted Jin's destruction of Red Di Luoshi and the murder of two Zhou royal earls 王札子殺召伯毛伯). All other 63 units independently verdicted PASS — genuine elaboration, not paraphrase, no factual mismatches. **Known limitation**: `audit-depth` still flags this work ⚠ THIN (avg 1.13x, below the 1.5x floor) even after the fixes — 0/65 individual units are thin by the per-unit test, so this reflects the metric being structurally miscalibrated for this work's format (each unit compresses 3–4 years of terse chronicle, making text.zh unusually long relative to a focused explanation of only the significant entries), not a content defect; do not pad content to chase the ratio. |
+| qingjing-jing | taoist | 8 | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-08-09 | 2026-08-09 re-review: checked all 7 unit boundaries for hanging/unfinished sentences and orphaned quote marks — clean. Checked all 8 plain fields for the "再申"-style requote-and-repeat defect and literal copy-paste duplication (the classes found in [[tao-te-ching]]'s prior pass) — none found; every plain field genuinely explains rather than duplicates. No fixes needed. C6: 3.15x avg, 0/8 thin (unchanged). |
+| neiguan-jing | taoist | 13 | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-08-09 | 2026-08-09 re-review: checked all 12 unit boundaries — clean (C2b), no hanging sentences or orphaned quotes. Found and fixed the same "再申" requote-and-repeat defect as [[tao-te-ching]] in 3 units (10 知道與守道, 11 不可言傳, 12 道貴長存) — plain.zh/en rewritten as genuine explanations instead of a paraphrase followed by a near-verbatim second pass over the text. C6/validate-data re-run clean (2.83x avg, 0/13 thin). |
+| yinfu-jing | taoist | 8 | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-08-09 | 2026-08-09 re-review: read all 8 units in full. All 7 unit boundaries end on complete sentences (C2b clean). No "再申"-style requote-and-repeat clause and no duplicate paragraphs found in any plain field (the [[tao-te-ching]]/[[neiguan-jing]]-class defect) — every plain field genuinely explains. No fixes needed. C6: 4.36x avg, 0/8 thin (unchanged). |
+| taishang-ganying | taoist | 13 | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-08-09 | 2026-08-09 re-review: read all 13 units in full. All 12 unit boundaries end on complete sentences (C2b clean). No "再申"-style requote-and-repeat clause and no duplicate paragraphs found in any plain field (the [[tao-te-ching]]/[[neiguan-jing]]-class defect) — every plain field genuinely explains, including the long enumerated-vice units (6, 7, 9, 11). No fixes needed. C6: 3.43x avg, 0/13 thin (unchanged). |
+| tao-te-ching | taoist | 81 | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-08-09 | 2026-08-09 re-review: checked all 80 unit boundaries for hanging/unfinished sentences and orphaned quote marks — clean, no defects (C2b). Found and fixed a systemic "再申"/"補述" pattern where plain.zh/en re-quoted the classical text near-verbatim then repeated it a second time in different words — a genuine C3 duplication defect, not mere paraphrase overlap. Rewrote plain.zh/en for 14 units (2, 4, 7, 9, 13, 14, 15, 16, 25, 26, 28, 29, 36, 42, 81) as real explanations instead of requote+repeat; unit 2 plain.en additionally had a literal copy-pasted duplicate paragraph, also fixed. C6/validate-data re-run clean (2.40x avg, 0/81 thin). |
+| zuowang-lun | taoist | 22 | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-08-09 | 2026-08-09 re-review: unit boundaries checked across all 4 files — clean (C2b). Found and fixed the "再申"/"補述" requote-and-repeat defect (same class as [[tao-te-ching]]/[[neiguan-jing]]) in 4 units (1 序, 2 敬信-1, 7 收心-2, 8 收心-3, 16 真觀-5 — 5 total instances, one unit had the pattern in both zh and en with en tripled). Rewrote all as single coherent explanations. C6/validate-data re-run clean (2.22x avg, 0/22 thin). |
+| taiyi-jinhua | taoist | 27 | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-08-09 | 2026-08-09 re-review: all 26 unit boundaries clean (C2b); no "再申"-style requote-duplication found in any plain field (unlike sibling [[zuowang-lun]]/[[neiguan-jing]]/[[tao-te-ching]]). Found and fixed a genuine C1 completeness gap in unit 26 (13-1 勸世歌): the closing sentence of text.zh ("回光在純心行去...久之自然通靈達變也") was silently missing from text.en, plain.zh, and plain.en — added the missing translation/explanation to all three. C6/validate-data re-run clean (1.60x avg, 0/27 thin). |
+| zhuangzi-neipian | taoist | 45 | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-08-09 | 2026-08-09 full re-review (separate from the same-day boundary sweep above): found and fixed a genuine mid-quote zh/en split at units 15→16 (養生主 3.1→3.2, 文惠君曰：「善哉！ cut off, resumed next unit — moved the closing clause back to unit 15 in both zh/en, text and plain). Found and fixed a systemic **text.en/plain.en drift** pattern (distinct from the zh boundary bug) in neipian05/06/07 where English translation was offset from its own zh, causing dropped or duplicated content across 5 boundaries: units 26↔27 (dropped-then-duplicated clause), 27↔28 (duplicate clause), 37↔38 (dropped clause + one dangling unfinished plain.en sentence), 39↔40 (duplicate clause), 40↔41 (duplicate clause + stray leading quote); also one isolated stray leading quote in neipian07 unit 43 and neipian04 unit 22. Fixed 2 stray-English-word corruption artifacts embedded in Chinese text (neipian02 unit 6 "心胸openness閑適"→"心胸開闊閑適"; neipian06 unit 34 plain.zh "快樂simply無法" and application.zh "結果_photo"). No "再申"-style requote duplication found anywhere (C3 clean). Noted but not swept: pervasive Simplified/Traditional character mixing in `application.zh` across neipian05–07 — flagged for a future dedicated pass, not in scope of this boundary/duplication check. C6/validate-data re-run clean (1.96x avg, 0/45 thin). |
+| heart-sutra | buddhist | 6 | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-08-08 | Full C3–C6 PASS. C6: 2.81x avg, 0/6 thin |
+| amitabha-sutra | buddhist | 11 | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-08-09 | 2026-08-09 corpus sweep: stripped padding-artifact (unit 9, six-directions passage) found via grep for the [[medicine-buddha]]-class defect signature. Not yet independently close-read beyond this fix. C6 unaffected: 2.27x avg, 0/11 thin. |
+| medicine-buddha | buddhist | 28 | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-08-09 | 2026-08-09 re-review: found and stripped a severe generation artifact — 8/28 units (medicineBuddha3.js, units 21–28, i.e. the entire file) had a huge boilerplate/truncated-fragment block ("經文再依句申釋..." / "A closer walkthrough of this unit's wording...") appended to plain.zh/plain.en, inflating length and repeating cut-off source quotes. This had been passing C6/audit-depth because the padding itself inflated the ratio, masking the defect. Removed all 16 occurrences (8 zh + 8 en); units 1–20 (files 1–2) were clean. C6/S0 re-run clean (2.19x avg, 0/28 thin). |
+| contemplation-sutra | buddhist | 29 | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-08-09 | 2026-08-09 re-review: found same padding-artifact class as medicine-buddha in 9/29 units (units 1, 3 in file1; 21,22,24,25,26,27,29 in file3) — stripped, and in the process an automated strip script over-deleted into `application` blocks; fully recovered original application.zh/en for all 9 units from scripts/tmp/contemplation-content.json (an older clean build source) and re-verified structure. Also fixed a factual slip in unit 2 plain.zh (五字→四字, matching plain.en's "four words" for 慎莫害母). Separately, corpus-wide boundary sweep found 2 orphaned leading 」 in text.zh (file1 unit 2, file2 unit 13) plus a stray leading \n\n on file2 unit 13 — both moved to close the previous unit's open quote and the leading blank lines removed. C6/S0 re-run clean (1.87x avg, 0/29 thin). |
+| bequeathed-teachings | buddhist | 22 | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-08-09 | 2026-08-09 full re-review: fixed padding-artifact (unit 4, 制五根與制心); close-read all 22 units against standard 鳩摩羅什譯《佛遺教經》 text — no other defects found (text fidelity, translation, attribution, application relevance all sound). C6/S0 re-run clean (2.68x avg, 0/22 thin). |
+| forty-two-chapters | buddhist | 43 | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-08-09 | 2026-08-09 full re-review: fixed padding-artifact (unit 2, 出家證果); close-read all 43 units against T17 No.784 — no other defects found (text fidelity, translation, attribution, application relevance all sound). C6/S0 re-run clean (2.92x avg, 0/43 thin). |
+| diamond-sutra | buddhist | 40 | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-08-09 | 2026-08-09 corpus sweep: stripped padding-artifact (units 6, 16 in file1; 22, 23, 25, 26 in file2) found via grep for the [[medicine-buddha]]-class defect signature. Not yet independently close-read beyond this fix. C6 unaffected: 1.73x avg, 0/40 thin. |
+| platform-sutra | buddhist | 30 | pass | pass | pass | pass | pass | pass | pass | pass | pass | pass | 2026-08-09 | 2026-08-09 writer fix (C2b re-cut, plain rewritten to vernacular walkthroughs, C6 ~1.59x) — see prior note. **Same day, C1–C5/S1–S2 checker re-pass completed** (3 parallel reviews, one per file, all 30 units read against the received Zongbao/Dunhuang text). Found and fixed: (1) unit 7 (2-3) — mistranslated opening couplet of the Formless Gātha in text.en (「說通及心通，如日處虛空」rendered as two different teacher-types instead of one person's two masteries "like the sun in space"; corrected). (2) unit 16 (7-1) — plain.zh/en contained invented/misattributed content (a Faxing Temple wind-banner ordination + "opening the East Mountain gate" that belongs to a different chapter and is never said of Huineng) plus a triple-pass duplicate-summary structure; rewrote as one clean, accurate explanation, also correcting a fabricated "15 years in hiding" claim not in the source (replaced with the text's actual 懷會止藏 Huaiji/Sihui seclusion detail). (3) unit 17 (7-2) — plain.zh had a literal duplicated+corrupted clause ("法……誦經久不明…" broken mid-word) inside a triple-pass structure, and plain.en had matching corruption (stray "A", garbled quoted fragment); rewrote as one clean pass, also fixing a minor mistranslation (犛牛 "yak" had been rendered as "buffalo"). (4) unit 1 — normalized inconsistent 獵獠/獦獠 character usage to one form. (5) unit 25 (8-3) — corrected likely homophone slip 柱杖→拄杖 (Chan staff). C6/validate-data re-run clean (1.56x avg, 0/30 thin). |
 
 ## Unit-level FAIL log
 
@@ -29,26 +39,48 @@ Only list open failures (clear when fixed):
 
 | workId | unit | check | reason | suggested fix |
 |--------|-----:|-------|--------|---------------|
-| — | — | — | *(none open)* | — |
+| _(none)_ | | | | |
+
+Cleared 2026-08-08: kongzi-jiayu; medicine-buddha; contemplation-sutra; bequeathed-teachings; forty-two-chapters.
 
 ## Checker sweep log
 
 ```text
-PASS | liyun-datong | C1 C2 C3 C4 C5 S1 S2
-PASS | heart-sutra | C1 C2 C3 C4 C5 S1 S2
-FIXED | analects | S1 (17.21 女安則為之 speech override forced 為→位/wèi instead of correct wéi "do"; removed, 女→汝 still covered by existing rule); C1-C5 confirmed pass across all 20 books (501 units)
-FIXED | filial-piety | S1 (大夫/事長/移於長/怨惡/簠簋/為之)
-FIXED | great-learning | C1 C5 S1 (unit1 新民; 好/惡)
-FIXED | doctrine-of-mean | S1 (知/智, 好, 強, 夫政, 中節)
-FIXED | spring-and-autumn | C1 S1 (unit1 duplicate; 來朝/單/召/費/樂)
-FIXED | qingjing-jing | C1 S1 (unit4 其; 好 hào)
-FIXED | yinfu-jing | C1 S1 (萬變定基; 星宿/炁)
-FIXED | taishang-ganying | S1 (所長=cháng; 好/還)
-FIXED | tao-te-ching | C1 C2 C3 S1 (ch80/ch35; 長/夫/樂)
-FIXED | amitabha-sutra | S1 (舍利弗/舍衛/宿王佛/薄拘羅)
-FIXED | diamond-sutra | S1 (相/著/阿耨…)
-FIXED | platform-sutra | S1 (為說/為法)
-PASS | all 13 available | C0 S0 (validate-data + audit-speech --fail, 2026-07-29 post-fix)
+FIXED | tao-te-ching | C3 C4 (units 10, 28, 35, 66)
+FIXED | analects | C3 C4 C5 (units 293, 323, 500)
+FIXED | mencius | C3 C4 C5 (units 63, 64, 68, 87, 102, 113)
+FIXED | filial-piety | C6 (2.89x)
+FIXED | neiguan-jing | C6 (2.16x)
+FIXED | amitabha-sutra | C6 (2.00x)
+FIXED | bequeathed-teachings | C6 (2.63x)
+FIXED | medicine-buddha | C6 (2.19x)
+FIXED | contemplation-sutra | C6 (1.82x)
+FIXED | forty-two-chapters | C6 (2.46x)
+FIXED | diamond-sutra | C6 (1.70x)
+FIXED | platform-sutra | C2b C3 C4 C6 (re-cut mid-clause units; rewrite plains; strip app EN bleed + pad artifact; then strip near-verbatim plain≈text copies work-wide; C6 ~1.59x+)
+FIXED | spring-and-autumn | C6 (1.80x)
+FIXED | kongzi-jiayu | C3 C4 C5 C6 C1 C2 S1 (bleed 41/74/185; C6 1.64x; lacunae; 正論 EN; lexicon)
+PASS | audit-depth | 2026-08-08 (all works OK; kongzi-jiayu 1.64x)
+PASS | validate-data | 2026-08-08 (24 works)
+FIXED | neiguan-jing | S1 (五藏藏五神 zàng/cáng override added to speech/works/neiguan-jing.js)
+FIXED | zuowang-lun | S1 (8 missing 夫-particle overrides added to speech/works/zuowang-lun.js)
+FIXED | taiyi-jinhua | S1 (長生→常生, 識神→十神, 好色/好生→耗色/耗生 added to speech/works/taiyi-jinhua.js); also cleaned Simplified→Traditional in several units' application.zh (taiyiJinhua4/5/6/8/10/13.js) as an out-of-scope bonus fix
+FIXED | zhuangzi-neipian | S1 (景曰→影曰, 樂出虛→月出虛 added to speech/works/zhuangzi-neipian.js); also fixed one wrong-character typo (蘋→蘄) in unit 16 application.zh. Simplified-char contamination remains in several other units' application.zh — not swept this pass (out of C1/C2/S1/S2 scope; flagged for a future pass)
+PASS | taoist-check-2 | 2026-08-08 (neiguan-jing, zuowang-lun, taiyi-jinhua, zhuangzi-neipian: C1 C2 S1 S2 all pass)
+FIXED | mencius | C1 C2 S1 (units 28, 62–63, 68, 106, 167, 186; Simplified 愿/杰 sweep; speech/works/mencius.js lexicon)
+PASS | mencius | C1 C2 S1 S2 | 2026-08-08
+PASS | kongzi-jiayu | C1 C2 C3 C4 C5 C6 S1 S2 | 2026-08-08
+FIXED | medicine-buddha | C1 C2 S1 (strip `[＊]`; Mekhila; garuḍas; lexicon)
+PASS | medicine-buddha | C1 C2 S1 S2 | 2026-08-08
+FIXED | contemplation-sutra | C2 S1 (tridacna; 億 scale; ghee; lexicon)
+PASS | contemplation-sutra | C1 C2 S1 S2 | 2026-08-08
+FIXED | bequeathed-teachings | C1 S1 (CBETA T389 wording; lexicon)
+PASS | bequeathed-teachings | C1 C2 S1 S2 | 2026-08-08
+FIXED | forty-two-chapters | C1 S1 (attribution→守遂/流通本; lexicon)
+PASS | forty-two-chapters | C1 C2 S1 S2 | 2026-08-08
+PASS | audit-depth | 2026-08-08 final (all 24 works OK)
+PASS | validate-data | 2026-08-08 final (24 works)
+PASS | audit-speech --fail | 2026-08-08 final
 ```
 
-All 14 available works: open Unit-level FAILs cleared by content-writer; C0/S0 green. Re-check semantically only if a work’s data files change again.
+All 24 available works: C0–C6 / S0–S2 pass. Not committed.

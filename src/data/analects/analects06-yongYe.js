@@ -104,8 +104,8 @@ const analects06_yongYe = [
       en: `Ji Kangzi asked, "Could Zhong You (Zilu) be employed in government?" The Master said, "You is decisive; what difficulty would there be for him in government?" "Could Ci (Zigong) be employed in government?" "Ci is perceptive; what difficulty would there be for him in government?" "Could Qiu (Ran Qiu) be employed in government?" "Qiu is accomplished in the arts; what difficulty would there be for him in government?"`
     },
     plain: {
-      zh: `季康子詢問孔子，子路、子貢、冉求三位弟子是否適合從政。孔子分別指出三人各有專長：子路果敢決斷、子貢通達事理、冉求多才多藝，三人各憑其長，都能勝任政事。此章顯示孔子因材施教、知人善任的態度，也說明從政不必是單一模式，各種特質皆可發揮所長。`,
-      en: `Ji Kangzi asks whether Zilu, Zigong, and Ran Qiu are fit for government. Confucius answers that each has a distinct strength: Zilu's decisiveness, Zigong's perceptiveness, and Ran Qiu's versatile skill, and each would face no difficulty in office. The passage shows Confucius's insight into matching people's distinct talents to suitable roles.`
+      zh: `季康子向孔子詢問三位弟子能否擔任政事，連問三次，孔子也分別回答三次。他先問仲由（子路）可否從政，孔子說：由這個人個性果敢、臨事能斷，從政有什麼困難呢？又問端木賜（子貢）可否從政，孔子說：賜通達事理、明白人情，從政又有什麼困難呢？再問冉求可否從政，孔子說：求多才多藝、辦事有本事，從政同樣沒有困難。孔子並沒有用同一套標準衡量三人，而是分別點出「果」「達」「藝」三種不同長處，說明適合從政的特質本來就有多種路徑：有人靠決斷，有人靠通達，有人靠才藝。知人善任、因材而用，比強求人人同一模樣更重要；此章正是孔子識人的具體示範。`,
+      en: `Ji Kangzi asks three times whether disciples are fit for office, and Confucius answers three times. Of Zhong You (Zilu): You is decisive — what difficulty would government pose? Of Duanmu Ci (Zigong): Ci is perceptive about affairs and people — likewise no difficulty. Of Ran Qiu: Qiu is accomplished in many skills — again no difficulty. Confucius does not force one mold; he names three gifts — decisiveness, perceptiveness, versatile skill — showing fitness for office takes many forms: some lead by resolve, some by clarity, some by craft. Matching people to roles matters more than sameness; the chapter is Confucius's concrete lesson in knowing men.`
     },
     application: {
       zh: `用人或自我定位時，先看清楚自己或他人真正的長處是什麼，而不是套用單一標準要求每個人都一樣。

@@ -66,8 +66,8 @@ const analects02_weiZheng = [
       en: `The Master said, "At fifteen, I set my heart on learning. At thirty, I stood firm. At forty, I had no doubts. At fifty, I knew the mandate of Heaven. At sixty, my ear was obedient to truth. At seventy, I could follow what my heart desired without overstepping the bounds."`
     },
     plain: {
-      zh: `孔子自述一生修養的六個階段：十五立志向學；三十能自立於世；四十不再困惑；五十明白天命所在；六十能順耳聽進各種話語而不逆；七十隨心所欲卻不逾越規矩。修養是循序漸進的歷程。`,
-      en: `Confucius traces six stages of his own growth: at fifteen, setting his heart on learning; at thirty, standing on his own; at forty, free of confusion; at fifty, understanding Heaven's mandate; at sixty, hearing all things without resistance; at seventy, following his heart's desires without transgressing the rules. Cultivation unfolds step by step.`
+      zh: `孔子自述一生進德的階段：十五歲立志向學，把心思安在學問上；三十歲能在禮義上站穩自立；四十歲心中不再迷惑；五十歲明白天命所在；六十歲聽人言語能夠順耳悟入、無所違逆；七十歲隨心所欲，卻自然不踰越規矩。這不是驟然頓悟，而是數十年層層積累，從立志、自立、不惑、知命、耳順，終至於心與矩合一的歷程——修養有序，不可躐等。十五志學、三十而立、四十不惑、五十知天命、六十耳順、七十從心所欲不踰矩：六階遞進，終使心與規矩合一。`,
+      en: `Confucius traces stages of his own growth: at fifteen, setting his heart on learning; at thirty, standing firm; at forty, free of confusion; at fifty, knowing Heaven's mandate; at sixty, the ear obedient to truth; at seventy, following the heart's desire without overstepping bounds. Not a sudden enlightenment, but decades of layered growth — from resolve, to standing, to clarity, to knowing the mandate, to obedient hearing, until heart and rule are one — cultivation has an order and cannot skip ranks. Fifteen set on learning, thirty standing firm, forty without confusion, fifty knowing the mandate, sixty with obedient ear, seventy following the heart without overstepping — six ascending stages until heart and rule are one.`
     },
     application: {
       zh: `不必急著一步到位，修養本就有階段。此刻該做的，或許只是「立志向學」或「站穩腳步」而已。
@@ -85,8 +85,8 @@ const analects02_weiZheng = [
       en: `Meng Yizi asked about filial piety. The Master said, "Do not disobey." Later, when Fan Chi was driving his carriage, the Master told him, "Meng Sun asked me about filial piety, and I answered, 'Do not disobey.'" Fan Chi said, "What did you mean?" The Master said, "While parents are alive, serve them according to ritual; when they die, bury them according to ritual and sacrifice to them according to ritual."`
     },
     plain: {
-      zh: `孟懿子問孝，孔子答「無違」。樊遲駕車時，孔子特別解釋：「無違」不是盲從父母，而是不違背禮——父母在世時依禮侍奉，過世後依禮安葬、依禮祭祀。孝的具體標準是「禮」，而非表面順從。`,
-      en: `Meng Yizi asks about filial piety; Confucius answers "do not disobey." Driving the carriage, Fan Chi asks what this means, and Confucius clarifies: it is not blind obedience to parents, but not violating ritual — serving parents by ritual while alive, and burying and sacrificing to them by ritual after death. The standard of filial piety is ritual propriety, not mere compliance.`
+      zh: `孟懿子問什麼是孝，孔子只答兩個字：「無違。」後來樊遲為他駕車，孔子特地轉述此事並加以解釋，怕「無違」被誤解成盲目服從父母。樊遲追問含義，孔子說清楚：父母在世時，依禮侍奉；父母過世後，依禮安葬、依禮祭祀。也就是說，孝的具體標準是「禮」，不違的是禮制分寸，而非父母任何不合理的要求。整章把抽象的「無違」落到生事、死葬、祭祀三個環節，顯示孔子教孝重在合禮的實踐，而非表面順從。孔子對樊遲重述並闡明，是怕當權的孟孫把「無違」聽成「無違父母之命」；以禮為孝，才能既盡孝又不陷於愚孝。`,
+      en: `Meng Yizi asks about filial piety; Confucius answers only "do not disobey." Later, with Fan Chi driving, Confucius repeats the exchange and clarifies it, lest "do not disobey" be taken as blind obedience. Asked what he meant, Confucius specifies: while parents live, serve them by ritual; when they die, bury and sacrifice to them by ritual. The standard of filial piety is ritual propriety — not violating ritual measure, not obeying every parental whim. The chapter grounds the bare phrase in serving the living, burial, and sacrifice, showing that Confucius taught filial piety as practice according to li, not mere compliance. Restating it for Fan Chi guards against Meng Sun hearing "do not disobey" as blind obedience; filial piety measured by ritual avoids foolish compliance.`
     },
     application: {
       zh: `孝順不是父母說什麼都照做，而是用合宜、得體的方式對待他們，包括生前的照顧與身後的追思。
@@ -389,8 +389,8 @@ const analects02_weiZheng = [
       en: `Someone said to Confucius, "Why do you not take part in government?" The Master said, "This too is 'to govern' — why must holding office be the only way to govern?"`
     },
     plain: {
-      zh: `有人問孔子為何不出來做官從政。孔子回答：這（在家中盡孝悌、端正自身、影響他人）本身就是為政，何必一定要擔任官職才算是治理？真正的影響力，不限於官位。`,
-      en: `Someone asks Confucius why he does not hold office in government. Confucius answers: what he is already doing (living rightly, being filial, and influencing others) is itself a form of governing — why must holding office be the only way to govern? True influence is not confined to official rank.`
+      zh: `有人問孔子：您為什麼不出去做官從政呢？孔子引《書》的意思回答：孝敬父母、友愛兄弟，並把這種精神推行到政事上——這本身就是在為政。何必一定要擔任官職，才算「為政」呢？家門內的孝悌與端正，同樣是治理的一部分；把齊家的道理施於有政，影響力不必局限於官位。孔子以此說明：為政的本質是正人倫、行教化，而不是職位本身。`,
+      en: `Someone asks Confucius why he does not take office. Confucius answers in the spirit of the Documents: filial piety and fraternal friendship, extended into public affairs — this too is governing. Why must holding office be the only way to govern? Rightness at home is already part of governance; applying household virtue to public life, influence is not confined to rank. He thus shows that governing is essentially setting human relations right and teaching by example, not the post itself.`
     },
     application: {
       zh: `不必等到擁有職位或頭銜，才覺得自己在「發揮影響力」；把眼前的角色做好，本身就是一種貢獻。
@@ -427,8 +427,8 @@ const analects02_weiZheng = [
       en: `Zizhang asked, "Can what will happen ten generations from now be known?" The Master said, "The Yin dynasty followed the rites of Xia; what it added and took away can be known. The Zhou followed the rites of Yin; what it added and took away can be known. Whoever may succeed Zhou, even a hundred generations from now, can likewise be known."`
     },
     plain: {
-      zh: `子張問未來十世是否可以預知。孔子答：殷商承襲夏禮，其中增減之處是可查考的；周朝承襲殷禮，增減之處也可查考。依此規律推演，即使百代之後繼承周朝的政權，也能推知其大致樣貌。歷史的傳承有跡可循。`,
-      en: `Zizhang asks whether the future ten generations hence can be known. Confucius answers: the Yin inherited the rites of Xia, and what it changed can be traced; the Zhou inherited the rites of Yin, likewise traceable. By this pattern, even a successor a hundred generations after Zhou could be foreseen. History's continuity leaves traceable patterns.`
+      zh: `子張問：今後十世的禮制演變，可以預知嗎？孔子說：殷朝承襲夏朝的禮，其中增減了什麼，是可以考知的；周朝承襲殷禮，增減了什麼，也可以考知。那麼將來繼承周朝的，即使百世之後，依照「因革損益」的規律，同樣可以推知其大體。歷史不是斷裂的，禮的傳承有因有革、有損有益，故未來並非全然不可知；知過去之損益，即可推未來之繼周者。殷因夏禮、周因殷禮，損益可知；繼周者雖百世，亦可依因革之跡推知——十世可知，正在禮之傳承有譜。`,
+      en: `Zizhang asks whether what will happen ten generations hence can be known. Confucius says: Yin followed Xia's rites, and what it added or dropped can be known; Zhou followed Yin's rites, likewise knowable. Whoever succeeds Zhou, even a hundred generations on, can be known by the same pattern of continuity and change. History is not a clean break; rites inherit and revise, add and cut, so the future is not wholly opaque — know past gains and losses, and you can infer who may follow Zhou. Yin followed Xia's rites and Zhou followed Yin's, each with knowable additions and cuts; whoever succeeds Zhou, even a hundred generations on, can be inferred from that pattern of continuity and change — ten generations can be known because ritual inheritance leaves a track.`
     },
     application: {
       zh: `想預測未來趨勢，不必憑空猜測，可從過去制度或習慣如何一路調整、傳承來推敲。

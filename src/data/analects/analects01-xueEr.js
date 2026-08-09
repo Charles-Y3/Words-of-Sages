@@ -28,8 +28,8 @@ const analects01_xueEr = [
       en: `Youzi said, "It is rare for a person who is filial and fraternal to be fond of offending superiors; and it is unheard of for one who is not fond of offending superiors to be fond of creating disorder. The noble person attends to the root; when the root is established, the Way grows. Filial piety and fraternal respect — are these not the root of humaneness?"`
     },
     plain: {
-      zh: `有子說明：能孝順父母、敬愛兄長的人，很少會喜歡冒犯上位者；不喜歡犯上的人，更不會喜好作亂。君子應先抓住根本——孝弟；根本立住，為人處世的正道自然生長。孝弟正是「仁」的根基。`,
-      en: `Youzi argues that those who are filial and fraternal rarely relish offending superiors, and those who do not offend superiors do not stir disorder. The junzi tends the root — filial and fraternal duty — and when that root is set, the Way grows. These are the root of ren (humaneness).`
+      zh: `有子這段話從「孝弟」推到「仁」的根基。他先觀察人情：一個人若真能孝順父母、敬愛兄長，就很少會喜歡冒犯上位者；而不喜歡犯上的人，更不會喜好起來作亂——因為在家已養成順從尊長、珍重人倫的習慣，延伸到社會，自然不易躁動。接著他提出修養原則：君子要先抓住根本；根本立住了，為人處世的正道才會從中生長出來。所謂根本，就是孝與弟。最後他用反問收束：孝弟，不正是「仁」的根基嗎？整章不是空談仁德，而是指出仁必須從最切近的家庭倫常做起，本立而後道生。`,
+      en: `Youzi moves from filial and fraternal duty to the root of ren. He first observes character: someone truly filial and fraternal rarely loves to offend superiors; and one who does not love to offend superiors will not love to stir disorder — household habits of honoring elders extend outward into social calm. He then states the principle: the junzi tends the root; when the root is established, the Way grows from it. That root is filial piety and fraternal respect. He closes with a rhetorical question: are these not the root of ren? The chapter does not treat ren as abstraction, but insists it begins in the nearest human bonds — root first, then the Way.`
     },
     application: {
       zh: `先把對家人的態度做好，再談對社會的貢獻。若連最近的關係都輕忽，空談仁義往往站不住腳。
@@ -123,8 +123,8 @@ const analects01_xueEr = [
       en: `Zixia said, "If one values the worthy in place of sensual beauty; if in serving parents one can exhaust one's strength; if in serving the ruler one can devote one's person; if in dealing with friends one's words are trustworthy — though others say he is unlearned, I would surely call him learned."`
     },
     plain: {
-      zh: `子夏認為真正的「學」不只在書本：能看重賢德勝過美色；事父母盡力；事君能獻身盡職；交友說話守信——即使別人說他沒讀過書，子夏仍認定他已經算有學問。`,
-      en: `Zixia holds that true learning is not books alone: valuing worth over beauty, exhausting strength for parents, dedicating oneself in service, keeping one's word with friends — such a person is learned even if others call him unschooled.`
+      zh: `子夏重新界定「學」的內涵，不把學問鎖在書冊裡。他列舉四項具體德行：看重賢德勝過美色（賢賢易色）；事奉父母能竭盡心力；事奉君主能獻身盡職；與朋友交往說話守信。具備這些，即使旁人說他「還沒有學」，子夏仍斷言：我一定稱他已經算是有學問了。章旨在於：真正的學問表現在對待賢者、父母、君主、朋友的實際態度與責任上，德行踐履本身就是學成的證據，而非僅靠記誦經典的虛名。`,
+      en: `Zixia redefines learning beyond books. He lists four concrete virtues: valuing worth above sensual beauty; exhausting one's strength in serving parents; dedicating one's person in serving the ruler; keeping one's word with friends. With these, even if others call him unlearned, Zixia insists he must be called learned. The point is that real learning shows in how one treats the worthy, parents, rulers, and friends — lived virtue is itself proof of learning, not mere bookish reputation.`
     },
     application: {
       zh: `用行為檢驗自己的學習成果，而不只看證書或閱讀量。
@@ -142,8 +142,8 @@ const analects01_xueEr = [
       en: `The Master said, "If the noble person is not grave, he will not inspire awe, and his learning will not be solid. Hold to loyalty and trustworthiness; have no friend who is not as good as yourself; when you have faults, do not fear to change."`
     },
     plain: {
-      zh: `君子若態度輕浮，就難以建立威儀，學問也不易扎實。處事宜以忠信為主；交友要選擇能彼此提升的人；有過錯不要害怕改正。`,
-      en: `Without gravity a junzi lacks dignity and learning stays shallow. Hold to loyalty and trust; befriend those who can raise you; when wrong, do not fear to change.`
+      zh: `孔子說：君子若態度不莊重，就樹立不起威儀，學問也難以牢固。處事宜以忠信為主；不要結交不如自己、不能彼此提升的朋友；有了過錯，不要害怕改正。莊重以立威與固學，忠信以處事，擇友以相長，改過以日新——四者合起來，才是君子立身求學的基本功，缺一則易流於輕浮或固陋。`,
+      en: `Confucius says: if the junzi is not grave, he will not inspire awe, and his learning will not be solid. Hold to loyalty and trustworthiness; have no friend who is not as good as yourself; when you have faults, do not fear to change. Gravity for dignity and solid learning, fidelity in affairs, choosing friends who raise you, correcting errors for daily renewal — together these are the junzi's basics; lacking one, one drifts into frivolity or rigidity.`
     },
     application: {
       zh: `莊重不是擺架子，而是對自己所學與所諾認真。發現錯誤時，改正比辯護更重要。
@@ -180,8 +180,8 @@ const analects01_xueEr = [
       en: `Ziqin asked Zigong, "When the Master arrives in a state, he always hears of its government. Does he seek this information, or do others give it to him?" Zigong said, "The Master obtains it by being warm, kind, respectful, frugal, and deferential. The Master's way of seeking is surely different from others' way of seeking, is it not?"`
     },
     plain: {
-      zh: `子禽好奇：孔子一到別國就能了解政事，是他自己打聽的，還是別人主動告訴他？子貢說：靠的是溫、良、恭、儉、讓的氣質，使人願意信任並告知——這與一般人追問打探的方式不同。`,
-      en: `Ziqin wonders how Confucius always learns a state's affairs on arrival. Zigong answers: through warmth, kindness, respect, frugality, and deference — a way of "seeking" unlike ordinary prying.`
+      zh: `子禽向子貢提問：夫子每到一個國家，必定能聽到該國的政事，這是他自己求來的，還是別人主動給他的？子貢不從「打聽」或「洩密」的表面回答，而從孔子的氣質說明：靠的是溫和、善良、恭敬、節儉、謙讓——這五種德行使人願意信任他、主動告知。子貢並反問：夫子這種「求」，豈不是與一般人追問打探的方式大不相同嗎？整章強調孔子得聞政事，根源不在機巧權謀，而在人格感召；溫良恭儉讓既是修身，也是與人共事、獲致信息的正道。子貢所謂「其諸異乎人之求之與」，正是提醒：同樣是「求」，孔子以德致之，別人常以術致之，路徑與品格全然不同。`,
+      en: `Ziqin asks Zigong whether Confucius, whenever he arrives in a state, always hears of its government because he seeks it out or because others give it to him. Zigong answers not in terms of prying or leaks, but by Confucius's character: warmth, kindness, respect, frugality, and deference — five qualities that make others trust him and volunteer information. He adds that the Master's way of "seeking" differs from ordinary inquiry. The chapter stresses that access to political knowledge came from moral presence, not cunning; these five virtues are both self-cultivation and the rightful way to earn others' confidence. Zigong's "surely different from others' seeking" stresses that the same word "seek" covers moral attraction versus manipulative inquiry.`
     },
     application: {
       zh: `想得到真實資訊，先成為值得被信任的人。態度謙和，往往比追問更有效。
@@ -218,8 +218,8 @@ const analects01_xueEr = [
       en: `Youzi said, "In the use of ritual, harmony is to be prized. The Way of the former kings was beautiful in this; in small and great matters they followed it. Yet there are places where it will not work: to know harmony and aim only at harmony, without regulating it by ritual — this too will not do."`
     },
     plain: {
-      zh: `有子說：行禮貴在和諧。先王之道美好，正在能以「和」貫穿大小之事。但若只知一味求和、沒有禮來節制，和也會失度，同樣行不通。和須有節。`,
-      en: `Youzi prizes harmony in ritual — the beauty of the former kings' Way. But knowing harmony and chasing it without ritual restraint also fails. Harmony needs measure.`
+      zh: `有子論「禮」的效用，核心在一個「和」字。他說：行禮貴在和諧；先王之道所以美好，正在能以「和」貫穿大小之事，事無巨細都由這條原則引導。但他立刻補上限制：若只知一味求和、沒有禮來節制，和也會失度，同樣行不通。換言之，和是禮之用的理想狀態，禮則是和得以不流於放任的節度。整章平衡兩端——既反對刻板無和的苛禮，也反對無節制的濫和——主張「和須有節，節而後和可貴」。`,
+      en: `Youzi treats harmony as the prized effect of ritual. The former kings' Way was beautiful because harmony guided both small and great matters. Yet he immediately limits this: knowing harmony and chasing harmony alone, without ritual restraint, also fails. Harmony is the ideal use of ritual; ritual is the measure that keeps harmony from becoming license. The chapter balances both poles — neither rigid ritual without warmth, nor unrestrained "harmony" without form — insisting that harmony needs measure, and only then is it precious.`
     },
     application: {
       zh: `團隊或家庭中，和氣很重要，但不能為了表面上「大家都開心」而放棄該守的界線。
@@ -237,8 +237,8 @@ const analects01_xueEr = [
       en: `Youzi said, "When trustworthiness is close to rightness, words can be fulfilled. When respect is close to ritual, one keeps shame and disgrace at a distance. If one does not lose those who should be held dear, one may also be looked up to."`
     },
     plain: {
-      zh: `承諾要接近正義，話才兌現得了；恭敬要合乎禮，才能遠離羞辱。親近該親近的人、不失去可靠的依傍，這樣的人也值得尊崇。`,
-      en: `Promises near to what is right can be kept; respect near to ritual keeps shame away. Not losing those one ought to hold close also makes one worthy of regard.`
+      zh: `有子說：許下的信用若接近義理、站得住腳，說出的話才兌現得了；恭敬的態度若合乎禮的分寸，才能遠離羞辱。依循該親近、可靠的人而不失其依傍，這樣的人也值得被人尊崇。重點在於：信與恭都不能脫離「義」與「禮」的節度——盲目守信或過度卑恭都會出問題；交友依傍也要選對對象，不失去該親的人。`,
+      en: `Youzi says: when the trust you pledge stays close to what is right, your words can be fulfilled; when respect stays close to ritual measure, you keep shame at a distance. Holding close those one ought to rely on, without losing that support, also makes one worthy of regard. The point: trust and courtesy need the measure of rightness and ritual — blind fidelity or excessive deference both go wrong; and the people you lean on must be the right ones, not abandoned.`
     },
     application: {
       zh: `別輕易承諾做不到或不正當的事；禮貌也要得體，不是卑屈討好。
@@ -256,8 +256,8 @@ const analects01_xueEr = [
       en: `The Master said, "The noble person seeks neither fullness in eating nor ease in dwelling; he is earnest in affairs and careful in speech; he approaches those who have the Way in order to be set right — such a one may be called fond of learning."`
     },
     plain: {
-      zh: `真正好學的君子：飲食不求飽足奢華，居處不求安逸；做事勤敏，說話謹慎；主動親近有道之人來改正自己。好學是一種生活態度，不只是唸書。`,
-      en: `One fond of learning does not seek stuffed comfort in food or lodging; is earnest in action and careful in speech; and draws near to those with the Way to be corrected. Love of learning is a way of life, not mere reading.`
+      zh: `孔子說：君子飲食不追求吃得飽足奢華，居處不追求安逸舒適；做事勤敏快捷，說話卻謹慎；主動親近有道之人來矯正自己——這樣的人，就可以稱得上好學了。好學不只是讀書多、記誦多，而是降低物欲、言行相稱，並肯向有道者求正；把生活本身當成學習的場所。好學落在四事：食無求飽、居無求安、敏事慎言、就有道而正——生活態度即是學。`,
+      en: `Confucius says the junzi does not seek fullness in eating or ease in lodging; he is earnest in affairs and careful in speech, and draws near to those with the Way to be set right — such a one may be called fond of learning. Love of learning is not mere reading or memorizing, but lowering appetite for comfort, matching word to deed, and seeking correction from the worthy — making life itself the place of study. Fondness for learning lands on four things: not seeking fullness in food, not ease in lodging, earnest action and careful speech, and drawing near to those with the Way for correction — a way of life is itself study.`
     },
     application: {
       zh: `把舒適度調低一點，把求教的門打開一點，學習會走得更遠。
@@ -275,8 +275,8 @@ const analects01_xueEr = [
       en: `Zigong said, "Poor yet not fawning; rich yet not arrogant — how is that?" The Master said, "It will do. But it is not as good as being poor yet joyful, rich yet loving ritual." Zigong said, "The Book of Songs says, 'As if cut, as if filed; as if carved, as if polished.' Is this what is meant?" The Master said, "Si, now I can begin to speak of the Songs with you! Tell you what has gone before, and you know what is to come."`
     },
     plain: {
-      zh: `子貢問：貧窮卻不諂媚、富有卻不驕傲，這樣如何？孔子說可以，但不如貧窮而仍樂道、富有而喜好禮。子貢立刻聯想到《詩》中切磋琢磨之句，孔子稱許他能聞一知二，可以一起談《詩》了。`,
-      en: `Zigong asks about poverty without flattery and wealth without arrogance. Confucius says that will do, but better still: poor yet joyful, rich yet loving ritual. Zigong links this to the Songs' cutting and polishing — and Confucius praises his ability to hear one point and know the next.`
+      zh: `子貢先提出一種自我期許：貧窮卻不諂媚、富有卻不驕傲，這樣如何？孔子肯定「可也」，隨即抬高標準：還不如貧窮而仍樂道、富有而喜好禮。前者是消極不犯錯，後者是積極養成安樂與好禮的境界。子貢立刻聯想到《詩》「如切如磋，如琢如磨」，領會修養須不斷精進、打磨。孔子大為稱許：賜啊，現在可以開始與你談《詩》了——告訴你已說的，你就能推知未說的。整章由貧富態度推進到聞一知二的學詩法，顯示子貢敏於觸類旁通，也標出從「無諂無驕」到「貧而樂、富而好禮」的進階之路。從「可也」到「未若貧而樂，富而好禮」，再到以《詩》切磋琢磨自況，可見修養須層層向上，不可安於僅僅「無諂無驕」。`,
+      en: `Zigong first proposes a standard: poor yet not fawning, rich yet not arrogant — how is that? Confucius allows it will do, then raises the bar: better still to be poor yet joyful in the Way, rich yet loving ritual. The first avoids faults; the second actively cultivates joy and love of propriety. Zigong immediately links this to the Songs' "cut and file, carve and polish," grasping that cultivation needs continual refining. Confucius praises him: now we can begin to speak of the Songs — told what has gone before, you know what comes next. The chapter moves from attitudes toward wealth to hearing one point and knowing the next, showing Zigong's aptness and the ascent from "no flattery, no arrogance" to "poor yet joyful, rich yet loving ritual." From "it will do" to joy in poverty and love of ritual in wealth, then to the Songs' polishing, cultivation must keep ascending past mere avoidance of flattery and arrogance.`
     },
     application: {
       zh: `品格不只是「不做壞事」，還要有正向的喜樂與規矩。聽到提醒時，能聯想到更深一層，學習才會加速。

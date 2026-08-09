@@ -19,12 +19,20 @@ When adding or editing scripture units under `src/data/`:
 
 1. Follow edition/attribution in `src/data/works.js`.
 2. Keep Traditional Chinese for `text.zh`.
-3. After content or speech edits: `npm run validate-data` and `npm run audit-speech -- --fail`.
-4. Prefer work lexicon phrases in `src/data/speech/works/` for tradition-wide patterns; use `speech.zh` for short/critical passages.
-5. Update [`docs/CONTENT_QA_LEDGER.md`](docs/CONTENT_QA_LEDGER.md) notes when you fix a FAIL; leave check columns for the checker unless you only ran C0/S0.
+3. **Unit boundaries (C2b):** when subdividing a long chapter, each unit must end at a natural stop (finished sentence, closed quote, finished verse, finished exchange). Never end on `，` / `：` / `曰：` / `偈曰：` / `Thus,` / `He said:` or start the next unit mid-clause. Prefer meaning-based chunks over equal-length chops.
+4. **Explanations (C3):** `plain.zh/en` must walk **this** unit’s wording/argument; brief context is fine, but do not invent steps the text does not say, pull neighbor-unit content in as if it were here, or substitute a meta-essay for the walkthrough.
+5. After content or speech edits: `npm run validate-data` and `npm run audit-speech -- --fail`.
+6. Prefer work lexicon phrases in `src/data/speech/works/` for tradition-wide patterns; use `speech.zh` for short/critical passages.
+7. Update [`docs/CONTENT_QA_LEDGER.md`](docs/CONTENT_QA_LEDGER.md) notes when you fix a FAIL; leave check columns for the checker unless you only ran C0/S0.
 
 ## Do not
 
 - Invent classical wording for `text.zh`
 - Copy the same plain/application across many units
+- Leave mid-clause unit joins for the reader to “mentally concatenate”
+- Dump English plain prose into `application.zh`
 - Re-audit works already marked `pass` in the ledger without a content change
+
+## Known class of defect (2026-08-09)
+
+**Platform Sutra** (`platform-sutra`) had systematic length-based mid-clause splits (e.g. Encounters `如是，` / `則一切諸法…` / `曰：`) plus plains that drifted from the unit’s wording — **re-cut and plains rewritten 2026-08-09**. A second defect class: plains that **near-copy `text.zh`** (light punctuation only) then tack commentary — looks deep for C6 but duplicates Original in Explanation; **work-wide rewrite 2026-08-09** to vernacular walkthroughs. Also watch for padding-artifact plains — strip them; do not inflate C6 with boilerplate or verbatim restatement. Known signatures: `再依句申釋` / `按本節原文次序再說一遍`; Analects stock line `讀本節時宜按對話先後…方得全貌` (and EN `Read this unit in dialogue order…full picture`); writer-meta like `白話須…` / `the plain must…`. Treat C2b + tight C3 as required when subdividing long chapters; see `docs/CONTENT_QA.md`.

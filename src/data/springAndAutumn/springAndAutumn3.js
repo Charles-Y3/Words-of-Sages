@@ -64,8 +64,8 @@ In the twelfth month, Zhongsun Mie met the marquis of Jin, the duke of Song, the
 On ding-wei, our ruler Duke Cheng was buried.`
     },
     plain: {
-      zh: `本段記載晉國卿大夫內鬥升高：晉厲公接連誅殺大夫郄錡、郄州、郄至與胥童，隨即自己也在同年被弒（「晉弒其君州蒲」）；同時齊亦誅其大夫國佐，魯成公也在此段末薨於路寢。`,
-      en: `This section traces escalating strife among Jin's ministers: Duke Li of Jin puts to death the officers Xi Qi, Xi Zhou, Xi Zhi, and Xu Tong in quick succession, only to be murdered himself that same year ("Jin murdered its ruler Zhoupu"); Qi likewise executes its officer Guo Zuo, and the section closes with the death of Duke Cheng of Lu in the Road Chamber.`
+      zh: `本段記載晉國卿大夫內鬥升高：晉厲公接連誅殺大夫郄錡、郄州、郄至與胥童，隨即自己也在同年被弒（「晉弒其君州蒲」）；同時齊亦誅其大夫國佐，魯成公也在此段末薨於路寢。本段起首記魯成公聯合尹子、單子、晉、齊、宋、衛、曹、邾婁等多國兩度出兵伐鄭，聲勢浩大；同年九月「用郊」，郊祭終於順利舉行，與此前屢次占卜不吉、被迫放棄祭典的情況相映成趣；齊國大夫高無咎出奔莒國，楚人又乘勢滅亡舒庸，南方擴張未歇；魯國此時又興築鹿囿以供遊獵，君主生活漸趨奢靡；宋國此前出奔的魚石竟又重新進入彭城，舊亂復萌。`,
+      en: `This section traces escalating strife among Jin's ministers: Duke Li of Jin puts to death the officers Xi Qi, Xi Zhou, Xi Zhi, and Xu Tong in quick succession, only to be murdered himself that same year ("Jin murdered its ruler Zhoupu"); Qi likewise executes its officer Guo Zuo, and the section closes with the death of Duke Cheng of Lu in the Road Chamber. This section opens with Duke Cheng joining a broad coalition — the viscounts of Yin and Dan, together with Jin, Qi, Song, Wei, Cao, and Zhu Lou — in two separate campaigns against Zheng within the same year, a formidable show of force. That September, the border sacrifice was finally "performed" without incident, a notable contrast to the repeated failed divinations and abandoned ceremonies recorded earlier. Gao Wujiu of Qi fled into exile in Ju, while Chu seized the moment to extinguish Shuyong, its southern expansion still unchecked. Lu, meanwhile, built a deer park for hunting excursions, a sign of growing extravagance at court; and Yu Shi of Song, once exiled, reentered Pengcheng, reviving old turmoil there.`
     },
     application: {
       zh: `接連誅殺臣下卻換來自己被弒，說明用殺戮鞏固權力往往適得其反，只會加深猜忌、招來報復。
@@ -163,8 +163,8 @@ In winter, the duke went to Jin.
 The people of Chen laid siege to Dun.`
     },
     plain: {
-      zh: `本段記載魯襄公即位後，諸侯屢次會兵圍宋彭城；周天王駕崩，卿大夫仍按例往來朝聘，改朝並未打斷列國外交；楚亦誅其大夫公子申，顯示強國內部同樣暗潮洶湧。`,
-      en: `This section opens with Duke Xiang's accession and repeated allied sieges of Pengcheng in Song; the Zhou king dies, yet interstate visits and covenants continue unbroken; Chu, too, executes its own officer, the duke's son Shen, showing that even a great power seethes with internal tension.`
+      zh: `本段記載魯襄公即位後，諸侯屢次會兵圍宋彭城；周天王駕崩，卿大夫仍按例往來朝聘，改朝並未打斷列國外交；楚亦誅其大夫公子申，顯示強國內部同樣暗潮洶湧。本段又記魯國協助興築虎牢城，此地地勢險要，日後成為晉國控制中原的重要據點；楚國此時亦出兵侵吳，是吳楚爾後長期爭霸的早期交鋒之一；雞澤之會中，原屬楚系的陳國竟改派使者袁僑前來與會，顯示其外交立場已逐漸轉向晉國陣營；魯國宮廷則接連辦理夫人姜氏、齊姜、弋氏、定弋等多位女性成員的喪事，反映宮廷內眷更替頻繁。`,
+      en: `This section opens with Duke Xiang's accession and repeated allied sieges of Pengcheng in Song; the Zhou king dies, yet interstate visits and covenants continue unbroken; Chu, too, executes its own officer, the duke's son Shen, showing that even a great power seethes with internal tension. The same years also record Lu helping to wall the fortress of Hulao, a position of great strategic value that would later serve as one of Jin's key strongholds for controlling the central states. Chu also invaded Wu around this time, an early skirmish in what would grow into the long Chu-Wu rivalry. At the covenant of Jize, Chen — previously aligned with Chu — sent its own envoy, Yuan Qiao, to attend, a sign that its diplomatic allegiance was shifting toward the Jin camp. Lu's court, meanwhile, held a string of funerals for its own ducal consorts — the ladies of the Jiang, Qi, Yi, and Ding clans — reflecting how often the women of the ruling house passed in these years.`
     },
     application: {
       zh: `天子駕崩，列國照常會盟征伐——可見真正維繫秩序的，往往不是名分上的共主，而是各國自身的信用與盟約。
@@ -272,8 +272,8 @@ In winter, the viscount of Chu's son Zhen led a force and invaded Zheng.
 The marquis of Jin sent Shi Gai to come on a friendly mission.`
     },
     plain: {
-      zh: `本段記載強國兼併弱國的現實：莒滅鄫、齊滅萊，皆一語帶過；魯國三次占卜郊祭均不吉，只好放棄用牲，顯示禮制運作也常受阻於現實條件。`,
-      en: `This section records the harsh reality of the strong swallowing the weak: Ju extinguishes Zeng and Qi extinguishes Lai, each noted in a single line; meanwhile Lu divines three times for the border sacrifice, gets an unfavorable answer each time, and finally releases the victim without performing it.`
+      zh: `本段記載強國兼併弱國的現實：莒滅鄫、齊滅萊，皆一語帶過；魯國三次占卜郊祭均不吉，只好放棄用牲，顯示禮制運作也常受阻於現實條件。同段又記鄭伯髡原在赴會途中，竟未及見到與會諸侯便暴斃於操地，堂堂一國之君連盟會的面都沒見上就已身故，實屬罕見的外交意外；陳侯則在同一場盟會中竟逕自逃離會場（陳侯逃歸），公然失禮於諸侯；魯國此時又興築費地城牆（城費），此城後來成為叔孫氏盤據的私邑，與日後「墮費」之事前後呼應；此外鄫國太子巫親赴晉國朝見，試圖依附大國以求自保，然數年後鄫終究仍為莒國所滅，依附強權未必能保全小國。`,
+      en: `This section records the harsh reality of the strong swallowing the weak: Ju extinguishes Zeng and Qi extinguishes Lai, each noted in a single line; meanwhile Lu divines three times for the border sacrifice, gets an unfavorable answer each time, and finally releases the victim without performing it. The same section records the earl of Zheng, Kunyuan, dying suddenly at Cao while en route to a covenant — he never even got to see the assembled rulers before his death, an unusually abrupt diplomatic mishap for a reigning ruler. At that very same meeting, the marquis of Chen simply fled home, a blatant breach of protocol before the other rulers. Lu, meanwhile, built the walls of Fei around this time — the very stronghold that would later become the Shusun family's private base, foreshadowing its eventual demolition in the "razing of the three capitals." The heir of Zeng also personally traveled to Jin to pay court, hoping that aligning with a great power would secure his small state's survival — yet Zeng was extinguished by Ju only a few years later regardless, showing that dependence on a patron was no guarantee of safety.`
     },
     application: {
       zh: `小國被滅只在史書留下寥寥數字，提醒我們平日該未雨綢繆而非臨事僥倖；占卜三次不吉便從善如流地放棄，也是懂得適時止損的智慧。
@@ -365,8 +365,8 @@ In winter, the viscount of Chu's son Zhen led a force and made an incursion into
 The duke went to Jin.`
     },
     plain: {
-      zh: `本段記載諸侯連番會兵伐鄭並滅偪陽，鄭國卻在同時發生內亂：盜賊殺害公子斐、公子發與公孫輒三位公子；魯國則於此時始建三軍，擴充軍力。`,
-      en: `This section records repeated allied campaigns against Zheng and the destruction of Biyang, even as Zheng suffers internal turmoil — "robbers" kill three of its princes, Fei, Fa, and Gongsun Zhe — while Lu, in the same years, forms three armies of its own.`
+      zh: `本段記載諸侯連番會兵伐鄭並滅偪陽，鄭國卻在同時發生內亂：盜賊殺害公子斐、公子發與公孫輒三位公子；魯國則於此時始建三軍，擴充軍力。本段末尾所記「會於蕭魚」，實為晉國歷經多年與楚國反覆爭奪鄭國後，終於在此正式確立對鄭國的掌控，象徵晉國霸業的又一次穩固；同段又記諸侯與吳國會於柤地，中原列國與東南新興的吳國往來漸趨頻繁；宋國此時亦遭大火之災，魯國夫人姜氏（繆姜）去世；莒國又出兵侵擾魯國東境，圍困臺地，季孫宿率師往救並乘勢攻入運地，可見魯國周邊小規模衝突仍層出不窮。`,
+      en: `This section records repeated allied campaigns against Zheng and the destruction of Biyang, even as Zheng suffers internal turmoil — "robbers" kill three of its princes, Fei, Fa, and Gongsun Zhe — while Lu, in the same years, forms three armies of its own. The meeting recorded at the close of this section, at Xiaoyu, in fact marks the moment Jin finally secured firm control over Zheng after years of contested campaigns with Chu — another consolidation of Jin's hegemony. The same years also record a meeting with Wu at Zha, showing how contact between the central states and the rising southeastern power of Wu was growing more frequent. Song, meanwhile, suffered a great fire, and Lu's lady of the Jiang clan (Miu Jiang) died; Ju also invaded Lu's eastern border and besieged Tai, prompting Jisun Su to lead a relief force that went on to take Yun — a reminder that smaller border skirmishes around Lu never fully let up.`
     },
     application: {
       zh: `把貴族被殺說成「盜殺」，其實掩蓋了背後的權力鬥爭；用委婉字眼包裝真相，反而讓人看不清問題所在。
@@ -452,8 +452,8 @@ There was a great sacrifice for rain.
 In winter, Shusun Bao went to Jin.`
     },
     plain: {
-      zh: `本段記載晉悼公之喪與湨梁之會：會上竟由大夫代行盟誓（「大夫盟」），晉人更趁機拘捕莒、邾婁兩國國君帶回；魯國同時發生地震，象徵秩序的震盪。`,
-      en: `This section records the mourning for Duke Dao of Jin and the meeting at Juliang, where the great officers themselves conclude the covenant in the rulers' place, and Jin seizes and carries off the viscounts of Ju and Zhu; an earthquake in Lu underscores a broader tremor in the order of things.`
+      zh: `本段記載晉悼公之喪與湨梁之會：會上竟由大夫代行盟誓（「大夫盟」），晉人更趁機拘捕莒、邾婁兩國國君帶回；魯國同時發生地震，象徵秩序的震盪。本段又記衛侯衎於此時出奔齊國，衛國政局自此陷入動盪，是後續衛國內亂的先聲；同段又記周王室派劉夏前往齊國迎娶王后，是周天子罕見與齊國聯姻的記錄；魯國又取得詩地，並築防地城牆以固邊防；此外季孫宿等魯國大夫又與晉、齊、宋、衛、鄭等十餘國會盟於向地，並與新興的吳國正式接觸，反映列國外交網絡持續擴大及對吳態度的轉變。`,
+      en: `This section records the mourning for Duke Dao of Jin and the meeting at Juliang, where the great officers themselves conclude the covenant in the rulers' place, and Jin seizes and carries off the viscounts of Ju and Zhu; an earthquake in Lu underscores a broader tremor in the order of things. The same section records the marquis of Wei, Kan, fleeing into exile in Qi around this time, plunging Wei into the political instability that would mark its coming years. It also records the Zhou court sending Liu Xia to Qi to fetch a bride for the king — an unusually direct record of the royal house marrying into Qi. Lu, meanwhile, acquired the territory of Shi and built walls at Fang to strengthen its defenses; and Lu's officers, together with more than a dozen other states including Jin, Qi, Song, Wei, and Zheng, met at Xiang and made direct contact with the rising power of Wu, reflecting both the growing web of interstate diplomacy and a shifting attitude toward Wu.`
     },
     application: {
       zh: `當屬下代替主上出面簽署重大承諾，往往是主上威信已經鬆動的徵兆。
@@ -559,8 +559,8 @@ In winter, in the tenth month, on bing-chen, the first day of the moon, the sun 
 Jisun Su went to Song.`
     },
     plain: {
-      zh: `本段記載齊國連年入侵魯國北境，先後圍洮、圍防、圍成，魯國最終聯合諸侯反過來圍攻齊國，曹伯負芻更死於軍中——顯示長期被侵擾後，集體反制才真正見效。`,
-      en: `This section records Qi's repeated invasions of Lu's northern border — laying siege in turn to Tao, Fang, and Cheng — until Lu finally joins a coalition that besieges Qi itself, during which the earl of Cao, Fuchu, dies in the field, showing that only a collective response finally answered years of harassment.`
+      zh: `本段記載齊國連年入侵魯國北境，先後圍洮、圍防、圍成，魯國最終聯合諸侯反過來圍攻齊國，曹伯負芻更死於軍中——顯示長期被侵擾後，集體反制才真正見效。值得注意的是，晉國大夫士丐率師侵齊，行至谷地忽聞齊侯去世，竟主動撤兵而還，未乘敵國喪亂之際落井下石，反映當時列國交戰仍存一定的禮節底線；同段又記白狄部族罕見主動來朝魯國，展現北方遊牧與中原諸侯間亦有往來；此外齊國、鄭國、蔡國接連誅殺重臣（高厚、公子喜、公子燮），蔡公子履與陳侯之弟光又相繼出奔楚國，可見這數年間列國內部貴族清洗與出亡事件頻仍。`,
+      en: `This section records Qi's repeated invasions of Lu's northern border — laying siege in turn to Tao, Fang, and Cheng — until Lu finally joins a coalition that besieges Qi itself, during which the earl of Cao, Fuchu, dies in the field, showing that only a collective response finally answered years of harassment. Notably, when Jin's officer Shi Gai led an invading force into Qi and, on reaching Gu, heard that the marquis of Qi had just died, he chose to withdraw rather than exploit the enemy's moment of mourning — a sign that even in active warfare, the states of the time still observed certain limits of propriety. The same section records the White Di unusually coming of their own accord to pay court to Lu, a rare instance of contact between the northern nomadic peoples and the central states. Qi, Zheng, and Cai, meanwhile, each executed a senior officer in turn — Gao Hou, Gongzi Xi, and Gongzi Xie — while Cai's son Lü and the marquis of Chen's own brother Guang both fled into exile in Chu, a pattern of aristocratic purges and flights recurring across the states in these years.`
     },
     application: {
       zh: `面對一再重複的侵擾，單獨招架效果有限，聯合他人反制才是解方。
@@ -662,8 +662,8 @@ Shusun Bao went to the royal capital.
 There was a great famine.`
     },
     plain: {
-      zh: `本段最特別的一筆，是孔子誕生的紀年（「十有一月庚子，孔子生」），夾在晉國欒盈出奔、復入、諸侯連年會盟的紛擾之中，經文並未特別著墨，僅與其他大事並列一行。`,
-      en: `The most striking entry here is the record of Confucius's birth ("in the eleventh month, on geng-zi, Confucius was born"), tucked without comment between Luan Ying of Jin's flight and return and the ongoing round of interstate meetings — noted in a single line like any other event.`
+      zh: `本段最特別的一筆，是孔子誕生的紀年（「十有一月庚子，孔子生」），夾在晉國欒盈出奔、復入、諸侯連年會盟的紛擾之中，經文並未特別著墨，僅與其他大事並列一行。本段連續兩月出現日食（九月、十月各一次），是經文罕見的密集天象記錄；晉國大夫欒盈出奔楚國後，竟又潛回晉國、據曲沃反叛，齊侯更趁機出兵攻衛伐晉，聲援欒盈之亂，直到晉人終將欒盈誅殺，這場延續數年的叛亂方才平息；同段又記連續三次日食（襄公二十三年二月、二十四年七月全食、八月），天象異變之密集實屬罕見；本段末尾更記魯國發生大饑荒，與孔子誕生的祥瑞般記載形成強烈對比，顯示盛世與亂世的紀錄往往並存於同一段經文之中。`,
+      en: `The most striking entry here is the record of Confucius's birth ("in the eleventh month, on geng-zi, Confucius was born"), tucked without comment between Luan Ying of Jin's flight and return and the ongoing round of interstate meetings — noted in a single line like any other event. This section records two solar eclipses in consecutive months (the ninth and tenth), an unusually dense cluster of celestial signs for the chronicle. Jin's officer Luan Ying, after fleeing to Chu, secretly slipped back into Jin and rebelled from Quwo; the marquis of Qi even invaded Wei and Jin in support of the revolt, and only after Jin finally put Luan Ying to death did the multi-year rebellion come to an end. The same years also record three more solar eclipses in short succession — in the second month of Year 23, then a total eclipse in the seventh month of Year 24, followed by another in the eighth — an unusually intense run of celestial anomalies. The section closes with a great famine striking Lu, a stark contrast to the almost incidental record of Confucius's birth a few years earlier — a reminder that chronicles of flourishing and of crisis often sit side by side within the same stretch of text.`
     },
     application: {
       zh: `史書用同樣平淡的筆法記下一位聖人的誕生與尋常的政爭，提醒我們真正重要的開端，往往在發生當下並不顯眼。
@@ -755,8 +755,8 @@ In the twelfth month, on jia-yin, the king died.
 On yi-wei, the viscount of Chu, Zhao, died.`
     },
     plain: {
-      zh: `本段連續記載三起弒君弒世子事件：齊崔杼弒其君光、衛甯喜弒其君剽、宋公弒其世子痤，政治暴力頻繁到令人心驚；是年冬天甚至「無冰」，被視為異常之兆。`,
-      en: `This section records, in close succession, three killings of rulers or heirs: Cui Zhu of Qi murders his ruler Guang, Ning Xi of Wei murders his ruler Piao, and the duke of Song murders his own heir son Cuo — political violence recurring at an alarming pace, in a winter so mild that, unusually, "there was no ice."`
+      zh: `本段連續記載三起弒君弒世子事件：齊崔杼弒其君光、衛甯喜弒其君剽、宋公弒其世子痤，政治暴力頻繁到令人心驚；是年冬天甚至「無冰」，被視為異常之兆。本段所記「宋之盟」尤具歷史意義：宋國大夫向戌奔走促成晉、楚兩大強權在宋地會盟弭兵，暫時終結雙方多年爭霸戰事，是春秋中期著名的「弭兵之會」；同段又記吳王謁親自領兵伐楚，卻在攻打巢城城門時陣亡，一國之君身先士卒卻死於戰場，甚為悲壯；衛國內部亦幾度動盪——寧喜弒君擁立衎後，衎又復歸為君，寧喜卻反遭晉人拘捕誅殺，可見衛國政局反覆無常；齊國大夫慶封出逃投奔魯國，數年後終究仍在楚國被擒殺，其命運與前面提及的弒君奪位者相似，難逃因果。`,
+      en: `This section records, in close succession, three killings of rulers or heirs: Cui Zhu of Qi murders his ruler Guang, Ning Xi of Wei murders his ruler Piao, and the duke of Song murders his own heir son Cuo — political violence recurring at an alarming pace, in a winter so mild that, unusually, "there was no ice." The covenant recorded here at Song carries particular historical weight: Song's officer Xiang Xu worked to broker a meeting between the two great powers, Jin and Chu, at which they agreed to a truce — the famous "peace conference," which temporarily ended decades of contention between the two superpowers. The same section also records the king of Wu, Ye, personally leading his own army against Chu, only to die attacking the gates of Chao — a ruler falling in battle himself, a strikingly grim end. Wei's court also went through repeated upheaval: after Ning Xi murdered his ruler to install Kan, Kan was restored to the throne, yet Ning Xi himself was then seized and executed by Jin — political fortunes in Wei swinging back and forth. Qi's officer Qing Feng fled into exile in Lu, only to be captured and executed years later in Chu, a fate paralleling the earlier regicides recorded in this chronicle — accountability catching up with him in the end.`
     },
     application: {
       zh: `短短數年連續三起弒君弒嗣，說明野心一旦被放任，很容易從一次僥倖變成連鎖效應。
@@ -832,8 +832,8 @@ In winter, in the tenth month, the viscount of Teng came to attend the burial. O
 In the eleventh month, the people of Ju murdered their ruler Mizhou.`
     },
     plain: {
-      zh: `本段記載兩起特殊死亡：看門人弒殺吳王餘祭，顯示連國君也可能死於身邊最卑微的人手中；宋國大火中伯姬身亡，後世視為守禮而死的典型；魯襄公本人也客死楚國宮室之中。`,
-      en: `This section records two striking deaths: a mere gatekeeper murders the viscount of Wu, Yuji, showing that even a ruler can fall to the humblest person nearby; and Bo Ji dies in a fire in Song, later remembered as an emblem of dying rather than abandon propriety; Duke Xiang of Lu himself also dies abroad, in a palace of Chu.`
+      zh: `本段記載兩起特殊死亡：看門人弒殺吳王餘祭，顯示連國君也可能死於身邊最卑微的人手中；宋國大火中伯姬身亡，後世視為守禮而死的典型；魯襄公本人也客死楚國宮室之中。蔡國太子般弒殺其父蔡侯固，又是一起弒君慘劇，與同段吳王遭閽人所弒前後呼應，弒逆之事這幾年層出不窮；周天王更誅殺自己的親弟弟年夫，王室內部血腥傾軋連天子本家也未能倖免；同段又記諸侯特意因宋國大火之災而齊聚澶淵商議，經文明白寫出「宋災故」，是列國為單一天災而召開國際會議的少見記錄；此外吳國公子季札出使魯國，展現吳國此時已積極透過外交禮聘融入中原諸侯體系。`,
+      en: `This section records two striking deaths: a mere gatekeeper murders the viscount of Wu, Yuji, showing that even a ruler can fall to the humblest person nearby; and Bo Ji dies in a fire in Song, later remembered as an emblem of dying rather than abandon propriety; Duke Xiang of Lu himself also dies abroad, in a palace of Chu. The heir of Cai, Ban, murdered his own father, the marquis Gu — another regicide that echoes the killing of the Wu ruler by his own gatekeeper elsewhere in this section, violent seizures of power recurring again and again in these years. The Zhou king himself put his own younger brother, Nianfu, to death — bloody infighting reaching even into the royal family itself. The same years record a coalition of states — Jin, Qi, Song, Wei, Zheng, Cao, Ju, Zhu, Teng, Xue, Qi, and Lesser Zhu — meeting at Chanyuan explicitly "because of the fire in Song," an unusually direct record of an international meeting convened over a single natural disaster. Wu's prince Zha also traveled to Lu on a friendly mission, a sign that Wu was by this point actively working to integrate itself into the diplomatic world of the central states.`
     },
     application: {
       zh: `君王死於守門人之手，說明地位再高，也離不開身邊每一個看似不起眼的人；對他人的尊重，不該只看對方的身分高低。
@@ -919,8 +919,8 @@ In the ninth month, we took Zeng.
 In winter, in the twelfth month, on yi-mao, Shusun Bao died.`
     },
     plain: {
-      zh: `本段記載楚國會盟眾多小國於申，隨即伐吳，並擒獲並處死齊國逃臣慶封——慶封當年弒君出逃，多年後終究難逃制裁。`,
-      en: `This section records Chu's meeting with many minor states at Shen, followed by its invasion of Wu, in the course of which it seizes and executes Qing Feng, a fugitive from Qi who had once taken part in murdering a ruler and fled — finally caught and punished years later.`
+      zh: `本段記載楚國會盟眾多小國於申，隨即伐吳，並擒獲並處死齊國逃臣慶封——慶封當年弒君出逃，多年後終究難逃制裁。本段又記魯昭公赴晉朝見，卻行至黃河邊便半途而返，未能真正完成朝覲，此後多年這類「至河乃復」的記載屢見不鮮，顯示魯國與晉國的宗主關係已漸趨虛應故事；同段又記北方燕國國君款出奔齊國，是經文少見提及燕國內部事務的記錄；楚國更於申地召集包括徐、滕、頓、鬍、沈、小邾婁、宋，以及淮夷等非華夏部族的十餘方會盟，聲勢浩大，展現楚國此時籠絡範圍已遠超中原核心地帶；九月魯國更直接取鄫，正式吞併這個此前屢次依附大國以求自保的小國，印證了「依附強權未必能保全小國」的教訓終究應驗。`,
+      en: `This section records Chu's meeting with many minor states at Shen, followed by its invasion of Wu, in the course of which it seizes and executes Qing Feng, a fugitive from Qi who had once taken part in murdering a ruler and fled — finally caught and punished years later. The same section also records Duke Zhao of Lu setting out to pay court to Jin, only to turn back upon reaching the Yellow River without ever completing the audience — the first of several such "turned back at the river" entries in the years ahead, a sign that Lu's nominal subordination to Jin was becoming increasingly hollow. It also records the ruler of the northern state of Yan, Kuan, fleeing into exile in Qi, an unusually rare mention of Yan's internal affairs in the chronicle. Chu, meanwhile, convened an enormous covenant at Shen involving more than a dozen parties — Xu, Teng, Dun, Hu, Shen, Lesser Zhu, Song, and even the non-Chinese Huai Yi peoples — a striking display of how far Chu's reach now extended beyond the central states. In the ninth month, Lu directly annexed Zeng, formally absorbing the small state that had spent years trying to secure its survival by aligning with great powers — bearing out, in the end, the earlier lesson that dependence on a patron offered no lasting guarantee.`
     },
     application: {
       zh: `慶封逃亡多年才被捕，說明作惡之後即使一時逃過，責任也未必真正消失。
@@ -1020,8 +1020,8 @@ In winter, in the tenth month, on ren-wu, the army of Chu extinguished Chen, sei
 Duke Ai of Chen was buried.`
     },
     plain: {
-      zh: `本段核心事件是陳國內亂：陳侯之弟招殺死世子偃師，奪嫡未成反引來楚國藉機出兵，最終楚師滅陳，擄陳公子招放逐於越，殺大夫孔瑗——一場家族內鬥，最終斷送整個國家。`,
-      en: `The central event here is Chen's internal crisis: the marquis's younger brother Zhao kills the heir apparent Yanshi, and the succession struggle gives Chu the pretext to invade — the army of Chu ultimately extinguishes Chen entirely, banishing prince Zhao to Yue and killing the officer Kong Yuan. A family feud ends up costing the whole state.`
+      zh: `本段核心事件是陳國內亂：陳侯之弟招殺死世子偃師，奪嫡未成反引來楚國藉機出兵，最終楚師滅陳，擄陳公子招放逐於越，殺大夫孔瑗——一場家族內鬥，最終斷送整個國家。本段又記魯國裁撤中軍編制（舍中軍），與此前擴軍為三軍的做法正好相反，顯示軍制屢有調整；同段又記魯國大夫叔弓率師在濆泉擊敗莒師，是魯國少見主動獲勝的軍事記錄；冬季更有楚、蔡、陳、許、頓、沈、徐、越等多國聯合伐吳，越國首次出現於此類聯軍名單中，預告日後吳越爭霸的伏筆；魯昭公其後又親自前往楚國朝見，是魯國與楚國建立直接外交往來的重要記錄，此後魯國大夫叔弓亦多次奉命出使楚國。`,
+      en: `The central event here is Chen's internal crisis: the marquis's younger brother Zhao kills the heir apparent Yanshi, and the succession struggle gives Chu the pretext to invade — the army of Chu ultimately extinguishes Chen entirely, banishing prince Zhao to Yue and killing the officer Kong Yuan. A family feud ends up costing the whole state. The same section also records Lu disbanding its central army — a reversal of the earlier expansion to three armies, showing how often military structure was adjusted. It also records Lu's officer Shugong defeating the army of Ju at Fenquan, an unusually clear record of Lu winning a military engagement of its own. That winter, a coalition of Chu, Cai, Chen, Xu, Dun, Shen, the state of Xu, and Yue invaded Wu — the first appearance of Yue in such a coalition list, an early hint of the Wu-Yue rivalry to come. Duke Zhao of Lu later traveled to Chu in person to pay court, an important record of Lu establishing direct diplomatic contact with Chu, after which Lu's officer Shugong was repeatedly sent there as well.`
     },
     application: {
       zh: `一場原本只是家族內部的奪位之爭，卻給了外敵可乘之機，最終亡國——內部不合往往才是最大的破口。
@@ -1115,8 +1115,8 @@ The viscount of Chu invaded Xu.
 Jin invaded Xianyu.`
     },
     plain: {
-      zh: `本段記載楚靈王誘殺蔡侯般於申，隨即出兵滅蔡，並將蔡世子有帶回「用之」（作為祭祀犧牲）——以會盟為名行殺戮之實，是本段最令人心驚的一筆。`,
-      en: `This section records King Ling of Chu luring the marquis of Cai, Ban, to a meeting only to kill him at Shen, then extinguishing Cai outright and carrying its heir son You home to "use" him as a sacrificial victim — using the pretext of a friendly meeting to commit murder is the most chilling episode here.`
+      zh: `本段記載楚靈王誘殺蔡侯般於申，隨即出兵滅蔡，並將蔡世子有帶回「用之」（作為祭祀犧牲）——以會盟為名行殺戮之實，是本段最令人心驚的一筆。本段又記魯國興築「郎囿」園囿，與此前所築鹿囿相呼應，可見魯國君室這一時期頗好興建遊獵場所；魯昭公再度赴晉朝見，又是行至黃河邊便半途而返，「至河乃復」的記載反覆出現，益見魯晉關係徒具形式；同段又記齊國出兵協助北燕伯復位於陽地，是經文少見詳述燕國內政變化的記錄，呼應前段燕伯出奔之事；此外晉國出兵伐鮮虞，此為北方戎狄小國，日後演變為中山國，是中原大國對北方邊境民族用兵的早期記錄。`,
+      en: `This section records King Ling of Chu luring the marquis of Cai, Ban, to a meeting only to kill him at Shen, then extinguishing Cai outright and carrying its heir son You home to "use" him as a sacrificial victim — using the pretext of a friendly meeting to commit murder is the most chilling episode here. The same section records Lu building the Lang park, echoing the earlier deer park and suggesting the ruling house's growing taste for hunting grounds in this period. Duke Zhao of Lu again set out for Jin, and again turned back upon reaching the Yellow River — this recurring "turned back at the river" pattern reinforcing just how hollow the Lu-Jin relationship had become. The same section also records Qi sending troops to help restore the earl of Beiyan to his throne at Yang, an unusually detailed glimpse into the internal politics of the state of Yan, following up on its ruler's earlier flight into exile. Jin also invaded Xianyu, a small northern Rong-Di state that would later evolve into the state of Zhongshan — an early record of the great central states pressing against peoples on their northern frontier.`
     },
     application: {
       zh: `以邀約、會面之名行加害之實，是對信任最徹底的背叛；越是以禮相邀，越該提高警覺、查核對方的真實意圖。
@@ -1200,8 +1200,8 @@ Jisun Yinru went to Jin.
 In winter, in the tenth month, Duke Zhao of Jin was buried.`
     },
     plain: {
-      zh: `本段記載楚公子比自晉返國，弒君虔（楚靈王）於乾溪——靈王一生好大喜功，終究眾叛親離、客死異鄉；同段又記平丘之會魯君被排除在盟外、大夫季孫隱如遭晉人拘捕，顯示魯國此時外交地位低落。`,
-      en: `This section records the viscount of Chu's son Bi returning from Jin to murder his ruler Qian — King Ling of Chu — at Ganxi; a ruler known for grandiose ambition ends up abandoned by his own followers and dying away from home. It also records the meeting at Pingqiu, where the duke of Lu is excluded from the covenant and his minister Jisun Yinru is seized by Jin, showing how low Lu's standing had fallen.`
+      zh: `本段記載楚公子比自晉返國，弒君虔（楚靈王）於乾溪——靈王一生好大喜功，終究眾叛親離、客死異鄉；同段又記平丘之會魯君被排除在盟外、大夫季孫隱如遭晉人拘捕，顯示魯國此時外交地位低落。楚靈王死後，新即位的楚王隨即讓此前所滅的蔡、陳兩國復國，蔡侯廬、陳侯吳分別歸國即位，一反靈王生前恃強兼併的做法，可見新君上位往往帶來政策的逆轉；同段又記魯國在武宮行祭時，負責奏樂的叔弓竟於典禮進行中猝死，樂師只得停止奏樂、草草完成祭儀（「去樂卒事」），與此前仲遂病逝於祭祀期間如出一轍，可見祭典中途生變並非孤例；此外楚國又誘殺戎曼之君，手法與此前誘殺蔡侯般幾乎一致，顯示楚國屢次以會盟為名行殺戮之實，已成其慣用手段。`,
+      en: `This section records the viscount of Chu's son Bi returning from Jin to murder his ruler Qian — King Ling of Chu — at Ganxi; a ruler known for grandiose ambition ends up abandoned by his own followers and dying away from home. It also records the meeting at Pingqiu, where the duke of Lu is excluded from the covenant and his minister Jisun Yinru is seized by Jin, showing how low Lu's standing had fallen. After King Ling of Chu's death, the newly enthroned king promptly restored Cai and Chen, the very states his predecessor had extinguished — the marquis of Cai, Lu, and the marquis of Chen, Wu, both returned to take their thrones — a sharp reversal of the earlier policy of naked annexation, showing how a change of ruler could upend established policy overnight. The same section records Shugong, who was to perform the music at a sacrifice in the temple of Duke Wu, dying suddenly in the middle of the ceremony, forcing the musicians to drop the music and hastily finish the rite — an echo of the earlier incident when Zhongsui died mid-sacrifice, showing this kind of ritual disruption was not an isolated case. Chu also lured and killed the ruler of the Rongman people, using almost the same method it had used to murder the marquis of Cai earlier — a sign that using the pretext of a meeting to commit murder had by now become one of Chu's standard tactics.`
     },
     application: {
       zh: `楚靈王好大喜功，最終落得眾叛親離的下場，提醒人「聲勢」與「根基」是兩回事。
@@ -1273,8 +1273,8 @@ In winter, in the tenth month, Hua Hai, Xiang Ning, and Hua Ding of Song fled to
 In the eleventh month, on xin-mao, the marquis of Cai, Lu, died.`
     },
     plain: {
-      zh: `本段記載宋、衛、陳、鄭四國同日發生大火（「宋、衛、陳、鄭災」），冬天又見「有星孛於大辰」的異象，經文將天象與人間災難並列，呈現當時人視災異為警訊的世界觀。`,
-      en: `This section records fires breaking out on the same day in four states — Song, Wei, Chen, and Zheng — and, in winter, the appearance of a comet in the Dachen constellation; by setting a celestial sign beside the mundane disaster, the text reflects a worldview in which omens and calamity were read together as warning.`
+      zh: `本段記載宋、衛、陳、鄭四國同日發生大火（「宋、衛、陳、鄭災」），冬天又見「有星孛於大辰」的異象，經文將天象與人間災難並列，呈現當時人視災異為警訊的世界觀。同段又記許國太子止弒殺其父許君買，是本段另一起弒逆慘劇，與齊、衛、宋等國先後發生的弒君事件相互呼應，可見弒君奪位之風至此仍未止息；楚國與吳國又在長岸交戰，雙方爭奪之勢持續升溫；同年五月魯國又逢地震，天災與人禍在經文中並列記錄，呈現這幾年動盪不安的整體氛圍。`,
+      en: `This section records fires breaking out on the same day in four states — Song, Wei, Chen, and Zheng — and, in winter, the appearance of a comet in the Dachen constellation; by setting a celestial sign beside the mundane disaster, the text reflects a worldview in which omens and calamity were read together as warning. The same section also records the heir of Xu, Zhi, murdering his own father, the ruler Mai — another instance of regicide that echoes the killings recorded in Qi, Wei, and Song elsewhere in the chronicle, showing that the pattern of seizing power through patricide had still not abated. Chu and Wu also fought at Chang'an, their rivalry continuing to intensify. That same fifth month, Lu was also struck by an earthquake — natural disaster and human calamity recorded side by side, capturing the broader instability of these years.`
     },
     application: {
       zh: `四國同日遭遇火災，提醒我們某些風險（如火患）是跨越國界、共同存在的，不能只顧自己一方安然無事。
@@ -1376,8 +1376,8 @@ In winter, Wu extinguished Chao.
 Duke Ping of Qi was buried.`
     },
     plain: {
-      zh: `本段記載周景王駕崩後王室大亂：劉子、單子擁立王子猛，尹氏又另立王子朝，周天子一度流亡於狄泉；同時吳國在雞父大敗頓、胡、沈、蔡、陳、許六國聯軍，胡、沈兩國因此滅亡。`,
-      en: `This section records disorder in the royal house after King Jing of Zhou's death, as the viscounts of Liu and Dan set up prince Meng while the Yin clan sets up rival prince Chao, and the king is at one point exiled to Diquan; meanwhile, at Jifu, Wu inflicts a crushing defeat on a six-state coalition — Dun, Hu, Shen, Cai, Chen, and Xu — extinguishing Hu and Shen outright.`
+      zh: `本段記載周景王駕崩後王室大亂：劉子、單子擁立王子猛，尹氏又另立王子朝，周天子一度流亡於狄泉；同時吳國在雞父大敗頓、胡、沈、蔡、陳、許六國聯軍，胡、沈兩國因此滅亡。本段又記晉國扣留魯國使臣叔孫舍，是魯國外交再度受辱的記錄，此類扣留使臣之事這數十年間屢見不鮮；魯昭公其後又一次赴晉，這次行至黃河邊卻因自身染病而折返，是「至河乃復」記載中少見說明具體原因的一次；同段又記宋國華亥、向寧、華定三人盤據南里發動叛亂，其後又輾轉出奔楚國，宋國內部貴族叛服無常；此外吳國又滅巢國，延續其向外擴張、蠶食周邊小國的態勢。`,
+      en: `This section records disorder in the royal house after King Jing of Zhou's death, as the viscounts of Liu and Dan set up prince Meng while the Yin clan sets up rival prince Chao, and the king is at one point exiled to Diquan; meanwhile, at Jifu, Wu inflicts a crushing defeat on a six-state coalition — Dun, Hu, Shen, Cai, Chen, and Xu — extinguishing Hu and Shen outright. The same section also records Jin detaining Lu's own envoy, Shusun She — another diplomatic humiliation for Lu, part of a recurring pattern of envoys being seized across these decades. Duke Zhao later set out for Jin once more, and this time turned back at the Yellow River specifically because he had fallen ill — one of the few instances where the chronicle's recurring "turned back at the river" motif comes with an explicit reason. The same section records Song's Hua Hai, Xiang Ning, and Hua Ding occupying the southern quarter of the capital in open revolt, then fleeing to Chu soon after — the loyalties of Song's aristocracy swinging back and forth. Wu, meanwhile, extinguished the state of Chao, continuing its steady expansion at the expense of its smaller neighbors.`
     },
     application: {
       zh: `天子之位一旦出現繼承真空，內部立即分裂成兩派，外部強權也趁勢崛起——領導交接不清，往往是動盪的開端。
@@ -1463,8 +1463,8 @@ In autumn, in the seventh month, on gui-si, the viscount of Teng, Ning, died.
 In winter, Duke Dao of Teng was buried.`
     },
     plain: {
-      zh: `本段記載魯昭公與季孫氏決裂、出奔齊國，此後長年寄居於運、居於齊野井，齊侯甚至親自前往慰問——一國之君卻有家歸不得，是本段最沉重的一筆；同時又有「鸛鵒來巢」的異常鳥事被特別記下。`,
-      en: `This section records Duke Zhao's break with the Ji clan and his flight to Qi, after which he lives for years in exile at Yun and Yejing, with the marquis of Qi even visiting to console him in person — a ruler unable to return to his own state is the heaviest note here, alongside the odd sighting of mynah birds nesting, specially recorded.`
+      zh: `本段記載魯昭公與季孫氏決裂、出奔齊國，此後長年寄居於運、居於齊野井，齊侯甚至親自前往慰問——一國之君卻有家歸不得，是本段最沉重的一筆；同時又有「鸛鵒來巢」的異常鳥事被特別記下。本段又記吳國發生弒君之變——吳王僚被弒（「吳弒其君僚」），此即後世膾炙人口的公子光（後為吳王闔閭）遣刺客專諸刺殺吳王僚奪位之事，是吳國歷史上最著名的政變之一；同段又記周天子終於返回成周，結束此前王子猛、王子朝兩派爭立的王室內亂，尹氏、召伯、毛伯等擁立王子朝一黨則轉而出奔楚國；魯昭公流亡期間又試圖出兵圍攻本屬魯國的成邑，欲奪回據點卻未見成效，其流亡生涯益顯艱難。`,
+      en: `This section records Duke Zhao's break with the Ji clan and his flight to Qi, after which he lives for years in exile at Yun and Yejing, with the marquis of Qi even visiting to console him in person — a ruler unable to return to his own state is the heaviest note here, alongside the odd sighting of mynah birds nesting, specially recorded. This section also records a coup in Wu — "Wu murdered its ruler Liao" — the famous assassination of King Liao by the assassin Zhuan Zhu, orchestrated by Prince Guang, later King Helü, one of the most celebrated political murders in Chinese history. The same section records the Zhou king finally returning to Chengzhou, bringing an end to the royal succession crisis between princes Meng and Chao recorded earlier, as the Yin clan and the earls of Shao and Mao, who had backed Prince Chao, fled instead to Chu. During his exile, Duke Zhao of Lu also attempted to besiege Cheng, a town that properly belonged to Lu, hoping to reclaim a foothold — but to no avail, his years in exile growing only harder.`
     },
     application: {
       zh: `國君與掌權的大臣正面衝突，落得有家歸不得，說明衝突發生前更該看清楚實際的權力分佈。
@@ -1540,8 +1540,8 @@ In winter, Zhongsun Heji met Han Buxin of Jin, Gao Zhang of Qi, Zhong Ji of Song
 In the twelfth month, on ji-wei, the duke died at Ganhou.`
     },
     plain: {
-      zh: `本段是魯昭公流亡故事的終章：他始終未能返回魯國，最後死於幹侯異鄉；同段亦記吳滅徐、諸侯協力興築成周城牆，天下秩序在紛擾中緩慢重整。`,
-      en: `This section closes Duke Zhao's story of exile: he never manages to return to Lu, and dies at last in the foreign town of Ganhou; it also records Wu's extinguishing of Xu and an allied effort to wall Chengzhou, as the wider order slowly reassembles amid the disorder.`
+      zh: `本段是魯昭公流亡故事的終章：他始終未能返回魯國，最後死於幹侯異鄉；同段亦記吳滅徐、諸侯協力興築成周城牆，天下秩序在紛擾中緩慢重整。值得注意的是，魯昭公流亡期間所居之運邑，竟於同段末尾「潰」——連暫居的據點也守不住，流亡境地雪上加霜；晉國其後雖曾派荀檗前往幹侯慰問昭公，卻始終未真正出兵助其復位，僅止於禮節性的探視；同段又記吳國出兵伐越，是吳越爾後數十年爭霸恩仇的最早交鋒記錄之一，此時尚只是吳強越弱的局面，日後局勢卻將徹底翻轉。`,
+      en: `This section closes Duke Zhao's story of exile: he never manages to return to Lu, and dies at last in the foreign town of Ganhou; it also records Wu's extinguishing of Xu and an allied effort to wall Chengzhou, as the wider order slowly reassembles amid the disorder. Notably, Yun, the town where the exiled Duke Zhao had been staying, itself "collapsed" toward the end of this section — even his temporary refuge could not be held, compounding the misery of his exile. Jin later sent Xun Li to console the duke at Ganhou, but never actually sent troops to help restore him to his throne — a gesture of sympathy without any real support. The same section also records Wu invading Yue, one of the earliest clashes in what would become decades of bitter rivalry between the two states — at this point still a case of a strong Wu against a weak Yue, though the balance would later turn completely.`
     },
     application: {
       zh: `一場衝突若始終沒有和解，往往就這樣拖到當事人客死異鄉——裂痕越拖越難修補。
@@ -1631,8 +1631,8 @@ Nang Wa of Chu fled to Zheng.
 On geng-chen, Wu entered Chu.`
     },
     plain: {
-      zh: `本段先以魯定公即位、承接先前流亡結局作結，隨後記載伯莒之戰：蔡聯合吳國大敗楚師，楚令尹囊瓦出奔，吳軍甚至一路攻入楚國都城——長期積怨的小國聯手新興強權，竟能扳倒老牌霸主。`,
-      en: `This section opens with Duke Ding's accession, closing out the earlier exile story, and then records the Battle of Boju: an alliance of Cai and Wu utterly defeats the army of Chu, Chu's chancellor Nang Wa flees, and the Wu army even fights its way into Chu's own capital — long-aggrieved smaller states, joined with a rising power, manage to topple an established hegemon.`
+      zh: `本段先以魯定公即位、承接先前流亡結局作結，隨後記載伯莒之戰：蔡聯合吳國大敗楚師，楚令尹囊瓦出奔，吳軍甚至一路攻入楚國都城——長期積怨的小國聯手新興強權，竟能扳倒老牌霸主。本段又記魯國「立煬宮」，即為煬公另立宗廟以奉祭祀，與此前「立武宮」一事性質相近，同樣打破宗廟昭穆常規，可見魯國此類爭議性宗廟重建並非單一事件；同段又記魯國雉門與兩觀遭祝融焚燬，其後隨即重建（新作雉門及兩觀），可見宮室建築雖遭災損，仍迅速恢復；伯莒之戰前，魯定公其實已與劉子、晉侯、宋公等十餘國會盟於召陵，共同出兵侵楚，聲勢浩大，為隨後蔡吳聯軍大敗楚師的伯莒之戰奠定基礎；同段又記蔡國公孫歸姓率師滅沈，並將沈子嘉帶回處死，是又一個依附大國卻仍難逃覆滅的小國案例。`,
+      en: `This section opens with Duke Ding's accession, closing out the earlier exile story, and then records the Battle of Boju: an alliance of Cai and Wu utterly defeats the army of Chu, Chu's chancellor Nang Wa flees, and the Wu army even fights its way into Chu's own capital — long-aggrieved smaller states, joined with a rising power, manage to topple an established hegemon. The same section records Lu "establishing the Yang temple," building a new ancestral shrine for Duke Yang — a move similar in nature to the earlier "establishing the shrine of Duke Wu," again breaking with the normal generational sequence, showing this kind of controversial temple-building was not an isolated episode. It also records Lu's Pheasant Gate and its two towers destroyed by fire, then promptly rebuilt — a sign that even after serious damage to its palace structures, Lu moved quickly to restore them. Before the Battle of Boju, Duke Ding had in fact already joined a coalition of more than a dozen states — the viscount of Liu, the marquis of Jin, the duke of Song, and others — at Shaoling to invade Chu together, laying the groundwork for the coalition of Cai and Wu that would go on to crush Chu's army at Boju. The same section also records Cai's officer Gongsun Guixing extinguishing the state of Shen and bringing its viscount, Jia, home to be executed — yet another small state that could not escape destruction despite its efforts to align with a greater power.`
     },
     application: {
       zh: `一個長期被欺壓的小國聯合新興力量，竟能撼動看似不可動搖的霸主——提醒人評估局勢時，不能只看表面實力，也要看誰積怨已深、誰正在崛起。
@@ -1732,8 +1732,8 @@ Sacrifice was offered in order to the former dukes.
 Robbers stole the precious jade and the great bow.`
     },
     plain: {
-      zh: `本段最早記下于越入吳一事，是吳越世仇的開端，當時看來只是一次小規模入侵；段末更記魯國宗廟重器寶玉、大弓遭竊，堂堂國家象徵竟被盜賊得手，格外諷刺。`,
-      en: `This section contains the earliest record of Yue entering Wu — the small first spark of what would become the great Wu-Yue rivalry, looking at the time like a minor incursion; it closes on the ironic note that robbers manage to steal Lu's own treasured jade and great ceremonial bow, symbols of the state itself.`
+      zh: `本段最早記下于越入吳一事，是吳越世仇的開端，當時看來只是一次小規模入侵；段末更記魯國宗廟重器寶玉、大弓遭竊，堂堂國家象徵竟被盜賊得手，格外諷刺。本段又記魯國曾送糧食援助蔡國（歸粟於蔡），是列國之間罕見的直接物資援助記錄；鄭國亦出兵滅亡許國，將許男斯擄回，是又一個依附大國卻仍遭吞併的小國案例；魯國大夫季孫斯、仲孫忌其後又率師圍攻運地——正是昔日魯昭公流亡期間曾經寄居避難之處，如今卻反被本國軍隊攻打，頗具歷史諷刺意味；此外經文又載「從祀先公」，依照正統昭穆次序恢復對歷代先公的祭祀，恰與此前「立武宮」「立煬宮」兩次打破常規的宗廟安排形成對照，似有糾正禮制之意。`,
+      en: `This section contains the earliest record of Yue entering Wu — the small first spark of what would become the great Wu-Yue rivalry, looking at the time like a minor incursion; it closes on the ironic note that robbers manage to steal Lu's own treasured jade and great ceremonial bow, symbols of the state itself. The same section records Lu sending grain to aid Cai — an unusually direct record of one state providing material relief to another. Zheng also extinguished the state of Xu, carrying its ruler Si back with it — yet another small state that ultimately could not escape absorption despite its efforts to align with a patron. Lu's officers Jisun Si and Zhongsun Ji later led a force to besiege Yun — the very town where the exiled Duke Zhao once took refuge, now under attack from Lu's own army, a striking historical irony. The chronicle also records Lu "offering sacrifice in proper order to the former dukes," restoring the correct generational sequence of ancestral worship — a notable contrast to the two earlier controversial temple establishments for Dukes Wu and Yang, suggesting an attempt to correct those ritual irregularities.`
     },
     application: {
       zh: `日後驚天動地的世仇，起初往往只是一次不起眼的小衝突；連國家重器都能被偷走，也提醒人再莊重的事物也需要日常的看守。
@@ -1825,8 +1825,8 @@ In the eleventh month, on bing-yin, the first day of the moon, the sun was eclip
 In the twelfth month, the duke laid siege to Cheng. The duke arrived from laying siege to Cheng.`
     },
     plain: {
-      zh: `本段記載遺失的寶玉、大弓失而復得，齊魯夾谷之會後齊國歸還運、讙、龜陰等田地，隨後魯國拆毀季孫、叔孫兩家私邑郈與費的城牆（墮郈、墮費）——正是史稱「墮三都」壓抑大夫私人武力的行動。`,
-      en: `This section records the recovery of the stolen jade and bow, Qi's return of the fields of Yun, Huan, and Guiyin to Lu after the meeting at Jiagu, and then Lu's demolition of the fortified walls of Hou and Fei, private strongholds of the Jisun and Shusun families — the historic campaign known as "razing the three capitals," aimed at curbing the private armed power of the great families.`
+      zh: `本段記載遺失的寶玉、大弓失而復得，齊魯夾谷之會後齊國歸還運、讙、龜陰等田地，隨後魯國拆毀季孫、叔孫兩家私邑郈與費的城牆（墮郈、墮費）——正是史稱「墮三都」壓抑大夫私人武力的行動。夏頰谷之會尤具深意：魯定公與齊侯會於頰谷，據傳孔子當時正任魯國司寇、隨行相禮，會上機警應對、挫敗齊人可能的無禮舉動，會後齊國更歸還此前佔據的運、讙、龜陰等田地，是外交場合以禮制智慧化解危機的著名先例；同段又記宋國公子辰、仲佗、石彄、公子池等一黨占據蕭地反叛，輾轉出入陳、曹、宋之間，宋國內部貴族叛亂延續數年方告平息；「墮三都」行動雖已拆毀郈、費兩邑城牆，末尾魯定公圍攻孟孫氏據守的成邑，經文卻只記「公圍成」而非「墮成」，暗示這最後一步終究未能成功，三都拆除計畫功敗垂成。`,
+      en: `This section records the recovery of the stolen jade and bow, Qi's return of the fields of Yun, Huan, and Guiyin to Lu after the meeting at Jiagu, and then Lu's demolition of the fortified walls of Hou and Fei, private strongholds of the Jisun and Shusun families — the historic campaign known as "razing the three capitals," aimed at curbing the private armed power of the great families. The meeting at Jiagu that summer carries particular significance: Duke Ding met the marquis of Qi there, with Confucius — then serving as Lu's minister of justice — reportedly attending as master of ceremonies, deftly countering what tradition holds was an attempted show of force or insult from Qi; afterward Qi returned the fields of Yun, Huan, and Guiyin that it had earlier seized, a celebrated early example of resolving a diplomatic crisis through ritual composure and wit. The same section records Song's Prince Chen, together with Zhong Tuo, Shi Kou, and Prince Chi, seizing Xiao and rebelling, moving back and forth between Chen, Cao, and Song over several years before the revolt was finally settled. And while the "razing of the three capitals" campaign had already torn down the walls of Hou and Fei, the campaign's final target, Cheng — the Mengsun family's own stronghold — is recorded only as "besieged," not "razed," a quiet hint that this last step of the reform ultimately fell short.`
     },
     application: {
       zh: `拆毀大夫私城，正是記取此前魯昭公被大夫逼得流亡在外的教訓——與其事後受制於人，不如趁早化解過度集中的私人勢力。

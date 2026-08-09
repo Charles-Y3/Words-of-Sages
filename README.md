@@ -22,14 +22,20 @@ npm run audit-speech   # check 破音字 coverage (QA S0)
 ### Taoist (available)
 - **Tao Te Ching** (道德經) — 81 chapters
 - **Qingjing Jing** (太上老君說常清靜經) — 8 sections
+- **Scripture of Inner Contemplation** (太上老君內觀經) — 13 sections
 - **Yinfu Jing** (黃帝陰符經) — 8 sections
 - **Taishang Ganying Pian** (太上感應篇) — 13 sections
+- **Zuowang Lun** (坐忘論) — 8 discourses · 22 sections
+- **The Secret of the Golden Flower** (太乙金華宗旨) — 13 chapters · 27 sections
+- **Zhuangzi: Inner Chapters** (莊子·內篇) — 7 chapters · 45 sections
 
 ### Confucian (available)
 - **The Great Harmony** (禮運大同篇) — 5 sections
 - **The Great Learning** (大學) — 37 sections
 - **Doctrine of the Mean** (中庸) — 33 chapters · 38 sections
 - **Analects** (論語) — 20 books · 501 chapters
+- **Mencius** (孟子) — 14 parts · 260 chapters
+- **School Sayings of Confucius** (孔子家語) — 44 books · 192 sections
 - **Classic of Filial Piety** (孝經) — 18 chapters
 - **Spring and Autumn Annals** (春秋) — 12 dukes · 65 sections
 
@@ -37,6 +43,10 @@ npm run audit-speech   # check 破音字 coverage (QA S0)
 - **Heart Sutra** (心經) — 6 sections
 - **Diamond Sutra** (金剛經) — 32 divisions · 40 sections
 - **Amitabha Sutra** (阿彌陀經) — 11 sections
+- **Medicine Buddha Sutra** (藥師經) — 28 sections
+- **Contemplation Sutra** (觀無量壽經) — 16 contemplations · 29 sections
+- **Sutra of the Buddha’s Bequeathed Teaching** (佛遺教經) — 22 sections
+- **Sutra in Forty-Two Sections** (四十二章經) — 42 chapters · 43 sections
 - **Platform Sutra** (六祖壇經) — 10 chapters · 30 sections
 
 Each chapter has bilingual fields: `text` (original), `plain` (explanation), `application` (practical takeaway). Run `npm run validate-data` after editing any chapter file.

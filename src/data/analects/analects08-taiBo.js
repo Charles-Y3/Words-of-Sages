@@ -28,8 +28,8 @@ const analects08_taiBo = [
       en: `The Master said, "Courtesy without ritual becomes wearisome; caution without ritual becomes timidity; courage without ritual becomes disorder; directness without ritual becomes cutting. When the noble person is generous to his kin, the people are stirred to humaneness. When he does not forget old friends, the people will not turn callous."`
     },
     plain: {
-      zh: `孔子指出四種德行若缺乏禮的節制便會走偏：恭敬過度變成勞苦，謹慎過度變成畏縮，勇敢過度變成作亂，直率過度變成尖刻傷人。在上位者若厚待親族，百姓自然興起仁風；不遺棄故舊，百姓風氣也不會刻薄。`,
-      en: `Confucius shows how four virtues, without the shaping of ritual, go astray: courtesy becomes exhausting, caution becomes timidity, courage becomes chaos, and directness becomes cutting rudeness. When a leader is generous to kin, the people are moved toward humaneness; when he does not abandon old friends, the people's ways stay warm rather than callous.`
+      zh: `孔子指出：恭敬若沒有禮來節制，就會變得勞擾疲憊；謹慎若無禮，就會畏縮不前；勇敢若無禮，就會生亂；正直若無禮，就會尖刻傷人。可見禮是給美德定分寸的，美德離禮便易走偏。君子若厚待自己的親族，百姓就會興起仁厚之風；若不遺棄故舊老友，民風也就不會變得刻薄涼薄。上位者對待親故的態度，會直接帶動社會的厚薄——修身齊家的示範，正是導民向仁的關鍵。恭、慎、勇、直皆須禮節之，否則勞、葸、亂、絞；君子篤親則民興仁，故舊不遺則民不偷——美德與風教，都繫於禮與親故之厚。`,
+      en: `Confucius shows: courtesy without ritual becomes wearisome; caution without ritual becomes timidity; courage without ritual becomes disorder; directness without ritual becomes cutting. Ritual gives measure to virtues; without it they go astray. When the junzi is generous to kin, the people are stirred toward ren; when he does not abandon old friends, the people will not turn callous. How leaders treat kin and old ties sets how thick or thin the social fabric grows — the model at home is what leads the people toward humaneness. Courtesy, caution, courage, and directness all need ritual, or they become weariness, timidity, disorder, and cutting sharpness; when the junzi is generous to kin the people rise toward ren, when he keeps old friends the people do not turn callous — virtue and social climate both hang on ritual measure and warmth to kin and old ties.`
     },
     application: {
       zh: `好的品格如果沒有分寸拿捏，反而會傷人傷己。領導者以身作則對待親友的方式，會決定整個團體的風氣。
@@ -47,8 +47,8 @@ const analects08_taiBo = [
       en: `Zengzi was ill and called his disciples, saying, "Uncover my feet! Uncover my hands! The Songs say, 'Trembling and cautious, as if approaching a deep abyss, as if treading on thin ice.' From now on, I know I am spared such worry, my young friends!"`
     },
     plain: {
-      zh: `曾子病重，召集弟子，要他們看看自己完好的手腳——身體受之父母，一生小心保全，如臨深淵、如履薄冰般戰戰兢兢。如今即將離世，才確知自己終於免於損傷之憂了。`,
-      en: `On his deathbed, Zengzi calls his disciples to look at his hands and feet — a body received from his parents, guarded his whole life "as if facing a deep abyss, as if treading on thin ice." Only now, near death, can he be sure he has kept it whole and unharmed.`
+      zh: `曾子病重，召集門人弟子，要他們揭開被子看自己的腳、看自己的手——身體受之父母，一生戰戰兢兢保全，如同臨近深淵、踩在薄冰上，唯恐有絲毫毀傷。他引《詩》「戰戰兢兢，如臨深淵，如履薄冰」自況平生守身之嚴。如今病到將終，他才敢說：從今以後，我總算知道自己可以免於虧損身體之憂了！小子們啊！整章以臨終驗身，把孝道落到「全受全歸」：不僅養志養口體，更要終身謹慎，使受之父母的身體完好無損而歸。`,
+      en: `Gravely ill, Zengzi calls his disciples to uncover his feet and hands — the body received from his parents, guarded his whole life with trembling care, as if facing a deep abyss or treading thin ice, lest any harm befall it. He quotes the Songs on that trembling vigilance as the measure of his lifelong self-preservation. Only at the end does he dare say: from now on I know I am spared that worry, my young friends! The chapter turns a deathbed inspection of the body into filial piety as returning intact what one received — not only feeding and honoring parents, but lifelong caution so the body given by them goes back whole.`
     },
     application: {
       zh: `一生謹慎盡責，直到最後一刻才能安心放下。這份戰兢，不是膽怯，而是對責任的敬重。
@@ -66,8 +66,8 @@ const analects08_taiBo = [
       en: `Zengzi was ill, and Meng Jingzi came to ask after him. Zengzi said, "When a bird is about to die, its song is mournful; when a person is about to die, their words are good. There are three things the noble person values in the Way: in bearing, keep far from violence and arrogance; in expression, keep close to trustworthiness; in the tone of speech, keep far from vulgarity and error. As for the details of ritual vessels, there are officials who attend to those."`
     },
     plain: {
-      zh: `曾子病重，孟敬子來探望。曾子說：鳥將死，鳴聲悲哀；人將死，說的話多是誠懇之言。君子所重視的道有三：容貌態度要遠離粗暴傲慢，臉色表情要趨近誠信，言辭語氣要遠離粗鄙錯謬。至於祭祀禮器等瑣碎細節，自有專司之人負責，不必事事親自操心。`,
-      en: `On his deathbed, Zengzi tells the visiting Meng Jingzi: as a dying bird's cry is mournful, a dying person's words are sincere. Three things the junzi values: a bearing free of violence and arrogance, an expression close to trustworthiness, and speech free of vulgarity and error. Minor ritual details can be left to the officials in charge.`
+      zh: `曾子有疾，孟敬子來探問。曾子先以鳥將死其鳴哀、人將死其言善自況，表明臨終所言出於誠懇。他隨即提出君子所貴於道的三事：一動容貌，使態度遠離粗暴與傲慢；二正顏色，使神色趨近誠信可信；三出辭氣，使言辭語氣遠離粗鄙與乖謬。至於籩豆等祭祀禮器的細節，自有專司之官掌管，君子不必事事親自瑣碎操心。整章把臨終遺言收束在容貌、顏色、辭氣三項日常可見的修養上，並分清「大道」與「有司之事」的輕重：先正己接人的氣象，細節可付專人。曾子把君子所貴收在容貌、顏色、辭氣，而把籩豆細節交給有司，是教孟敬子抓大放小：先正接人之道，勿先溺於器數。將死之言善：貴動容貌以遠暴慢，正顏色以近信，出辭氣以遠鄙倍；籩豆則有司存——大道在接人氣象，不在器數。`,
+      en: `Ill, Zengzi receives Meng Jingzi and frames his last counsel with the proverb that a dying bird's cry is mournful and a dying person's words are good — sincerity at the end. He then names three things the junzi values in the Way: in bearing, keep far from violence and arrogance; in expression, keep close to trustworthiness; in tone of speech, keep far from vulgarity and error. As for the details of ritual vessels, officials attend to those. The deathbed teaching thus settles on demeanor, countenance, and speech — visible daily cultivation — and distinguishes the greater Way from clerical minutiae: first set the manner of meeting others; leave the rest to those in charge. Valuing bearing, expression, and tone while leaving vessel-details to officials teaches Meng Jingzi to grasp the greater and release the lesser. `
     },
     application: {
       zh: `抓住真正重要的大事——待人的態度、表情與言辭，不必事事親力親為、糾結細節。
@@ -237,8 +237,8 @@ const analects08_taiBo = [
       en: `The Master said, "Have sincere faith and love learning; hold fast to the good Way even unto death. Do not enter a state that is endangered; do not dwell in a state in disorder. When the Way prevails in the world, show yourself; when it does not, withdraw. When the state has the Way, to be poor and lowly is shameful; when the state lacks the Way, to be rich and honored is shameful."`
     },
     plain: {
-      zh: `孔子教人：要有堅定的信念、愛好學習，並誓死堅守良善之道。危險的國家不進入，動亂的國家不居住。天下有道就出仕貢獻，無道就隱退自守。國家有道時卻貧賤，是可恥的；國家無道時卻富貴，也是可恥的。`,
-      en: `Confucius teaches: hold sincere faith, love learning, and guard the good Way even to death. Do not enter a state in danger; do not dwell in one in chaos. Show yourself in office when the Way prevails; withdraw when it does not. When the state has the Way, being poor and low is shameful (a failure to contribute); when the state lacks the Way, being rich and honored is shameful (complicity with corruption).`
+      zh: `孔子教人：信念要篤實，又要愛好學習，並且誓死守護善道，生死以之。危險的邦國不要進去，動亂的邦國不要居住，以免無謂捲入。天下有道就出來任事貢獻，無道就隱退自守，不與濁流合污。國家有道時，自己卻仍貧賤，是恥辱——因為未能貢獻所長、自棄於明時；國家無道時，自己卻富貴顯達，也是恥辱——因為那富貴往往意味著與黑暗同流、分沾不義。出處進退、貧賤富貴，都要以道為準，而不是以安危或利祿為準。`,
+      en: `Confucius teaches: hold sincere faith, love learning, and guard the good Way even unto death. Do not enter a state in danger; do not dwell in one in chaos, lest you be swept in for nothing. When the Way prevails in the world, show yourself in service; when it does not, withdraw and keep clean. When the state has the Way, remaining poor and low is shameful — a failure to contribute in a clear time; when the state lacks the Way, being rich and honored is shameful — often complicity with darkness. Advance and retreat, poverty and rank, are measured by the Way, not by safety or profit.`
     },
     application: {
       zh: `出仕或隱退，貧賤或富貴，都要對照大環境是否清明，而不是只看個人得失。
@@ -351,8 +351,8 @@ const analects08_taiBo = [
       en: `The Master said, "Great indeed was Yao as a ruler! How majestic — only Heaven is great, and only Yao took it as his model! How vast — the people could find no name for it! How majestic his achievements! How brilliant the culture he established!"`
     },
     plain: {
-      zh: `孔子盛讚堯：作為君主真是偉大！崇高啊，只有天最為廣大，唯有堯能效法天。廣闊浩蕩啊，百姓竟找不到言語來形容他的德行！崇高啊，他的功業如此輝煌！燦爛啊，他所建立的典章制度多麼美好！`,
-      en: `Confucius extols Yao: truly great as a ruler! Majestic — only Heaven is vast, and only Yao took Heaven as his model! Boundless — the people could find no words to name his virtue! Majestic his achievements, brilliant the culture and institutions he established!`
+      zh: `孔子盛讚堯作為君主的偉大：巍巍乎，只有天最為高大，而唯有堯能效法天的廣大無私！蕩蕩乎，他的德澤浩瀚，百姓竟找不到恰當的言辭來稱說他的好處！巍巍乎，他成就的功業多麼崇高！煥乎，他所留下的禮樂文章又多麼光彩燦爛！整章以「大哉」「巍巍」「蕩蕩」「煥乎」層層讚歎，寫出堯德配天、功成而民無能名、制度煥然的氣象——聖王之功，往往大到言語難以形容。讚堯凡四層：則天、民無能名、成功巍巍、文章煥乎——聖德大到言語難以盡述。`,
+      en: `Confucius extols Yao's greatness as a ruler: how majestic — only Heaven is great, and only Yao modeled himself on its vast impartiality! How vast — the people could find no words to name his virtue! How majestic his achievements! How brilliant the culture and institutions he left! With "great," "majestic," "boundless," and "brilliant" layered one on another, the chapter paints Yao's virtue matching Heaven, success so complete the people cannot even name it, and culture shining — the sage-king's work often exceeds language. Yao is praised on four levels: modeling Heaven, virtue the people cannot name, majestic achievement, and brilliant culture — sage virtue so great language can scarcely finish it.`
     },
     application: {
       zh: `最高的成就有時偉大到讓人難以用言語形容；效法更高的準則（如天道），比追求名聲更能成就真正的偉大。
@@ -370,8 +370,8 @@ const analects08_taiBo = [
       en: `Shun had five ministers, and the empire was well governed. King Wu said, "I have ten capable ministers." Confucius said, "'Talent is hard to find' — is this not so? In the age of Tang and Yu, talent flourished most, yet one of Wu's ten was a woman, leaving only nine men. King Wen, holding two-thirds of the empire, still served the Yin dynasty — this may be called virtue of the highest order!"`
     },
     plain: {
-      zh: `舜只有五位賢臣，天下就得到治理。周武王說：「我有十位治國的能臣。」孔子評論：「人才難得」，這話真是不假啊！唐堯虞舜之際人才最為興盛，但武王的十人之中還有一位是婦人，實際上只有九位男子。周文王三分天下已有其二，仍然臣服侍奉殷朝，這樣的德行，真可稱得上至高的德行了！`,
-      en: `Shun governed the empire well with only five ministers. King Wu said he had ten capable ministers. Confucius remarks: "talent is hard to find" indeed — even in the flourishing age of Yao and Shun, and among Wu's ten, one was a woman, leaving only nine men. That King Wen held two-thirds of the realm yet still served the Yin dynasty — this may be called virtue of the highest order.`
+      zh: `舜只用五位賢臣，天下便得到治理。周武王則說：「我有十位能安定亂局的治國之臣。」孔子感歎：「人才難得」這句話，難道不是真的嗎？唐堯、虞舜之際人才最為興盛，而武王所謂十人裡還包括一位婦人，實際只有九位男子——可見即使盛世，能臣依然稀少。再看周文王：當時已擁有天下三分之二，卻仍以臣禮侍奉殷朝，不因力強而奪——這樣的德行，真可稱得上至高之德了。此章既歎人才之稀，也盛讚文王以德服事、不恃強僭奪的風範；治天下靠的是少數真才與至德，而不是人多勢眾。舜五臣、武王十人（實九），與文王有二猶服事殷，三者合觀：人才既難，至德更難，孔子歎「才難」而終歸於文王之至德。`,
+      en: `Shun governed the world well with only five ministers. King Wu said he had ten ministers able to settle disorder. Confucius sighs: is it not true that talent is hard to find? Even in the flourishing age of Yao and Shun, and among Wu's ten, one was a woman — only nine men in fact — so even in a golden age capable ministers remain scarce. As for King Wen, he already held two-thirds of the realm yet still served Yin as a vassal, not seizing by force — that may be called virtue of the highest order. The unit both mourns how rare talent is and praises Wen's serving by virtue rather than usurping by strength; the world is ordered by a few true talents and supreme virtue, not by sheer numbers. Shun's five, Wu's ten (really nine), and Wen holding two-thirds yet still serving Yin — together they show talent is scarce and supreme virtue rarer still; Confucius sighs that talent is hard, then rests on Wen's highest virtue.`
     },
     application: {
       zh: `人才難得，重質不重量；擁有優勢卻仍甘居臣服、不急於取而代之，是一種罕見的節制與德行。

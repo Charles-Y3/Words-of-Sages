@@ -163,18 +163,8 @@ Heaven follows the way of Tao; and
 Tao follows and the way of Nature.`
     },
     plain: {
-      zh: `有一種存在，混沌未分，先於天地而生。
-它寂靜而空曠，獨立不變，運行無阻，可稱為天下之母。
-我不知道它的名字，便稱之為「道」。勉強命名，就叫「大」。
-大即流動，流動即遙遠，遙遠即歸還。
-因此，道大，天大，地大，王亦大。在世間有四大，而王只是其中之一。
-人應效法地，地效法天，天效法道，道效法自然。`,
-      en: `There is a being, formless and undifferentiated, born before Heaven and Earth.
-It is silent and vast, independent and unchanging, operating everywhere without danger; it may be called the mother of the world.
-I do not know its name, so I call it Tao; if forced to name it, call it Great.
-Greatness is movement; movement is distance; distance is return.
-Thus, Tao is great, Heaven is great, Earth is great, and the King is great. Among the four greats, the King is one.
-Humans follow Earth, Earth follows Heaven, Heaven follows Tao, Tao follows Nature.`
+      zh: "在天地形成之前，就已經有一個渾然一體、無法拆分的東西存在著。它寂靜無聲、空曠無形，獨立自存而不受任何事物改變，循環運行而永不停止，因此可以說它是孕育天地萬物的根源。我們不知道該怎麼稱呼它，勉強用「道」這個字來稱呼它；如果一定要形容它，就再勉強說它是「大」。所謂「大」，是指它會不斷延展運行；不斷運行，就會到達極遠之處；到達極遠之後，最終又會返回原點——這說的是道循環不息、周而復始的性質。所以道是大的，天是大的，地是大的，君王也是大的；天地之間有這四種「大」，而君王只是其中之一，並非唯我獨尊。人應當效法地，地效法天，天效法道，而道所效法的，就是萬物本然的樣子——一層一層地效法下去，最終的準則不是人的意志，而是順其自然。",
+      en: "Before Heaven and Earth ever formed, there was already something whole and undivided in existence — silent, formless, standing alone and unchanged by anything, circling on without ever stopping, and for that reason it can be called the source that gives birth to all things. Not knowing what to call it, we borrow the word \"Dao\"; forced to describe it further, we call it \"Great.\" Being \"Great\" means it keeps extending outward; extending outward, it reaches the farthest distance; having reached that distance, it eventually circles back to where it began — this describes the Dao's endless, cyclical motion. So the Dao is great, Heaven is great, Earth is great, and the ruler is also great; within this realm there are these four greats, and the ruler is only one of them, not the sole authority. People should model themselves on Earth, Earth on Heaven, Heaven on the Dao, and the Dao models itself on nothing but the way things naturally already are — each level learning from the one above, until the final standard is not human will but letting things be as they are."
     },
     application: {
       zh: `生活中，我們要認識到自己只是自然和整體中的一部分，無需強求掌控一切。
@@ -202,12 +192,8 @@ To be light is to lose one's root.
 To be restless is to lose one’s self-mastery.`
     },
     plain: {
-      zh: `穩重是輕浮的根源，靜定能控制躁動。
-因此，聖人整天保持穩重，不離根本；即便在榮華富貴中，也能超然自在。
-一個統治萬乘的君主，如果隨意輕浮，將失去根本；心浮氣躁的人，難以掌握全局。`,
-      en: `Stability is the root of lightness; calmness governs restlessness.
-Thus, the sage remains steady all day, staying connected to his foundation; even amid splendor, he is detached and composed.
-A ruler of vast lands, if frivolous or restless, will lose his foundation and cannot govern effectively.`
+      zh: "穩重是輕浮得以立足的根基，清靜是躁動得以安定下來的主宰——沒有根，輕浮就無所依附；沒有主，躁動就會失控。正因如此，聖人即使整天在外奔走，也不會離開自己的補給輜重，隨時保持根基在身；即使沿途有華美的風景引誘人流連，他仍然保持超然，不被外物牽動內心。試想，一國之君擁有萬輛兵車那樣的權勢，怎麼可以輕率地對待天下大事？一旦輕率行事，就會失去根本；一旦浮躁妄動，就會失去主導權，治國與修身其實是同一個道理：都需要靠穩重與清靜來守住根基，不能圖一時的輕快而失去長久的立足點。",
+      en: "Steadiness is the root that lets lightness stand at all, and stillness is the master that keeps restlessness in check — without a root, lightness has nothing to rest on; without a master, restlessness spins out of control. This is why the sage, even traveling all day, never strays far from his supply wagon, keeping his foundation with him at all times; and even when splendid scenery along the way tempts him to linger, he remains detached, never letting outside things unsettle his mind. Consider: a ruler commanding ten thousand chariots' worth of power — how could he afford to treat the affairs of the realm carelessly? Act carelessly, and the root is lost; act rashly, and control is lost. Governing a state and cultivating oneself follow the same logic: both depend on steadiness and stillness to hold the foundation, rather than trading long-term footing for a moment's ease."
     },
     application: {
       zh: `在生活中，面對忙碌和誘惑，保持穩重與冷靜非常重要。
@@ -254,8 +240,8 @@ Know honor, yet hold to disgrace: be the valley of the world. Being the valley o
 When the uncarved block is cut, it becomes vessels; when the sage makes use of them, he becomes the chief of officials. Truly, the greatest carving is done without cutting.`
     },
     plain: {
-      zh: "了解力量的雄強，卻保持柔弱如雌，就能成為天下的道路。成為天下的道路，常保德行不偏離，最終回歸嬰兒般純真。了解光明的白，卻保持黑暗的守護，就能成為天下的典範。成為天下的典範，常保德行無過失，最終回歸無極。了解榮耀，卻能守住屈辱，就能成為天下的低谷。成為天下的低谷，常保德行充足，最終回歸樸素。樸素散開，就能成為各種器具，聖人使用它們，就能成為官長治理天下。因此，真正的大制度是不分割、不拘泥於形式的。",
-      en: "To know the strength of the male yet maintain the softness of the female is to become the path of the world. By being the path of the world, one preserves virtue without deviation and ultimately returns to the innocence of a newborn. To know the brightness of white yet guard the darkness of black is to become the model of the world. By being the model of the world, one maintains virtue without error and ultimately returns to the boundless. To know honor yet hold onto humility is to become the valley of the world. By being the valley of the world, one keeps virtue sufficient and ultimately returns to simplicity. When simplicity is spread out, it can form all kinds of tools; when the sage uses them, they can govern as leaders. Therefore, the greatest system does not divide or rigidly enforce boundaries."
+      zh: "明明深知剛強雄健的一面，卻寧可守住柔弱如雌的姿態，甘願做天下匯流之處的溪谷；能做到這樣，恆常的德性就不會離開自己，人便能回到像嬰兒一樣純真、沒有心機算計的狀態。明明清楚光明外顯的一面，卻寧可守住晦暗低調，成為天下人效法的準則；能做到這樣，恆常的德性就不會出差錯，人便能回到那種無窮無盡、不可窮盡的本源狀態。明明知道榮耀顯達的滋味，卻寧可安於卑下屈辱，甘做天下容納百川的山谷；能做到這樣，恆常的德性才算真正充足，人便能回到未經雕琢、質樸天然的狀態。這裡的三層道理其實是一貫的：不是叫人示弱逞弱，而是提醒人越是有能力顯露鋒芒，越要懂得收斂、守拙，才能保住那份不外露、不虧損的德性。就像原本渾然一體的素材，一旦被切割雕琢，就成了各種各樣的器具，聖人善用這些各具其才的「器具」，便能任用他們各司其職；所以真正高明的治理，是成全萬物各自的用處，而不是一味用強力去切割、宰制它們。",
+      en: "To fully understand strength and boldness, yet deliberately hold to softness and yielding, willing to be the ravine where the world's streams gather — doing this keeps constant virtue from ever leaving, letting a person return to the innocent, guileless state of an infant. To fully understand brightness and prominence, yet deliberately hold to dimness and restraint, becoming a model the world looks to — doing this keeps constant virtue free of error, letting a person return to that boundless, inexhaustible origin. To fully taste honor and glory, yet deliberately settle into humility and even disgrace, willing to be the valley that receives every stream — doing this makes constant virtue truly complete, letting a person return to a plain, unworked, natural state. These three are really one lesson: not a call to weakness for its own sake, but a reminder that the more capable someone is of showing strength, the more they need to hold back and stay unassuming, in order to keep that virtue from ever being depleted. Just as an originally whole piece of raw material becomes various tools once it is cut and shaped, the sage makes good use of people according to what each is suited for, appointing them to their proper roles — so true governance perfects what each thing is naturally good for, rather than forcing everything into shape through cutting and control."
     },
     application: {
       zh: `生活中，我們需要平衡剛強與柔和，既有能力面對挑戰，也保持包容和耐心。
@@ -275,14 +261,8 @@ Sustaining this gentle, embracing approach creates more enduring harmony in pers
       en: "Those who wish to take the world and act on it, I see they will not succeed. The world is a sacred tool, not to be acted upon, not to be seized. Acting destroys it; holding loses it. Therefore, things sometimes move, sometimes follow, sometimes exhale, sometimes blow, sometimes strong, sometimes weak, sometimes carry, sometimes follow. Thus the sage removes excess, removes extravagance, removes pride."
     },
     plain: {
-      zh: `想要強行掌控天下的人，最終難以成功。
-天下是神聖的工具，不可隨意使用或占有。強行行動會破壞它，執著抓取會失去它。
-世間萬物或變化、或順從、或強、或弱、或承載、或跟隨。
-因此，聖人去掉過度、奢華與傲慢，以順應自然。`,
-      en: `Those who forcibly try to control the world will not succeed.
-The world is a sacred tool, not to be used or seized at will. Acting forcibly destroys it; holding onto it loses it.
-Things change, follow, strengthen, weaken, carry, or follow.
-Therefore, the sage removes excess, extravagance, and pride, aligning with nature.`
+      zh: "想要靠強行作為的手段去奪取、掌控天下，我看這種人終究達不到目的。天下是不可隨意擺弄的「神聖器物」，不能靠人為的操弄去強行改造它，也不能想著把它牢牢抓在手裡佔為己有；越是想強加作為，越容易把事情弄壞；越是想緊緊抓住，越容易失去它。萬物本來就各有各的性情，走在前面的和跟在後面的、緩緩呼氣的和用力吹氣的、強壯的和瘦弱的、承載得住的和承載不住而毀壞的，彼此原本就不一樣，硬要用同一套標準去要求，只會適得其反。正因如此，聖人做事會主動去掉那些過度、奢華、驕矜自滿的成分，讓萬物依照各自的本性去發展，而不是用強硬的控制手段去取代它們原本自處的方式。",
+      en: "Whoever tries to seize and control the world through forceful action will, in the end, never achieve it. The world is a sacred vessel that cannot be casually handled — it cannot be reshaped by force, nor can it be tightly grasped and claimed as one's own; the harder one tries to force it, the more likely things go wrong, and the tighter one grasps, the more likely it slips away. Things naturally differ from one another: some lead and some follow, some breathe gently and some blow hard, some are strong and some are frail, some can bear a load and some break under it — trying to hold them all to one standard only backfires. This is why the sage deliberately strips away excess, extravagance, and arrogance, letting things develop according to their own nature rather than replacing their natural way of being with forced control."
     },
     application: {
       zh: `在生活中，我們經常想掌控一切，追求權力、資源或成果，但過度控制往往帶來挫折和失敗。

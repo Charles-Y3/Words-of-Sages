@@ -2,6 +2,7 @@
 const greatLearning3 = [
   {
     id: 17,
+    label: "6-1",
     text: {
       zh: "所謂誠其意者，毋自欺也。如惡惡臭，如好好色，此之謂自謙。故君子必慎其獨也。",
       en: "To make one's intention sincere is to avoid self-deception. Just as one dislikes a foul odor or loves a beautiful color, this is called being content and at ease with oneself. Therefore, the noble person is cautious when alone."
@@ -17,6 +18,7 @@ const greatLearning3 = [
   },
   {
     id: 18,
+    label: "6-2",
     text: {
       zh: "小人閒居為不善，無所不至；見君子而後厭然，揜其不善而著其善。",
       en: "A petty person does evil in idleness and stops at nothing; but when facing a noble person, they restrain themselves, hiding their wrongs and showing their good."
@@ -32,6 +34,7 @@ const greatLearning3 = [
   },
   {
     id: 19,
+    label: "6-3",
     text: {
       zh: "人之視己，如見其肺肝然，則何益矣？此謂誠於中，形於外，故君子必慎其獨也。",
       en: "When others look at a petty person, they see straight through him, as if seeing his very organs — so what good does concealment do? This is called sincerity within, manifesting outwardly — therefore the noble person is watchful over himself when alone."
@@ -47,6 +50,7 @@ const greatLearning3 = [
   },
   {
     id: 20,
+    label: "6-4",
     text: {
       zh: "曾子曰：“十目所視，十手所指，其嚴乎！”",
       en: "Zengzi said: 'Ten eyes see, ten hands point; how strict this is!'"
@@ -62,6 +66,7 @@ const greatLearning3 = [
   },
   {
     id: 21,
+    label: "6-5",
     text: {
       zh: "富潤屋，德潤身，心廣體胖。故君子必誠其意。",
       en: "Wealth enriches a house, virtue enriches the body; a broad mind leads to a healthy body. Therefore, a noble person must be sincere in intention."
@@ -77,13 +82,14 @@ const greatLearning3 = [
   },
   {
     id: 22,
+    label: "7-1",
     text: {
       zh: "所謂修身在正其心者：身有所忿懥，則不得其正；有所恐懼，則不得其正；有所好樂，則不得其正；有所憂患，則不得其正。",
       en: "What is meant by cultivating oneself lies in rectifying the heart: if the body harbors anger, it cannot be correct; if it harbors fear, it cannot be correct; if it harbors excessive pleasure, it cannot be correct; if it harbors worry, it cannot be correct."
     },
     plain: {
-      zh: "修身的關鍵在於心態端正。情緒的過度偏激——如憤怒、恐懼、過度喜好或憂慮——會擾亂內心的平衡，使行為偏離正道。只有當心中平和、穩定，才能確保行為合乎道德和理性。換句話說，修身不僅是外在行為的規範，更是內心自我調控的過程，強調心的主導作用。",
-      en: "The key to self-cultivation lies in rectifying the heart. Extreme emotions—anger, fear, excessive pleasure, or worry—disturb inner balance and lead to improper conduct. Only when the heart is calm and stable can actions align with morality and reason. In other words, self-cultivation is not merely about regulating outward behavior; it is an inner process of self-control where the heart guides all actions."
+      zh: "這一章開始解釋「所謂修身在正其心者」。經文指出：修養自身之所以必須先端正其心，是因為心一旦被偏激情緒占據，身便不得其正。具體說來：身有所忿懥——心中懷著憤怒憤懣，則不得其正；有所恐懼——被害怕所牽制，則不得其正；有所好樂——沉溺於過度的喜好逸樂，則不得其正；有所憂患——被憂慮患難所困，則不得其正。四種情緒並非完全不許發生，而是一旦「有所」偏執、被某一情牽走，心便失中，身之修養也隨之偏斜。整段強調：修身不只是外在行為規範，更是心不被忿懥、恐懼、好樂、憂患所役的自我調正；心正，身才有可修的根基。",
+      en: "This chapter begins explaining \"what is meant by cultivating oneself lies in rectifying the heart.\" The text says self-cultivation requires first rectifying the heart because once the heart is seized by extreme emotion, the person cannot be correct. Concretely: if the body harbors anger and indignation, it cannot be correct; if it harbors fear, it cannot be correct; if it harbors excessive pleasure and fondness, it cannot be correct; if it harbors worry and anxiety, it cannot be correct. These four feelings are not forbidden altogether; rather, once one \"harbors\" them as a bias and is pulled along by one passion, the heart loses its center and the cultivation of the person tilts with it. The whole passage stresses that self-cultivation is not merely regulating outward behavior, but the self-correction of a heart not enslaved by anger, fear, pleasure, or worry; only when the heart is rectified does the person have a foundation that can be cultivated."
     },
     application: {
       zh: "在日常生活中，面對憤怒、恐懼、過度喜好或憂慮時，先暫停觀察自己的情緒來源，再調整心態，避免因情緒衝動而做出不當行為。可以通過深呼吸、短暫冥想或書寫感受等方式平復心境。長期練習，內心會更加穩定，從而做出理智、道德和有效的決策。<br /><b>建議：今天當情緒波動時，先平復內心再採取行動，確保行為合乎正道。</b>",
@@ -92,6 +98,7 @@ const greatLearning3 = [
   },
   {
     id: 23,
+    label: "7-2",
     text: {
       zh: "心不在焉，視而不見，聽而不聞，食而不知其味。",
       en: "When the mind is not present, one sees without noticing, hears without understanding, eats without tasting."
@@ -107,6 +114,7 @@ const greatLearning3 = [
   },
   {
     id: 24,
+    label: "7-3",
     text: {
       zh: "此謂修身在正其心。",
       en: "This is what is meant by cultivating oneself through rectifying the heart."

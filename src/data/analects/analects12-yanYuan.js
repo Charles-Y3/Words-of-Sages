@@ -9,8 +9,8 @@ const analects12_yanYuan = [
       en: `Yan Yuan asked about ren. The Master said, "To master the self and return to ritual propriety is ren. If for a single day one masters the self and returns to ritual propriety, the whole world will credit him with ren. Does the practice of ren come from oneself, or from others?" Yan Yuan said, "May I ask for the specifics?" The Master said, "Do not look at what is contrary to ritual propriety; do not listen to what is contrary to ritual propriety; do not speak what is contrary to ritual propriety; do not move in a way contrary to ritual propriety." Yan Yuan said, "Though I am not clever, I ask to practice these words."`
     },
     plain: {
-      zh: `顏淵問怎樣做才是仁。孔子說：克制自己的私欲，使言行合於禮，就是仁。一旦能做到，天下人都會稱許你是仁人；行仁全靠自己，難道靠別人嗎？顏淵請教具體做法，孔子說：不合禮的不看、不合禮的不聽、不合禮的不說、不合禮的不做。顏淵表示自己雖不夠聰敏，也要照這些話去實踐。`,
-      en: `Yan Yuan asks what ren means in practice. Confucius says: restraining the self and returning to ritual propriety is ren. Achieve this even for one day and the whole world will acknowledge your ren; practicing ren depends entirely on oneself, not on others. Asked for specifics, Confucius gives the four prohibitions — nothing contrary to propriety in seeing, hearing, speaking, or acting. Yan Yuan, though modest about his own ability, vows to live by these words.`
+      zh: `顏淵問怎樣才是「仁」。孔子答：克制自己的私欲、使言行回歸於禮，就是仁。哪怕只有一天真正做到克己復禮，天下也會歸許其仁；行仁全由自己，難道還靠別人嗎？顏淵再請教具體條目，孔子舉出視聽言動四戒：非禮勿視、非禮勿聽、非禮勿言、非禮勿動——不合禮的不看、不聽、不說、不做。顏淵鄭重領受：回雖然不夠聰敏，也要請讓我照這些話去實行。整章把仁從抽象理想落成可操持的工夫：對內是克己，對外是復禮，下手處則是日常生活中對視聽言動的嚴格把關，且強調為仁由己、當下可為。「為仁由己，而由人乎哉」與四目並舉，說明仁既是自我作主的決志，也是視聽言動上可日日點檢的工夫。克己復禮為仁，為仁由己；其目則非禮勿視聽言動。顏淵請事斯語，把仁落成日用工夫。`,
+      en: `Yan Yuan asks about ren. Confucius answers: to master the self and return to ritual propriety is ren. Achieve this even for one day and the world will credit you with ren; practicing ren depends on oneself, not on others. Asked for the particulars, Confucius gives four restraints: do not look, listen, speak, or act contrary to ritual. Yan Yuan vows, though not clever, to put these words into practice. The chapter turns ren from abstraction into workable effort: inwardly mastering the self, outwardly returning to li, beginning with strict care of seeing, hearing, speech, and action — and insisting that ren is practiced by oneself, here and now. "Does ren come from oneself or from others?" with the four restraints makes ren both a decision owned by the self and a daily check on seeing, hearing, speech, and action. `
     },
     application: {
       zh: `真正的自律不是靠外在監督，而是自己主動把好每天所見、所聽、所說、所做的關卡。
@@ -28,8 +28,8 @@ const analects12_yanYuan = [
       en: `Zhonggong asked about ren. The Master said, "When you go out the door, behave as though receiving an important guest; when you employ the people, act as though conducting a great sacrifice. Do not impose on others what you yourself do not desire. Then there will be no resentment against you in the state, and none in the family." Zhonggong said, "Though I am not clever, I ask to practice these words."`
     },
     plain: {
-      zh: `仲弓問仁。孔子說：出門辦事，要像接待貴賓一樣恭敬謹慎；使喚百姓，要像承辦重大祭典一樣慎重。自己不想要的事，不要強加在別人身上。這樣做，無論在朝廷或家中，都不會招人怨恨。仲弓也表示願依此力行。`,
-      en: `Zhonggong asks about ren. Confucius answers: treat every outing as though meeting an honored guest, and every task of governing people as though conducting a solemn sacrifice. Do not do to others what you would not want done to yourself. Live this way and you will draw no resentment, whether in public office or at home. Zhonggong pledges to follow this teaching.`
+      zh: `仲弓請教什麼是仁。孔子說：出門辦事，要像會見重要賓客一樣恭敬謹慎；使喚百姓，要像承辦重大祭典一樣慎重戒懼，不敢輕慢。自己不想遭受的事，不要加在別人身上。能這樣做，無論在邦國朝廷還是在大夫之家，都不會招來怨恨。仲弓謙稱自己雖然不夠聰敏，仍請求照這些話切實去做。仁在這裡具體化為三點：敬事如見大賓、使民如承大祭，以及「己所不欲，勿施於人」；做到便無怨於邦家。仲弓得仁之三目：出門如見大賓、使民如承大祭、己所不欲勿施於人，然後在邦在家無怨；並誓「請事斯語」。`,
+      en: `Zhonggong asks about ren. Confucius answers: when you go out, behave as though receiving an honored guest; when you employ the people, act as though conducting a great sacrifice, never lightly. Do not impose on others what you yourself do not want. Live this way and you will draw no resentment in the state or in the family. Zhonggong, though modest about his ability, asks to practice these words. Here ren becomes three points: reverence as before a great guest, care as in a great sacrifice, and "do not do to others what you would not have done to you" — then no resentment follows in public or private. Zhonggong receives three marks of ren: go out as if meeting a great guest, employ the people as if at a great sacrifice, and do not impose what you would not want — then no resentment in state or family; he vows to practice these words.`
     },
     application: {
       zh: `恭敬謹慎的態度，不必只留給重要場合，日常的每個小互動都值得同樣看待；己所不欲勿施於人，是最簡單也最難堅持的待人準則。
@@ -47,8 +47,8 @@ const analects12_yanYuan = [
       en: `Sima Niu asked about ren. The Master said, "The humane person is cautious and slow in speech." Sima Niu said, "Cautious and slow in speech — is this what may be called ren?" The Master said, "When the doing of it is difficult, can one be other than cautious in speaking of it?"`
     },
     plain: {
-      zh: `司馬牛問仁。孔子說：仁者說話謹慎遲緩，不輕易出口。司馬牛追問：說話謹慎遲緩，這樣就可以稱作仁了嗎？孔子說：實踐起來本來就困難，說話怎能不謹慎呢？`,
-      en: `Sima Niu asks about ren. Confucius says the ren person speaks cautiously, slow to commit words. Sima Niu presses further: is cautious speech alone enough to be called ren? Confucius explains: because doing it is genuinely hard, one naturally becomes careful about speaking of it.`
+      zh: `司馬牛問什麼是仁。孔子說：仁者說話謹慎遲緩，不輕易出口。司馬牛覺得這似乎太輕了，追問：說話謹慎遲緩，這樣就可以稱作仁了嗎？孔子解釋：實踐仁本來就困難，話一說出口便等於承諾要去做，所以說話怎能不謹慎遲緩呢？「其言也訒」不是口才差或故作深沉，而是深知「言之必可行」、仁難於為，故不肯輕諾；慎言正是重行的表現。`,
+      en: `Sima Niu asks about ren. Confucius says the ren person is cautious and slow in speech. Sima Niu presses: is cautious speech alone enough to be called ren? Confucius explains: because doing it is hard, and spoken words become commitments to act, how can one not be slow to speak? Reticence is not poor eloquence or affected depth — it is knowing that words must be livable and that ren is hard to practice, so one will not promise lightly; careful speech is itself a sign of taking action seriously.`
     },
     application: {
       zh: `說話謹慎不是口才不好，而是因為明白言出必行的分量，不願隨口誇下海口。
@@ -66,8 +66,8 @@ const analects12_yanYuan = [
       en: `Sima Niu asked about the noble person. The Master said, "The noble person has neither anxiety nor fear." Sima Niu said, "Having neither anxiety nor fear — is this what may be called the noble person?" The Master said, "When inward examination reveals no cause for guilt, what is there to be anxious or afraid of?"`
     },
     plain: {
-      zh: `司馬牛問怎樣才是君子。孔子說：君子不憂愁、不畏懼。司馬牛問：不憂不懼，這樣就可以稱作君子了嗎？孔子說：反省自己內心沒有愧疚，那還有什麼可憂愁畏懼的呢？`,
-      en: `Sima Niu asks what makes a junzi. Confucius says the junzi feels no anxiety and no fear. Sima Niu asks if that alone qualifies. Confucius explains: when self-examination turns up no guilt, there is simply nothing left to fear or worry about.`
+      zh: `司馬牛請教怎樣才算君子。孔子說：君子不憂愁、也不畏懼。司馬牛覺得這標準似乎太簡單，追問：不憂不懼，就可以稱作君子了嗎？孔子進一步解釋：關鍵在於經常反躬自省而內心沒有愧疚；問心無愧，還有什麼可憂、可懼的呢？可見「不憂不懼」不是天生膽大或麻木，而是來自「內省不疚」的踏實——心安，然後才有真正的無懼。司馬牛疑「不憂不懼」太輕，孔子以「內省不疚」點破：無憂懼的根，在無愧疚的心。`,
+      en: `Sima Niu asks what makes a junzi. Confucius says the junzi has neither anxiety nor fear. Sima Niu finds this too simple and presses: is freedom from worry and fear enough to be called a junzi? Confucius explains: the key is inward examination that finds no guilt; with a clear conscience, what is left to fear or worry about? So "neither anxiety nor fear" is not native boldness or numbness, but the steadiness of a guiltless mind — peace within, then true fearlessness. Sima Niu doubts that freedom from worry and fear is enough; Confucius roots it in inward examination without guilt — no anxiety because nothing to be ashamed of.`
     },
     application: {
       zh: `心安不是靠外在條件消除焦慮，而是靠日常不斷自我檢視，確保問心無愧。
@@ -85,8 +85,8 @@ const analects12_yanYuan = [
       en: `Sima Niu, in distress, said, "All men have brothers; I alone have none." Zixia said, "I have heard it said: life and death are governed by fate, wealth and honor rest with Heaven. If the noble person is reverent and makes no errors, and is respectful and courteous toward others, then within the four seas all are his brothers. Why should the noble person be troubled about having no brothers?"`
     },
     plain: {
-      zh: `司馬牛憂愁地說：別人都有兄弟，只有我沒有。子夏安慰他說：我聽說過，死生有命運安排，富貴在於天意，人力難以強求。君子只要做到恭敬而不失禮，待人謙恭有禮，那麼四海之內的人都可以像兄弟一樣，君子又何必擔心沒有兄弟呢？`,
-      en: `Sima Niu laments having no brothers while others do. Zixia consoles him: life and death are fated, wealth and rank rest with Heaven, beyond human control. But if a junzi is respectful without fault and courteous toward everyone, then people everywhere become like brothers — so why worry about lacking blood siblings?`
+      zh: `司馬牛憂愁地說：別人皆有兄弟，唯獨我沒有。子夏安慰他，先引述自己聽過的道理：死生有命，富貴在天——生死與榮辱並非全由人力強求。接著轉到君子可做之事：只要恭敬而無過失，待人謙恭而合於禮，那麼四海之內的人都可以成為兄弟。既如此，君子又何必憂患沒有兄弟呢？整章把血緣上的「無兄弟」之痛，轉化為以敬與禮廣結人倫的安慰：命運難以強求的交給天命，人力可為的則以德行把天下人當成兄弟。子夏並未否認司馬牛喪兄之痛，而是把「患無兄弟」轉成「敬而無失、恭而有禮」便可四海皆兄弟的積極出路。`,
+      en: `Sima Niu laments that others have brothers while he alone has none. Zixia consoles him first with what he has heard: life and death are fated, wealth and honor rest with Heaven — not wholly forced by human effort. He then turns to what the junzi can do: be reverent without fault, respectful and courteous toward others, and within the four seas all become brothers. Why then should the junzi worry about having no brothers? The chapter transforms the pain of lacking blood siblings into comfort through reverence and ritual: leave to Heaven what fate governs; with virtue, treat people everywhere as brothers. Zixia does not deny Sima Niu's grief; he turns "no brothers" into a path — reverence without fault and courtesy — by which all within the seas become brothers.`
     },
     application: {
       zh: `感嘆命運不公之前，不妨先想想自己能掌握的部分——待人的態度與品格，往往能為自己贏得比血緣更廣的情誼。
@@ -104,8 +104,8 @@ const analects12_yanYuan = [
       en: `Zizhang asked about clear perception. The Master said, "Slander that seeps in like soaking water, and complaints that strike the skin directly — if these have no effect on you, you may be called clear-sighted. If they have no effect on you, you may also be called far-seeing."`
     },
     plain: {
-      zh: `子張問怎樣才算「明」（明察）。孔子說：像水一樣慢慢滲透的讒言，像切身之痛般直接的控訴，都不能在你心中發生作用，這就可以稱得上明察了。同樣道理，也可以稱得上有遠見。`,
-      en: `Zizhang asks what constitutes true discernment. Confucius says: slander that seeps in gradually like water, and accusations that strike as sharply as personal pain — if neither sways you, you may be called clear-sighted, and equally far-sighted.`
+      zh: `子張請教怎樣才算真正的「明」（明察）。孔子說：有一種讒言像水一樣慢慢浸潤滲透，日積月累才讓人中招；又有一種控訴像切膚之痛般直接打來，使人情緒立刻激動。若這兩種——浸潤之譖與膚受之愬——都無法在你心中得逞、攪亂判斷，就可以稱得上明察了；同樣，也可以稱得上有遠見。真正的明，不是耳目尖銳會打聽，而是不被潛移默化的譖言和突如其來的激憤所動搖，能保持冷靜與距離。`,
+      en: `Zizhang asks what true clarity of perception is. Confucius answers: there is slander that soaks in like water, gradual until it takes hold; and there are accusations that strike like pain on the skin, instantly stirring emotion. If neither seeping calumny nor skin-deep complaint can work on you or cloud your judgment, you may be called clear-sighted — and equally far-seeing. True clarity is not sharp ears for gossip, but not being swayed by gradual slander or sudden outrage, keeping calm and distance.`
     },
     application: {
       zh: `最危險的讒言不是猛烈攻擊，而是日積月累的滲透，容易讓人在不知不覺中被帶偏判斷。
@@ -123,8 +123,8 @@ const analects12_yanYuan = [
       en: `Zigong asked about government. The Master said, "Sufficient food, sufficient weapons, and the people's trust." Zigong said, "If one had to give up one of these three, which should go first?" The Master said, "Give up the weapons." Zigong said, "If one had to give up one of the remaining two, which should go first?" The Master said, "Give up the food. From ancient times, all men have died; but a people without trust cannot stand."`
     },
     plain: {
-      zh: `子貢問怎樣治理國政。孔子說：糧食充足，軍備充足，百姓信任執政者。子貢問：若不得已要去掉一項，先去哪個？孔子說：先去軍備。子貢又問：若不得已再去一項，先去哪個？孔子說：去糧食。因為自古以來人都難免一死，但百姓若不信任政府，國家就無法立足。`,
-      en: `Zigong asks about governing. Confucius lists three essentials: enough food, enough military strength, and the people's trust. Asked which to sacrifice first if forced, Confucius says military strength; asked which of the remaining two, he says food — because death has always come to everyone, but a government without the people's trust cannot stand at all.`
+      zh: `子貢問「政」。孔子舉出三件：足食、足兵、民信之——糧食充足、軍備充足、百姓信任執政者。子貢追問：若不得已必須去掉一項，先去哪個？孔子說：去兵。子貢再問：剩下兩項若還得去掉一個，先去哪個？孔子說：去食。因為自古皆有死，人終不免一死；但民若無信，國家就立不住。整章排出為政輕重的次序：兵可去、食亦可去，唯「信」不可去——信任是政治共同體得以成立的最後底線，比軍力與糧食更根本。去兵、去食而不可去信，揭示政治共同體最後靠信任維繫；無信，則雖有食兵亦「不立」。足食、足兵、民信；不得已先去兵，再去食，唯信不可去——民無信不立，信在食兵之上。`,
+      en: `Zigong asks about government. Confucius names three: sufficient food, sufficient arms, and the people's trust. Asked which to drop first if forced, he says arms; asked again between the remaining two, he says food — for from ancient times all have died, but without trust a people cannot stand. The chapter ranks political priorities: arms may go, even food may go, but trust must not — confidence is the last foundation of the political community, more fundamental than military strength or grain. Dropping arms then food but not trust shows the polity's last bond is confidence; without it, even food and arms cannot make it stand. `
     },
     application: {
       zh: `資源和武力都可以彌補，但信任一旦崩潰，組織或關係就失去存在的根基。
@@ -161,8 +161,8 @@ const analects12_yanYuan = [
       en: `Duke Ai asked Youruo, "The year is one of famine, and my expenditures are insufficient — what should I do?" Youruo replied, "Why not tithe at one-tenth?" The Duke said, "Even at two-tenths I do not have enough — how could I tithe at one-tenth?" Youruo replied, "If the common people have enough, how could their ruler alone lack enough? If the common people do not have enough, how could their ruler alone have enough?"`
     },
     plain: {
-      zh: `魯哀公問有若：年成歉收，國家用度不足，該怎麼辦？有若回答：何不實行徹法，只抽十分之一的稅？哀公說：抽十分之二我都還不夠用，怎麼能只抽十分之一呢？有若回答：百姓富足了，國君怎麼會不足？百姓不富足，國君又怎麼會富足呢？`,
-      en: `Duke Ai asks Youruo how to cope with a famine year's budget shortfall. Youruo suggests reducing tax to one-tenth. The Duke objects that even two-tenths is insufficient. Youruo replies with a deeper principle: if the people have enough, how can the ruler lack; if the people lack, how can the ruler alone have enough? The ruler's wealth is inseparable from the people's.`
+      zh: `魯哀公問有若：年成饑荒，國家用度不夠，該怎麼辦？有若反問：何不改行徹法，只徵十分之一的稅？哀公說：現在抽十分之二我都還不夠用，怎麼能再減到十分之一？有若回答得更深一層：百姓若富足了，國君怎麼會單獨不足？百姓若不足，國君又怎麼可能單獨富足？意思是：君民的財用本是一體，只顧加稅填補府庫、不顧民生，最後君臣都會困窮；藏富於民、減輕稅率，才是國用可繼的根本。荒年更不該與民爭利，而應讓民先足。哀公要加稅補用，有若反勸行徹法：百姓足則君足，百姓不足則君亦不足——荒年尤當藏富於民。`,
+      en: `Duke Ai asks Youruo what to do when famine leaves state funds short. Youruo suggests the thorough tithe of one-tenth. The duke objects that even two-tenths is not enough — how reduce further? Youruo answers more deeply: if the common people have enough, how can their ruler alone lack; if the people lack, how can the ruler alone have enough? Ruler and people share one purse; taxing more to fill the treasury while ignoring livelihood ends in mutual want. Wealth stored among the people, with lighter rates, is what keeps the state solvent. In a famine year especially, do not contend with the people for profit — let them have enough first. Duke Ai wants more tax to cover shortfall; Youruo urges the one-tenth tithe instead: if the people have enough the ruler does; if they lack, so does he — in famine especially, store wealth among the people.`
     },
     application: {
       zh: `領導者的資源與所帶領群體的福祉是綁在一起的，只顧眼前收支而壓榨基層，最終反而讓整體更加匱乏。
@@ -241,10 +241,10 @@ const analects12_yanYuan = [
       en: `Confucius says that judging lawsuits is something he can do no better than anyone else — the real goal is to prevent disputes from arising in the first place.`
     },
     application: {
-      zh: `解決問題的能力固然重要，但更高明的做法是從源頭消除引發問題的原因。
-<br /><b>建議：今天面對一個反覆出現的小問題時，別只想著怎麼處理，先想想如何從根本避免它再發生。</b>`,
-      en: `Being skilled at resolving problems matters, but it is even wiser to eliminate the root cause that creates them.
-<br /><b>Suggestion: Today, facing a recurring small problem, don't just handle it again — think about how to prevent it from happening at all.</b>`
+      zh: `聽訟只能斷已起之爭；孔子更重「無訟」——讓怨隙在變成官司之前就化解。家庭、職場裡，寧可先澄清、先和解，也不要等對簿公堂才算本事。
+<br /><b>建議：今天若察覺一樁可能升級的爭執（誤會、欠賬、分工爭議），主動約對方談清楚，爭取「無訟」而不是等著「聽訟」。</b>`,
+      en: `Hearing lawsuits only settles fights already started; Confucius prizes “no lawsuits”—clearing resentment before it hardens into a formal dispute. At home or work, clarify and reconcile early rather than waiting to “judge” well.
+<br /><b>Suggestion: Today, if a quarrel may escalate (misunderstanding, debt, task conflict), talk it through first—aim for no lawsuit, not skill at hearing one.</b>`
     }
   },
   {
@@ -294,8 +294,8 @@ const analects12_yanYuan = [
       en: `The Master said, "The noble person helps others achieve what is good in them; he does not help them toward what is bad. The petty person does the opposite."`
     },
     plain: {
-      zh: `孔子說：君子成全別人的好事，不促成別人的壞事。小人則正好相反。`,
-      en: `Confucius says the junzi helps bring out the good in others and does not encourage their faults, while the petty person does the reverse — feeding others' bad tendencies rather than their good ones.`
+      zh: `孔子用一句對比勾出君子與小人對待他人善惡的不同態度：君子成全別人的好事、成就別人向善的美質，而不去促成別人的壞事或助長其惡；小人正好相反——不願成人之美，卻樂於成人之惡。整章極簡，卻把「助人」的方向說清楚：真正的成人之美，是助其善端成長，而非在對方過失上推波助瀾。`,
+      en: `In one contrast Confucius sketches how junzi and petty person treat others' good and bad: the junzi helps others achieve what is fine in them and does not help them toward what is evil; the petty person does the reverse — unwilling to further others' good, eager to further their faults. Brief as it is, the chapter clarifies the direction of help: true "completing others' beauty" means fostering their good tendencies, not amplifying their wrongs.`
     },
     application: {
       zh: `對待身邊的人，是助長他們的優點，還是縱容甚至煽動他們的缺點，這個選擇本身就在塑造你自己的格局。
@@ -313,8 +313,8 @@ const analects12_yanYuan = [
       en: `Ji Kangzi asked Confucius about government. Confucius replied, "To govern (zheng) is to be correct (zheng). If you lead with correctness, who would dare to be incorrect?"`
     },
     plain: {
-      zh: `季康子向孔子請教政事。孔子回答：「政」的意思就是「正」。您若能以端正的態度率先示範，誰還敢不端正呢？`,
-      en: `Ji Kangzi asks Confucius about governance. Confucius plays on the near-homophone of "government" (zheng) and "correctness" (zheng): if the leader himself sets a correct example, who below would dare stray?`
+      zh: `季康子向孔子請教什麼是「政」。孔子從字義上點破：「政」的本義就是「正」。您若能以端正自身作表率，帶頭走正道，下面的人誰還敢不正呢？為政的關鍵不在嚴刑苛令或口號文告，而在上位者自己先站得正；榜樣一立，風氣自然跟著正過來。季康子身居權位，孔子把「政」收束為「正己以正人」這一點。`,
+      en: `Ji Kangzi asks Confucius what government (zheng) really is. Confucius answers from the word itself: to govern is to be correct (zheng). If you lead by correcting yourself first and walking upright, who below would dare stray? The key is not harsh penalties or proclamations but the ruler standing straight; once the example is set, the climate follows. Speaking to a man in power, Confucius reduces "government" to setting oneself right so others can be set right.`
     },
     application: {
       zh: `要求別人守規矩之前，先問自己是否以身作則；領導的說服力來自示範，而非命令。
@@ -351,8 +351,8 @@ const analects12_yanYuan = [
       en: `Ji Kangzi asked Confucius about government, saying, "What if I were to kill those without the Way, in order to advance those with the Way — how would that be?" Confucius replied, "In governing, what need is there for killing? If you desire what is good, the people will become good. The virtue of the noble person is like the wind, and that of the petty person like the grass. When the wind blows over the grass, the grass is sure to bend."`
     },
     plain: {
-      zh: `季康子問孔子：如果殺掉沒有德行的人，來成就有德行的人，這樣如何？孔子回答：您治理國政，何必用殺戮的手段？您想要行善，百姓自然就會跟著向善。在位者的德行像風，百姓的品性像草，風吹過草上，草必定隨風倒伏。`,
-      en: `Ji Kangzi asks Confucius whether executing the wicked to promote the good would be effective governance. Confucius rejects the premise: governing needs no killing at all — if the ruler genuinely desires good, the people will follow. He compares the ruler's virtue to wind and the people's character to grass: wherever the wind blows, the grass bends.`
+      zh: `季康子向孔子問政，提出一個想法：殺掉無道的人，以成就有道的人，這樣如何？孔子直接駁回：您執政，何必用殺？您自己想要為善，百姓自然會跟著向善。他以風草為喻：君子之德如風，小人之德如草；風吹在草上，草一定隨風偃伏。也就是說，在上位者的德行有示範力量，民風隨之轉向，無需靠殺戮來「就有道」。整章反對以刑殺推動道德改造，主張為政者先自正、以德化民，如風行草偃。「焉用殺」直接否定以殺戮成就有道；風草之喻把為政重心從刑罰轉向在位者自己「欲善」的示範。`,
+      en: `Ji Kangzi asks about government and proposes killing those without the Way in order to advance those with it. Confucius rejects this: in governing, what need is there for killing? If you yourself desire good, the people will become good. He likens the junzi's virtue to wind and the petty person's to grass: when the wind blows over the grass, it must bend. Moral change among the people follows the ruler's example; it need not be forced by executions. The chapter opposes reforming morals by killing and urges the ruler to set himself right first, transforming the people as wind lays the grass. "What need of killing?" rejects execution as a path to the Way; wind and grass shift governance from punishment to the ruler's own desire for good.`
     },
     application: {
       zh: `想改變群體風氣，靠強制手段效果有限，靠上位者以身作則帶動的影響，卻能自然而深遠。
@@ -370,8 +370,8 @@ const analects12_yanYuan = [
       en: `Zizhang asked, "What must a scholar be like to be called 'accomplished' (da)?" The Master said, "What do you mean by 'accomplished'?" Zizhang replied, "One who is sure to be renowned in the state and sure to be renowned in the family." The Master said, "That is renown, not accomplishment. The truly accomplished person is upright in substance and loves what is right; he examines others' words and observes their expressions, and is thoughtful about deferring to others. Such a person will surely be accomplished in the state and in the family. As for renown, it is claiming the appearance of humaneness while one's conduct contradicts it, and dwelling in that pretense without doubt. Such a person will surely be renowned in the state and in the family."`
     },
     plain: {
-      zh: `子張問：讀書人怎樣才可以稱得上「達」（通達顯揚）？孔子反問：你所說的「達」是什麼意思？子張回答：在朝廷、在家中都一定有名聲。孔子說：那是「聞」（虛名），不是「達」。真正的「達」，是本質正直而崇尚道義，善於觀察別人的言語臉色，並謹慎謙讓地待人，這樣的人無論在朝在家都必定通達。至於「聞」，則是表面裝出仁德的樣子，實際行為卻違背仁德，還安然自得、毫不懷疑自己，這樣的人無論在朝在家也都會有虛名。`,
-      en: `Zizhang asks what makes a scholar "accomplished" (da). Confucius asks him to clarify, and Zizhang describes mere fame in public and private life. Confucius distinguishes this "renown" from true accomplishment: the truly accomplished person is upright, loves rightness, reads others carefully, and is deliberately humble — such a person naturally succeeds everywhere. Mere renown, by contrast, is putting on a show of humaneness while acting otherwise, and living comfortably in that self-deception.`
+      zh: `子張問：士怎樣才可以稱得上「達」？孔子先反問：你所說的「達」究竟指什麼？子張答：在朝廷一定有名聲，在大夫之家也一定有名聲。孔子立刻分辨：那是「聞」（虛名傳揚），不是「達」（真正通達）。真正的達，是本質正直而喜好道義，善於察言觀色、體察人情，又處處想到謙遜居下、不壓過人；這樣的人無論在邦在家，都會真正通達，路路走得開。至於「聞」，則是表面上裝出仁德的臉色，實際行為卻違背仁，還安然居於這種虛假而不自疑；這樣的人在邦在家也都會賺到虛名，到處有人知道他。孔子要子張分清：被人知道、聲名遠播，與品格通達、行事暢達，根本不是一回事；追逐「聞」的人，往往最容易自欺。子張誤以「在邦必聞、在家必聞」為達，孔子嚴辨聞與達：達是質直好義、察言觀色、慮以下人；聞是色取仁而行違、居之不疑。聲名與通達，不可混為一談。子張誤以「在邦必聞、在家必聞」為達，孔子嚴辨聞與達：達是質直好義、察言觀色、慮以下人；聞是色取仁而行違、居之不疑。聲名與通達，不可混為一談。`,
+      en: `Zizhang asks what makes a scholar "accomplished" (da). Confucius asks what he means. Zizhang describes sure renown in the state and in the family. Confucius draws the line: that is "renown" (wen), not true accomplishment. The accomplished person is upright in substance, loves rightness, reads words and faces carefully, and thoughtfully defers to others — such a one is truly accomplished in state and family, roads open before him. Renown is putting on a face of ren while acting against it, and dwelling in that pretense without doubt — such a one will also be famous everywhere. Being known and being truly accomplished are not the same; those who chase renown are often the most self-deceived. Zizhang mistakes sure fame in state and family for accomplishment; Confucius separates renown from da: accomplishment is upright substance, love of right, reading others, and humble deference; renown is a show of ren with contrary deeds, lived without doubt. Fame and true accomplishment must not be confused.`
     },
     application: {
       zh: `名聲響亮不等於真正有實力，表面做出良善姿態卻言行不一，遲早會被看穿；真正的通達來自紮實的品格與體察他人的用心。
@@ -408,8 +408,8 @@ const analects12_yanYuan = [
       en: `Fan Chi asked about ren. The Master said, "Love others." He asked about wisdom. The Master said, "Know others." Fan Chi did not understand. The Master said, "Raise the straight and place them above the crooked; this can make the crooked straight." Fan Chi withdrew and, seeing Zixia, said, "Just now I saw the Master and asked about wisdom. He said, 'Raise the straight and place them above the crooked; this can make the crooked straight.' What did he mean?" Zixia said, "How rich these words are! When Shun possessed the empire, he selected from among the multitude and raised up Gao Yao, and those without ren kept their distance. When Tang possessed the empire, he selected from among the multitude and raised up Yi Yin, and those without ren kept their distance."`
     },
     plain: {
-      zh: `樊遲問仁。孔子說：愛人。問智。孔子說：了解人。樊遲不太明白。孔子說：把正直的人提拔起來，安置在邪曲的人之上，就能使邪曲的人變得正直。樊遲退下後見到子夏，說：剛才我見夫子問智，夫子說「舉直錯諸枉，能使枉者直」，這是什麼意思？子夏說：這話含意豐富啊！舜擁有天下時，從眾人中選拔，任用了皋陶，不仁的人就遠離了；湯擁有天下時，從眾人中選拔，任用了伊尹，不仁的人也遠離了。`,
-      en: `Fan Chi asks about ren, and Confucius answers "love others"; he asks about wisdom, and Confucius answers "know others." When Fan Chi remains puzzled, Confucius adds: raise up the upright over the crooked, and this can straighten the crooked. Fan Chi later asks Zixia to explain, and Zixia illustrates with history: Shun raised Gao Yao and Tang raised Yi Yin, and in both cases those lacking ren were driven away by the influence of the worthy placed above them.`
+      zh: `樊遲問仁，孔子說：愛人。問智，孔子說：知人。樊遲還未透徹理解，孔子再提示：把正直的人提拔起來，安置在邪曲的人之上，就能使邪曲者逐漸變直。樊遲退下後見子夏，轉述夫子這句「舉直錯諸枉，能使枉者直」，請教何意。子夏讚嘆：這話含義多麼豐富！舜有天下，從眾人中選拔，舉用皋陶，不仁者就遠去了；湯有天下，從眾人中選拔，舉用伊尹，不仁者也遠去了。整章把「知人」落實為用人：智不只是辨別人物，更是舉直錯枉，以賢者在位的風氣使不肖者退避或改過；子夏再以舜舉皋陶、湯舉伊尹的史事印證其效。子夏舉舜用皋陶、湯用伊尹，說明「舉直錯諸枉」不是空話，而是一舉賢而能使不仁者遠、風氣自正的實效。樊遲先得「愛人」「知人」二語而未達，孔子再示「舉直錯諸枉」；子夏以舜舉皋陶、湯舉伊尹釋之，說明智之實效在用人：直者在上，枉者可直，不仁者遠。「知人」落實為舉措得人；歷史例證不是裝飾，而是證明風氣可因用人而轉。樊遲之問經子夏一釋，仁與智在政治上合轍。`,
+      en: `Fan Chi asks about ren; Confucius says love others. He asks about wisdom; Confucius says know others. Still unclear, Fan Chi hears a further tip: raise the straight and set them above the crooked, and this can straighten the crooked. He later asks Zixia what "raise the straight over the crooked" means. Zixia marvels at how rich the words are: when Shun held the empire he chose Gao Yao from the multitude, and those without ren kept away; when Tang held the empire he chose Yi Yin, and again those without ren kept away. The chapter makes "knowing others" a matter of appointment: wisdom is not only recognition but elevating the upright so that the unworthy withdraw or reform — illustrated by Shun and Tang. Zixia's examples of Shun raising Gao Yao and Tang raising Yi Yin show that elevating the straight over the crooked actually drives the inhumane away and corrects the climate. `
     },
     application: {
       zh: `選對的人放在對的位置上，本身就能帶動整體風氣的轉變，這比逐一糾正每個人的錯誤更有效率。
@@ -427,8 +427,8 @@ const analects12_yanYuan = [
       en: `Zigong asked about friendship. The Master said, "Advise your friend faithfully, and guide him well. If he will not listen, stop — do not bring disgrace upon yourself."`
     },
     plain: {
-      zh: `子貢問怎樣對待朋友。孔子說：忠心地勸告他，並好好引導他；如果他不聽，就停止，不要自取其辱。`,
-      en: `Zigong asks about friendship. Confucius advises: give your friend sincere counsel and guide them skillfully, but if they won't accept it, stop — pressing further only brings you humiliation without benefit.`
+      zh: `子貢問怎樣對待朋友。孔子說：要忠心地勸告他，並好好地引導他；如果他聽不進去，就適可而止，不要一味強勸而自取其辱。勸友有分寸：盡心盡力之後，也要懂得收住，以免既傷情又損己；忠告善道是朋友之義，不可則止是自知之明。`,
+      en: `Zigong asks about friendship. Confucius says: advise faithfully and guide well; if he will not listen, stop — do not bring disgrace on yourself by pressing on. Counsel to a friend has a limit: after you have done your part, know when to stop, lest you harm both the bond and yourself — faithful advice is the duty of a friend; stopping when refused is self-knowledge.`
     },
     application: {
       zh: `真心關懷朋友，不代表要一再勸說到對方厭煩；懂得適時停止，才是尊重對方也保護自己。

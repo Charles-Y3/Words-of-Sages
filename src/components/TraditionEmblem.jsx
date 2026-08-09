@@ -1,25 +1,25 @@
 import React, { useId } from "react";
 
-// Shared parchment seal + gold rim; identity lives in the glyph.
+// Shared gold rim; identity lives in the face colour, ink stays black on all three.
 const SHARED = {
-  faceLight: "#e6d7b4",
-  faceMid: "#d4c19a",
-  faceDark: "#b89f72",
   rimLight: "#e9cd94",
   rimMid: "#c19a53",
   rimDark: "#8a6828",
   glow: "rgba(150, 112, 47, 0.28)"
 };
 
-const GLYPH = {
-  confucian: "#fff8e8", // 儒 — creamy white
-  buddhist: "#a8362a", // 釋 — cinnabar
-  taoist: "#2c5c4a" // 道 — jade
+// Face (medallion background) tinted per tradition; glyph ink is uniform black.
+const FACE = {
+  confucian: { light: "#fdf9ef", mid: "#f2e6c8", dark: "#ddc99b" }, // 儒 — white/cream
+  buddhist: { light: "#e8b6ac", mid: "#c97a68", dark: "#973b2c" }, // 釋 — red (darker)
+  taoist: { light: "#b9d2bc", mid: "#7ba084", dark: "#3f6b4f" } // 道 — green (darker)
 };
+
+const INK = "#241d12";
 
 export default function TraditionEmblem({ tradition, char, size = 96 }) {
   const uid = useId().replace(/:/g, "");
-  const text = GLYPH[tradition] ?? GLYPH.taoist;
+  const face = FACE[tradition] ?? FACE.confucian;
   const faceId = `face-${uid}`;
   const rimId = `rim-${uid}`;
   const glossId = `gloss-${uid}`;
@@ -44,9 +44,9 @@ export default function TraditionEmblem({ tradition, char, size = 96 }) {
         </linearGradient>
 
         <radialGradient id={faceId} cx="34%" cy="30%" r="70%">
-          <stop offset="0%" stopColor={SHARED.faceLight} />
-          <stop offset="58%" stopColor={SHARED.faceMid} />
-          <stop offset="100%" stopColor={SHARED.faceDark} />
+          <stop offset="0%" stopColor={face.light} />
+          <stop offset="58%" stopColor={face.mid} />
+          <stop offset="100%" stopColor={face.dark} />
         </radialGradient>
 
         <linearGradient id={glossId} x1="0%" y1="0%" x2="0%" y2="100%">
@@ -103,31 +103,12 @@ export default function TraditionEmblem({ tradition, char, size = 96 }) {
         fontFamily="var(--font-zh)"
         fontWeight="700"
         fontSize="82"
-        fill={SHARED.rimDark}
-        opacity={tradition === "confucian" ? 0.4 : 0.18}
+        fill={face.dark}
+        opacity="0.3"
         aria-hidden="true"
       >
         {char}
       </text>
-      {tradition === "confucian" && (
-        <text
-          x="100"
-          y="104"
-          textAnchor="middle"
-          dominantBaseline="middle"
-          fontFamily="var(--font-zh)"
-          fontWeight="700"
-          fontSize="82"
-          fill="none"
-          stroke={SHARED.rimDark}
-          strokeWidth="3.5"
-          strokeOpacity="0.35"
-          paintOrder="stroke"
-          aria-hidden="true"
-        >
-          {char}
-        </text>
-      )}
       <text
         x="100"
         y="104"
@@ -136,7 +117,7 @@ export default function TraditionEmblem({ tradition, char, size = 96 }) {
         fontFamily="var(--font-zh)"
         fontWeight="700"
         fontSize="82"
-        fill={text}
+        fill={INK}
       >
         {char}
       </text>

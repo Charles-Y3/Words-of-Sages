@@ -187,12 +187,10 @@ Because they do not compete, no one in the world can compete with them.`
       en: "The sea rules the rivers because it stays low and humble, accepting all that comes to it. Likewise, a wise leader leads by being humble and putting others first. By not forcing or competing, the leader inspires trust and support, creating harmony. Those who do not contend cannot be overcome."
     },
     application: {
-      zh: `日常中，領導或協作時以謙遜姿態行事，讓他人感到被尊重與安全。
-主動承擔責任，但不以強勢壓制他人，自然獲得支持。
-<br /><b>建議：今天以謙遜包容的態度引導或協作。</b>`,
-      en: `In daily life, lead or collaborate with humility, ensuring others feel respected and safe.
-Take responsibility proactively without suppressing others, naturally gaining support.
-<br /><b>Suggestion: Lead or collaborate today with a humble and inclusive attitude.</b>`
+      zh: `江海為百谷王，因其善下。處上而民不重、居前而民不害——領導若讓人感到被壓或受害，便不是「善下」。今天在帶人或協作時，把位置放低一寸：言下、身後，讓對方不覺得被壓。
+<br /><b>建議：今天做一件「居下」的具體事（先聽完再發言、功勞讓人前、重活自己扛），使別人因你居上而不覺負擔。</b>`,
+      en: `Seas rule the valley streams by lying low. Stay above without burdening, ahead without harming—if people feel crushed or injured, you have not “taken the low place.” Today lead by going one inch lower: speak from below, put yourself behind, so others are not weighed down.
+<br /><b>Suggestion: Today do one concrete act of lying low (listen fully before speaking, let another take credit, carry the heavy task yourself) so those you lead feel unburdened.</b>`
     }
   },
   {

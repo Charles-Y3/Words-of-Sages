@@ -56,8 +56,8 @@ Because he does not claim credit,
 His merit never leaves him.`
     },
     plain: {
-      zh: "美的存在讓醜同時被定義；善的存在讓惡也同時出現。世間萬物都依靠對立而存在：有與無、難與易、長與短、高與低、前與後，都互相依存。聖人理解這一點，所以不會強行干預，而是順其自然。他的教導不是靠言語，而是透過行為示範。他讓事物自然生長，不去強佔；付出行動，不依賴功勞；即使成功，也不自居。因為不執著於功勞，他的德行永遠長存。",
-      en: "The recognition of beauty creates ugliness; the recognition of good creates evil. Everything exists by contrast: being and non-being, difficulty and ease, long and short, high and low, front and back. The sage understands this balance and does not force interference. His teaching is through example, not mere words. He lets things arise without claiming ownership, acts without relying on merit, and does not claim credit for achievements. Because he does not cling to results, his virtue endures."
+      zh: "天下皆知美之為美，斯惡已；皆知善之為善，斯不善已——一旦立下「美」「善」的標準，其對立面「惡」「不善」也隨之被劃分出來。故有無相生，難易相成，長短相形，高下相傾，音聲相和，前後相隨——這些對立的概念其實互相依存，缺一不能定義另一方。是以聖人處無為之事，行不言之教：萬物作焉而不辭，生而不有，為而不恃，功成而弗居；夫唯弗居，是以不去。聖人明白名相皆是相對而生，所以不執著於評判、不強加自己的主張，任萬物自然發展；有所成就也不占為己有、不居功自傲——正因為不居功，功績反而不會失去。",
+      en: "When all know beauty as beauty, ugliness is already there; when all know good as good, the not-good appears — once a standard like \"beautiful\" or \"good\" is set, its opposite is defined by the same act. Hence being and non-being generate each other; difficult and easy complete each other; long and short shape each other; high and low lean on each other; tone and voice harmonize; front and back follow — these opposites depend on each other and cannot be defined alone. Therefore the sage abides in non-forcing and teaches without words: things arise and he does not refuse them; he gives life but does not possess; acts but does not rely; achieves but does not dwell on it — and because he does not dwell, it does not leave him. Understanding that all such labels are only relative, the sage does not cling to judgment or force his own view, letting things unfold naturally; when something is achieved, he does not claim it as his own — and precisely because he does not claim credit, the credit is never lost."
     },
     application: {
       zh: `我們在生活中常陷入比較與對立，例如誰更漂亮、誰更成功。但這些比較只會帶來焦慮與嫉妒。若能理解萬物的對立是自然的，就能放下執念，活得自在。聖人教我們以身作則，不爭功、不強求。
@@ -107,8 +107,8 @@ I do not know whose child it is—
 It seems to be older than the Lord.`
     },
     plain: {
-      zh: "道像空一樣，卻永遠取之不竭。它像深淵，是萬物的根源。它能消磨鋒芒，解除糾結；柔和光芒，不自張揚；融入塵世，不顯突兀。它深沉、悠久，似乎比天地的主宰更早存在。",
-      en: "The Tao is empty yet inexhaustible. It is like a deep abyss, the source of all. It dulls sharpness, eases tensions, softens brilliance, and blends with dust. It is profound and ancient, seeming to exist before the universe itself."
+      zh: "道的體性像虛空一樣，任憑萬物取用，卻永遠不會枯竭窮盡，深邃得彷彿是萬物的根源。它磨平自己的鋒芒，解開糾結不清的紛擾，收斂過亮的光彩，甘於和塵俗混同一體——不特意顯露自己的高明。它幽微難見，卻又彷彿確實存在著。連它是從何而生都無從追溯，只知道它應當比天地間最早的主宰還要古老。",
+      en: "The Dao's nature is like emptiness itself — no matter how much is drawn from it, it is never used up, deep enough to seem the very root of all things. It blunts its own sharp edges, unravels its own tangles, dims its own brightness, and blends into the ordinary dust rather than standing apart. Hard to perceive, yet it seems truly to exist. Where it came from cannot even be traced — only that it must predate whatever we imagine as the earliest ruling power."
     },
     application: {
       zh: `我們常希望突出自我，但這往往帶來衝突。道教導我們在矛盾中學會緩和，在榮耀中保持謙遜，與世界自然相融。力量不必鋒利才有價值，柔和也能長久。
@@ -182,8 +182,8 @@ Is it not because he is selfless
 That he can achieve his self?`
     },
     plain: {
-      zh: "天地長久存在，因為它們不為自己而活。聖人效法天地，將自己放在最後，反而能處於前列；不把自己放在中心，反而能長久保存自己。正因無私，反而成就了自己。",
-      en: "Heaven and Earth endure because they do not live for themselves. The sage follows this principle: by putting himself last, he comes first; by not clinging to self, he preserves himself. Through selflessness, he achieves fulfillment."
+      zh: "天地之所以能夠恆久存在，是因為它們的運行從不是為了自身的利益，所以才能長久不衰。聖人領悟了這一點，於是效法天地：遇事把自己放在後面，反而被眾人推向前面；不執著保全自身，自身反而得以保全。這難道不是因為他毫無私心，才反過來成就了他自己嗎？放下爭先、放下自我的執著，最終得到的，恰恰是持久的成全。",
+      en: "Heaven and Earth endure precisely because their workings are never for their own private benefit — that selflessness is what makes them last. The sage grasps this and follows their example: putting himself last in affairs, he ends up being put first by others; not clinging to self-preservation, he ends up preserved. Is it not exactly because he has no private agenda that he achieves his own good? Letting go of the urge to come first, letting go of ego — that release is what brings the lasting fulfillment."
     },
     application: {
       zh: `若一個人總是只顧自己，往往容易失敗；若能無私奉獻，反而能贏得尊重與長久利益。真正的成功不是爭來的，而是自然而成。
@@ -236,8 +236,8 @@ When achievement is complete, withdraw.
 This is the Way of Heaven.`
     },
     plain: {
-      zh: "過滿會導致危險，鋒利不可能長久保持。財寶滿屋，終究難以守護；驕傲自滿，必招來禍患。成功後懂得退讓，這就是天地的法則。",
-      en: "Excess leads to danger; sharpness cannot last. Treasures in abundance cannot be kept safe; pride brings misfortune. True wisdom is to withdraw after success—this is the law of Heaven."
+      zh: "四個例子說的是同一個道理：一只杯子已經倒滿了還繼續倒，不如及早停手；刀刃磨得太過鋸利，反而容易折損，難以長久保持。滿屋的金銀財寶，終究守不住；富貴而驕縱，只會給自己招來災禍。真正合乎天道的做法，是事情做成、功勞達成之後便主動退讓，而不是緊抓不放。這一章提醒我們：過度求滿、求利、求驕，都是危險的信號；懂得適時收手、功成身退，才是能長久走下去的路。",
+      en: "The four images all make the same point: pouring more into an already full cup is worse than stopping in time; a blade honed to its sharpest edge is the one most likely to chip and cannot stay sharp for long. A hall stacked with gold and jade can never truly be kept safe, and wealth paired with arrogance only invites disaster on oneself. What truly matches the Way of Heaven is stepping back once the work is done and the credit earned, rather than clutching onto it. The lesson is that chasing excess — fullness, sharpness, pride — is itself the danger signal; knowing when to let go after success is what actually lasts."
     },
     application: {
       zh: `生活中，我們常因追求極致與永遠的擁有而陷入困境。懂得適可而止，懂得在功成時退一步，才是真正的長久之道。
@@ -267,10 +267,10 @@ This is called profound virtue.`
       en: "Can you keep body and spirit united without separation? Can you focus on breath and be soft like a newborn? Can you clear your mind and see without distortion? Can you love and govern without cleverness? Can you guide natural change with feminine receptivity? Can you understand all things yet not flaunt knowledge? Can you nourish life without owning it, act without dependence, succeed without control? This is profound virtue."
     },
     application: {
-      zh: `真正的德行在於能保持純真與謙卑，不自恃、不強求。無論是修身養性還是治理國家，都需要柔和、順應、謙遜。深德不是表面的聰明，而是潤物無聲的力量。
-<br /><b>建議：今天練習以謙卑與柔和來處事。</b>`,
-      en: `True virtue lies in purity and humility—without arrogance or force. In personal growth or leadership, softness, adaptability, and modesty are key. Profound virtue is not flashy cleverness but the quiet strength that nurtures all.
-<br /><b>Suggestion: Today, practice humility and softness in your actions.</b>`
+      zh: `本章的玄德落在具體功夫：氣息柔到像嬰兒、心鏡洗到無疵，以及生養之後「不有、不恃、不宰」。今天可從呼吸入手——專氣致柔——再檢查一件你正在「主宰」的事，練習成就卻不把持。
+<br /><b>建議：今天靜坐或步行時，把氣息放柔如嬰兒一息；並對一件你慣於掌控的事，做完後放手，不據為己有。</b>`,
+      en: `This chapter’s profound virtue is concrete practice: breath soft as an infant, the inner mirror washed of blemish, and after nurturing—produce without possessing, act without leaning, lead without dominating. Begin with breath—concentrate qi until soft—then release one thing you usually control.
+<br /><b>Suggestion: Today while sitting or walking, soften the breath like an infant’s; finish one task you tend to own, then let go without claiming it.</b>`
     }
   }
 ];

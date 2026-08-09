@@ -300,16 +300,8 @@ The sage does not accumulate: by serving others, he has more; by giving to other
 The way of Heaven benefits without harm; the way of the sage acts without contention.`
     },
     plain: {
-      zh: `真實的話語不華麗，華麗的話語未必真實。
-善人不爭辯，辯者未必善良。
-智者不必博學，博學者未必智慧。
-聖人不積財，不私藏，幫助與奉獻他人，自己反而更豐足。
-天道有益無害，聖人行事不爭。`,
-      en: `True words are simple, not ornate; ornate words may lack truth.
-The good do not debate aggressively; arguers may lack goodness.
-Wisdom does not require erudition; erudition does not guarantee wisdom.
-The sage does not hoard; by serving and giving to others, he gains more.
-Heaven benefits without harm; the sage acts without contention.`
+      zh: "這一章連用三組對比，戳破一般人容易迷信的表面功夫：真正可信的話往往樸實無華，說得漂亮動聽的話反而未必可靠；真正良善的人不需要靠巧言善辯來證明自己，反倒是能言善辯的人，未必真的心地良善；真正懂得道理的人不必炫耀學問廣博，而學問廣博、什麼都懂一點的人，未必真正通達道的核心。聖人正是把握了這個道理，所以從不替自己囤積私藏：他越是把自己所有的拿去幫助別人，自己反而擁有得越多；越是把東西分給別人，自己反而更加豐足——付出不是耗損，而是另一種累積。這正呼應了天地運行的道理：天道只是滋養萬物而不加害，聖人效法天道，做事只求成就萬物，而不與人爭奪利益。全書以此章作結，把「道」最終落實成一種既真誠又願意付出、不與人相爭的生活態度。",
+      en: "This closing chapter draws three contrasts that puncture what most people mistake for value: words that can truly be trusted tend to be plain, while words dressed up to sound impressive are often the least reliable; a genuinely good person doesn't need clever argument to prove it, and someone skilled at arguing isn't necessarily good at heart; someone who really understands the Dao doesn't need to show off broad learning, and someone who knows a little about everything hasn't necessarily grasped its core. The sage lives by this: he never hoards anything for himself — the more he gives of what he has to help others, the more he ends up having; the more he shares, the fuller he becomes, because giving is not a loss but another kind of gain. This mirrors how Heaven itself works: it only nourishes all things and never harms them, and the sage follows that same pattern, acting to accomplish things for others rather than competing for advantage. The whole work closes here, turning the Dao into a lived posture of sincerity and generosity that never needs to fight for anything."
     },
     application: {
       zh: `生活中，講求真誠而非華麗言辭，善行而非辯論。

@@ -51,6 +51,8 @@ export const phrases = [
   // 長 zhǎng
   { from: "有所長", to: "有所掌" },
   { from: "幼有所長", to: "幼有所掌" },
+  // 所長在彼 (zhǎng “treat as elder”) — not 所長 as cháng “strength”
+  { from: "所長在", to: "所掌在" },
   { from: "上長長", to: "上掌掌" },
   { from: "長長", to: "掌掌" },
   { from: "長幼", to: "掌幼" },

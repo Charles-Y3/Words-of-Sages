@@ -17,6 +17,11 @@ export default {
     { from: "上好仁", to: "上耗仁" },
     { from: "不好義", to: "不耗義" },
     { from: "好義", to: "耗義" },
+    // 傳 zhuàn (commentary chapter, as in 補傳) vs chuán (transmit)
+    { from: "補傳", to: "補賺" },
+    // 惡 è (evil, noun) here — not wù; avoid shared "惡於"→"務於" (hate) misfire
+    // in the 呂祖 格物致知 footnote quote "遏意惡於動機"
+    { from: "遏意惡於動機", to: "遏意厄於動機" },
     // 惡 wù residuals
     { from: "所賤惡", to: "所賤務" },
     { from: "惡而知其美", to: "務而知其美" },

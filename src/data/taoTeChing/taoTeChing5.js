@@ -49,16 +49,8 @@ Hence things may be diminished to benefit them, or increased to harm them.
 What men teach, I also teach: those who are forceful do not die peacefully.`
     },
     plain: {
-      zh: `道生出「一」，一又生「二」，二生「三」，三生萬物。
-萬物都有陰陽相互作用，以此達到平衡。
-人們不喜歡孤獨和軟弱，但統治者卻以此作稱讚。
-因此，事物或被減少反而受益，或被增加反而受害。
-強行、霸道的人，最終不會得到善終。`,
-      en: `The Tao generates One, One generates Two, Two generates Three, Three generates all things.
-All things contain yin and yang, balancing vital energy.
-People dislike loneliness or weakness, yet rulers may praise them.
-Things may be reduced to benefit them or increased to harm them.
-Forceful people do not meet peaceful ends.`
+      zh: "道從渾然一體開始，逐步分化出陰陽二氣，陰陽二氣交融又生出第三種狀態，如此不斷衍生，才形成了萬事萬物；而萬物之中都同時帶著陰柔與陽剛兩面，靠著陰陽二氣的激盪調和，才達到平衡和諧。有意思的是，人們平常最厭惡的「孤」「寡」「不穀」（意指孤獨、寡德、無福）這類卑下的稱呼，君王卻偏偏拿來自稱——這正說明表面上的自我貶低，有時反而能鞏固地位，這就是「減損反而得利」的道理；反過來，一味求增求盈的人，往往因此招來禍害，這就是「增益反而受損」。前人教導的這個道理，我也如此教導：那些逞強霸道、不知收斂的人，往往不得善終。",
+      en: "The Dao begins as an undivided oneness, which gradually differentiates into yin and yang; their interplay produces a third state, and from that ongoing generation all things eventually come to be — and within every single thing, yin and yang coexist, held in balance through the churning interaction of these two forces. Tellingly, the very titles people normally despise — \"orphaned,\" \"widowed,\" \"unworthy\" — are exactly the ones rulers choose for themselves; this shows that apparent self-diminishment can actually secure one's position, which is what \"loss becomes gain\" means. Conversely, those who only chase increase and fullness often bring ruin on themselves through it — \"gain becomes loss.\" What earlier generations taught, I teach as well: those who insist on force and refuse to yield rarely meet a good end."
     },
     application: {
       zh: `生活中，順應自然規律，不要強求或過度干預。

@@ -160,12 +160,10 @@ Used, it cannot be exhausted.`
       en: "By holding onto the Great Tao, people naturally follow, and harmony and peace prevail. Temporary pleasures like music and food can only briefly attract attention. The Tao itself seems plain and invisible, yet its power is limitless and never runs out."
     },
     application: {
-      zh: `生活中，保持正直與樸素的態度，會自然影響他人而無需強制。
-做事低調、守本心，長期能建立穩定關係與信任。
-<br /><b>建議：今天以樸素心態影響周遭，而非強行干涉。</b>`,
-      en: `In life, maintaining integrity and simplicity naturally influences others without coercion.
-Acting humbly and staying true to yourself builds stable relationships and trust over time.
-<br /><b>Suggestion: Influence your surroundings with simplicity today, not force.</b>`
+      zh: `樂與餌能叫過客停下，卻留不住人；道出口淡乎無味，用卻不盡。今天辨一件「音樂美食」式的吸引——短暫熱鬧卻不能安人——對照一件平淡卻可持續的做法，選後者多做一步。
+<br /><b>建議：今天少追一項華麗刺激（熱點、噱頭、過客式讚美），多做一件平淡卻長久有用的事。</b>`,
+      en: `Music and dainties stop the passing guest briefly; the Tao tastes plain yet never runs out in use. Spot one “music-and-bait” attraction—lively but shallow—and one plain practice that endures; choose the latter one step further.
+<br /><b>Suggestion: Today skip one flashy lure (hype, gimmick, passing praise) and do one plain, lasting useful act instead.</b>`
     }
   },
   {
@@ -177,12 +175,8 @@ This is called subtle clarity. The soft and weak overcome the hard and strong.
 Fish must not be taken out of the depths; the sharp instruments of a state must not be shown to others.`
     },
     plain: {
-      zh: `想要收縮的東西，必先讓它擴張；想要削弱的，必先讓它強盛；想要廢除的，必先讓它興起；想要奪取的，必先給予它。
-這就是微妙而深刻的智慧，柔弱終能勝過剛強。
-魚不能離開深淵，國家的利器（權力、謀略）也不可輕易向人展示。`,
-      en: `To shrink something, first let it expand; to weaken something, first let it grow strong; to abolish something, first let it flourish; to take something away, first give it.
-This is subtle and profound wisdom — the soft and weak ultimately overcome the hard and strong.
-A fish should not leave the depths of its pool, and a state's sharp instruments of power should not be casually displayed to others.`
+      zh: "這幾句話講的是同一個規律：事物走到極致時往往會反轉——想要收攏某樣東西，它必然是先經歷過張開擴張的階段；想要削弱它，它必然是先經歷過強盛的階段；想要廢棄它，它必然是先經歷過興盛的階段；想要奪取它，往往要先給予它一些好處。能看懂這種盛極而衰、由盈轉虧的先兆，就叫做「微明」——見微知著的洞察力。而柔軟的東西之所以能勝過剛硬的，正是因為剛硬的一方已經走到頂點，接下來只會走向衰弱，柔軟的一方反而還有餘地。就像魚離不開深水一樣，一旦脫離了自己安身立命的根基就會有危險；同樣道理，一個國家真正的權柄與謀略也不該輕易向人展示，一旦亮出來，反而失去了原本深藏帶來的優勢。",
+      en: "These lines all point to the same pattern — things that reach their extreme tend to reverse: something must first expand before it can be contracted, first grow strong before it can be weakened, first flourish before it can be abolished, and is often given something first before it is taken away. Being able to spot this turning point — where fullness is about to tip into decline — is what is called \"subtle clarity,\" the insight to see the large in the small. And softness overcomes hardness precisely because whatever has become hard has already peaked and can only weaken from there, while what stays soft still has room to grow. Just as a fish cannot survive once it leaves the depths, anything that strays from its own foundation puts itself at risk — and by the same logic, a state's real levers of power should never be casually put on display, because showing them off gives up the advantage that came from keeping them hidden."
     },
     application: {
       zh: `生活中，管理、溝通或改變時，先順勢而為，利用對方或事物的現狀，柔和地引導，而非硬碰硬。

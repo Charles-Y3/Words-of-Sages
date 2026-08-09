@@ -20,15 +20,21 @@ export function resolveChapterStructure(work, chapter) {
 
   const label = chapter.label != null ? String(chapter.label) : "";
 
-  // Analects: "學而 1.1"
-  const analects = label.match(/^(.+?)\s+(\d+)\.(\d+)$/);
-  if (analects && work.id === "analects") {
-    const bookNum = Number(analects[2]);
-    const part = findPart(work, bookNum) || findPartByZh(work, analects[1]);
+  // Analects / Mencius: "學而 1.1" / "梁惠王上 1.1"
+  const namedBook = label.match(/^(.+?)\s+(\d+)\.(\d+)$/);
+  if (
+    namedBook &&
+    (work.id === "analects" ||
+      work.id === "mencius" ||
+      work.id === "kongzi-jiayu" ||
+      work.id === "zhuangzi-neipian")
+  ) {
+    const bookNum = Number(namedBook[2]);
+    const part = findPart(work, bookNum) || findPartByZh(work, namedBook[1]);
     return {
       id: part?.id ?? bookNum,
-      title: part?.title || { zh: analects[1], en: analects[1] },
-      segment: Number(analects[3])
+      title: part?.title || { zh: namedBook[1], en: namedBook[1] },
+      segment: Number(namedBook[3])
     };
   }
 

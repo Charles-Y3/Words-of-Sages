@@ -85,8 +85,8 @@ const analects04_liRen = [
       en: `The Master said, "Wealth and honor are what people desire, but if they cannot be obtained by the proper way, one should not accept them. Poverty and low station are what people hate, but if they are not removed by the proper way, one should not abandon them. If the noble person departs from humaneness, how can he fulfill that name? The noble person does not depart from humaneness even for the space of a single meal — in moments of haste he cleaves to it, and in times of upheaval he cleaves to it."`
     },
     plain: {
-      zh: `富貴是人人想要的，但若不是用正當方法得來，君子不會安享；貧賤是人人厭惡的，但若不是用正當方法擺脫，君子也不會刻意逃避。君子若離開了仁，還憑什麼成就他的名聲？君子連一頓飯的時間都不會違背仁，倉促匆忙之際如此，顛沛流離之際也是如此。`,
-      en: `Wealth and honor are what everyone wants, but the junzi will not enjoy them if they come by improper means; poverty and low status are what everyone hates, but the junzi will not escape them by improper means either. If the junzi abandons ren, how can he fulfill his name? He does not depart from ren even for the time of a single meal — not in haste, not in upheaval.`
+      zh: `孔子從富貴貧賤說到君子與仁的關係。富與貴是人人所欲，但若不是用正當方法得來，君子不會安處其中；貧與賤是人人所惡，但若不是用正當方法擺脫，君子也不會刻意離去。接著他反問：君子若離開了仁，還憑什麼成就「君子」之名？最後落到持守的強度：君子連一頓飯的工夫都不違背仁——倉促匆忙之際如此，顛沛流離之際也如此。整章把取捨富貴、安處貧賤，都繫於「道」與「仁」：得之有道、去之有道，且無時無刻不以仁自律。造次、顛沛都「必於是」，說明仁不是平順時的裝飾，而是急難顛沛中仍不放下的根本操守。富貴不以其道不處，貧賤不以其道不去；君子無終食違仁，造次顛沛必於是——取捨與持守，皆以仁為界。`,
+      en: `Confucius links wealth, poverty, and the junzi's bond with ren. Wealth and honor are desired by all, yet if not obtained by the proper way, the junzi will not rest in them; poverty and low station are hated by all, yet if not escaped by the proper way, the junzi will not abandon them. He asks: if the junzi departs from ren, how can he fulfill that name? He then states the intensity of adherence: the junzi does not leave ren even for the space of a meal — in haste he cleaves to it, and in upheaval he cleaves to it. Accepting or refusing fortune, enduring or leaving poverty, all hang on the Way and ren: gain and loss by the right means, and never a moment without ren. Cleaving to ren in haste and upheaval shows it is not fair-weather ornament but the hold one keeps in crisis. `
     },
     application: {
       zh: `追求好處或逃避壞處時，最容易放棄原則。真正的考驗不在順境，而在匆忙與困頓之中是否仍守住底線。
@@ -104,8 +104,8 @@ const analects04_liRen = [
       en: `The Master said, "I have never seen one who truly loves humaneness, nor one who truly hates the lack of it. One who loves humaneness holds nothing above it; one who hates the lack of humaneness practices ren precisely by not letting anything unhumane touch his person. Could anyone devote all his strength to humaneness for even a single day? I have never seen anyone whose strength was insufficient for it — perhaps such cases exist, but I have not seen them."`
     },
     plain: {
-      zh: `孔子說自己沒見過真正愛好仁德、也厭惡不仁的人。真正愛好仁的人，會認為沒有什麼比仁更重要；厭惡不仁的人，實踐仁德時不讓不仁的事沾染自身。有誰能一天之內把心力都用在行仁上嗎？孔子說自己沒見過力量不夠做到的人——也許有，但他沒見過。`,
-      en: `Confucius says he has never seen one who truly loves ren or truly hates its lack. One who loves ren holds nothing above it; one who hates its lack keeps himself untouched by what is not humane. Is there anyone who could devote all effort to ren for even one day? He has never seen anyone lacking the strength for it — perhaps such people exist, but he has not seen them.`
+      zh: `孔子慨嘆：我從未見過真正愛好仁的人，也未見過真正厭惡不仁的人。真正好仁者，會覺得沒有什麼可置於仁之上；真正惡不仁者，其為仁就在於不讓任何不仁之事加於自身。他再推進一步：有誰能哪怕只用一天，把全力都用在行仁上嗎？我從未見過力量不夠的人——也許世上有，但我沒見過。言下之意，仁並非難在能力不足，而難在志向不真、用情不篤；若真肯一日盡力於仁，力量本來就夠。「我未見力不足者」把藉口堵死：不為仁，多半不是不能，而是不肯一日用力於仁。好仁無以尚之，惡不仁則不使不仁加身；一日用力於仁而力不足者，孔子未見——難在肯不肯，不在能不能。`,
+      en: `Confucius laments that he has never seen one who truly loves ren, nor one who truly hates its lack. One who loves ren holds nothing above it; one who hates what is not ren practices ren by not letting anything inhumane touch his person. He presses further: could anyone devote all strength to ren for even a single day? He has never seen anyone whose strength was insufficient — perhaps such cases exist, but he has not seen them. The implication is that ren fails not for lack of ability but for lack of sincere will; if one truly gave a full day to it, the strength would already be enough. "I have never seen insufficient strength" blocks the excuse: failure in ren is usually unwillingness, not inability, to give it one full day. `
     },
     application: {
       zh: `孔子的重點是：行仁其實不難，難的是願不願意投入心力。多數人不是做不到，而是沒有真的立心去做。
@@ -275,8 +275,8 @@ const analects04_liRen = [
       en: `The Master said, "Shen! My Way is bound together by a single thread." Zengzi said, "Yes." When the Master had gone out, the other disciples asked, "What did he mean?" Zengzi said, "The Master's Way is nothing more than loyalty (zhong) and reciprocity (shu)."`
     },
     plain: {
-      zh: `孔子對曾參說：我的學說有一個核心貫穿始終。曾子應聲「是」。孔子離開後，同學問曾子那是什麼意思，曾子解釋：老師的道，不過就是「忠」（盡己之心）與「恕」（推己及人）罷了。`,
-      en: `Confucius tells Zengzi that one single thread runs through his teaching. Zengzi simply says, "Yes." After the Master leaves, the other disciples ask what he meant. Zengzi explains: the Master's Way is nothing more than zhong (wholehearted sincerity) and shu (empathetic reciprocity).`
+      zh: `孔子對曾參說：參啊！我的道有一個核心貫穿始終。曾子應了一聲「唯」，表示已經明白。孔子出門後，其他弟子問：剛才那話是什麼意思？曾子解釋：夫子的道，說到底不過「忠」與「恕」罷了——盡自己的本分真心待人（忠），並能推己及人、將心比心（恕）。一以貫之，不是玄虛的空談，而是這兩個字在日用之間的實踐；曾子能聞而契之，故以二字揭明師道。`,
+      en: `Confucius tells Zengzi: Shen! My Way is bound by a single thread. Zengzi simply says yes, showing he understands. After the Master leaves, the others ask what he meant. Zengzi explains: the Master's Way is nothing more than zhong and shu — wholehearted loyalty in doing one's part, and reciprocal empathy that puts oneself in others' place. The single thread is not mysticism, but these two practiced in daily life; Zengzi, having grasped it on hearing, names the Master's Way in two words.`
     },
     application: {
       zh: `儒家的道理龐雜，但核心其實很簡單：對自己盡心盡力，對他人將心比心。掌握這兩點，許多待人處事的難題都能迎刃而解。

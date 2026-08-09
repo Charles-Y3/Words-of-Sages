@@ -2,6 +2,7 @@
 const greatLearning1 = [
   {
     id: 1,
+    label: "0-1",
     text: {
       zh: "大學之道，在明明德，在新民，在止於至善。",
       en: "The way of the Great Learning lies in manifesting bright virtue, renewing the people, and resting in the highest good."
@@ -17,6 +18,7 @@ const greatLearning1 = [
   },
   {
     id: 2,
+    label: "0-2",
     text: {
       zh: "知止而後有定；定而後能靜；靜而後能安；安而後能慮；慮而後能得。",
       en: "Only when one knows where to stop can one be steadfast; from steadfastness comes tranquility; from tranquility comes peace; from peace comes careful thought; from careful thought comes attainment."
@@ -32,6 +34,7 @@ const greatLearning1 = [
   },
   {
     id: 3,
+    label: "0-3",
     text: {
       zh: "物有本末，事有終始。知所先後，則近道矣。",
       en: "Things have roots and branches, affairs have beginnings and ends. Knowing the proper order brings one near the Way."
@@ -47,13 +50,14 @@ const greatLearning1 = [
   },
   {
     id: 4,
+    label: "0-4",
     text: {
       zh: "古之欲明明德於天下者，先治其國；欲治其國者，先齊其家；欲齊其家者，先修其身；欲修其身者，先正其心；欲正其心者，先誠其意；欲誠其意者，先致其知；致知在格物。",
       en: "In ancient times, those who wished to manifest bright virtue throughout the world first governed their states; those who wished to govern their states first regulated their families; those who wished to regulate their families first cultivated themselves; those who wished to cultivate themselves first rectified their minds; those who wished to rectify their minds first made their intentions sincere; those who wished to make their intentions sincere first extended their knowledge, which begins with the investigation of things."
     },
     plain: {
-      zh: "古人認為，影響天下必須循序漸進：治理國家需先齊家，齊家需先修身，修身需先正心，正心需先誠意，誠意需先致知，而致知始於格物。每一步都是上一步的基礎，強調從個人內在修養出發，通過家庭、國家到天下的系統性影響。它提醒我們，無論多大的目標，都必須從自身開始，循序漸進，層層推進。",
-      en: "Ancients believed that influencing the world must follow a stepwise progression: governing a state requires an orderly family; regulating the family requires self-cultivation; cultivating oneself requires rectifying the mind; rectifying the mind requires sincerity of intention; sincerity requires extending knowledge, beginning with the investigation of things. Each step builds upon the previous, emphasizing that large-scale influence must start with personal cultivation and progress systematically through family, state, and society."
+      zh: "這一段是《大學》經文裡著名的「八條目」倒推鏈，說明古人若想把光明的德性彰顯於天下，必須按次序層層往內收斂、往下扎根。經文說：古之欲明明德於天下者，必先治理好自己的國家；欲治其國者，必先整齊自己的家庭；欲齊其家者，必先修養自己的一身；欲修其身者，必先端正自己的心；欲正其心者，必先使意念真誠；欲誠其意者，必先推極自己的知識；而致知的功夫，又在於格物——即就事物上窮究其理。整條鏈子由外而內、由大而小：天下←國←家←身←心←意←知←物，每一步都是下一步得以成立的前提。它強調：無論志向多麼遠大，都不能跳過自身的修養與對事物道理的探究；影響天下的路徑，不是先向外擴張，而是先把根基一層層夯實，再循序推開。",
+      en: "This passage is the famous reverse chain of the “eight steps” in the Great Learning’s classic text, explaining that if the ancients wished to manifest bright virtue throughout the world, they had to draw inward and sink roots in order. The text says: those who wished to manifest bright virtue under Heaven first governed their states; those who wished to govern their states first regulated their families; those who wished to regulate their families first cultivated themselves; those who wished to cultivate themselves first rectified their minds; those who wished to rectify their minds first made their intentions sincere; those who wished to make their intentions sincere first extended their knowledge to the utmost; and the extension of knowledge lies in the investigation of things — probing the principle of things as one encounters them. The whole chain runs from outer to inner, from large to small: world ← state ← family ← self ← mind ← intention ← knowledge ← things; each step is the precondition for the next. It stresses that no matter how vast the ambition, one cannot skip self-cultivation and the investigation of principle; the path to influencing the world is not first to expand outward, but first to tamp down the foundation layer by layer, then open outward in order."
     },
     application: {
       zh: "在生活中，不論目標多大，都應先從自我修養開始。關注內心和思想的培養，逐步改善家庭關係，再擴展到工作與社會的影響。通過系統性、自下而上的努力，才能穩健地實現個人與社會價值。<br /><b>建議：今天從自我修養出發，逐步影響周圍的人和環境。</b>",
@@ -62,6 +66,7 @@ const greatLearning1 = [
   },
   {
     id: 5,
+    label: "0-5",
     text: {
       zh: "物格而後知至；知至而後意誠；意誠而後心正；心正而後身修；身修而後家齊；家齊而後國治；國治而後天下平。",
       en: "When things are investigated, knowledge reaches its utmost; when knowledge reaches its utmost, intention is sincere; when intention is sincere, the mind is rectified; when the mind is rectified, the self is cultivated; when the self is cultivated, the family is regulated; when the family is regulated, the state is governed; when the state is governed, the world is at peace."
@@ -77,6 +82,7 @@ const greatLearning1 = [
   },
   {
     id: 6,
+    label: "0-6",
     text: {
       zh: "自天子以至於庶人，壹是皆以修身為本。",
       en: "From the Son of Heaven down to common people, all regard self-cultivation as the root."
@@ -92,6 +98,7 @@ const greatLearning1 = [
   },
   {
     id: 7,
+    label: "0-7",
     text: {
       zh: "其本亂而末治者否矣。",
       en: "If the root is in disorder, what is built upon it cannot be well governed."
@@ -107,6 +114,7 @@ const greatLearning1 = [
   },
   {
     id: 8,
+    label: "0-8",
     text: {
       zh: "其所厚者薄，而其所薄者厚，未之有也。此謂知本，此謂知之至也。",
       en: "Never has it been that what should be valued lightly is valued heavily, and what should be valued heavily is valued lightly. This is called knowing the root; this is called the utmost of knowledge."

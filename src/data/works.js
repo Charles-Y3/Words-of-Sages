@@ -14,6 +14,71 @@ import amitabhaSutra from "./amitabhaSutra/index.js";
 import filialPiety from "./filialPiety/index.js";
 import springAndAutumn from "./springAndAutumn/index.js";
 import platformSutra from "./platformSutra/index.js";
+import bequeathedTeachings from "./bequeathedTeachings/index.js";
+import fortyTwoChapters from "./fortyTwoChapters/index.js";
+import zuowangLun from "./zuowangLun/index.js";
+import taiyiJinhua from "./taiyiJinhua/index.js";
+import medicineBuddha from "./medicineBuddha/index.js";
+import contemplationSutra from "./contemplationSutra/index.js";
+import kongziJiayu from "./kongziJiayu/index.js";
+import neiguanJing from "./neiguanJing/index.js";
+import zhuangziNeipian from "./zhuangziNeipian/index.js";
+
+const FORTY_TWO_PARTS = [
+  { id: 1, title: { zh: "出家證果", en: "Leaving Home and Attaining Fruition" } },
+  { id: 2, title: { zh: "斷欲絕求", en: "Cutting Desire and Ending Seeking" } },
+  { id: 3, title: { zh: "割愛去貪", en: "Severing Attachment and Greed" } },
+  { id: 4, title: { zh: "善惡並明", en: "Distinguishing Good and Evil" } },
+  { id: 5, title: { zh: "轉重令輕", en: "Turning Heavy into Light" } },
+  { id: 6, title: { zh: "忍惡無瞋", en: "Enduring Evil without Anger" } },
+  { id: 7, title: { zh: "惡還本身", en: "Evil Returns to the Doer" } },
+  { id: 8, title: { zh: "塵唾自污", en: "Spittle and Dust Defile Oneself" } },
+  { id: 9, title: { zh: "返本會道", en: "Returning to the Root, Meeting the Way" } },
+  { id: 10, title: { zh: "喜施獲福", en: "Rejoicing in Giving Brings Merit" } },
+  { id: 11, title: { zh: "施飯轉勝", en: "Progressive Merit of Offering Food" } },
+  { id: 12, title: { zh: "舉難勸修", en: "Twenty Difficulties" } },
+  { id: 13, title: { zh: "問道宿命", en: "Asking about the Way and Past Lives" } },
+  { id: 14, title: { zh: "請問善大", en: "What Is Good and Great" } },
+  { id: 15, title: { zh: "請問力明", en: "What Is Strong and Bright" } },
+  { id: 16, title: { zh: "捨愛得道", en: "Casting Off Desire to See the Way" } },
+  { id: 17, title: { zh: "明來暗謝", en: "When Light Comes, Darkness Goes" } },
+  { id: 18, title: { zh: "念等本空", en: "Thought and Practice without Grasping" } },
+  { id: 19, title: { zh: "假真並觀", en: "Contemplating Impermanence and Awakening" } },
+  { id: 20, title: { zh: "推我本空", en: "Contemplating No-Self" } },
+  { id: 21, title: { zh: "名聲喪本", en: "Fame Consumes the Root" } },
+  { id: 22, title: { zh: "財色招苦", en: "Wealth and Desire Invite Suffering" } },
+  { id: 23, title: { zh: "妻子甚獄", en: "Family Bonds as Prison" } },
+  { id: 24, title: { zh: "色欲障道", en: "Lust as the Greatest Obstacle" } },
+  { id: 25, title: { zh: "欲火燒身", en: "The Torch of Desire" } },
+  { id: 26, title: { zh: "天魔嬈佛", en: "The Heavenly Spirit Tests the Buddha" } },
+  { id: 27, title: { zh: "無著得道", en: "Unattached, One Attains the Way" } },
+  { id: 28, title: { zh: "意馬莫縱", en: "Do Not Trust Your Mind" } },
+  { id: 29, title: { zh: "正觀敵色", en: "Right Contemplation toward Desire" } },
+  { id: 30, title: { zh: "欲火遠離", en: "Flee Desire like Fire" } },
+  { id: 31, title: { zh: "心寂欲除", en: "Cut the Mind, Not the Body" } },
+  { id: 32, title: { zh: "我空怖滅", en: "Without Desire, No Fear" } },
+  { id: 33, title: { zh: "智明破魔", en: "Like One against Ten Thousand" } },
+  { id: 34, title: { zh: "處中得道", en: "The Middle Way of Practice" } },
+  { id: 35, title: { zh: "垢淨明存", en: "Remove Dross, the Vessel Is Pure" } },
+  { id: 36, title: { zh: "輾轉獲勝", en: "The Difficulties of Human Birth" } },
+  { id: 37, title: { zh: "念戒近道", en: "Mindfulness of Precepts" } },
+  { id: 38, title: { zh: "生即有滅", en: "Life Is in a Breath" } },
+  { id: 39, title: { zh: "教誨無差", en: "The Teaching Is Sweet Throughout" } },
+  { id: 40, title: { zh: "行道在心", en: "Practice Is in the Mind" } },
+  { id: 41, title: { zh: "直心出欲", en: "Straight Mind through Desire's Mud" } },
+  { id: 42, title: { zh: "達世如幻", en: "Seeing the World as Illusion" } }
+];
+
+const ZUOWANG_PARTS = [
+  { id: 1, title: { zh: "敬信", en: "Respect and Faith" } },
+  { id: 2, title: { zh: "斷緣", en: "Cutting Off Conditions" } },
+  { id: 3, title: { zh: "收心", en: "Gathering the Mind" } },
+  { id: 4, title: { zh: "簡事", en: "Simplifying Affairs" } },
+  { id: 5, title: { zh: "真觀", en: "True Contemplation" } },
+  { id: 6, title: { zh: "泰定", en: "Great Stillness" } },
+  { id: 7, title: { zh: "得道", en: "Attaining the Dao" } },
+  { id: 8, title: { zh: "坐忘樞翼", en: "Pivot and Wings" } }
+];
 
 const PLATFORM_PARTS = [
   { id: 1, title: { zh: "行由品", en: "Action and Origin" } },
@@ -63,6 +128,115 @@ const DIAMOND_PARTS = [
   { id: 32, title: { zh: "應化非真分", en: "Transformation Bodies Are Not Real" } }
 ];
 
+const MENCIUS_PARTS = [
+  { id: 1, title: { zh: "梁惠王上", en: "Liang Hui Wang I" } },
+  { id: 2, title: { zh: "梁惠王下", en: "Liang Hui Wang II" } },
+  { id: 3, title: { zh: "公孫丑上", en: "Gongsun Chou I" } },
+  { id: 4, title: { zh: "公孫丑下", en: "Gongsun Chou II" } },
+  { id: 5, title: { zh: "滕文公上", en: "Teng Wen Gong I" } },
+  { id: 6, title: { zh: "滕文公下", en: "Teng Wen Gong II" } },
+  { id: 7, title: { zh: "離婁上", en: "Li Lou I" } },
+  { id: 8, title: { zh: "離婁下", en: "Li Lou II" } },
+  { id: 9, title: { zh: "萬章上", en: "Wan Zhang I" } },
+  { id: 10, title: { zh: "萬章下", en: "Wan Zhang II" } },
+  { id: 11, title: { zh: "告子上", en: "Gaozi I" } },
+  { id: 12, title: { zh: "告子下", en: "Gaozi II" } },
+  { id: 13, title: { zh: "盡心上", en: "Jin Xin I" } },
+  { id: 14, title: { zh: "盡心下", en: "Jin Xin II" } }
+];
+
+const TAIYI_JINHUA_PARTS = [
+  { id: 1, title: { zh: "天心", en: "The Heavenly Heart" } },
+  { id: 2, title: { zh: "元神識神", en: "Original Spirit and Discriminating Spirit" } },
+  { id: 3, title: { zh: "回光守中", en: "Turning the Light and Guarding the Center" } },
+  { id: 4, title: { zh: "回光調息", en: "Turning the Light and Regulating the Breath" } },
+  { id: 5, title: { zh: "回光差謬", en: "Errors in Turning the Light" } },
+  { id: 6, title: { zh: "回光證驗", en: "Verification of Turning the Light" } },
+  { id: 7, title: { zh: "回光活法", en: "Living Method of Turning the Light" } },
+  { id: 8, title: { zh: "逍遙訣", en: "The Song of Free Wandering" } },
+  { id: 9, title: { zh: "百日築基", en: "Building the Foundation in a Hundred Days" } },
+  { id: 10, title: { zh: "性光識光", en: "Nature-Light and Discriminating Light" } },
+  { id: 11, title: { zh: "坎離交媾", en: "Kan and Li Intercourse" } },
+  { id: 12, title: { zh: "周天", en: "The Circumpolar Orbit" } },
+  { id: 13, title: { zh: "勸世歌", en: "Song of Exhortation to the World" } }
+];
+
+const ZHUANGZI_NEIPIAN_PARTS = [
+  { id: 1, title: { zh: "逍遙遊", en: "Free and Easy Wandering" } },
+  { id: 2, title: { zh: "齊物論", en: "Discussion on Making All Things Equal" } },
+  { id: 3, title: { zh: "養生主", en: "The Secret of Caring for Life" } },
+  { id: 4, title: { zh: "人間世", en: "In the World of Men" } },
+  { id: 5, title: { zh: "德充符", en: "The Sign of Virtue Complete" } },
+  { id: 6, title: { zh: "大宗師", en: "The Great and Venerable Teacher" } },
+  { id: 7, title: { zh: "應帝王", en: "Fit for Emperors and Kings" } }
+];
+
+const CONTEMPLATION_PARTS = [
+  { id: 1, title: { zh: "日想", en: "Contemplation of the Sun" } },
+  { id: 2, title: { zh: "水想", en: "Contemplation of Water" } },
+  { id: 3, title: { zh: "地想", en: "Contemplation of the Ground" } },
+  { id: 4, title: { zh: "樹想", en: "Contemplation of Trees" } },
+  { id: 5, title: { zh: "八功德水想", en: "Contemplation of the Eight Waters" } },
+  { id: 6, title: { zh: "總觀想", en: "General Contemplation" } },
+  { id: 7, title: { zh: "花座想", en: "Contemplation of the Flower Throne" } },
+  { id: 8, title: { zh: "想像", en: "Contemplation of the Image" } },
+  { id: 9, title: { zh: "遍觀一切色想", en: "Contemplation of the True Body" } },
+  { id: 10, title: { zh: "觀觀世音", en: "Contemplation of Avalokiteśvara" } },
+  { id: 11, title: { zh: "觀大勢至", en: "Contemplation of Mahāsthāmaprāpta" } },
+  { id: 12, title: { zh: "普觀想", en: "Universal Contemplation" } },
+  { id: 13, title: { zh: "雜想觀", en: "Mixed Contemplation" } },
+  { id: 14, title: { zh: "上輩生想", en: "Upper-Grade Birth" } },
+  { id: 15, title: { zh: "中輩生想", en: "Middle-Grade Birth" } },
+  { id: 16, title: { zh: "下輩生想", en: "Lower-Grade Birth" } }
+];
+
+const KONGZI_JIAYU_PARTS = [
+  { id: 1, title: { zh: "相魯", en: "Serving as Minister of Lu" } },
+  { id: 2, title: { zh: "始誅", en: "Beginning of Punishment" } },
+  { id: 3, title: { zh: "王言解", en: "Explanation of the King’s Words" } },
+  { id: 4, title: { zh: "大婚解", en: "Explanation of the Great Marriage" } },
+  { id: 5, title: { zh: "儒行解", en: "Explanation of the Conduct of a Ru" } },
+  { id: 6, title: { zh: "問禮", en: "Asking about Rites" } },
+  { id: 7, title: { zh: "五儀解", en: "Explanation of the Five Deportments" } },
+  { id: 8, title: { zh: "致思", en: "Devoted Thought" } },
+  { id: 9, title: { zh: "三恕", en: "The Three Reciprocities" } },
+  { id: 10, title: { zh: "好生", en: "Love of Life" } },
+  { id: 11, title: { zh: "觀周", en: "Observing Zhou" } },
+  { id: 12, title: { zh: "弟子行", en: "Conduct of the Disciples" } },
+  { id: 13, title: { zh: "賢君", en: "Worthy Rulers" } },
+  { id: 14, title: { zh: "辯政", en: "Distinguishing Governance" } },
+  { id: 15, title: { zh: "六本", en: "The Six Roots" } },
+  { id: 16, title: { zh: "辯物", en: "Distinguishing Things" } },
+  { id: 17, title: { zh: "哀公問政", en: "Duke Ai Asks about Governance" } },
+  { id: 18, title: { zh: "顏回", en: "Yan Hui" } },
+  { id: 19, title: { zh: "子路初見", en: "Zilu’s First Audience" } },
+  { id: 20, title: { zh: "在厄", en: "In Distress" } },
+  { id: 21, title: { zh: "入官", en: "Entering Office" } },
+  { id: 22, title: { zh: "困誓", en: "Perplexity and Oath" } },
+  { id: 23, title: { zh: "五帝德", en: "Virtues of the Five Emperors" } },
+  { id: 24, title: { zh: "五帝", en: "The Five Emperors" } },
+  { id: 25, title: { zh: "執轡", en: "Holding the Reins" } },
+  { id: 26, title: { zh: "本命解", en: "Explanation of Native Endowment" } },
+  { id: 27, title: { zh: "論禮", en: "On Rites" } },
+  { id: 28, title: { zh: "觀鄉射", en: "Observing the Village Archery" } },
+  { id: 29, title: { zh: "郊問", en: "Inquiry on the Suburban Sacrifice" } },
+  { id: 30, title: { zh: "五刑解", en: "Explanation of the Five Punishments" } },
+  { id: 31, title: { zh: "刑政", en: "Punishment and Governance" } },
+  { id: 32, title: { zh: "禮運", en: "The Conveyance of Rites" } },
+  { id: 33, title: { zh: "冠頌", en: "Hymn of the Capping" } },
+  { id: 34, title: { zh: "廟制", en: "Temple Regulations" } },
+  { id: 35, title: { zh: "辯樂解", en: "Explanation of Distinguishing Music" } },
+  { id: 36, title: { zh: "問玉", en: "Asking about Jade" } },
+  { id: 37, title: { zh: "屈節解", en: "Explanation of Bending Integrity" } },
+  { id: 38, title: { zh: "七十二弟子解", en: "Explanation of the Seventy-Two Disciples" } },
+  { id: 39, title: { zh: "本姓解", en: "Explanation of the Ancestral Surname" } },
+  { id: 40, title: { zh: "終記解", en: "Explanation of the Final Record" } },
+  { id: 41, title: { zh: "正論解", en: "Explanation of Correct Discourse" } },
+  { id: 42, title: { zh: "曲禮子貢問", en: "Detailed Rites: Zigong Asks" } },
+  { id: 43, title: { zh: "曲禮子夏問", en: "Detailed Rites: Zixia Asks" } },
+  { id: 44, title: { zh: "曲禮公西赤問", en: "Detailed Rites: Gongxi Chi Asks" } }
+];
+
 const ANALECTS_PARTS = [
   { id: 1, title: { zh: "學而", en: "Learning" } },
   { id: 2, title: { zh: "為政", en: "Governing" } },
@@ -106,6 +280,20 @@ const MEAN_PARTS = Array.from({ length: 33 }, (_, i) => {
   return { id: n, title: { zh: `第${n}章`, en: `Chapter ${n}` } };
 });
 
+const GREAT_LEARNING_PARTS = [
+  { id: 0, title: { zh: "經一章", en: "The Canon (Chapter One)" } },
+  { id: 1, title: { zh: "傳之一章：釋明明德", en: "Commentary I: Manifesting Bright Virtue" } },
+  { id: 2, title: { zh: "傳之二章：釋新民", en: "Commentary II: Renewing the People" } },
+  { id: 3, title: { zh: "傳之三章：釋止於至善", en: "Commentary III: Resting in the Highest Good" } },
+  { id: 4, title: { zh: "傳之四章：釋本末", en: "Commentary IV: Root and Branch" } },
+  { id: 5, title: { zh: "傳之五章：釋格物致知", en: "Commentary V: Investigating Things, Extending Knowledge" } },
+  { id: 6, title: { zh: "傳之六章：釋誠意", en: "Commentary VI: Making the Intention Sincere" } },
+  { id: 7, title: { zh: "傳之七章：釋正心修身", en: "Commentary VII: Rectifying the Mind, Cultivating the Self" } },
+  { id: 8, title: { zh: "傳之八章：釋修身齊家", en: "Commentary VIII: Cultivating the Self, Regulating the Family" } },
+  { id: 9, title: { zh: "傳之九章：釋齊家治國", en: "Commentary IX: Regulating the Family, Governing the State" } },
+  { id: 10, title: { zh: "傳之十章：釋治國平天下", en: "Commentary X: Governing the State, Bringing Peace to the World" } }
+];
+
 const works = [
   {
     id: "tao-te-ching",
@@ -144,6 +332,24 @@ const works = [
     chapters: qingjingJing
   },
   {
+    id: "neiguan-jing",
+    tradition: "taoist",
+    title: { zh: "太上老君內觀經", en: "Scripture of Inner Contemplation" },
+    author: { zh: "舊題太上老君", en: "Attrib. Laojun" },
+    era: { zh: "南北朝末至隋唐", en: "Late Southern Dynasties to Sui–Tang" },
+    description: {
+      zh: "道教觀心要典，由胎元神明說到澄心內觀、生道合一。",
+      en: "A Daoist classic on contemplating the heart — from embryonic spirits to clarifying the mind and uniting life with the Dao."
+    },
+    unitLabel: { zh: "段", en: "Section" },
+    attribution: {
+      zh: "原文據《正統道藏》洞神部本文類《太上老君內觀經》（維基文庫繁體）",
+      en: "Chinese text after the Taishang Laojun Neiguan Jing in the Daoist Canon (Zhengtong Daozang, Dongshen section; Wikisource Traditional)"
+    },
+    status: "available",
+    chapters: neiguanJing
+  },
+  {
     id: "yinfu-jing",
     tradition: "taoist",
     title: { zh: "黃帝陰符經", en: "Yinfu Jing (Scripture of the Hidden Talisman)" },
@@ -180,6 +386,69 @@ const works = [
     chapters: taishangGanying
   },
   {
+    id: "zuowang-lun",
+    tradition: "taoist",
+    title: { zh: "坐忘論", en: "Discourse on Sitting in Oblivion" },
+    author: { zh: "司馬承禎", en: "Sima Chengzhen" },
+    era: { zh: "唐代", en: "Tang Dynasty" },
+    description: {
+      zh: "唐代上清派要典，以敬信、斷緣、收心等七階闡明坐忘合道的修行次第，並附坐忘樞翼。",
+      en: "A Tang Shangqing classic on seven steps of sitting in oblivion — from faith and cutting conditions to gathering the mind and attaining the Dao — with the Pivot and Wings appendix."
+    },
+    unitLabel: { zh: "節", en: "Section" },
+    structureLabel: { zh: "篇", en: "Discourse" },
+    structureCount: 8,
+    structureParts: ZUOWANG_PARTS,
+    attribution: {
+      zh: "原文據《正統道藏》太玄部《坐忘論》系統（參《全唐文》；含坐忘樞翼；長篇再分節）",
+      en: "Chinese text after the Zuowang Lun in the Daoist Canon (Zhengtong Daozang, Taixuan section), with the Pivot and Wings appendix (long discourses subdivided)"
+    },
+    status: "available",
+    chapters: zuowangLun
+  },
+  {
+    id: "taiyi-jinhua",
+    tradition: "taoist",
+    title: { zh: "太乙金華宗旨", en: "The Secret of the Golden Flower" },
+    author: { zh: "舊題呂洞賓", en: "Attrib. Lü Dongbin" },
+    era: { zh: "明清扶乩傳本", en: "Ming–Qing spirit-writing transmission" },
+    description: {
+      zh: "內丹回光要旨，以天心、元神與十三章次第開示回光守中之道。",
+      en: "A neidan classic on turning the light — Heavenly Heart, original spirit, and thirteen chapters on guarding the center."
+    },
+    unitLabel: { zh: "節", en: "Section" },
+    structureLabel: { zh: "章", en: "Chapter" },
+    structureCount: 13,
+    structureParts: TAIYI_JINHUA_PARTS,
+    attribution: {
+      zh: "原文據維基文庫繁體《太乙金華宗旨》十三章本（呂祖全書系統；含勸世歌）",
+      en: "Chinese text after the Wikisource Traditional thirteen-chapter Secret of the Golden Flower (Lüzu quanshu line; including the Song of Exhortation)"
+    },
+    status: "available",
+    chapters: taiyiJinhua
+  },
+  {
+    id: "zhuangzi-neipian",
+    tradition: "taoist",
+    title: { zh: "莊子·內篇", en: "Zhuangzi: Inner Chapters" },
+    author: { zh: "莊周", en: "Zhuang Zhou" },
+    era: { zh: "戰國時期", en: "Warring States Period" },
+    description: {
+      zh: "《莊子》精華七篇，寓言與議論交織，論逍遙、齊物、養生與應世之道。",
+      en: "The seven Inner Chapters of the Zhuangzi — parable and argument on wandering free, equalizing things, caring for life, and responding to the world."
+    },
+    unitLabel: { zh: "節", en: "Section" },
+    structureLabel: { zh: "篇", en: "Chapter" },
+    structureCount: 7,
+    structureParts: ZHUANGZI_NEIPIAN_PARTS,
+    attribution: {
+      zh: "原文據郭象本《莊子》內篇七篇正文（維基文庫繁體；不含外篇、雜篇及注疏）",
+      en: "Chinese text after the Guo Xiang Zhuangzi Inner Chapters (seven pian; Wikisource Traditional; outer/miscellaneous chapters and commentary omitted)"
+    },
+    status: "available",
+    chapters: zhuangziNeipian
+  },
+  {
     id: "liyun-datong",
     tradition: "confucian",
     title: { zh: "禮運大同篇", en: "The Great Harmony" },
@@ -208,9 +477,12 @@ const works = [
       en: "One of the Confucian Four Books, on the path from self-cultivation to a well-ordered world."
     },
     unitLabel: { zh: "節", en: "Section" },
+    structureLabel: { zh: "章", en: "Chapter" },
+    structureCount: 11,
+    structureParts: GREAT_LEARNING_PARTS,
     attribution: {
-      zh: "原文據《禮記·大學》朱子章句系統",
-      en: "Chinese text after the Great Learning (Zhu Xi arrangement)"
+      zh: "原文據《禮記·大學》朱子章句系統，分經一章、傳十章",
+      en: "Chinese text after the Great Learning (Zhu Xi arrangement), divided into one canon chapter and ten commentary chapters"
     },
     status: "available",
     chapters: greatLearning
@@ -303,18 +575,40 @@ const works = [
     author: { zh: "孟子及其弟子", en: "Mencius and disciples" },
     era: { zh: "戰國時期", en: "Warring States Period" },
     description: {
-      zh: "記錄孟子言行與思想的儒家經典，闡述性善論與仁政。",
-      en: "The teachings of Mencius on innate goodness and benevolent governance."
+      zh: "記錄孟子言行與思想的儒家經典，闡述性善論與仁政，凡七篇十四卷。",
+      en: "The teachings of Mencius on innate goodness and benevolent governance, in seven books and fourteen parts."
     },
     unitLabel: { zh: "章", en: "Chapter" },
-    structureLabel: { zh: "篇", en: "Book" },
-    structureCount: 7,
+    structureLabel: { zh: "卷", en: "Part" },
+    structureCount: 14,
+    structureParts: MENCIUS_PARTS,
     attribution: {
-      zh: "原文據《孟子》傳世本七篇",
-      en: "Chinese text after the received Mencius in seven books"
+      zh: "原文據朱熹《孟子集注》章次（傳世本七篇十四卷；維基文庫繁體）",
+      en: "Chinese text after Zhu Xi’s Mencius chaptering (received seven books / fourteen parts; Wikisource Traditional Chinese)"
     },
-    status: "coming-soon",
+    status: "available",
     chapters: mencius
+  },
+  {
+    id: "kongzi-jiayu",
+    tradition: "confucian",
+    title: { zh: "孔子家語", en: "School Sayings of Confucius" },
+    author: { zh: "舊題孔氏家學·王肅傳本", en: "Attrib. Kong school; Wang Su recension" },
+    era: { zh: "三國魏", en: "Three Kingdoms (Wei)" },
+    description: {
+      zh: "匯集孔子言行與禮制問對的儒家傳本，王肅注本正文凡四十四篇。",
+      en: "A Confucian collection of Confucius’s sayings and ritual dialogues — forty-four pian in the Wang Su recension."
+    },
+    unitLabel: { zh: "節", en: "Section" },
+    structureLabel: { zh: "篇", en: "Book" },
+    structureCount: 44,
+    structureParts: KONGZI_JIAYU_PARTS,
+    attribution: {
+      zh: "原文據王肅注本《孔子家語》正文四十四篇（維基文庫繁體；不含注疏）",
+      en: "Chinese text after the Wang Su Kongzi Jiayu body text in forty-four pian (Wikisource Traditional; notes omitted)"
+    },
+    status: "available",
+    chapters: kongziJiayu
   },
   {
     id: "heart-sutra",
@@ -372,6 +666,84 @@ const works = [
     },
     status: "available",
     chapters: amitabhaSutra
+  },
+  {
+    id: "medicine-buddha",
+    tradition: "buddhist",
+    title: { zh: "藥師經", en: "Medicine Buddha Sutra" },
+    author: { zh: "玄奘譯", en: "Trans. Xuanzang" },
+    era: { zh: "唐代", en: "Tang Dynasty" },
+    description: {
+      zh: "藥師琉璃光如來本願功德經，廣說十二大願、淨土莊嚴與滅罪消災之法。",
+      en: "The Sutra on the Merits of the Fundamental Vows of Medicine Master Lapis Lazuli Light Tathāgata — twelve vows, Pure Land adornments, and methods for clearing obstacles."
+    },
+    unitLabel: { zh: "段", en: "Section" },
+    attribution: {
+      zh: "原文據玄奘譯《藥師琉璃光如來本願功德經》（CBETA T14 No.450）",
+      en: "Chinese text after Xuanzang’s Medicine Buddha Sutra (CBETA T14 No.450)"
+    },
+    status: "available",
+    chapters: medicineBuddha
+  },
+  {
+    id: "contemplation-sutra",
+    tradition: "buddhist",
+    title: { zh: "觀無量壽經", en: "Contemplation Sutra" },
+    author: { zh: "畺良耶舍譯", en: "Trans. Kālayaśas" },
+    era: { zh: "劉宋", en: "Liu Song" },
+    description: {
+      zh: "淨土三經之一，依韋提希請法開示十六觀與九品往生。",
+      en: "One of the three Pure Land sutras — sixteen contemplations and nine grades of rebirth, taught at Vaidehī’s request."
+    },
+    unitLabel: { zh: "節", en: "Section" },
+    structureLabel: { zh: "觀", en: "Contemplation" },
+    structureCount: 16,
+    structureParts: CONTEMPLATION_PARTS,
+    attribution: {
+      zh: "原文據畺良耶舍譯《佛說觀無量壽佛經》（CBETA T12 No.365）",
+      en: "Chinese text after Kālayaśas’s Contemplation Sutra (CBETA T12 No.365)"
+    },
+    status: "available",
+    chapters: contemplationSutra
+  },
+  {
+    id: "bequeathed-teachings",
+    tradition: "buddhist",
+    title: { zh: "佛遺教經", en: "Sutra of the Buddha’s Bequeathed Teaching" },
+    author: { zh: "鳩摩羅什譯", en: "Trans. Kumārajīva" },
+    era: { zh: "姚秦", en: "Later Qin" },
+    description: {
+      zh: "佛陀臨涅槃前對弟子的最後教誡，以戒為師，勸勉少欲、精進、定慧與不放逸。",
+      en: "The Buddha’s final instructions before nirvana — taking the precepts as teacher, and urging few desires, diligence, stillness, wisdom, and non-laxity."
+    },
+    unitLabel: { zh: "段", en: "Section" },
+    attribution: {
+      zh: "原文據鳩摩羅什譯《佛垂般涅槃略說教誡經》（CBETA T12 No.389）",
+      en: "Chinese text after Kumārajīva’s Bequeathed Teaching Sutra (CBETA T12 No.389)"
+    },
+    status: "available",
+    chapters: bequeathedTeachings
+  },
+  {
+    id: "forty-two-chapters",
+    tradition: "buddhist",
+    title: { zh: "四十二章經", en: "Sutra in Forty-Two Sections" },
+    author: { zh: "迦葉摩騰、竺法蘭譯", en: "Trans. Kāśyapa Mātaṅga & Dharmaratna" },
+    era: { zh: "後漢", en: "Later Han" },
+    description: {
+      zh: "相傳為漢地最早譯出的佛經之一，四十二段短章開示出家、離欲、布施與修道要義。",
+      en: "Traditionally among the earliest Chinese Buddhist translations — forty-two short sections on renunciation, desire, giving, and the path."
+    },
+    unitLabel: { zh: "節", en: "Section" },
+    structureLabel: { zh: "章", en: "Chapter" },
+    structureCount: 42,
+    structureParts: FORTY_TWO_PARTS,
+    attribution: {
+      zh: "原文據《佛說四十二章經》守遂註本／流通本（含序分「世尊成道已」；非大正藏 T784 早期略本）",
+      en: "Chinese text after the Shousui-commentary / circulating recension of the Sutra in Forty-Two Sections (including the prologue beginning 世尊成道已; not the early short Taishō T784 form)"
+    },
+    status: "available",
+    chapters: fortyTwoChapters
   },
   {
     id: "platform-sutra",

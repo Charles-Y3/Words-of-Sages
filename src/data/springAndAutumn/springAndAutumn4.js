@@ -88,8 +88,8 @@ On ding-si, our ruler Duke Ding was to be buried, but rain prevented the burial;
 In winter, the wall of Qi was built.`
     },
     plain: {
-      zh: `本段記載晉國內部連環叛亂：趙鞅先入晉陽以叛，荀寅、士吉射隨後又入朝歌以叛，一國之內接連出現多起大夫據城反叛；段末魯定公薨於高寢，因雨延遲一日下葬，禮制在現實面前也只能讓步。`,
-      en: `This section records a chain of rebellions within Jin: Zhao Yang first enters Jinyang in revolt, then Xun Yin and Shi Jishe likewise enter Chaoge in revolt — one great officer's uprising following another within the same state. It closes with the death of Duke Ding of Lu, whose burial is delayed a day by rain, ritual form yielding here to plain reality.`
+      zh: `本段記載晉國內部連環叛亂：趙鞅先入晉陽以叛，荀寅、士吉射隨後又入朝歌以叛，一國之內接連出現多起大夫據城反叛；段末魯定公薨於高寢，因雨延遲一日下葬，禮制在現實面前也只能讓步。本段又記越國在醉李大敗吳軍，吳王光（即闔閭）於此役負傷，不久即因傷重去世——這是吳越爭霸史上的關鍵轉折，此前吳強越弱的局面自此開始逆轉，闔閭之子夫差繼位後，吳越世仇愈演愈烈；同段又記楚國、陳國聯手滅亡頓國，楚國其後又滅胡國，並將鬍子豹擄回，南方兩個小國接連覆滅；此外衛國世子蒯瞶因故出奔宋國，為衛國日後父子爭位、太子流亡多年終得復國的曲折故事埋下伏筆；薛國也發生弒君事件（薛弒其君比），弒逆之風延續至春秋末期依然未曾止息。`,
+      en: `This section records a chain of rebellions within Jin: Zhao Yang first enters Jinyang in revolt, then Xun Yin and Shi Jishe likewise enter Chaoge in revolt — one great officer's uprising following another within the same state. It closes with the death of Duke Ding of Lu, whose burial is delayed a day by rain, ritual form yielding here to plain reality. The same section records Yue's crushing defeat of the Wu army at Zuili, where King Guang of Wu — Helü — was wounded and died not long after from that injury — a pivotal turning point in the Wu-Yue rivalry: the earlier pattern of a strong Wu against a weak Yue begins to reverse here, and under Helü's son Fuchai, the feud between the two states would only intensify. The same section also records Chu and Chen jointly extinguishing the state of Dun, and Chu later extinguishing Hu as well, carrying its viscount Bao home — two more small southern states swallowed up in succession. Wei's heir apparent, Kuaikui, also fled into exile in Song around this time, the opening move in a long, tangled succession struggle between father and son that would drag on for years before Kuaikui finally returned to power. Xue, too, saw a regicide (Xue murdered its ruler Bi) — a reminder that the pattern of seizing the throne through murder had still not disappeared even this late in the Spring and Autumn period.`
     },
     application: {
       zh: `接連好幾位大夫先後叛亂，說明問題出在整個制度，而非單一個人的品性；只處理眼前那一個叛臣，改變不了根本局面。
@@ -187,8 +187,8 @@ In winter, in the twelfth month, Duke Zhao of Cai was buried.
 Duke Qing of Teng was buried.`
     },
     plain: {
-      zh: `本段記載魯哀公即位後，鼷鼠再度啃食郊祭用牛，桓宮、僖宮先後遭火焚毀，宗廟祭祀屢遭波折；晉國大夫趙鞅又護送出逃的衛世子蒯瞶進入齊國，為日後衛國父子爭位埋下伏筆。`,
-      en: `This section records that, after Duke Ai's accession, field mice once again eat the ox intended for the border sacrifice, and the ancestral temples of Huan and Xi are in turn destroyed by fire — the ancestral rites repeatedly disrupted; meanwhile Zhao Yang of Jin escorts the exiled Wei heir Kuaikui into Qi, quietly setting up Wei's later father-son succession struggle.`
+      zh: `本段記載魯哀公即位後，鼷鼠再度啃食郊祭用牛，桓宮、僖宮先後遭火焚毀，宗廟祭祀屢遭波折；晉國大夫趙鞅又護送出逃的衛世子蒯瞶進入齊國，為日後衛國父子爭位埋下伏筆。本段延續衛國父子爭位的故事：晉國大夫趙鞅出兵將出逃在外的世子蒯瞶送入戚地，齊國、衛國另一派則出兵圍攻戚地反制，衛國因太子廢立問題陷入內部對抗；同段又記蔡國被迫遷都於州來，這已是蔡國近年來第二次遷都，可見其國勢日益衰弱、屢遭大國逼迫；蔡侯申更遭盜賊行刺身亡（盜殺蔡侯申），堂堂國君死於非命，手法與弒君無異；此外晉國又擒獲戎曼子赤，將其送交楚國處置，顯示晉、楚兩大強權仍不時透過周邊部族角力，彼此拉鋸。`,
+      en: `This section records that, after Duke Ai's accession, field mice once again eat the ox intended for the border sacrifice, and the ancestral temples of Huan and Xi are in turn destroyed by fire — the ancestral rites repeatedly disrupted; meanwhile Zhao Yang of Jin escorts the exiled Wei heir Kuaikui into Qi, quietly setting up Wei's later father-son succession struggle. This section continues the story of Wei's father-son succession struggle: Jin's officer Zhao Yang led a force to install the exiled heir apparent Kuaikui at Qi, while a rival faction of Qi and Wei sent troops to besiege that very town in response — Wei caught in ongoing internal conflict over the succession. The same section records Cai being forced to relocate its capital to Zhoulai, already its second such move in recent years, a sign of its continuing decline under pressure from its more powerful neighbors. The marquis of Cai, Shen, was then assassinated by "robbers" — a ruler dying by violence in all but name a regicide. Jin also captured Chi, viscount of the Rongman people, and handed him over to Chu for disposal, showing how the two great powers, Jin and Chu, continued to jockey for advantage even through the smaller peoples caught between them.`
     },
     application: {
       zh: `同一種倒楣事（鼷鼠食牛）一再發生，經文照樣如實記下，不因重複而省略——真正該注意的問題，往往就藏在一再出現卻被視為理所當然的小狀況裡。
@@ -278,8 +278,8 @@ In winter, in the twelfth month, on gui-hai, the earl of Qi, Guo, died.
 The people of Qi returned Huan and Shan.`
     },
     plain: {
-      zh: `本段記載齊國大夫陳乞弒殺其君舍（「齊陳乞弒其君舍」），扶立陽生——這正是後來「田氏代齊」的先聲，一次弒君看似只是一行紀錄，卻開啟了長達數代的權力轉移。`,
-      en: `This section records Chen Qi, a great officer of Qi, murdering his ruler She and installing Yangsheng in his place — the opening move of what tradition remembers as the Chen (Tian) clan's eventual replacement of Qi's ruling house. A single line recording one killing quietly starts a shift in power that would take generations to complete.`
+      zh: `本段記載齊國大夫陳乞弒殺其君舍（「齊陳乞弒其君舍」），扶立陽生——這正是後來「田氏代齊」的先聲，一次弒君看似只是一行紀錄，卻開啟了長達數代的權力轉移。本段又記吳國出兵直接侵犯魯國本土（吳伐我），這是吳國崛起後首次兵鋒直指魯國，較以往僅止於會盟往來更具威脅性；同段又記宋國出兵滅亡曹國，擒獲曹伯陽帶回，又一小國就此覆滅；魯國本身亦曾攻入邾婁國都、擄回其君主益，其後方才將其釋還，可見魯國在周邊小國之間仍具一定的軍事影響力；此外齊景公去世後，其子繼位不久即遭大夫陳乞（田乞）弒殺，另立陽生為君，田氏勢力自此在齊國逐步坐大。`,
+      en: `This section records Chen Qi, a great officer of Qi, murdering his ruler She and installing Yangsheng in his place — the opening move of what tradition remembers as the Chen (Tian) clan's eventual replacement of Qi's ruling house. A single line recording one killing quietly starts a shift in power that would take generations to complete. The same section records Wu directly invading Lu itself ("Wu invaded us") — the first time the rising power of Wu turned its spear point at Lu rather than simply meeting it in covenants, a more direct threat than before. The same years record Song extinguishing the state of Cao outright and carrying its ruler, Yang, home — yet another small state brought to an end. Lu itself also captured the ruler of Zhu Lou, Yi, after entering his capital, only later returning him — showing Lu still held real military leverage over its smaller neighbors. Elsewhere, after Duke Jing of Qi died, his son's brief reign ended when the officer Chen Qi (of the Tian clan) murdered him and installed Yangsheng instead, the Tian clan's power steadily growing within Qi from this point on.`
     },
     application: {
       zh: `一個家族取代整個王朝的過程，起點往往只是一次看似單一的政變，經文用一行字帶過，後人卻要花數代才看懂它的分量。
@@ -367,8 +367,8 @@ Xiang Chao of Song led a force and invaded Zheng.
 In winter, in the twelfth month, there were locusts.`
     },
     plain: {
-      zh: `本段記載艾陵之戰：吳協同魯伐齊，大敗齊師，擄獲齊將國書，吳國聲勢達到高峰；同段又記魯國改行「用田賦」的新稅制，後世多批評此舉加重民負。`,
-      en: `This section records the Battle of Ailing, where Wu, allied with Lu, crushingly defeats the army of Qi and captures its general Guo Shu — Wu near the peak of its power; the same section also records Lu's adoption of a new field-based tax, "levying by the field," later criticized in tradition as an added burden on the people.`
+      zh: `本段記載艾陵之戰：吳協同魯伐齊，大敗齊師，擄獲齊將國書，吳國聲勢達到高峰；同段又記魯國改行「用田賦」的新稅制，後世多批評此舉加重民負。艾陵之戰前，齊國大夫國書其實已先出兵直接進犯魯國本土（齊國書帥師伐我），魯國因此才轉而與吳國聯手反擊，這場戰役背後實有魯國自保的現實考量；同段又記楚國出兵伐陳，吳國隨即出兵救援陳國，展現吳國此時已扮演類似中原霸主的保護者角色；此外邾婁子益此前曾被魯國擄回又釋放，如今卻又再度出逃投奔魯國，可見小國君主命運隨大國角力反覆無常。`,
+      en: `This section records the Battle of Ailing, where Wu, allied with Lu, crushingly defeats the army of Qi and captures its general Guo Shu — Wu near the peak of its power; the same section also records Lu's adoption of a new field-based tax, "levying by the field," later criticized in tradition as an added burden on the people. Before the Battle of Ailing, Qi's officer Guo Shu had in fact already led an invasion directly against Lu's own territory, and it was this threat that pushed Lu to join forces with Wu in retaliation — the famous battle had very real self-defense motives behind it for Lu. The same section records Chu invading Chen, only for Wu to send troops to relieve it — Wu by this point acting in a role much like the protective hegemon the central states once looked to Jin or Chu for. The viscount of Zhu Lou, Yi, who had earlier been captured by Lu and then released, is recorded fleeing to Lu once again — a reminder of how unpredictable a small state's ruler's fate could be, caught between the maneuvers of greater powers.`
     },
     application: {
       zh: `一項新稅制或新規定，即使名義上合理（按田計賦），若加重了普通人的負擔，仍值得檢討——制度的公平，不能只看規則本身合不合理，還要看誰真正承擔了代價。
@@ -416,8 +416,8 @@ Duke Ai, Year 14
 In spring, on a hunt in the west, a lin was captured.`
     },
     plain: {
-      zh: `本段記載黃池之會（魯君與晉侯、吳子會盟）後，哀公十四年春，西狩獲麟——相傳孔子見麟出非時而感嘆，《春秋》經文亦至此絕筆，成為全書終章。`,
-      en: `This section records the meeting at Huangchi, where the duke of Lu met with the marquis of Jin and viscount of Wu, followed by, in Duke Ai's fourteenth year, the capture of a lin on a western hunt — traditionally the sign at which Confucius broke off his brush, ending the Spring and Autumn's text at this line.`
+      zh: `本段記載黃池之會（魯君與晉侯、吳子會盟）後，哀公十四年春，西狩獲麟——相傳孔子見麟出非時而感嘆，《春秋》經文亦至此絕筆，成為全書終章。黃池之會意義重大：吳王夫差在此與晉侯同時與會，甚至一度爭執誰當主盟，顯示吳國此時已自認足以與傳統中原霸主晉國分庭抗禮，一國之君甚至僭用「王」號與周天子平列，禮制秩序至此徹底鬆動；然而就在吳國於黃池爭霸之際，越國卻乘虛攻入吳國都城（于越入吳），為數年後吳國覆滅埋下決定性的伏筆；同段又記十一月有星孛出現於東方，是經文終篇前最後一次記錄的天象異變，彷彿為這部涵蓋二百四十餘年的史書畫上意味深長的結語。`,
+      en: `This section records the meeting at Huangchi, where the duke of Lu met with the marquis of Jin and viscount of Wu, followed by, in Duke Ai's fourteenth year, the capture of a lin on a western hunt — traditionally the sign at which Confucius broke off his brush, ending the Spring and Autumn's text at this line. The meeting at Huangchi carries real weight: King Fuchai of Wu attended alongside the marquis of Jin, and reportedly even contended over who should preside — a sign that Wu by now considered itself Jin's equal as the leading power among the states, its ruler even adopting the title of "king," on a par with the Zhou monarch himself, as the old ritual order continued to unravel. Yet even as Wu vied for supremacy at Huangchi, Yue seized the opportunity to strike directly into Wu's own capital ("Yue entered Wu") — a decisive setback that would help seal Wu's eventual downfall only a few years later. The same section also records a comet appearing in the east that November, the last celestial omen noted before the chronicle's final line — a fittingly weighty close to a record spanning more than two hundred and forty years.`
     },
     application: {
       zh: `獲麟被視為異時而現的祥獸，孔子因此擱筆，不是因為害怕徵兆，而是體認到記事之事已到盡頭、不必勉強續寫。真正的智慧，是能分辨「完成」與「半途而廢」的不同。

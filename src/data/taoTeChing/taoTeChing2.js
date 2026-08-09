@@ -83,14 +83,8 @@ Therefore, one who values their body for the world is fit to be entrusted with t
 One who loves their body for the world is fit to be relied upon by the world.`
     },
     plain: {
-      zh: `榮寵與恥辱都會讓人驚慌不安，因為人總是執著於得失。
-得到榮寵時害怕失去，受到恥辱時又難以承受，這就是「寵辱若驚」。
-至於「大患若身」，人之所以有大煩惱，是因為執著於自我與身體。若能放下對自我的執著，許多困擾便不復存在。
-能夠把自身看作與天下息息相關的人，才有資格肩負天下的責任。`,
-      en: `Honor and disgrace both disturb the mind, for people cling to gain and loss.
-When receiving favor, one fears losing it; when disgraced, one suffers greatly — this is why both bring alarm.
-As for “great trouble is like the body,” our greatest worries come from attachment to self and body. If one can let go of that attachment, troubles dissolve.
-Those who treat their body as belonging to the world are worthy to be entrusted with its care.`
+      zh: "為什麼得寵與受辱都讓人心驚？因為寵本是卑下的東西，得到它會患得患失地驚喜，失去它同樣會驚慌，所以寵與辱其實是同一種不安。為什麼要把大患看得像自己的身體一樣重？因為我們之所以會有種種禍患，根源就在於有這個要保全、要滿足的「自身」；如果不那麼執著於這個自身的得失，又哪來那麼多憂患？所以，一個人若能把自己的身家看得和天下一樣重，願意像愛惜自己一樣去愛惜天下，這樣的人才夠格被託付天下——因為他不是為了私利而攬權，而是把自身與天下的安危連在了一起。",
+      en: "Why do both favor and disgrace cause alarm? Because favor is itself a lowly thing — gaining it brings anxious excitement, and losing it brings the same anxiety, so favor and disgrace are really the same unease. Why should great trouble be weighed as heavily as one's own body? Because the root of our troubles is precisely this self we are so eager to protect and satisfy; without that attachment to the self's gains and losses, where would so much anxiety even come from? So a person who values their own well-being exactly as much as the world's, and cares for the world the way they care for themselves, is the one fit to be entrusted with the world — not because they seek power for private gain, but because they have tied their own fate to the world's."
     },
     application: {
       zh: `在日常生活中，我們常因他人的評價而起伏不安。被讚賞時歡喜卻不安，被批評時痛苦難受。
@@ -123,8 +117,8 @@ Hold to the ancient Way to master present existence.
 Knowing the origin of the beginning is called the thread of the Way.`
     },
     plain: {
-      zh: "道無法用眼耳手去感知，卻真實存在。它沒有固定的形狀或界限，卻涵蓋一切。它既非光明，也非黑暗，既無開始，也無結束。它是無形之形，無象之象，既難以捕捉又深刻真實。懂得把握古老的道，就能理解當下的存在，洞察事物的根源。",
-      en: "The Tao cannot be seen, heard, or touched, yet it is real. It has no fixed form or boundary but embraces everything. It is neither light nor dark, neither beginning nor end. It is “the form of the formless, the image of the imageless” — elusive yet profound. By holding to the ancient Tao, one can understand the present and see the root of things."
+      zh: "道超出了眼睛、耳朵、雙手所能捕捉的範圍——看不見、聽不到、摸不著，所以老子分別給了它「夷」「希」「微」這三個名字；但這三個名字說到底指的是同一件事，無法真正細分開來。它不是在上頭發光、在下頭陰暗那種可以定位的東西，而是連綿不絕又說不出具體形狀，最終還是要歸於「無物」這個說法。這種說不清楚形狀、抓不到具體對象的狀態，就叫做「惚恍」：迎面看不到它的開頭，跟在後面也看不到它的尾端。真正掌握道的人，是能拿古時候就已經存在的這個規律，去應對眼前具體的事物；能看清事物從何而始，這就是所謂把握住了「道紀」——道運行的線索與脈絡。",
+      en: "The Dao lies beyond what eyes, ears, or hands can capture — unseen, unheard, untouched — which is why it is given the three names \"yi,\" \"xi,\" and \"wei\"; but these three names ultimately point to the same single thing and cannot really be pulled apart. It isn't something you can locate — bright up top, dark down below — but rather something continuous and formless that, in the end, comes back to being called \"no-thing.\" This shapeless, ungraspable condition is called \"huanghu\": approach it and you see no beginning; follow it and you see no end. Someone who truly grasps the Dao is one who applies this pattern, present since ancient times, to whatever concrete situation is in front of them right now; seeing clearly where things originate is what it means to hold the thread that runs through the Dao's workings."
     },
     application: {
       zh: `我們往往執著於外在的表象，忽略了背後的本質。道提醒我們，不要只看見眼前，而要追尋根源。當能看穿表面的光明或黑暗，才能不被環境左右。這樣的態度能讓人心安，面對複雜世界也能從容。
@@ -156,8 +150,8 @@ Those who hold to the Tao do not seek fullness.
 Because they do not seek fullness, they can remain hidden and yet renewed.`
     },
     plain: {
-      zh: "古代明道的人深奧難測，無法用理性完全理解。只能用比喻來描述：小心如同冬天過河，謹慎如同被四周環伺，謙恭如同做客，柔順如同冰將融化，質樸如未雕琢的木，廣闊如山谷，混濁如渾水。他們懂得讓混濁沉澱而變清，也懂得在靜中孕育生機。他們不追求滿盈，所以能持續更新。",
-      en: "The sages of old were profound and unfathomable, beyond full comprehension. They can only be described with images: cautious like crossing a frozen river, vigilant like surrounded by neighbors, humble like a guest, gentle like melting ice, simple like raw wood, spacious like a valley, obscure like muddy water. They knew how to let muddiness settle and become clear, and how stillness gives rise to life. They did not strive for fullness, and so they could remain ever renewed."
+      zh: "古時真正掌握道的人，心思深奧微妙，通達到一般人無法真正認識的地步；也正因為難以認識，這一段只好用一連串比喻勉強勾勒他們的樣子：做事像冬天涉水過河那樣謹慎，處世像提防四鄰窺伺那樣警覺，待人接物端莊得像做客一樣不隨便，卸下心防時又像冰塊消融般自然舒展，性情敦厚得像還沒雕琢的原木，胸襟開闊得像山谷，姿態渾融得像不分明的濁水——看似矛盾的謹慎與舒展、敦厚與開闊，其實都指向同一種不刻意表現自己的狀態。誰能讓混濁的水，靠著沉靜慢慢澄清？誰又能在安定中，靠著細微的觸動慢慢孕育出生機？持守這種道的人，不會想著把自己填得滿滿的；正因為不求圓滿，才能在看似破舊、不完美的狀態裡，不斷有新的可能生長出來。",
+      en: "Those who truly grasped the Dao in ancient times were so deep and subtle that most people could never really know them; and precisely because they were hard to know, this passage can only sketch them through a string of images: cautious as crossing a winter stream, watchful as if wary of neighbors on every side, as dignified as a guest, yet as unguarded and yielding as melting ice, as plain as uncarved wood, as open as a valley, as unassuming as muddy water — caution and openness, plainness and depth, all pointing to the same refusal to perform or display oneself. Who can let muddy water settle and slowly clear through stillness? Who can, in stillness, let new life stir and grow through the smallest movement? Those who hold to this Way do not try to fill themselves up completely; precisely because they do not seek completeness, new growth keeps emerging from what looks worn or unfinished."
     },
     application: {
       zh: `在生活中，我們常追求完美和快速的成果，但道教導我們要謙遜、柔和、耐心。像渾水要靜下來才清澈，事情也要給時間才會轉化。真正的智慧在於能等待，而不是急於控制。
@@ -183,8 +177,8 @@ Knowing constancy brings tolerance, tolerance brings impartiality, impartiality 
 Enduring, one is safe until life’s end.`
     },
     plain: {
-      zh: "當人達到極致的虛與靜，就能看見萬物興衰循環。所有事物最終都要回到根本，這就是靜，也就是順從生命的本性。懂得「常」的人能保持清明，不懂的人則會魯莽行事，招致禍患。認識「常」會帶來寬容、公正、完整，最終與天地合一，生命因此安穩長久。",
-      en: "When one reaches ultimate emptiness and stillness, one sees the cycle of all things. Everything grows and eventually returns to its root — this is stillness, following life’s true nature. Those who know this constancy are wise, those who ignore it act recklessly and suffer. Understanding constancy brings tolerance, fairness, wholeness, and unity with Heaven and Tao, ensuring safety and lasting peace."
+      zh: "把心中的雜念清空到極致，把內在的安定守得篤實不動搖，然後在萬物一齊蓬勃生長的時候，去觀察它們最終如何各自回歸本源。萬事萬物看似紛紛擾擾，最後都會回到自己的根上；回到根上，就進入了一種安靜的狀態，這叫做「回歸生命本來的樣子」。認識到這種循環往復是恆常不變的規律，才叫做真正的清明；不明白這個規律而胡亂妄動，就會招來凶險。明白了這個規律，心胸自然能包容萬象；能包容，處事就會公正無私；公正無私，格局才會完整周全；格局完整，才合乎天道；合乎天道，才算真正走在道上；走在道上，才能長長久久，終身不會遇到危險。",
+      en: "Empty the mind of clutter to the utmost, and hold inner stillness firmly in place — then, as the ten thousand things rise and flourish together, watch how each one eventually returns to its own root. Everything looks like chaos and busyness, but in the end each thing goes back to its root; returning to the root is a kind of stillness, and this is called returning to life's original state. Recognizing that this cycle of return is a constant, unchanging law is what real clarity means; acting recklessly without understanding this law invites disaster. Once you understand it, the heart naturally becomes tolerant; tolerance leads to fairness; fairness leads to wholeness; wholeness aligns with Heaven; aligning with Heaven means walking the Dao itself; walking the Dao means lasting long, safe from danger for as long as you live."
     },
     application: {
       zh: `我們的生活常被無窮的欲望和追逐佔滿，導致焦慮與迷失。道提醒我們回歸本心，接受萬物的循環與必然。懂得生命中有盛有衰，心才能安定。
@@ -250,8 +244,8 @@ These three are not enough, so let there be something to follow:
 See the simplicity, embrace the plain, reduce selfishness, lessen desires.`
     },
     plain: {
-      zh: "若過度追求智慧，人民就變得算計；若過度強調仁義，反而會出現虛偽；若過度追逐利益，就會生出盜賊。最好的方式是回歸樸素單純，少一點私心與慾望，社會自然能和諧。",
-      en: "When wisdom is overvalued, people become calculating. When benevolence and righteousness are overstressed, hypocrisy appears. When profit is pursued, thieves arise. The best way is to return to simplicity and reduce selfishness and desire. Then harmony comes naturally."
+      zh: "絕聖棄智，民利百倍；絕仁棄義，民復孝慈；絕巧棄利，盜賊無有——過度標榜聖智、仁義、巧利，反而扭曲民性、滋生虛偽與盜奪。此三者以為文飾仍不足，故令有所歸屬：見素抱樸，少私寡欲——看見本色、守住樸質，減少私心與欲望，社會才有安頓之處。",
+      en: "Abandon sagehood and cleverness, and the people benefit a hundredfold; abandon benevolence and righteousness, and they return to natural filial love and kindness; abandon craft and profit, and thieves disappear — overpraising holiness, morality, and clever gain distorts nature and breeds hypocrisy and theft. These three as mere ornament are not enough, so give people something to belong to: see the plain, embrace the uncarved, lessen selfishness and desire — only then does society find a place to rest."
     },
     application: {
       zh: `我們的世界充滿了聰明的計算、道德的口號與利益的追逐，但這往往帶來更多問題。道提醒我們回歸單純，少私寡欲，才是真正的解藥。
