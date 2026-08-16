@@ -227,25 +227,47 @@ export default function Home() {
     setFolderName("");
   }
 
+  // Export defaults to the folder flow where it's available: if a folder is
+  // already granted, silently overwrite the same file there; if not (first
+  // use), ask for one now instead of falling straight to a plain download —
+  // a download can't be overwritten in place, so this avoids the pile of
+  // similarly-named files that made an old export easy to re-import by
+  // mistake. Falls back to a timestamped download only where the File
+  // System Access API isn't supported (Safari, Firefox, mobile Chrome), or
+  // if picking/writing to the folder actually fails (not just cancelled).
   async function handleExportClick() {
-    if (!folderEnabled) {
-      downloadBackup();
+    if (folderEnabled) {
+      setFolderError(null);
+      setFolderBusy(true);
+      try {
+        await saveToFolderNow();
+      } catch {
+        setFolderError(
+          language === "zh"
+            ? "資料夾存取已失效，改為下載檔案。"
+            : "Folder access is no longer available — downloading a file instead."
+        );
+        downloadBackup();
+      } finally {
+        setFolderBusy(false);
+      }
       return;
     }
-    setFolderError(null);
-    setFolderBusy(true);
-    try {
-      await saveToFolderNow();
-    } catch {
-      setFolderError(
-        language === "zh"
-          ? "資料夾存取已失效，改為下載檔案。"
-          : "Folder access is no longer available — downloading a file instead."
-      );
-      downloadBackup();
-    } finally {
-      setFolderBusy(false);
+    if (isFolderBackupSupported()) {
+      setFolderError(null);
+      setFolderBusy(true);
+      try {
+        const name = await enableFolderBackup();
+        setFolderName(name);
+        setFolderEnabled(true);
+      } catch (err) {
+        if (err?.name !== "AbortError") downloadBackup();
+      } finally {
+        setFolderBusy(false);
+      }
+      return;
     }
+    downloadBackup();
   }
 
   const introText = {
