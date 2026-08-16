@@ -5,11 +5,13 @@ import App from "./App";
 import { migrateLegacyStorage } from "./utils/migrateLegacyStorage";
 import { registerPwaInstall } from "./utils/pwaInstall";
 import { registerPwaUpdates } from "./utils/pwaUpdate";
+import { requestPersistentStorage } from "./utils/persistStorage";
 import "./styles/base.css";
 
 migrateLegacyStorage();
 registerPwaInstall();
 registerPwaUpdates();
+void requestPersistentStorage();
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>

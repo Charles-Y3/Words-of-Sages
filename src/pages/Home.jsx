@@ -3,6 +3,8 @@ import { useNavigate } from "react-router-dom";
 import { useSettings } from "../context/SettingsContext";
 import { getWork } from "../data/works";
 import useProgress from "../hooks/useProgress";
+import useBookmarks from "../hooks/useBookmarks";
+import useNotes from "../hooks/useNotes";
 import useDocumentTitle from "../hooks/useDocumentTitle";
 import { passageRef, readerHref } from "../utils/unitLabel";
 import {
@@ -14,6 +16,15 @@ import {
 } from "../utils/pwaInstall";
 import { getOfflineReady, subscribeOfflineReady } from "../utils/offlineReady";
 import { downloadBackup, isValidBackup, applyBackup, readBackupFile } from "../utils/backup";
+import {
+  isFolderBackupSupported,
+  isFolderBackupEnabled,
+  getFolderName,
+  enableFolderBackup,
+  disableFolderBackup,
+  saveToFolderNow
+} from "../utils/folderBackup";
+import { shouldShowBackupReminder, snoozeBackupReminder } from "../utils/backupReminder";
 import AppShell from "../components/AppShell";
 import Button from "../components/Button";
 import AppLogo from "../components/AppLogo";
@@ -31,6 +42,13 @@ export default function Home() {
   const recentContinues = getRecentContinues(RECENT_LIMIT)
     .map((cont) => ({ cont, work: getWork(cont.workId) }))
     .filter(({ work }) => work?.status === "available");
+  const { bookmarks } = useBookmarks();
+  const { notes } = useNotes();
+  const hasBackupData = bookmarks.length > 0 || notes.some((n) => n.text?.trim());
+  const [showBackupReminder, setShowBackupReminder] = useState(false);
+  useEffect(() => {
+    setShowBackupReminder(shouldShowBackupReminder(hasBackupData));
+  }, [hasBackupData]);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [moreOpen, setMoreOpen] = useState(false);
   const settingsRef = useRef(null);
@@ -47,6 +65,10 @@ export default function Home() {
   const [offlineReady, setOfflineReady] = useState(() => getOfflineReady());
   const [importError, setImportError] = useState(null);
   const [pendingImport, setPendingImport] = useState(null);
+  const [folderEnabled, setFolderEnabled] = useState(() => isFolderBackupEnabled());
+  const [folderName, setFolderName] = useState(() => getFolderName());
+  const [folderBusy, setFolderBusy] = useState(false);
+  const [folderError, setFolderError] = useState(null);
 
   useEffect(() => {
     if (!settingsOpen) return undefined;
@@ -179,6 +201,51 @@ export default function Home() {
     applyBackup(pendingImport);
     setPendingImport(null);
     window.location.reload();
+  }
+
+  async function handleEnableFolderBackup() {
+    setFolderError(null);
+    setFolderBusy(true);
+    try {
+      const name = await enableFolderBackup();
+      setFolderName(name);
+      setFolderEnabled(true);
+    } catch (err) {
+      if (err?.name !== "AbortError") {
+        setFolderError(
+          language === "zh" ? "無法存取該資料夾，請再試一次。" : "Couldn’t access that folder — please try again."
+        );
+      }
+    } finally {
+      setFolderBusy(false);
+    }
+  }
+
+  async function handleDisableFolderBackup() {
+    await disableFolderBackup();
+    setFolderEnabled(false);
+    setFolderName("");
+  }
+
+  async function handleExportClick() {
+    if (!folderEnabled) {
+      downloadBackup();
+      return;
+    }
+    setFolderError(null);
+    setFolderBusy(true);
+    try {
+      await saveToFolderNow();
+    } catch {
+      setFolderError(
+        language === "zh"
+          ? "資料夾存取已失效，改為下載檔案。"
+          : "Folder access is no longer available — downloading a file instead."
+      );
+      downloadBackup();
+    } finally {
+      setFolderBusy(false);
+    }
   }
 
   const introText = {
@@ -328,7 +395,7 @@ export default function Home() {
                       : "Export your bookmarks, notes, and progress, or restore from a previous backup."}
                   </p>
                   <div className={styles.settingsRow}>
-                    <Button variant="ghost" size="sm" onClick={downloadBackup}>
+                    <Button variant="ghost" size="sm" onClick={() => void handleExportClick()} disabled={folderBusy}>
                       {language === "zh" ? "匯出" : "Export"}
                     </Button>
                     <Button variant="ghost" size="sm" onClick={handleImportClick}>
@@ -336,6 +403,43 @@ export default function Home() {
                     </Button>
                   </div>
                   {importError && <p className={styles.settingsError}>{importError}</p>}
+
+                  {isFolderBackupSupported() && (
+                    <>
+                      <div className={styles.settingsLabel}>
+                        {language === "zh" ? "自動儲存到資料夾" : "Auto-save to folder"}
+                      </div>
+                      {folderEnabled ? (
+                        <>
+                          <p className={styles.settingsDone}>
+                            {language === "zh"
+                              ? `已啟用 — 儲存到「${folderName}」`
+                              : `Enabled — saving to “${folderName}”`}
+                          </p>
+                          <p className={styles.settingsHint}>
+                            {language === "zh"
+                              ? "每次寫筆記或匯出時，會覆寫該資料夾中的同一個檔案，不會產生多個副本。"
+                              : "Writing a note or exporting overwrites the same file in that folder — no duplicate copies."}
+                          </p>
+                          <Button variant="ghost" size="sm" onClick={() => void handleDisableFolderBackup()}>
+                            {language === "zh" ? "停用" : "Disable"}
+                          </Button>
+                        </>
+                      ) : (
+                        <>
+                          <p className={styles.settingsHint}>
+                            {language === "zh"
+                              ? "選擇一個裝置上的資料夾，之後筆記與匯出會自動覆寫儲存到那裡。"
+                              : "Pick a folder on this device — notes and exports will auto-save there, overwriting the same file."}
+                          </p>
+                          <Button variant="ghost" size="sm" onClick={() => void handleEnableFolderBackup()} disabled={folderBusy}>
+                            {language === "zh" ? "選擇資料夾" : "Choose folder"}
+                          </Button>
+                        </>
+                      )}
+                      {folderError && <p className={styles.settingsError}>{folderError}</p>}
+                    </>
+                  )}
                   <input
                     ref={fileInputRef}
                     type="file"
@@ -349,6 +453,38 @@ export default function Home() {
           )}
         </div>
       </div>
+
+      {showBackupReminder && (
+        <div className={styles.backupBanner}>
+          <p className={styles.backupBannerText}>
+            {language === "zh"
+              ? "您已有一段時間沒有備份收藏與筆記了，資料仍只存在此裝置上。"
+              : "It's been a while since you backed up your bookmarks and notes — they still only live on this device."}
+          </p>
+          <div className={styles.backupBannerActions}>
+            <Button
+              variant="gold"
+              size="sm"
+              onClick={() => {
+                void handleExportClick();
+                setShowBackupReminder(false);
+              }}
+            >
+              {language === "zh" ? "立即備份" : "Back up now"}
+            </Button>
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => {
+                snoozeBackupReminder();
+                setShowBackupReminder(false);
+              }}
+            >
+              {language === "zh" ? "稍後提醒" : "Remind me later"}
+            </Button>
+          </div>
+        </div>
+      )}
 
       <header className={styles.hero}>
         <div className={styles.titleRow}>

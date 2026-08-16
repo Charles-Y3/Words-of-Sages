@@ -10,11 +10,13 @@ import useNotes from "../hooks/useNotes";
 import useLocalStorage from "../hooks/useLocalStorage";
 import { sanitizeHtml, htmlToPlainText } from "../utils/sanitize";
 import { wosKey } from "../utils/storage";
+import useBackupNudge from "../hooks/useBackupNudge";
 import { unitWord, unitProgress, unitName } from "../utils/unitLabel";
 import AppShell from "../components/AppShell";
 import Button from "../components/Button";
 import ChapterDrawer from "../components/ChapterDrawer";
 import AppLogo from "../components/AppLogo";
+import BackupNudge from "../components/BackupNudge";
 import styles from "../components/Reader.module.css";
 
 export default function Reader() {
@@ -25,6 +27,7 @@ export default function Reader() {
   const { markRead, getEntry } = useProgress();
   const { isBookmarked, toggleBookmark } = useBookmarks();
   const { notes, getNote, hasNote, setNote } = useNotes();
+  const { showNudge, triggerAfterChange, exportNow, dismiss } = useBackupNudge();
   // Reading-content language: independent of the app's interface language.
   // Defaults to the interface language until the reader toggles it.
   const [contentLanguage, setContentLanguage] = useLocalStorage(
@@ -390,7 +393,10 @@ export default function Reader() {
                 aria-label={
                   language === "zh" ? `收藏此${unit}` : `Bookmark this ${unitWord(work, "en").toLowerCase()}`
                 }
-                onClick={() => toggleBookmark(workId, chapter.id, viewMode)}
+                onClick={() => {
+                  toggleBookmark(workId, chapter.id, viewMode);
+                  triggerAfterChange();
+                }}
               >
                 {starred ? "★" : "☆"}
               </Button>
@@ -661,7 +667,14 @@ export default function Reader() {
               <span className={styles.noteLabel}>
                 {language === "zh" ? "我的筆記" : "My note"}
               </span>
-              <Button variant="ghost" size="sm" onClick={() => setNoteOpen(false)}>
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={() => {
+                  setNoteOpen(false);
+                  triggerAfterChange();
+                }}
+              >
                 {language === "zh" ? "收起" : "Close"}
               </Button>
             </div>
@@ -774,6 +787,7 @@ export default function Reader() {
           }}
         />
       )}
+      <BackupNudge open={showNudge} onExport={exportNow} onDismiss={dismiss} />
     </AppShell>
   );
 }

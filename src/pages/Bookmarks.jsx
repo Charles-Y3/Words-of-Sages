@@ -10,6 +10,8 @@ import AppShell from "../components/AppShell";
 import Button from "../components/Button";
 import HeaderHomeLink from "../components/HeaderHomeLink";
 import ConfirmDialog from "../components/ConfirmDialog";
+import BackupNudge from "../components/BackupNudge";
+import useBackupNudge from "../hooks/useBackupNudge";
 import styles from "./Search.module.css";
 
 export default function Bookmarks() {
@@ -20,6 +22,7 @@ export default function Bookmarks() {
   const { notes, removeNote } = useNotes();
   const [tab, setTab] = useState("bookmarks");
   const [pending, setPending] = useState(null);
+  const { showNudge, triggerAfterChange, exportNow, dismiss } = useBackupNudge();
 
   const groupedBookmarks = useMemo(() => {
     const byWork = new Map();
@@ -71,6 +74,7 @@ export default function Bookmarks() {
     if (pending.type === "bookmark") removeBookmark(pending.workId, pending.chapterId);
     else removeNote(pending.workId, pending.chapterId);
     setPending(null);
+    triggerAfterChange();
   };
 
   return (
@@ -227,6 +231,7 @@ export default function Bookmarks() {
         onConfirm={confirmPending}
         onCancel={() => setPending(null)}
       />
+      <BackupNudge open={showNudge} onExport={exportNow} onDismiss={dismiss} />
     </AppShell>
   );
 }

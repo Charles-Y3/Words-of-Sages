@@ -2,6 +2,7 @@
 // settings) as a single JSON file — the only backup mechanism available since
 // everything lives client-side only.
 import { wosKey, readJSON, writeJSON } from "./storage";
+import { recordBackup } from "./backupReminder";
 
 const BACKUP_KEYS = ["bookmarks", "notes", "progress", "settings", "contentLanguage"];
 
@@ -18,6 +19,10 @@ export function buildBackup() {
   };
 }
 
+// Fixed filename (no date stamp) so repeat exports to the same downloads
+// folder are recognizable as "the same file" and easy to manually replace,
+// even though the browser — not this code — decides whether to overwrite,
+// rename, or prompt.
 export function downloadBackup() {
   const backup = buildBackup();
   const json = JSON.stringify(backup, null, 2);
@@ -25,11 +30,12 @@ export function downloadBackup() {
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
   a.href = url;
-  a.download = `words-of-sages-backup-${new Date().toISOString().slice(0, 10)}.json`;
+  a.download = "words-of-sages-backup.json";
   document.body.appendChild(a);
   a.click();
   a.remove();
   URL.revokeObjectURL(url);
+  recordBackup();
 }
 
 export function isValidBackup(obj) {
