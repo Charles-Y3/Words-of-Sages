@@ -24,7 +24,12 @@ import {
   disableFolderBackup,
   exportSmart
 } from "../utils/folderBackup";
-import { shouldShowBackupReminder, snoozeBackupReminder } from "../utils/backupReminder";
+import {
+  shouldShowBackupReminder,
+  snoozeBackupReminder,
+  flagJustImported,
+  consumeJustImportedFlag
+} from "../utils/backupReminder";
 import AppShell from "../components/AppShell";
 import Button from "../components/Button";
 import AppLogo from "../components/AppLogo";
@@ -49,6 +54,16 @@ export default function Home() {
   useEffect(() => {
     setShowBackupReminder(shouldShowBackupReminder(hasBackupData));
   }, [hasBackupData]);
+  // One-time, right after an import: folder auto-save can't be restored
+  // from the imported file itself (see backupReminder.js), so if it isn't
+  // currently active, tell the user they'll need to re-choose the folder
+  // rather than let them silently assume it's still protecting new writes.
+  const [showImportFolderNotice, setShowImportFolderNotice] = useState(false);
+  useEffect(() => {
+    if (consumeJustImportedFlag() && isFolderBackupSupported() && !isFolderBackupEnabled()) {
+      setShowImportFolderNotice(true);
+    }
+  }, []);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [moreOpen, setMoreOpen] = useState(false);
   const settingsRef = useRef(null);
@@ -200,6 +215,7 @@ export default function Home() {
     if (!pendingImport) return;
     applyBackup(pendingImport);
     setPendingImport(null);
+    flagJustImported();
     window.location.reload();
   }
 
@@ -484,6 +500,31 @@ export default function Home() {
               }}
             >
               {language === "zh" ? "稍後提醒" : "Remind me later"}
+            </Button>
+          </div>
+        </div>
+      )}
+
+      {showImportFolderNotice && (
+        <div className={styles.backupBanner}>
+          <p className={styles.backupBannerText}>
+            {language === "zh"
+              ? "已匯入資料。若您先前有開啟「自動儲存到資料夾」，需要重新選擇一次資料夾——匯入無法還原資料夾的存取權限。"
+              : "Data imported. If you had “Auto-save to folder” on before, you'll need to choose the folder again — an import can't restore folder access."}
+          </p>
+          <div className={styles.backupBannerActions}>
+            <Button
+              variant="gold"
+              size="sm"
+              onClick={() => {
+                void handleEnableFolderBackup();
+                setShowImportFolderNotice(false);
+              }}
+            >
+              {language === "zh" ? "選擇資料夾" : "Choose folder"}
+            </Button>
+            <Button variant="ghost" size="sm" onClick={() => setShowImportFolderNotice(false)}>
+              {language === "zh" ? "知道了" : "Got it"}
             </Button>
           </div>
         </div>
