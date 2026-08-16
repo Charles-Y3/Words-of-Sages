@@ -1,7 +1,6 @@
 import { useCallback, useState } from "react";
-import { autoSaveIfEnabled } from "../utils/folderBackup";
+import { autoSaveIfEnabled, exportSmart } from "../utils/folderBackup";
 import { shouldShowBackupReminder, snoozeBackupReminder } from "../utils/backupReminder";
-import { downloadBackup } from "../utils/backup";
 
 // Call triggerAfterChange() right after a note/bookmark write. If it was
 // silently auto-saved to a folder, nothing surfaces. Otherwise — the common
@@ -18,8 +17,12 @@ export default function useBackupNudge() {
   }, []);
 
   const exportNow = useCallback(() => {
-    downloadBackup();
-    setVisible(false);
+    void exportSmart().then((result) => {
+      // Leave the toast up if the folder picker was cancelled, so the user
+      // can try again or dismiss explicitly, instead of it vanishing with
+      // nothing having actually been backed up.
+      if (result.mode !== "cancelled") setVisible(false);
+    });
   }, []);
 
   const dismiss = useCallback(() => {

@@ -15,14 +15,14 @@ import {
   subscribePwaInstall
 } from "../utils/pwaInstall";
 import { getOfflineReady, subscribeOfflineReady } from "../utils/offlineReady";
-import { downloadBackup, isValidBackup, applyBackup, readBackupFile } from "../utils/backup";
+import { isValidBackup, applyBackup, readBackupFile } from "../utils/backup";
 import {
   isFolderBackupSupported,
   isFolderBackupEnabled,
   getFolderName,
   enableFolderBackup,
   disableFolderBackup,
-  saveToFolderNow
+  exportSmart
 } from "../utils/folderBackup";
 import { shouldShowBackupReminder, snoozeBackupReminder } from "../utils/backupReminder";
 import AppShell from "../components/AppShell";
@@ -227,47 +227,28 @@ export default function Home() {
     setFolderName("");
   }
 
-  // Export defaults to the folder flow where it's available: if a folder is
-  // already granted, silently overwrite the same file there; if not (first
-  // use), ask for one now instead of falling straight to a plain download —
-  // a download can't be overwritten in place, so this avoids the pile of
-  // similarly-named files that made an old export easy to re-import by
-  // mistake. Falls back to a timestamped download only where the File
-  // System Access API isn't supported (Safari, Firefox, mobile Chrome), or
-  // if picking/writing to the folder actually fails (not just cancelled).
+  // Delegates the actual "what should Export do" decision to exportSmart()
+  // (shared with the write-triggered nudge's Export button, so the two
+  // can't drift apart) — this just reflects the outcome into local UI state.
   async function handleExportClick() {
-    if (folderEnabled) {
-      setFolderError(null);
-      setFolderBusy(true);
-      try {
-        await saveToFolderNow();
-      } catch {
+    setFolderError(null);
+    setFolderBusy(true);
+    try {
+      const result = await exportSmart();
+      if (result.mode === "folder") {
+        setFolderEnabled(true);
+        setFolderName(result.folderName);
+      }
+      if (result.error) {
         setFolderError(
           language === "zh"
             ? "資料夾存取已失效，改為下載檔案。"
             : "Folder access is no longer available — downloading a file instead."
         );
-        downloadBackup();
-      } finally {
-        setFolderBusy(false);
       }
-      return;
+    } finally {
+      setFolderBusy(false);
     }
-    if (isFolderBackupSupported()) {
-      setFolderError(null);
-      setFolderBusy(true);
-      try {
-        const name = await enableFolderBackup();
-        setFolderName(name);
-        setFolderEnabled(true);
-      } catch (err) {
-        if (err?.name !== "AbortError") downloadBackup();
-      } finally {
-        setFolderBusy(false);
-      }
-      return;
-    }
-    downloadBackup();
   }
 
   const introText = {

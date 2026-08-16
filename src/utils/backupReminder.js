@@ -5,7 +5,7 @@ import { wosKey } from "./storage";
 
 const LAST_BACKUP_KEY = wosKey("lastBackupAt");
 const SNOOZE_KEY = wosKey("backupReminderSnoozeUntil");
-const REMINDER_INTERVAL_MS = 14 * 24 * 60 * 60 * 1000;
+const REMINDER_INTERVAL_MS = 7 * 24 * 60 * 60 * 1000;
 const SNOOZE_MS = 3 * 24 * 60 * 60 * 1000;
 
 export function recordBackup() {
